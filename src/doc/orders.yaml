@@ -1,0 +1,34 @@
+/order/:
+  post:
+    summary: "Solicitud de orden de pago"
+    description: ""
+    parameters:
+      - in: "body"
+        required: "true"
+        type: "object"
+        schema:
+          type: "object"
+          properties:
+            totalAmount: 
+              type: "string"
+            currency: 
+              type: "string"
+            lang:
+              type: "string"
+            mode:
+              type: "string"
+  produces:
+    - application/json
+  responses:
+    201:
+      description: "Respuesta satisfactoria."
+      schema:
+      type: "json"
+    400:
+      description: "Solicitud no válida."
+      schema:
+      type: "json"
+    502:
+      description: "Error inesperado del sistema o tiempo de espera del sistema."
+      schema:
+      type: "json"

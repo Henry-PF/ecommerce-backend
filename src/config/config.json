@@ -1,0 +1,26 @@
+{
+  "development": {
+    "username": "localhost",
+    "password": "localhost",
+    "database": "localhost",
+    "host":"localhost",
+    "dialect": "mysql",
+    "use_env_variable":false
+  },
+  "test": {
+    "username": "localhost",
+    "password": "localhost",
+    "database": "localhost",
+    "host":"localhost",
+    "dialect": "mysql",
+    "use_env_variable":true
+  },
+  "production": {
+    "username": "localhost",
+    "password": "localhost",
+    "database": "localhost",
+    "host":"localhost",
+    "dialect": "mysql",
+    "use_env_variable":true
+  }
+}

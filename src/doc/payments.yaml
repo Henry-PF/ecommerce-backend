@@ -1,0 +1,69 @@
+/payments/:
+  post:
+    summary: "Procesar un pago"
+    description: "Un pago autoriza el monto de la transacción. Hay una serie de funciones de pago admitidas, como comercio electrónico y tarjeta presente: tarjeta de crédito/débito, cheque electrónico, billeteras electrónicas, datos de nivel II/III, etc.\n\n Una respuesta de pago incluye el estado de la solicitud. También incluye información específica del procesador cuando la solicitud se realiza correctamente y errores si no se realiza correctamente."
+    parameters:
+      - in: "body"
+        required: "true"
+        type: "object"
+        schema:
+          type: "object"
+          properties:
+            orderInformation:
+              type: "object"
+              properties:
+                amountDetails:
+                  type: "object"
+                  properties:
+                    totalAmount: 
+                      type: "string"
+                    currency: 
+                      type: "string"
+                    billTo:
+                      type: "object"
+                      properties:
+                        firstName:
+                          type: "string"
+                        lastName:
+                          type: "string"
+                        address1:
+                          type: "string"
+                        locality:
+                          type: "string"
+                        administrativeArea:
+                          type: "string"
+                        postalCode:
+                          type: "string"
+                        country:
+                          type: "string"
+                        email:
+                          type: "string"
+                        phoneNumber:
+                          type: "string"
+            paymentInformation:
+              type: "object"
+              properties:
+                card:
+                  type: "object"
+                  properties:
+                    number:
+                      type: "string"
+                    expirationMonth:
+                      type: "string"
+                    expirationYear:
+                      type: "string"
+  produces:
+    - application/json
+  responses:
+    201:
+      description: "Respuesta satisfactoria."
+      schema:
+      type: "json"
+    400:
+      description: "Solicitud no válida."
+      schema:
+      type: "json"
+    502:
+      description: "Error inesperado del sistema o tiempo de espera del sistema."
+      schema:
+      type: "json"

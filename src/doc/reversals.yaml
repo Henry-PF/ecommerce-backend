@@ -1,0 +1,35 @@
+/reversals/:
+   post:
+    summary: "Procesar un reverso"
+    description: "Solicitud POST para revertir el monto del pago."
+    parameters:
+      - in: "body"
+        required: "true"
+        type: "object"
+        schema:
+          type: "object"
+          properties:
+            id:
+              type: "string"
+            reason:
+              type: "string"
+        description: "Informacion de la transaccion a revertir"
+    produces:
+      - application/json
+    responses:
+      201:
+          description: "Respuesta satisfactoria."
+          schema:
+          type: "json"
+      400:
+          description: "Solicitud no válida."
+          schema:
+          type: "json"
+      404:
+          description: "Datos no encontrado"
+          schema:
+          type: "json"
+      502:
+          description: "Error inesperado del sistema o tiempo de espera del sistema."
+          schema:
+          type: "json"

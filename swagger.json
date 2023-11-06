@@ -1,0 +1,14 @@
+{
+    "swaggerDefinition":{
+        "info":{
+            "version": "1.0.0",
+            "title": "Api Metrobank",
+            "descripcion": "Documentacion api para su uso",
+            "servers":["/"]
+        }
+    },
+    "basePath":{
+        "default": "v2"
+    },
+    "apis":["./src/doc/orders.yaml","./src/doc/payments.yaml","./src/doc/reversals.yaml"]
+}
