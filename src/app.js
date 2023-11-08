@@ -4,7 +4,7 @@ const bodyParser = require("body-parser");
 const morgan = require("morgan");
 const routes = require("./routes/index.js");
 var path = require('path');
-const winston = require("winston");
+const {logger}=require("./components/logger.js");
 
 require("./db.js");
 
@@ -26,20 +26,6 @@ server.use((req, res, next) => {
   next();
 });
 
-
-const logger = winston.createLogger({
-  level: "info",
-  format: winston.format.combine(
-    winston.format.timestamp(),
-    winston.format.printf(
-      (info) => `${info.timestamp} ${info.level}: ${info.message}`
-    )
-  ),
-  transports: [
-    new winston.transports.Console(),
-    new winston.transports.File({ filename: path.join(__dirname, 'logs','app.log') }),
-  ],
-});
 
 server.use(express.static(path.join(__dirname, 'public')))
 
