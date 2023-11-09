@@ -1,10 +1,10 @@
 {
   "development": {
-    "username": "localhost",
-    "password": "localhost",
-    "database": "localhost",
+    "username": "postgres",
+    "password": "23124156",
+    "database": "ecommerce",
     "host":"localhost",
-    "dialect": "mysql",
+    "dialect": "postgresql",
     "use_env_variable":false
   },
   "test": {
@@ -12,7 +12,7 @@
     "password": "localhost",
     "database": "localhost",
     "host":"localhost",
-    "dialect": "mysql",
+    "dialect": "postgresql",
     "use_env_variable":true
   },
   "production": {
@@ -20,7 +20,7 @@
     "password": "localhost",
     "database": "localhost",
     "host":"localhost",
-    "dialect": "mysql",
+    "dialect": "postgresql",
     "use_env_variable":true
   }
 }

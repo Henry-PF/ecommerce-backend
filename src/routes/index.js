@@ -1,16 +1,9 @@
 const { Router } = require("express");
 const fs = require("fs");
 const path = require("path");
-
-const process = require("process");
-const env = process.env;
-const {translation,trans,setlocales} = require("../components/translation");
-
 const router = Router();
 const basename = path.basename(__filename);
 const routes = {};
-
-const payments = require("../controllers/paymentsController")
 
 fs.readdirSync(path.join(__dirname, "/"))
     .filter((file) => {
@@ -23,15 +16,6 @@ fs.readdirSync(path.join(__dirname, "/"))
         }
     }
 );
-router.get("/",function(req, res) {
-    let {lang}  = req.query;
-    setlocales(lang)
-
-    res.render('welcome',{
-        lang:lang,
-        translation:translation(lang)
-    });
-});
 Object.keys(routes).forEach(route=>{
     router.use("/"+route,routes[route]);
 })
