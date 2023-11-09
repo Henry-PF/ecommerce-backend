@@ -5,12 +5,21 @@ const morgan = require("morgan");
 const routes = require("./routes/index.js");
 var path = require('path');
 const {logger}=require("./components/logger.js");
+const fileupload = require("express-fileupload");
 
 require("./db.js");
 
 const server = express();
 
 server.name = "API";
+
+server.use(
+  fileupload({
+    useTempFiles: true,
+    tempFileDir: "/tmp/",
+    createParentPath: true,
+  })
+);
 
 server.use(bodyParser.urlencoded({ extended: true, limit: "50mb" }));
 server.use(bodyParser.json({ limit: "50mb" }));

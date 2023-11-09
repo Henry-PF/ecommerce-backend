@@ -1,0 +1,7 @@
+2023-11-09T21:21:33.765Z error: Cannot access 'imgProduct' before initialization
+2023-11-09T21:22:11.729Z error: Cannot read properties of undefined (reading 'image')
+2023-11-09T21:22:27.119Z error: Cannot read properties of undefined (reading 'mimetype')
+2023-11-09T21:22:49.927Z error: Cannot read properties of undefined (reading 'mimetype')
+2023-11-09T21:23:12.104Z error: Cannot read properties of undefined (reading 'mimetype')
+2023-11-09T21:32:27.625Z error: Cannot read properties of undefined (reading 'split')
+2023-11-09T21:36:19.456Z error: Cannot convert object to primitive value
