@@ -1,11 +1,12 @@
 {
   "development": {
     "username": "postgres",
-    "password": "23124156",
+    "password": "1",
     "database": "ecommerce",
     "host":"localhost",
     "dialect": "postgresql",
-    "use_env_variable":false
+    "use_env_variable":false,
+    "logging": false
   },
   "test": {
     "username": "localhost",
