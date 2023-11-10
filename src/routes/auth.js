@@ -1,16 +1,11 @@
 const { Router } = require("express");
 const router = Router();
-const passport = require("passport");
+const { login, forgoPassword, register, loginGoogle, googleCallback} = require("../handlers/authHandler");
 
-router.get('/google',
-    passport.authenticate('google', { scope: ['profile'] }));
-
-router.get('/callback', passport.authenticate('google', { failureRedirect: '/login' }),
-    function (req, res) {
-        // const user = req.user;
-        // res.cookie('userData', JSON.stringify(user));
-        res.redirect('/');
-    }
-);
+router.get('/google',loginGoogle);
+router.get('/callback',googleCallback);
+router.post('/login',login);
+router.post('/forgoPassword',forgoPassword);
+router.post('/register',register);
 
 module.exports = router;

@@ -44,11 +44,7 @@ module.exports = (sequelize, DataTypes) => {
     dni:  {
       type: DataTypes.STRING,
       allowNull: false,
-    },
-    googleId:  {
-      type: DataTypes.STRING,
-      allowNull: false,
-    },
+    }
   }, {
     sequelize,
     modelName: 'personas',

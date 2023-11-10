@@ -631,3 +631,13 @@
 2023-11-10T18:44:14.613Z info: Operacion realizada con exito
 2023-11-10T18:44:16.128Z info: Operacion realizada con exito
 2023-11-10T18:44:16.184Z info: Operacion realizada con exito
+2023-11-10T19:27:39.863Z info: Received a GET request for /api/auth/google
+2023-11-10T19:27:44.813Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXmNfnvd9ZLodrWkruxqj1qp6v-FlQXV0JHIZxpvcOQqjVuxjqH3iZFReS5yg-fQ6Q&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=0&prompt=consent
+2023-11-10T19:30:17.159Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXlrUhahsbEDpqP7ITF63rvBim7jeEwy8OMKsyjeNiKsmeSqe9lTVtnLDt1HGyChKg&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=0&prompt=consent
+2023-11-10T19:32:05.344Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXlrUhahsbEDpqP7ITF63rvBim7jeEwy8OMKsyjeNiKsmeSqe9lTVtnLDt1HGyChKg&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=0&prompt=consent
+2023-11-10T19:33:22.207Z info: Received a GET request for /api/auth/google
+2023-11-10T19:33:27.409Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXnqnpvI2gNfI3ivpsbrY3YmzDvl6qI8Yr3iJbl3FgO706g7WnkXGH3yww-sqr_uiQ&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=0&prompt=consent
+2023-11-10T19:50:03.665Z info: Received a GET request for /api/auth/google
+2023-11-10T19:50:07.844Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXkuJU_MEAs98TaoLQ3GkmmnGW-UZEe21C80X8BQ68YxXRqBm7qYOEeo5W6P5j6JXA&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=0&prompt=consent
+2023-11-10T19:50:40.268Z info: Received a GET request for /api/auth/google
+2023-11-10T19:50:46.113Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXm-8OYi0aaiqcSeyN0nQB92jyzpBXsCVh8nWEw-cjLRO9XZUBGWzVUBKaGvjQpH3g&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=0&prompt=consent
