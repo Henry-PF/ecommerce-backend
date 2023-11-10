@@ -1,6 +1,6 @@
 const { Router } = require("express");
 const router = Router();
-const {CreateCategory,getAllCategory,getOneCategory,DeleteCategory,UpdateCategory} = require("../handlers/categoriaHandler");
+const { CreateCategory, getAllCategory, getOneCategory, DeleteCategory, UpdateCategory } = require("../handlers/categoriaHandler");
 
 router.get("/", getAllCategory);
 router.get("/:id", getOneCategory);

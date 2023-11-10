@@ -1,17 +1,30 @@
-require("dotenv").config();
 const express = require("express");
+const session = require('express-session');
 const bodyParser = require("body-parser");
 const morgan = require("morgan");
+const passport = require("passport");
 const routes = require("./routes/index.js");
-var path = require('path');
-const {logger}=require("./components/logger.js");
-const fileupload = require("express-fileupload");
-
+require("dotenv").config();
 require("./db.js");
+var path = require('path');
+const { logger } = require("./components/logger.js");
+const fileupload = require("express-fileupload");
 
 const server = express();
 
 server.name = "API";
+
+
+server.use(
+  session({
+    secret: '123456',
+    resave: false,
+    saveUninitialized: true,
+  })
+);
+
+server.use(passport.initialize());
+server.use(passport.session());
 
 server.use(
   fileupload({

@@ -23,3 +23,549 @@
 2023-11-09T21:36:19.456Z error: Cannot convert object to primitive value
 2023-11-09T21:51:58.523Z info: Received a GET request for /api/productos
 2023-11-09T21:51:58.533Z info: Operacion realizada con exito
+2023-11-10T02:23:00.371Z info: Received a POST request for /categorias/getAllCategory
+2023-11-10T02:23:11.738Z info: Received a POST request for /
+2023-11-10T02:23:12.349Z info: Received a POST request for /
+2023-11-10T02:23:20.331Z info: Received a POST request for /
+2023-11-10T02:23:36.885Z info: Received a POST request for /categorias
+2023-11-10T02:23:43.503Z info: Received a GET request for /categorias
+2023-11-10T02:24:07.926Z info: Received a GET request for /categorias
+2023-11-10T02:24:45.540Z info: Received a GET request for /categorias
+2023-11-10T02:24:46.452Z info: Received a GET request for /categorias
+2023-11-10T02:24:46.876Z info: Received a GET request for /categorias
+2023-11-10T02:24:47.068Z info: Received a GET request for /categorias
+2023-11-10T02:24:47.235Z info: Received a GET request for /categorias
+2023-11-10T02:24:47.395Z info: Received a GET request for /categorias
+2023-11-10T02:24:47.563Z info: Received a GET request for /categorias
+2023-11-10T02:24:47.707Z info: Received a GET request for /categorias
+2023-11-10T02:24:47.868Z info: Received a GET request for /categorias
+2023-11-10T02:25:25.037Z info: Received a GET request for /productos
+2023-11-10T02:25:59.797Z info: Received a GET request for /productos
+2023-11-10T02:26:19.380Z info: Received a GET request for /productos
+2023-11-10T02:26:38.980Z info: Received a GET request for /productos
+2023-11-10T02:29:07.787Z info: Received a GET request for /productos
+2023-11-10T02:29:08.659Z info: Received a GET request for /productos
+2023-11-10T02:29:08.884Z info: Received a GET request for /productos
+2023-11-10T02:29:09.075Z info: Received a GET request for /productos
+2023-11-10T02:29:09.235Z info: Received a GET request for /productos
+2023-11-10T02:29:09.411Z info: Received a GET request for /productos
+2023-11-10T02:29:09.546Z info: Received a GET request for /productos
+2023-11-10T02:29:09.729Z info: Received a GET request for /productos
+2023-11-10T02:29:14.468Z info: Received a GET request for /productos/
+2023-11-10T02:29:18.602Z info: Received a GET request for /productos
+2023-11-10T02:29:36.861Z info: Received a GET request for /productos
+2023-11-10T02:29:37.371Z info: Received a GET request for /productos
+2023-11-10T02:29:37.547Z info: Received a GET request for /productos
+2023-11-10T02:29:37.706Z info: Received a GET request for /productos
+2023-11-10T02:29:51.472Z info: Received a GET request for /productos
+2023-11-10T02:30:37.807Z info: Received a GET request for /productos
+2023-11-10T02:30:38.462Z info: Received a GET request for /productos
+2023-11-10T02:30:38.620Z info: Received a GET request for /productos
+2023-11-10T02:31:07.180Z info: Received a GET request for /productos
+2023-11-10T02:31:43.238Z info: Received a GET request for /productos
+2023-11-10T02:33:00.164Z info: Received a GET request for /productos
+2023-11-10T02:33:17.412Z info: Received a GET request for /productos
+2023-11-10T02:33:50.622Z info: Received a GET request for /api/productos
+2023-11-10T02:33:52.585Z info: Operacion realizada con exito
+2023-11-10T02:34:33.907Z info: Received a GET request for /api/categorias
+2023-11-10T02:34:33.908Z info: Operacion realizada con exito
+2023-11-10T02:34:36.067Z info: Received a GET request for /api/categorias
+2023-11-10T02:34:36.068Z info: Operacion realizada con exito
+2023-11-10T02:34:36.562Z info: Received a GET request for /api/categorias
+2023-11-10T02:34:36.562Z info: Operacion realizada con exito
+2023-11-10T02:34:36.859Z info: Received a GET request for /api/categorias
+2023-11-10T02:34:36.860Z info: Operacion realizada con exito
+2023-11-10T02:34:37.044Z info: Received a GET request for /api/categorias
+2023-11-10T02:34:37.044Z info: Operacion realizada con exito
+2023-11-10T02:56:02.277Z info: Received a GET request for /api/productos
+2023-11-10T02:56:04.356Z info: Operacion realizada con exito
+2023-11-10T02:56:04.586Z info: Received a GET request for /favicon.ico
+2023-11-10T02:56:53.170Z info: Received a GET request for /api/productos
+2023-11-10T02:56:54.682Z info: Operacion realizada con exito
+2023-11-10T02:56:54.847Z info: Received a GET request for /favicon.ico
+2023-11-10T02:56:58.945Z info: Received a GET request for /api/productos
+2023-11-10T02:56:59.132Z info: Operacion realizada con exito
+2023-11-10T02:59:13.740Z info: Received a GET request for /api/productos
+2023-11-10T02:59:13.749Z info: Received a GET request for /api/productos
+2023-11-10T02:59:15.339Z info: Operacion realizada con exito
+2023-11-10T02:59:15.385Z info: Operacion realizada con exito
+2023-11-10T02:59:18.716Z info: Received a GET request for /api/productos
+2023-11-10T02:59:18.719Z info: Received a GET request for /api/productos
+2023-11-10T02:59:18.903Z info: Operacion realizada con exito
+2023-11-10T02:59:18.906Z info: Operacion realizada con exito
+2023-11-10T02:59:24.400Z info: Received a GET request for /api/productos
+2023-11-10T02:59:24.402Z info: Received a GET request for /api/productos
+2023-11-10T02:59:24.585Z info: Operacion realizada con exito
+2023-11-10T02:59:24.591Z info: Operacion realizada con exito
+2023-11-10T02:59:33.165Z info: Received a GET request for /api/productos
+2023-11-10T02:59:33.169Z info: Received a GET request for /api/productos
+2023-11-10T02:59:33.353Z info: Operacion realizada con exito
+2023-11-10T02:59:33.356Z info: Operacion realizada con exito
+2023-11-10T02:59:45.036Z info: Received a GET request for /api/productos
+2023-11-10T02:59:46.617Z info: Operacion realizada con exito
+2023-11-10T03:00:02.492Z info: Received a GET request for /api/productos
+2023-11-10T03:00:03.528Z info: Received a GET request for /api/productos
+2023-11-10T03:00:03.532Z info: Received a GET request for /api/productos
+2023-11-10T03:00:04.402Z info: Operacion realizada con exito
+2023-11-10T03:00:04.591Z info: Operacion realizada con exito
+2023-11-10T03:00:04.779Z info: Operacion realizada con exito
+2023-11-10T03:00:12.031Z info: Received a GET request for /api/productos
+2023-11-10T03:00:12.218Z info: Operacion realizada con exito
+2023-11-10T03:00:31.931Z info: Received a GET request for /api/productos
+2023-11-10T03:00:31.937Z info: Received a GET request for /api/productos
+2023-11-10T03:00:33.527Z info: Operacion realizada con exito
+2023-11-10T03:00:33.585Z info: Operacion realizada con exito
+2023-11-10T03:00:34.678Z info: Received a GET request for /api/productos
+2023-11-10T03:00:34.679Z info: Received a GET request for /api/productos
+2023-11-10T03:00:34.867Z info: Operacion realizada con exito
+2023-11-10T03:00:34.875Z info: Operacion realizada con exito
+2023-11-10T05:26:00.620Z info: Received a GET request for /api/productos
+2023-11-10T05:26:00.633Z info: Received a GET request for /api/productos
+2023-11-10T05:26:04.632Z info: Operacion realizada con exito
+2023-11-10T05:26:04.734Z info: Operacion realizada con exito
+2023-11-10T05:26:22.738Z info: Received a GET request for /api/productos
+2023-11-10T05:26:24.234Z info: Operacion realizada con exito
+2023-11-10T05:26:51.062Z info: Received a GET request for /api/productos
+2023-11-10T05:26:52.591Z info: Operacion realizada con exito
+2023-11-10T05:27:17.148Z info: Received a GET request for /api/productos
+2023-11-10T05:27:17.151Z info: Received a GET request for /api/productos
+2023-11-10T05:27:19.490Z info: Operacion realizada con exito
+2023-11-10T05:27:19.494Z info: Operacion realizada con exito
+2023-11-10T05:27:41.104Z info: Received a GET request for /api/productos
+2023-11-10T05:27:42.598Z info: Operacion realizada con exito
+2023-11-10T05:27:48.731Z info: Received a GET request for /api/productos
+2023-11-10T05:27:48.915Z info: Operacion realizada con exito
+2023-11-10T05:27:53.646Z info: Received a GET request for /api/productos
+2023-11-10T05:27:53.831Z info: Operacion realizada con exito
+2023-11-10T05:28:18.217Z info: Received a GET request for /api/productos
+2023-11-10T05:28:18.221Z info: Received a GET request for /api/productos
+2023-11-10T05:28:19.799Z info: Operacion realizada con exito
+2023-11-10T05:28:19.809Z info: Operacion realizada con exito
+2023-11-10T05:28:33.666Z info: Received a GET request for /api/productos
+2023-11-10T05:28:33.669Z info: Received a GET request for /api/productos
+2023-11-10T05:28:35.154Z info: Operacion realizada con exito
+2023-11-10T05:28:35.198Z info: Operacion realizada con exito
+2023-11-10T05:28:50.577Z info: Received a GET request for /api/productos
+2023-11-10T05:28:50.581Z info: Received a GET request for /api/productos
+2023-11-10T05:28:52.080Z info: Operacion realizada con exito
+2023-11-10T05:28:52.099Z info: Operacion realizada con exito
+2023-11-10T05:28:54.440Z info: Received a GET request for /api/productos
+2023-11-10T05:28:54.444Z info: Received a GET request for /api/productos
+2023-11-10T05:28:54.627Z info: Operacion realizada con exito
+2023-11-10T05:28:54.630Z info: Operacion realizada con exito
+2023-11-10T05:29:16.794Z info: Received a GET request for /api/productos
+2023-11-10T05:29:16.797Z info: Received a GET request for /api/productos
+2023-11-10T05:29:18.292Z info: Operacion realizada con exito
+2023-11-10T05:29:18.341Z info: Operacion realizada con exito
+2023-11-10T05:29:32.080Z info: Received a GET request for /api/productos
+2023-11-10T05:29:32.085Z info: Received a GET request for /api/categorias
+2023-11-10T05:29:32.086Z info: Operacion realizada con exito
+2023-11-10T05:29:35.393Z info: Operacion realizada con exito
+2023-11-10T05:29:38.208Z info: Received a GET request for /api/productos
+2023-11-10T05:29:38.209Z info: Received a GET request for /api/categorias
+2023-11-10T05:29:38.210Z info: Operacion realizada con exito
+2023-11-10T05:29:38.391Z info: Operacion realizada con exito
+2023-11-10T05:29:53.260Z info: Received a GET request for /api/productos
+2023-11-10T05:29:53.267Z info: Received a GET request for /api/categorias
+2023-11-10T05:29:53.267Z info: Operacion realizada con exito
+2023-11-10T05:29:55.980Z info: Operacion realizada con exito
+2023-11-10T05:29:59.625Z info: Received a GET request for /api/productos
+2023-11-10T05:29:59.627Z info: Received a GET request for /api/categorias
+2023-11-10T05:29:59.628Z info: Operacion realizada con exito
+2023-11-10T05:29:59.818Z info: Operacion realizada con exito
+2023-11-10T05:30:24.412Z info: Received a GET request for /api/productos
+2023-11-10T05:30:24.414Z info: Received a GET request for /api/categorias
+2023-11-10T05:30:24.415Z info: Operacion realizada con exito
+2023-11-10T05:30:25.934Z info: Operacion realizada con exito
+2023-11-10T05:30:27.336Z info: Received a GET request for /api/productos
+2023-11-10T05:30:27.338Z info: Received a GET request for /api/categorias
+2023-11-10T05:30:27.338Z info: Operacion realizada con exito
+2023-11-10T05:30:27.526Z info: Operacion realizada con exito
+2023-11-10T05:33:21.100Z info: Received a GET request for /api/categorias
+2023-11-10T05:33:21.101Z info: Operacion realizada con exito
+2023-11-10T05:34:11.603Z info: Received a GET request for /api/productos
+2023-11-10T05:34:11.612Z info: Received a GET request for /api/categorias
+2023-11-10T05:34:11.613Z info: Operacion realizada con exito
+2023-11-10T05:34:11.636Z info: Received a GET request for /api/productos
+2023-11-10T05:34:11.647Z info: Received a GET request for /api/categorias
+2023-11-10T05:34:11.648Z info: Operacion realizada con exito
+2023-11-10T05:34:14.383Z info: Operacion realizada con exito
+2023-11-10T05:34:14.660Z info: Operacion realizada con exito
+2023-11-10T05:34:32.122Z info: Received a GET request for /api/productos
+2023-11-10T05:34:32.128Z info: Received a GET request for /api/categorias
+2023-11-10T05:34:32.129Z info: Operacion realizada con exito
+2023-11-10T05:34:33.788Z info: Operacion realizada con exito
+2023-11-10T05:34:35.848Z info: Received a GET request for /api/productos
+2023-11-10T05:34:35.852Z info: Received a GET request for /api/categorias
+2023-11-10T05:34:35.853Z info: Operacion realizada con exito
+2023-11-10T05:34:36.035Z info: Operacion realizada con exito
+2023-11-10T05:34:47.897Z info: Received a GET request for /api/productos
+2023-11-10T05:34:47.901Z info: Received a GET request for /api/categorias
+2023-11-10T05:34:47.902Z info: Operacion realizada con exito
+2023-11-10T05:34:49.383Z info: Operacion realizada con exito
+2023-11-10T05:38:42.483Z info: Received a GET request for /api/productos
+2023-11-10T05:38:42.484Z info: Received a GET request for /api/categorias
+2023-11-10T05:38:42.485Z info: Operacion realizada con exito
+2023-11-10T05:38:44.051Z info: Operacion realizada con exito
+2023-11-10T05:39:00.188Z info: Received a GET request for /api/productos
+2023-11-10T05:39:00.190Z info: Received a GET request for /api/categorias
+2023-11-10T05:39:00.190Z info: Operacion realizada con exito
+2023-11-10T05:39:01.695Z info: Operacion realizada con exito
+2023-11-10T05:39:04.640Z info: Received a GET request for /api/productos
+2023-11-10T05:39:04.644Z info: Received a GET request for /api/categorias
+2023-11-10T05:39:04.644Z info: Operacion realizada con exito
+2023-11-10T05:39:04.827Z info: Operacion realizada con exito
+2023-11-10T05:40:00.055Z info: Received a GET request for /api/productos
+2023-11-10T05:40:00.057Z info: Received a GET request for /api/categorias
+2023-11-10T05:40:00.058Z info: Operacion realizada con exito
+2023-11-10T05:40:01.653Z info: Operacion realizada con exito
+2023-11-10T05:41:29.495Z info: Received a GET request for /api/productos
+2023-11-10T05:41:29.498Z info: Received a GET request for /api/categorias
+2023-11-10T05:41:29.499Z info: Operacion realizada con exito
+2023-11-10T05:41:31.294Z info: Operacion realizada con exito
+2023-11-10T05:41:49.529Z info: Received a GET request for /api/productos
+2023-11-10T05:41:49.532Z info: Received a GET request for /api/categorias
+2023-11-10T05:41:49.532Z info: Operacion realizada con exito
+2023-11-10T05:41:51.032Z info: Operacion realizada con exito
+2023-11-10T05:41:54.411Z info: Received a GET request for /api/productos
+2023-11-10T05:41:54.413Z info: Received a GET request for /api/categorias
+2023-11-10T05:41:54.414Z info: Operacion realizada con exito
+2023-11-10T05:41:54.602Z info: Operacion realizada con exito
+2023-11-10T05:41:59.466Z info: Received a GET request for /api/productos
+2023-11-10T05:41:59.468Z info: Received a GET request for /api/categorias
+2023-11-10T05:41:59.469Z info: Operacion realizada con exito
+2023-11-10T05:41:59.656Z info: Operacion realizada con exito
+2023-11-10T05:43:00.848Z info: Received a GET request for /api/productos
+2023-11-10T05:43:00.850Z info: Received a GET request for /api/categorias
+2023-11-10T05:43:00.851Z info: Operacion realizada con exito
+2023-11-10T05:43:03.373Z info: Operacion realizada con exito
+2023-11-10T05:43:51.176Z info: Received a GET request for /api/productos
+2023-11-10T05:43:51.182Z info: Received a GET request for /api/categorias
+2023-11-10T05:43:51.183Z info: Operacion realizada con exito
+2023-11-10T05:43:51.185Z info: Received a GET request for /api/productos
+2023-11-10T05:43:51.188Z info: Received a GET request for /api/categorias
+2023-11-10T05:43:51.189Z info: Operacion realizada con exito
+2023-11-10T05:43:52.657Z info: Operacion realizada con exito
+2023-11-10T05:43:52.693Z info: Operacion realizada con exito
+2023-11-10T05:43:56.290Z info: Received a GET request for /api/productos
+2023-11-10T05:43:56.294Z info: Received a GET request for /api/categorias
+2023-11-10T05:43:56.296Z info: Operacion realizada con exito
+2023-11-10T05:43:56.298Z info: Received a GET request for /api/productos
+2023-11-10T05:43:56.301Z info: Received a GET request for /api/categorias
+2023-11-10T05:43:56.302Z info: Operacion realizada con exito
+2023-11-10T05:43:56.480Z info: Operacion realizada con exito
+2023-11-10T05:43:56.482Z info: Operacion realizada con exito
+2023-11-10T05:43:58.855Z info: Received a GET request for /api/productos
+2023-11-10T05:43:58.859Z info: Received a GET request for /api/categorias
+2023-11-10T05:43:58.859Z info: Operacion realizada con exito
+2023-11-10T05:43:58.862Z info: Received a GET request for /api/productos
+2023-11-10T05:43:58.864Z info: Received a GET request for /api/categorias
+2023-11-10T05:43:58.864Z info: Operacion realizada con exito
+2023-11-10T05:43:59.038Z info: Operacion realizada con exito
+2023-11-10T05:43:59.046Z info: Operacion realizada con exito
+2023-11-10T05:44:02.037Z info: Received a GET request for /api/productos
+2023-11-10T05:44:02.038Z info: Received a GET request for /api/categorias
+2023-11-10T05:44:02.039Z info: Operacion realizada con exito
+2023-11-10T05:44:02.042Z info: Received a GET request for /api/productos
+2023-11-10T05:44:02.045Z info: Received a GET request for /api/categorias
+2023-11-10T05:44:02.046Z info: Operacion realizada con exito
+2023-11-10T05:44:02.225Z info: Operacion realizada con exito
+2023-11-10T05:44:02.228Z info: Operacion realizada con exito
+2023-11-10T05:44:03.815Z info: Received a GET request for /api/productos
+2023-11-10T05:44:03.819Z info: Received a GET request for /api/categorias
+2023-11-10T05:44:03.820Z info: Operacion realizada con exito
+2023-11-10T05:44:03.824Z info: Received a GET request for /api/productos
+2023-11-10T05:44:03.827Z info: Received a GET request for /api/categorias
+2023-11-10T05:44:03.828Z info: Operacion realizada con exito
+2023-11-10T05:44:03.998Z info: Operacion realizada con exito
+2023-11-10T05:44:04.012Z info: Operacion realizada con exito
+2023-11-10T05:44:06.303Z info: Received a GET request for /api/productos
+2023-11-10T05:44:06.307Z info: Received a GET request for /api/categorias
+2023-11-10T05:44:06.308Z info: Operacion realizada con exito
+2023-11-10T05:44:06.310Z info: Received a GET request for /api/productos
+2023-11-10T05:44:06.313Z info: Received a GET request for /api/categorias
+2023-11-10T05:44:06.314Z info: Operacion realizada con exito
+2023-11-10T05:44:06.493Z info: Operacion realizada con exito
+2023-11-10T05:44:06.511Z info: Operacion realizada con exito
+2023-11-10T05:46:51.738Z info: Received a GET request for /api/productos
+2023-11-10T05:46:51.740Z info: Received a GET request for /api/categorias
+2023-11-10T05:46:51.741Z info: Operacion realizada con exito
+2023-11-10T05:46:54.594Z info: Operacion realizada con exito
+2023-11-10T05:47:17.979Z info: Received a GET request for /api/productos
+2023-11-10T05:47:17.981Z info: Received a GET request for /api/categorias
+2023-11-10T05:47:17.982Z info: Operacion realizada con exito
+2023-11-10T05:47:19.451Z info: Operacion realizada con exito
+2023-11-10T05:47:48.261Z info: Received a GET request for /api/productos
+2023-11-10T05:47:48.262Z info: Received a GET request for /api/categorias
+2023-11-10T05:47:48.263Z info: Operacion realizada con exito
+2023-11-10T05:47:49.800Z info: Operacion realizada con exito
+2023-11-10T05:48:01.409Z info: Received a GET request for /api/productos
+2023-11-10T05:48:01.412Z info: Received a GET request for /api/categorias
+2023-11-10T05:48:01.413Z info: Operacion realizada con exito
+2023-11-10T05:48:03.122Z info: Operacion realizada con exito
+2023-11-10T05:48:28.194Z info: Received a GET request for /api/productos
+2023-11-10T05:48:28.196Z info: Received a GET request for /api/categorias
+2023-11-10T05:48:28.197Z info: Operacion realizada con exito
+2023-11-10T05:48:29.654Z info: Operacion realizada con exito
+2023-11-10T05:48:34.790Z info: Received a GET request for /api/productos
+2023-11-10T05:48:34.791Z info: Received a GET request for /api/categorias
+2023-11-10T05:48:34.792Z info: Operacion realizada con exito
+2023-11-10T05:48:34.980Z info: Operacion realizada con exito
+2023-11-10T05:50:07.871Z info: Received a GET request for /api/productos
+2023-11-10T05:50:07.873Z info: Received a GET request for /api/categorias
+2023-11-10T05:50:07.873Z info: Operacion realizada con exito
+2023-11-10T05:50:09.602Z info: Operacion realizada con exito
+2023-11-10T05:50:19.212Z info: Received a GET request for /api/productos
+2023-11-10T05:50:19.220Z info: Received a GET request for /api/categorias
+2023-11-10T05:50:19.221Z info: Operacion realizada con exito
+2023-11-10T05:50:19.414Z info: Operacion realizada con exito
+2023-11-10T05:50:28.042Z info: Received a GET request for /api/productos
+2023-11-10T05:50:28.045Z info: Received a GET request for /api/categorias
+2023-11-10T05:50:28.046Z info: Operacion realizada con exito
+2023-11-10T05:50:28.235Z info: Operacion realizada con exito
+2023-11-10T05:50:32.889Z info: Received a GET request for /api/productos
+2023-11-10T05:50:32.891Z info: Received a GET request for /api/categorias
+2023-11-10T05:50:32.891Z info: Operacion realizada con exito
+2023-11-10T05:50:33.081Z info: Operacion realizada con exito
+2023-11-10T05:50:35.546Z info: Received a GET request for /api/productos
+2023-11-10T05:50:35.547Z info: Received a GET request for /api/categorias
+2023-11-10T05:50:35.548Z info: Operacion realizada con exito
+2023-11-10T05:50:35.738Z info: Operacion realizada con exito
+2023-11-10T05:51:51.460Z info: Received a GET request for /api/productos
+2023-11-10T05:51:51.461Z info: Received a GET request for /api/categorias
+2023-11-10T05:51:51.462Z info: Operacion realizada con exito
+2023-11-10T05:51:52.966Z info: Operacion realizada con exito
+2023-11-10T05:55:21.975Z info: Received a GET request for /api/productos
+2023-11-10T05:55:21.977Z info: Received a GET request for /api/categorias
+2023-11-10T05:55:21.978Z info: Operacion realizada con exito
+2023-11-10T05:55:23.843Z info: Operacion realizada con exito
+2023-11-10T05:55:31.127Z info: Received a GET request for /api/productos
+2023-11-10T05:55:31.129Z info: Received a GET request for /api/categorias
+2023-11-10T05:55:31.129Z info: Operacion realizada con exito
+2023-11-10T05:55:31.316Z info: Operacion realizada con exito
+2023-11-10T05:59:53.961Z info: Received a GET request for /api/productos
+2023-11-10T05:59:53.964Z info: Received a GET request for /api/categorias
+2023-11-10T05:59:53.965Z info: Operacion realizada con exito
+2023-11-10T05:59:55.667Z info: Operacion realizada con exito
+2023-11-10T06:00:28.561Z info: Received a GET request for /api/productos
+2023-11-10T06:00:28.563Z info: Received a GET request for /api/categorias
+2023-11-10T06:00:28.563Z info: Operacion realizada con exito
+2023-11-10T06:00:32.369Z info: Operacion realizada con exito
+2023-11-10T06:01:23.472Z info: Received a GET request for /api/productos
+2023-11-10T06:01:23.474Z info: Received a GET request for /api/categorias
+2023-11-10T06:01:23.475Z info: Operacion realizada con exito
+2023-11-10T06:01:25.052Z info: Operacion realizada con exito
+2023-11-10T06:01:49.353Z info: Received a GET request for /api/productos
+2023-11-10T06:01:49.355Z info: Received a GET request for /api/categorias
+2023-11-10T06:01:49.356Z info: Operacion realizada con exito
+2023-11-10T06:01:50.889Z info: Operacion realizada con exito
+2023-11-10T06:02:21.549Z info: Received a GET request for /api/productos
+2023-11-10T06:02:21.552Z info: Received a GET request for /api/categorias
+2023-11-10T06:02:21.553Z info: Operacion realizada con exito
+2023-11-10T06:02:23.068Z info: Operacion realizada con exito
+2023-11-10T06:02:36.760Z info: Received a GET request for /api/productos
+2023-11-10T06:02:36.761Z info: Received a GET request for /api/categorias
+2023-11-10T06:02:36.762Z info: Operacion realizada con exito
+2023-11-10T06:02:37.993Z info: Received a GET request for /api/productos
+2023-11-10T06:02:37.995Z info: Received a GET request for /api/categorias
+2023-11-10T06:02:37.995Z info: Operacion realizada con exito
+2023-11-10T06:02:38.375Z info: Operacion realizada con exito
+2023-11-10T06:02:38.564Z info: Operacion realizada con exito
+2023-11-10T06:02:53.799Z info: Received a GET request for /api/productos
+2023-11-10T06:02:53.801Z info: Received a GET request for /api/categorias
+2023-11-10T06:02:53.801Z info: Operacion realizada con exito
+2023-11-10T06:02:55.064Z info: Received a GET request for /api/productos
+2023-11-10T06:02:55.066Z info: Received a GET request for /api/categorias
+2023-11-10T06:02:55.066Z info: Operacion realizada con exito
+2023-11-10T06:02:55.262Z info: Operacion realizada con exito
+2023-11-10T06:02:55.444Z info: Operacion realizada con exito
+2023-11-10T06:04:28.801Z info: Received a GET request for /api/productos
+2023-11-10T06:04:28.802Z info: Received a GET request for /api/categorias
+2023-11-10T06:04:28.803Z info: Operacion realizada con exito
+2023-11-10T06:04:30.383Z info: Operacion realizada con exito
+2023-11-10T06:04:35.644Z info: Received a GET request for /api/productos
+2023-11-10T06:04:35.645Z info: Received a GET request for /api/categorias
+2023-11-10T06:04:35.645Z info: Operacion realizada con exito
+2023-11-10T06:04:35.835Z info: Operacion realizada con exito
+2023-11-10T06:05:16.319Z info: Received a GET request for /api/productos
+2023-11-10T06:05:16.321Z info: Received a GET request for /api/categorias
+2023-11-10T06:05:16.322Z info: Operacion realizada con exito
+2023-11-10T06:05:17.856Z info: Operacion realizada con exito
+2023-11-10T06:05:38.644Z info: Received a GET request for /api/productos
+2023-11-10T06:05:38.649Z info: Received a GET request for /api/categorias
+2023-11-10T06:05:38.650Z info: Operacion realizada con exito
+2023-11-10T06:05:40.225Z info: Operacion realizada con exito
+2023-11-10T06:06:50.056Z info: Received a GET request for /api/productos
+2023-11-10T06:06:50.058Z info: Received a GET request for /api/categorias
+2023-11-10T06:06:50.059Z info: Operacion realizada con exito
+2023-11-10T06:06:50.063Z info: Received a GET request for /api/productos
+2023-11-10T06:06:50.068Z info: Received a GET request for /api/categorias
+2023-11-10T06:06:50.068Z info: Operacion realizada con exito
+2023-11-10T06:06:51.565Z info: Operacion realizada con exito
+2023-11-10T06:06:51.622Z info: Operacion realizada con exito
+2023-11-10T06:10:38.746Z info: Received a GET request for /api/productos
+2023-11-10T06:10:38.749Z info: Received a GET request for /api/categorias
+2023-11-10T06:10:38.750Z info: Operacion realizada con exito
+2023-11-10T06:10:38.756Z info: Received a GET request for /api/productos
+2023-11-10T06:10:38.760Z info: Received a GET request for /api/categorias
+2023-11-10T06:10:38.760Z info: Operacion realizada con exito
+2023-11-10T06:10:40.333Z info: Operacion realizada con exito
+2023-11-10T06:10:40.345Z info: Operacion realizada con exito
+2023-11-10T06:16:50.500Z info: Received a GET request for /api/auth/google
+2023-11-10T06:16:55.808Z info: Received a GET request for /api/auth/google
+2023-11-10T06:17:10.489Z info: Received a GET request for /api/productos
+2023-11-10T06:17:10.494Z info: Received a GET request for /api/productos
+2023-11-10T06:17:10.495Z info: Received a GET request for /api/categorias
+2023-11-10T06:17:10.496Z info: Operacion realizada con exito
+2023-11-10T06:17:10.498Z info: Received a GET request for /api/categorias
+2023-11-10T06:17:10.499Z info: Operacion realizada con exito
+2023-11-10T06:17:12.360Z info: Operacion realizada con exito
+2023-11-10T06:17:12.363Z info: Operacion realizada con exito
+2023-11-10T06:17:14.168Z info: Received a GET request for /api/productos
+2023-11-10T06:17:14.172Z info: Received a GET request for /api/categorias
+2023-11-10T06:17:14.173Z info: Operacion realizada con exito
+2023-11-10T06:17:14.175Z info: Received a GET request for /api/productos
+2023-11-10T06:17:14.177Z info: Received a GET request for /api/categorias
+2023-11-10T06:17:14.178Z info: Operacion realizada con exito
+2023-11-10T06:17:14.356Z info: Operacion realizada con exito
+2023-11-10T06:17:14.366Z info: Operacion realizada con exito
+2023-11-10T06:17:16.975Z info: Received a GET request for /api/auth/google
+2023-11-10T06:17:24.143Z info: Received a GET request for /auth/google
+2023-11-10T06:18:01.230Z info: Received a GET request for /api/auth/google
+2023-11-10T06:18:57.435Z info: Received a GET request for /api/auth/google
+2023-11-10T06:18:58.905Z info: Received a GET request for /api/auth/google
+2023-11-10T06:20:00.545Z info: Received a GET request for /api/auth/google
+2023-11-10T06:20:01.340Z info: Received a GET request for /api/auth/google
+2023-11-10T06:20:01.911Z info: Received a GET request for /api/auth/google
+2023-11-10T06:20:04.454Z info: Received a GET request for /api/auth/google
+2023-11-10T06:20:05.036Z info: Received a GET request for /api/auth/google
+2023-11-10T06:20:07.802Z info: Received a GET request for /api/auth/google
+2023-11-10T06:21:32.405Z info: Received a GET request for /api/auth/google
+2023-11-10T06:21:41.024Z info: Received a GET request for /api/google
+2023-11-10T06:21:49.433Z info: Received a GET request for /api/auth/google
+2023-11-10T06:21:56.878Z info: Received a GET request for /api/auth/google/callback
+2023-11-10T06:22:02.301Z info: Received a GET request for /api/auth/google
+2023-11-10T06:23:34.248Z info: Received a GET request for /api/auth/google
+2023-11-10T06:24:11.976Z info: Received a GET request for /api/auth/google
+2023-11-10T06:24:42.637Z info: Received a GET request for /api/auth/google
+2023-11-10T06:24:51.601Z info: Received a GET request for /api/auth/
+2023-11-10T06:24:55.818Z info: Received a GET request for /api/auth/google
+2023-11-10T06:25:14.615Z info: Received a GET request for /api/categorias
+2023-11-10T06:25:14.616Z info: Operacion realizada con exito
+2023-11-10T06:25:26.400Z info: Received a GET request for /api/auth
+2023-11-10T06:25:30.917Z info: Received a GET request for /api/auth/google
+2023-11-10T06:29:50.186Z info: Received a GET request for /api/auth/google
+2023-11-10T06:30:43.796Z info: Received a GET request for /api/productos
+2023-11-10T06:30:43.806Z info: Received a GET request for /api/categorias
+2023-11-10T06:30:43.808Z info: Operacion realizada con exito
+2023-11-10T06:30:43.815Z info: Received a GET request for /api/productos
+2023-11-10T06:30:43.818Z info: Received a GET request for /api/categorias
+2023-11-10T06:30:43.819Z info: Operacion realizada con exito
+2023-11-10T06:30:43.995Z info: Operacion realizada con exito
+2023-11-10T06:30:44.374Z info: Operacion realizada con exito
+2023-11-10T06:30:47.267Z info: Received a GET request for /api/auth/google
+2023-11-10T06:30:47.447Z info: Received a GET request for /favicon.ico
+2023-11-10T06:32:22.513Z info: Received a GET request for /api/auth/google
+2023-11-10T06:32:22.682Z info: Received a GET request for /favicon.ico
+2023-11-10T06:32:35.231Z info: Received a GET request for /api/auth/google
+2023-11-10T06:33:06.507Z info: Received a GET request for /api/auth/google
+2023-11-10T06:34:49.097Z info: Received a GET request for /api/auth/google
+2023-11-10T06:34:56.700Z info: Received a GET request for /api/auth/google
+2023-11-10T06:37:27.657Z info: Received a GET request for /api/auth/google
+2023-11-10T06:37:27.847Z info: Received a GET request for /favicon.ico
+2023-11-10T06:38:02.993Z info: Received a GET request for /api/auth/google
+2023-11-10T06:38:06.054Z info: Received a GET request for /api/auth/google
+2023-11-10T06:38:41.523Z info: Received a GET request for /api/auth/google
+2023-11-10T06:38:41.751Z info: Received a GET request for /favicon.ico
+2023-11-10T06:44:35.797Z info: Received a GET request for /api/auth/google
+2023-11-10T06:44:35.977Z info: Received a GET request for /favicon.ico
+2023-11-10T06:46:29.424Z info: Received a GET request for /api/auth/google
+2023-11-10T06:46:29.586Z info: Received a GET request for /favicon.ico
+2023-11-10T06:46:31.328Z info: Received a GET request for /api/auth/google
+2023-11-10T06:46:31.480Z info: Received a GET request for /favicon.ico
+2023-11-10T06:46:32.304Z info: Received a GET request for /api/auth/google
+2023-11-10T06:46:33.206Z info: Received a GET request for /api/auth/google
+2023-11-10T06:46:33.534Z info: Received a GET request for /api/auth/google
+2023-11-10T06:46:33.854Z info: Received a GET request for /api/auth/google
+2023-11-10T06:47:37.078Z info: Received a GET request for /api/auth/google
+2023-11-10T06:47:37.225Z info: Received a GET request for /favicon.ico
+2023-11-10T06:47:41.096Z info: Received a GET request for /api/auth/google
+2023-11-10T06:47:41.242Z info: Received a GET request for /favicon.ico
+2023-11-10T06:52:12.239Z info: Received a GET request for /api/auth/google
+2023-11-10T06:52:12.392Z info: Received a GET request for /favicon.ico
+2023-11-10T06:52:20.708Z info: Received a GET request for /api/google
+2023-11-10T06:52:24.845Z info: Received a GET request for /api/auth/google
+2023-11-10T06:52:24.978Z info: Received a GET request for /favicon.ico
+2023-11-10T06:53:43.244Z info: Received a GET request for /api/auth/google
+2023-11-10T06:53:44.788Z info: Received a GET request for /api/auth/google
+2023-11-10T06:54:08.784Z info: Received a GET request for /api/auth/google
+2023-11-10T06:54:12.086Z info: Received a GET request for /api/auth/google
+2023-11-10T06:59:40.756Z info: Received a GET request for /api/auth/google
+2023-11-10T06:59:40.910Z info: Received a GET request for /favicon.ico
+2023-11-10T07:00:27.581Z info: Received a GET request for /api/auth/google
+2023-11-10T07:01:16.883Z info: Received a GET request for /api/auth/google
+2023-11-10T07:02:00.460Z info: Received a GET request for /api/auth/google
+2023-11-10T07:02:01.172Z info: Received a GET request for /api/auth/google
+2023-11-10T07:02:01.660Z info: Received a GET request for /api/auth/google
+2023-11-10T07:02:01.883Z info: Received a GET request for /api/auth/google
+2023-11-10T07:02:02.052Z info: Received a GET request for /api/auth/google
+2023-11-10T07:02:02.225Z info: Received a GET request for /api/auth/google
+2023-11-10T07:02:02.417Z info: Received a GET request for /api/auth/google
+2023-11-10T07:02:02.601Z info: Received a GET request for /api/auth/google
+2023-11-10T07:02:59.777Z info: Received a GET request for /api/auth/google
+2023-11-10T07:03:09.134Z info: Received a GET request for /api/auth/google
+2023-11-10T07:03:43.128Z info: Received a GET request for /api/auth/google
+2023-11-10T07:13:34.728Z info: Received a GET request for /api/auth/google
+2023-11-10T07:13:34.838Z info: Received a GET request for /favicon.ico
+2023-11-10T07:13:36.643Z info: Received a GET request for /api/auth/google
+2023-11-10T07:13:37.258Z info: Received a GET request for /api/auth/google
+2023-11-10T07:13:37.759Z info: Received a GET request for /api/auth/google
+2023-11-10T07:13:38.116Z info: Received a GET request for /api/auth/google
+2023-11-10T07:13:38.685Z info: Received a GET request for /api/auth/google
+2023-11-10T07:13:39.205Z info: Received a GET request for /api/auth/google
+2023-11-10T07:13:39.686Z info: Received a GET request for /api/auth/google
+2023-11-10T07:13:40.237Z info: Received a GET request for /api/auth/google
+2023-11-10T07:13:46.096Z info: Received a GET request for /api/productos
+2023-11-10T07:13:46.107Z info: Received a GET request for /api/categorias
+2023-11-10T07:13:46.108Z info: Operacion realizada con exito
+2023-11-10T07:13:46.111Z info: Received a GET request for /api/productos
+2023-11-10T07:13:46.113Z info: Received a GET request for /api/categorias
+2023-11-10T07:13:46.116Z info: Operacion realizada con exito
+2023-11-10T07:13:47.946Z info: Operacion realizada con exito
+2023-11-10T07:13:48.239Z info: Operacion realizada con exito
+2023-11-10T12:47:59.052Z info: Received a GET request for /api/auth/google
+2023-11-10T12:51:26.620Z info: Received a GET request for /api/auth/google
+2023-11-10T12:53:10.434Z info: Received a GET request for /api/auth/google
+2023-11-10T12:53:25.190Z info: Received a GET request for /api/auth/google
+2023-11-10T12:53:26.215Z info: Received a GET request for /api/auth/google
+2023-11-10T12:53:26.843Z info: Received a GET request for /api/auth/google
+2023-11-10T12:53:27.372Z info: Received a GET request for /api/auth/google
+2023-11-10T12:53:27.976Z info: Received a GET request for /api/auth/google
+2023-11-10T12:55:36.347Z info: Received a GET request for /api/auth/google
+2023-11-10T12:55:39.876Z info: Received a GET request for /api/auth/google
+2023-11-10T12:56:21.682Z info: Received a GET request for /api/auth/google
+2023-11-10T12:57:48.290Z info: Received a GET request for /api/auth/google
+2023-11-10T12:57:55.708Z info: Received a GET request for /auth/google
+2023-11-10T12:58:49.573Z info: Received a GET request for /auth/google
+2023-11-10T12:58:56.264Z info: Received a GET request for /api/auth/google
+2023-11-10T13:05:20.323Z info: Received a GET request for /api/auth/google
+2023-11-10T13:06:18.637Z info: Received a GET request for /api/auth/google
+2023-11-10T13:06:18.781Z info: Received a GET request for /favicon.ico
+2023-11-10T13:08:02.747Z info: Received a GET request for /api/auth/google
+2023-11-10T13:08:02.858Z info: Received a GET request for /favicon.ico
+2023-11-10T13:11:36.949Z info: Received a GET request for /api/auth/google
+2023-11-10T13:11:37.188Z info: Received a GET request for /favicon.ico
+2023-11-10T13:11:40.127Z info: Received a GET request for /api/auth/google
+2023-11-10T13:11:40.337Z info: Received a GET request for /favicon.ico
+2023-11-10T13:12:48.532Z info: Received a GET request for /api/auth/google
+2023-11-10T13:14:43.446Z info: Received a GET request for /api/auth/google
+2023-11-10T13:15:55.820Z info: Received a GET request for /api/productos
+2023-11-10T13:15:55.829Z info: Received a GET request for /api/categorias
+2023-11-10T13:15:55.830Z info: Operacion realizada con exito
+2023-11-10T13:15:55.835Z info: Received a GET request for /api/productos
+2023-11-10T13:15:55.839Z info: Received a GET request for /api/categorias
+2023-11-10T13:15:55.840Z info: Operacion realizada con exito
+2023-11-10T13:15:57.383Z info: Operacion realizada con exito
+2023-11-10T13:15:57.408Z info: Operacion realizada con exito
+2023-11-10T13:16:00.560Z info: Received a GET request for /api/auth/google
+2023-11-10T13:16:00.707Z info: Received a GET request for /favicon.ico
