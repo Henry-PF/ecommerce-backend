@@ -56,12 +56,23 @@ exports.create = async (data) => {
             result.status = 404
         } else {
 
-            //crear la review
+            //revisar si el usuario ya tiene una review: o crear
+            const alrPublished = await review.findOne({ where: { id_usuario: userId } })
 
-            const createResult = await createReview({ contenido, puntuacion }, user)
-            result.message = createResult.message
-            result.error = createResult.error
-            result.status = createResult.status
+            if (alrPublished) {
+                //si existe se evita la creacion.
+                result.message = "Ya publicaste una reseña, pero puedes editarla."
+                result.status = 409
+            } else {
+                //crear la review
+
+                const createResult = await createReview({ contenido, puntuacion }, user)
+                result.message = createResult.message
+                result.error = createResult.error
+                result.status = createResult.status
+            }
+
+
         }
 
 
@@ -120,9 +131,42 @@ exports.put = async (data) => {
     return result
 }
 
+//eliminar reseña: 
+exports.del = async (data) => {
+    const result = {
+        data: null,
+        message: "",
+        error: false,
+    }
+    try {
+        const userId = 1
+
+        const currentReview = await review.findOne({ where: { id_usuario: userId } })
+
+        if (!currentReview) {
+            result.error = true
+            result.message = "No se encontro la reseña solicitada."
+            result.status = 404
+        } else {
+            const destroyResult = await deleteReviews(currentReview)
+
+            result.message = destroyResult.message
+            result.status = destroyResult.status
+            result.error = destroyResult.error
+
+        }
+
+
+
+    } catch (error) {
+        result.error = true
+        result.message = error.message
+    }
+    return result
+}
 
 //function para obtener todas las reseñas
-async function getAllReviews() {
+async function getAllReviews(reviewId) {
     //resultados
     const result = {
         data: null,
@@ -239,4 +283,32 @@ async function updateReview(reviewData, currentReview) {
         result.status = 500
     }
     return result
+}
+
+//funcion para eliminar una review
+async function deleteReviews(currentReview) {
+
+    //result
+    const result = {
+        data: null,
+        message: "",
+        error: false,
+    }
+
+    //ejecucion
+    try {
+        await currentReview.destroy()
+
+        result.message = "Reseña eliminada con éxito."
+
+    } catch (error) {
+
+        //manejo de errores
+        result.message = error.message
+        result.error = true
+    }
+
+    // return 
+    return result
+
 }

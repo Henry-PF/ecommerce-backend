@@ -1,4 +1,4 @@
-const { createReview, editReview, getAll } = require("../handlers/reviewsHandler")
+const { createReview, editReview, getAll, deleteReviews } = require("../handlers/reviewsHandler")
 
 const router = require("express").Router()
 
@@ -9,6 +9,8 @@ router.get("/", getAll)
 router.post("/", createReview)
 //edit review
 router.patch("/", editReview)
+//delete
+router.delete("/", deleteReviews)
 
 //createMockUser
 router.get("/mock", async function (req, res) {
