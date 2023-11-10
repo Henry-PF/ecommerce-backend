@@ -569,3 +569,20 @@
 2023-11-10T13:15:57.408Z info: Operacion realizada con exito
 2023-11-10T13:16:00.560Z info: Received a GET request for /api/auth/google
 2023-11-10T13:16:00.707Z info: Received a GET request for /favicon.ico
+2023-11-10T15:44:57.270Z info: Received a GET request for /auth/google
+2023-11-10T15:45:05.970Z info: Received a GET request for /api/auth/google
+2023-11-10T15:50:41.303Z info: Received a GET request for /api/auth/google
+2023-11-10T18:17:42.201Z info: Received a GET request for /api/auth/google
+2023-11-10T18:18:08.419Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXniarG-Mgk3rIvccLMDexHc5T7LdUCbNfVG5XkbnlSqvzI49x3IHxQfsv_VyPZN5w&scope=profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile
+2023-11-10T18:18:09.023Z info: Received a GET request for /
+2023-11-10T19:06:43.674Z info: Received a GET request for /api/google
+2023-11-10T19:06:51.164Z info: Received a GET request for /api/auth/google
+2023-11-10T19:06:51.831Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXnjyX5EXZjIXnrKx9Qgkl5qbsgRRA6mEvD5gNkVQnxjF-41OjhDHB19fIpP2RvT8Q&scope=profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile
+2023-11-10T19:08:49.993Z info: Received a GET request for /api/auth/google
+2023-11-10T19:08:50.382Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXljUdC9jUv6_DXQ0NgBfDBVfLBitPHaYpiEHrCDJ-uYumckIc0VX-JhZbhljfvlAA&scope=profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile
+2023-11-10T19:09:34.683Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXljUdC9jUv6_DXQ0NgBfDBVfLBitPHaYpiEHrCDJ-uYumckIc0VX-JhZbhljfvlAA&scope=profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile
+2023-11-10T19:09:35.039Z info: Received a GET request for /favicon.ico
+2023-11-10T19:09:45.786Z info: Received a GET request for /api/auth/google
+2023-11-10T19:09:46.174Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXkaYzp9n-_eEKia00yubt06RdhsDGi1UZ7uCUJKFhT31OHrN6rgXbdb8VTSJIt6DA&scope=profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile
+2023-11-10T19:14:18.397Z info: Received a GET request for /api/auth/google
+2023-11-10T19:14:43.850Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXkj7OjMpfwxRot_qrCr59zyqDUhZis9iahtR7guwYrKdyeOfAmZ1RFnokzG1a0olA&scope=profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile
