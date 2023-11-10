@@ -1,21 +1,41 @@
-require("dotenv").config();
 const express = require("express");
-const cookieParser = require("cookie-parser");
+const session = require('express-session');
 const bodyParser = require("body-parser");
 const morgan = require("morgan");
+const passport = require("passport");
 const routes = require("./routes/index.js");
-var path = require('path');
-const winston = require("winston");
-
+require("dotenv").config();
 require("./db.js");
+var path = require('path');
+const { logger } = require("./components/logger.js");
+const fileupload = require("express-fileupload");
 
 const server = express();
 
 server.name = "API";
 
+
+server.use(
+  session({
+    secret: '123456',
+    resave: false,
+    saveUninitialized: true,
+  })
+);
+
+server.use(passport.initialize());
+server.use(passport.session());
+
+server.use(
+  fileupload({
+    useTempFiles: true,
+    tempFileDir: "/tmp/",
+    createParentPath: true,
+  })
+);
+
 server.use(bodyParser.urlencoded({ extended: true, limit: "50mb" }));
 server.use(bodyParser.json({ limit: "50mb" }));
-server.use(cookieParser());
 server.use(morgan("dev"));
 server.use((req, res, next) => {
   res.header("Access-Control-Allow-Origin", "*");
@@ -28,20 +48,6 @@ server.use((req, res, next) => {
   next();
 });
 
-
-const logger = winston.createLogger({
-  level: "info",
-  format: winston.format.combine(
-    winston.format.timestamp(),
-    winston.format.printf(
-      (info) => `${info.timestamp} ${info.level}: ${info.message}`
-    )
-  ),
-  transports: [
-    new winston.transports.Console(),
-    new winston.transports.File({ filename: path.join(__dirname, 'logs','app.log') }),
-  ],
-});
 
 server.use(express.static(path.join(__dirname, 'public')))
 
