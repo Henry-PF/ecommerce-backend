@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 2023-11-09T15:43:36.707Z info: Received a GET request for /reviews
 2023-11-09T15:44:00.305Z info: Received a GET request for /reviews/
 2023-11-09T15:46:19.468Z info: Received a GET request for /api/
@@ -158,3 +159,30 @@
 2023-11-10T15:47:16.760Z info: Received a GET request for /api/reviews
 2023-11-10T15:47:23.812Z info: Received a DELETE request for /api/reviews
 2023-11-10T15:47:25.809Z info: Received a DELETE request for /api/reviews
+=======
+2023-11-09T21:17:01.044Z info: Received a POST request for /producto
+2023-11-09T21:18:36.440Z info: Received a POST request for /producto
+2023-11-09T21:18:52.624Z info: Received a POST request for /productos
+2023-11-09T21:19:08.708Z info: Received a POST request for /productos/
+2023-11-09T21:20:20.216Z info: Received a GET request for /productos/
+2023-11-09T21:20:25.100Z info: Received a GET request for /productos
+2023-11-09T21:20:29.801Z info: Received a POST request for /productos
+2023-11-09T21:20:53.827Z info: Received a POST request for /categorias
+2023-11-09T21:21:29.373Z info: Received a POST request for //api/productos
+2023-11-09T21:21:33.763Z info: Received a POST request for /api/productos
+2023-11-09T21:21:33.765Z error: Cannot access 'imgProduct' before initialization
+2023-11-09T21:22:11.725Z info: Received a POST request for /api/productos
+2023-11-09T21:22:11.729Z error: Cannot read properties of undefined (reading 'image')
+2023-11-09T21:22:27.116Z info: Received a POST request for /api/productos
+2023-11-09T21:22:27.119Z error: Cannot read properties of undefined (reading 'mimetype')
+2023-11-09T21:22:49.923Z info: Received a POST request for /api/productos
+2023-11-09T21:22:49.927Z error: Cannot read properties of undefined (reading 'mimetype')
+2023-11-09T21:23:12.101Z info: Received a POST request for /api/productos
+2023-11-09T21:23:12.104Z error: Cannot read properties of undefined (reading 'mimetype')
+2023-11-09T21:32:27.620Z info: Received a POST request for /api/productos
+2023-11-09T21:32:27.625Z error: Cannot read properties of undefined (reading 'split')
+2023-11-09T21:36:19.450Z info: Received a POST request for /api/productos
+2023-11-09T21:36:19.456Z error: Cannot convert object to primitive value
+2023-11-09T21:51:58.523Z info: Received a GET request for /api/productos
+2023-11-09T21:51:58.533Z info: Operacion realizada con exito
+>>>>>>> origin

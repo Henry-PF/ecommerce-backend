@@ -1,11 +1,11 @@
-const {getAll,getOne,Delete,Update,Create} = require("../controllers/categoriasController");
+const {getAll,getOne,Delete,Update,Create} = require("../controllers/productosController");
 const { logger } = require("../components/logger");
 
-exports.CreateCategory =async (req, res) => {
+exports.CreateProducto =async (req, res) => {
     let result = {};
     try {
         if(req.body){
-            result = await Create(req.body);
+            result = await Create(req.body,req.files);
         }else{
             result = {message:"faltan campos",error:true}
         }
@@ -15,7 +15,7 @@ exports.CreateCategory =async (req, res) => {
         res.status(500).json({message:error.message,error:true})
     }
 }
-exports.getAllCategory =async (req, res) => {
+exports.getAllProducto =async (req, res) => {
     let result = {};
     try {
         result = await getAll();
@@ -25,7 +25,7 @@ exports.getAllCategory =async (req, res) => {
         res.status(500).json({message:error.message,error:true})
     }
 }
-exports.getOneCategory =async (req, res) => {
+exports.getOneProducto =async (req, res) => {
     let result = {};
     try {
         if(req.params){
@@ -39,7 +39,7 @@ exports.getOneCategory =async (req, res) => {
         res.status(500).json({message:error.message,error:true})
     }
 }
-exports.DeleteCategory =async (req, res) => {
+exports.DeleteProducto =async (req, res) => {
     let result = {};
     try {
         if(req.body){
@@ -53,11 +53,11 @@ exports.DeleteCategory =async (req, res) => {
         res.status(500).json({message:error.message,error:true})
     }
 }
-exports.UpdateCategory =async (req, res) => {
+exports.UpdateProducto =async (req, res) => {
     let result = {};
     try {
         if(req.body){
-            result = await Update(req.body)
+            result = await Update(req.body,req.files)
         }else{
             result = {message:"faltan campos",error:true}
         }

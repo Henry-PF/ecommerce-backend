@@ -5,8 +5,7 @@
     "database": "ecommerce",
     "host":"localhost",
     "dialect": "postgresql",
-    "use_env_variable":false,
-    "logging": false
+    "use_env_variable":true
   },
   "test": {
     "username": "localhost",
