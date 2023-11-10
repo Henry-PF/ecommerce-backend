@@ -1,13 +1,13 @@
 const passport = require('passport');
-const securePassword = require('secure-random-password');
 const GoogleStrategy = require('passport-google-oauth20').Strategy;
-const { usuarios, datos } = require('../db');
+const { usuarios, personas } = require('../db');
+const securePassword = require('secure-random-password');
 const bcrypt = require("bcrypt");
 const { Op } = require('sequelize');
 
-const GOOGLE_CLIENT_ID = ''
-const GOOGLE_CLIENT_SECRET = ''
-const GOOGLE_CALLBACK_URL = 'http://localhost:3001/auth/callback'
+const GOOGLE_CLIENT_ID = '192877010412-ktn34o3f409lh0ltmc0vo7pe08fd381h.apps.googleusercontent.com '
+const GOOGLE_CLIENT_SECRET = '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'
+const GOOGLE_CALLBACK_URL = 'http://localhost:3002/api/auth/callback'
 
 passport.use(
     new GoogleStrategy(
@@ -19,49 +19,64 @@ passport.use(
         },
         async (request, accessToken, refreshToken, profile, done) => {
 
-            const userExist = await usuarios.findOne({ where: { googleId: { [Op.eq]: profile.id } } })
+            // const userExist = await usuarios.findOne({
+            //     include: [{ model: personas }],
+            //     where: {
+            //         googleId: {
+            //             [Op.eq]: profile.id
+            //         }
+            //     }
+            // });
 
-            if (!userExist) {
-                const defaultUser = {
-                    nombre: profile.name.givenName,
-                    apellido: profile.name.familyName,
-                    correo: profile.emails[0].value,
-                    dni: 0,
-                    direccion: '',
-                };
+            // if (!userExist) {
+            //     const defaultUser = {
+            //         nombre: profile.name.givenName,
+            //         apellido: profile.name.familyName,
+            //         correo: profile.emails[0].value,
+            //         dni: 0,
+            //         direccion: '',
+            //     };
 
-                let userData = await datos.create(defaultUser);
+            //     let userData = await datos.create(defaultUser);
 
-                const password = securePassword.randomPassword({ length: 12, characters: securePassword.lower + securePassword.upper + securePassword.digits });
+            //     const password = securePassword.randomPassword({ length: 12, characters: securePassword.lower + securePassword.upper + securePassword.digits });
 
-                // Crear un hash de la contraseña
-                const hash = await bcrypt.hash(password, 10);
+            //     // Crear un hash de la contraseña
+            //     const hash = await bcrypt.hash(password, 10);
 
-                if (userData) {
-                    await usuarios.create({
-                        usuario: profile.displayName,
-                        password: hash,
-                        googleId: profile.id,
-                        id_datos: userData.id,
-                        id_statud: "1",
-                        type: "usuario"
-                    })
-                }
-            }
+            //     if (userData) {
+            //         const newGoogleUser = await usuarios.create({
+            //             include: [{ model: personas }],
+            //             nick: profile.displayName,
+            //             password: hash,
+            //             googleId: profile.id,
+            //             id_datos: userData.id,
+            //             id_statud: "1",
+            //             type: "usuario"
+            //         })
+            //         done(null, newGoogleUser)
+            //     }
+            // }
+            // done(null, userExist)
             done(null, profile)
         }
     )
 );
 
-passport.serializeUser(function (user, cb) {
-    process.nextTick(function () {
-        return cb(null, user);
-    });
+passport.serializeUser(function (user, done) {
+    done(null, user.id)
 });
 
-passport.deserializeUser((user, done) => {
-    console.log('user', user);
-    done(null, user); // Recupera los datos del usuario de la sesión
+passport.deserializeUser((id, done) => {
+    // usuarios.findByPk(id, {
+    //     include: [
+    //         { model: personas, as: 'persona' }
+    //     ]
+    // }).then(user => {
+    //     console.log(user);
+    //     done(null, user)
+    // })
+    done(null, id)
 });
 
 module.exports = passport;
