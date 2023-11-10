@@ -1,10 +1,10 @@
 const {categoria} = require("../db");
 const { Op } = require("sequelize");
 const { logger } = require("../components/logger");
-exports.getAll= async (data)=>{
+exports.getAll= async ()=>{
     let result = {};
     try {
-        let operation = categoria.findAll();
+        let operation = categoria.findAll({attributes:{exclude:['createdAt', 'updatedAt']}});
         if(operation){
             result = {
                 data: operation,
@@ -21,12 +21,16 @@ exports.getAll= async (data)=>{
         return result;
     } catch (error) {
         logger.error(error.message);
+        return result={message : error.message,error:true};
     }
 }
 exports.getOne= async (data)=>{
     let result = {};
     try {
-        let operation = categoria.findOne({where: {id:{[Op.eq]:data.id}}});
+        let operation = categoria.findOne({
+            attributes:{exclude:['createdAt', 'updatedAt']},
+            where: {id:{[Op.eq]:data.id}}
+        });
         if(operation){
             result = {
                 data: operation,
@@ -43,6 +47,7 @@ exports.getOne= async (data)=>{
         return result;
     } catch (error) {
         logger.error(error.message);
+        return result={message : error.message,error:true};
     }
 }
 exports.Delete= async (data)=>{
@@ -65,6 +70,7 @@ exports.Delete= async (data)=>{
         return result;
     } catch (error) {
         logger.error(error.message);
+        return result={message : error.message,error:true};
     }
 }
 exports.Update= async (data)=>{
@@ -87,6 +93,7 @@ exports.Update= async (data)=>{
         return result;
     } catch (error) {
         logger.error(error.message);
+        return result={message : error.message,error:true};
     }
 }
 exports.Create= async (data)=>{
@@ -109,5 +116,6 @@ exports.Create= async (data)=>{
         return result;
     } catch (error) {
         logger.error(error.message);
+        return result={message : error.message,error:true};
     }
 }

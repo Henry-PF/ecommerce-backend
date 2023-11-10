@@ -6,17 +6,17 @@ exports.validateToken = (req, res, next) => {
     try {
       const token = req.cookies["authorization"];
       if (token == null){
-        return res.redirect("/admin/login");
+        return res.status(401).json({message:"Token no presente",error:true});
       }else{
         jwt.verify(token, env.SECRECT_TOKEN, (err, user) => {
           if (err){
-            return res.redirect("/admin/login");
+            return res.status(403).json({message:"Error de autentificacion",error:true});
           } 
           req.user = user;
           next();
        });
       }
     } catch (error) {
-      return res.status(410).json({ message: "No autorizado" });
+      return res.status(401).json({ message: "No autorizado",error:true});
     }
 };

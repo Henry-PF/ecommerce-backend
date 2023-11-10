@@ -3,9 +3,9 @@ const process = require("process");
 const env = process.env
 
 cloudinary.config({
-    cloud_name: env.cloud_name,
-    api_key: env.api_key,
-    api_secret: env.api_secret,
+    cloud_name: env.CLOUD_NAME,
+    api_key: env.CLOUD_APIKEY,
+    api_secret: env.CLODU_SECRET
 });
 
 
