@@ -1,6 +1,6 @@
 const { Router } = require("express");
 const router = Router();
-const { CreateStatud, getAllStatud, getOneStatud, DeleteStatud, UpdateStatud } = require("../handlers/categoriaHandler");
+const { CreateStatud, getAllStatud, getOneStatud, DeleteStatud, UpdateStatud } = require("../handlers/statudHandler");
 
 router.get("/", getAllStatud);
 router.get("/:id", getOneStatud);
