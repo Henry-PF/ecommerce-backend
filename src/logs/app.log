@@ -186,3 +186,10 @@
 2023-11-09T21:51:58.523Z info: Received a GET request for /api/productos
 2023-11-09T21:51:58.533Z info: Operacion realizada con exito
 >>>>>>> origin
+2023-11-10T16:19:41.602Z info: Received a GET request for /auth/google
+2023-11-10T16:19:48.494Z info: Received a GET request for /api/reviews/mock
+2023-11-10T16:20:43.510Z info: Received a GET request for /api/reviews/mock
+2023-11-10T16:20:47.438Z info: Received a POST request for /api/reviews
+2023-11-10T16:20:51.576Z info: Received a PUT request for /api/reviews
+2023-11-10T16:20:54.625Z info: Received a GET request for /api/reviews
+2023-11-10T16:20:58.667Z info: Received a DELETE request for /api/reviews
