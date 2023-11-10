@@ -8,7 +8,7 @@ router.get("/", getAll)
 //create Review
 router.post("/", createReview)
 //edit review
-router.patch("/", editReview)
+router.put("/", editReview)
 //delete
 router.delete("/", deleteReviews)
 

@@ -42,11 +42,11 @@ exports.create = async (data) => {
     //ejecucion
     try {
         //obtener y validar datos para la review
-        const { contenido, puntuacion } = data.body
+        const { contenido, puntuacion, userId } = data.body
 
 
         //obtener el usuario
-        const userId = 1
+
         const user = await usuarios.findOne({ where: { id: userId }, attributes: { exclude: ["password"] } })
 
         if (!user) {
@@ -97,14 +97,12 @@ exports.put = async (data) => {
     }
     try {
         //nuevos datos del review
-        const { contenido, puntuacion } = data.body
+        const { contenido, puntuacion, reviewId, userId } = data.body
         //obtener el usuario y el id del review
 
         //esto va a cambiar cuando este la auth
-        const userId = 1
-        const currentReviewId = data.body.id
 
-        const currentReview = await review.findOne({ where: { id_usuario: userId, id: currentReviewId } })
+        const currentReview = await review.findOne({ where: { id_usuario: userId, id: reviewId } })
 
         if (!currentReview) {
             //si no existe la review se omite la actualizacion y se retorna el mensaje 
@@ -139,9 +137,9 @@ exports.del = async (data) => {
         error: false,
     }
     try {
-        const userId = 1
+        const { userId, reviewId } = data.body
 
-        const currentReview = await review.findOne({ where: { id_usuario: userId } })
+        const currentReview = await review.findOne({ where: { id_usuario: userId, id: reviewId } })
 
         if (!currentReview) {
             result.error = true
