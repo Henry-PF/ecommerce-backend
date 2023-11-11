@@ -18,7 +18,7 @@ exports.CreateProducto =async (req, res) => {
 exports.getAllProducto =async (req, res) => {
     let result = {};
     try {
-        result = await getAll();
+        result = await getAll(req.query);
         res.status(200).json(result);
     } catch (error) {
         logger.error(error.message);
