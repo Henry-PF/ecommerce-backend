@@ -1,10 +1,11 @@
 const { buscarProductos } = require("../controllers/filtrosControllers");
 
 exports.filtros = async (req, res) => {
+    console.log(req.query);
     let result = {};
     try {
         if (req.body) {
-            result = await buscarProductos(req.body);
+            result = await buscarProductos(req.query);
         } else {
             result = { message: "Producto no Encontrado", error: true }
         }

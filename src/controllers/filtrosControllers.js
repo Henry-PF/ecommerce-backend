@@ -2,18 +2,26 @@ const { Op } = require('sequelize');
 const { producto, categoria } = require('../db.js');
 
 exports.buscarProductos = async (datos) => {
+    console.log(datos);
+    let result = [];
     try {
         const { nombre, categoriaId, precioMin, precioMax } = datos;
 
         const filtro = {
             nombre: {
-                [Op.like]: `%${nombre}%`,
+                [Op.iLike]: `%${nombre}%`,
             },
         };
 
         if (categoriaId) {
-            filtro.categoriaId = categoriaId;
+            // Convertir la cadena de IDs de categorías en un array de números
+            const categoriasIds = categoriaId.split(',').map(id => parseInt(id, 10));
+
+            filtro.id_categoria = {
+                [Op.in]: categoriasIds,
+            };
         }
+
 
         if (precioMin && precioMax) {
             filtro.precio = {
@@ -39,7 +47,9 @@ exports.buscarProductos = async (datos) => {
             ],
         });
 
-        res.json(productos);
+        result = productos;
+        console.log(result);
+        return result;
     } catch (error) {
         console.error(error);
         res.status(500).json({ error: 'Error al buscar productos.' });
