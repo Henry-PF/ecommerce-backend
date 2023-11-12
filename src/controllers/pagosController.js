@@ -6,7 +6,7 @@ const {
   PAYPAL_API,
   PAYPAL_API_CLIENT,
   PAYPAL_API_SECRET,
-} = require("../config/config.js");
+} = require("../config/configPaypal.js");
 
 let access_token = "";
 setAccess_token = (valor) => { access_token = valor; }
