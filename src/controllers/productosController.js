@@ -13,8 +13,9 @@ exports.getAll = async (data) => {
         //cantidad de productos por pagina
         const productsPerPage = 10
 
-        //desplazamiento = numero de pagina - 1 * numero de productos 
-        // (por ej: si pagina = 1 ==> el offset es 0, si pagina = 2 offset = 10), asi puede omitir cierta cant de productos
+        //desplazamiento = (numero de pagina - 1) * numero de productos 
+        // (por ej: si pagina = 1 ==> el offset es 0, si pagina = 2 offset = 10), 
+        // asi puede omitir cierta cant de productos
         //y devuelve los proximos 10 ( o los que esten definidos por la cantidad.)
         const offset = (page - 1) * productsPerPage
         
