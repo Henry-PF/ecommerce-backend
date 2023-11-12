@@ -6,10 +6,9 @@ const cloudinary = require("../config/cloudinary");
 exports.getAll = async (data) => {
     let result = {};
     try {
-        
+
         //page = pagina
-        const page = data?.page || 1
-        
+        const page = parseInt(data?.page) || 1
         //cantidad de productos por pagina
         const productsPerPage = 10
 
@@ -17,7 +16,7 @@ exports.getAll = async (data) => {
         // (por ej: si pagina = 1 ==> el offset es 0, si pagina = 2 offset = 10), asi puede omitir cierta cant de productos
         //y devuelve los proximos 10 ( o los que esten definidos por la cantidad.)
         const offset = (page - 1) * productsPerPage
-        
+
         //obtener categoria de producto (si aplica)
         const cat = data?.cat
 
@@ -29,6 +28,7 @@ exports.getAll = async (data) => {
             where.id_categoria = cat
         }
 
+        const totalProducts = await producto.count({ where });
 
         let operation = await producto.findAll({
             //offset es la pagina
@@ -38,7 +38,7 @@ exports.getAll = async (data) => {
             //aca la condicion
             where,
 
-            included: [
+            include: [
                 {
                     model: categoria,
                     attributes: { exclude: ['createdAt', 'updatedAt', 'id'] }
@@ -50,8 +50,11 @@ exports.getAll = async (data) => {
             ]
         });
         if (operation) {
+            const totalPages = Math.ceil(totalProducts / productsPerPage);
             result = {
                 data: operation,
+                totalProducts: totalProducts,
+                totalPages: totalPages,
                 error: false,
                 message: "Operacion realizada con exito"
             }
@@ -73,14 +76,14 @@ exports.getOne = async (data) => {
     try {
         if (data.id) {
             let operation = await producto.findOne({
-                included: [
+                include: [
                     {
                         model: categoria,
-                        attributes: { exclude: ['createdAt', 'updatedAt', 'id'] }
+                        attributes: { exclude: ['createdAt', 'updatedAt',] }
                     },
                     {
                         model: img_productos,
-                        attributes: { exclude: ['createdAt', 'updatedAt', 'id'] }
+                        attributes: { exclude: ['createdAt', 'updatedAt',] }
                     }
                 ],
                 where: {

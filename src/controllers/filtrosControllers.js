@@ -1,9 +1,9 @@
 const { Op } = require('sequelize');
-const { producto, categoria } = require('../db.js');
+const { producto, categoria, img_productos } = require('../db.js');
 
-exports.buscarProductos = async (datos) => {
+exports.buscarProductos = async (datos, productsPerPage = 10) => {
     console.log(datos);
-    let result = [];
+    let result = {};
     try {
         const { nombre, categoriaId, precioMin, precioMax } = datos;
 
@@ -14,14 +14,11 @@ exports.buscarProductos = async (datos) => {
         };
 
         if (categoriaId) {
-            // Convertir la cadena de IDs de categorías en un array de números
             const categoriasIds = categoriaId.split(',').map(id => parseInt(id, 10));
-
             filtro.id_categoria = {
                 [Op.in]: categoriasIds,
             };
         }
-
 
         if (precioMin && precioMax) {
             filtro.precio = {
@@ -37,21 +34,47 @@ exports.buscarProductos = async (datos) => {
             };
         }
 
+        const totalProductos = await producto.count({
+            where: filtro,
+        });
+
+        const offset = (datos.page - 1) * productsPerPage;
+
         const productos = await producto.findAll({
             where: filtro,
             include: [
                 {
                     model: categoria,
-                    attributes: ['nombre'],
+                    attributes: { exclude: ['createdAt', 'updatedAt', 'id'] }
                 },
+                {
+                    model: img_productos,
+                    attributes: { exclude: ['createdAt', 'updatedAt', 'id'] }
+                }
             ],
+            offset,
+            limit: productsPerPage,
         });
 
-        result = productos;
-        console.log(result);
+        if (productos) {
+            const totalPages = Math.ceil(totalProductos / productsPerPage);
+            result = {
+                data: productos,
+                totalProductos,
+                totalPages,
+                error: false,
+                message: "Operación realizada con éxito",
+            };
+        } else {
+            result = {
+                error: true,
+                message: "Error al realizar su operación",
+            };
+        }
+
         return result;
     } catch (error) {
         console.error(error);
-        res.status(500).json({ error: 'Error al buscar productos.' });
+        return { message: 'Error al buscar productos.', error: true };
     }
 };
