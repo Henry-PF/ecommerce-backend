@@ -190,6 +190,7 @@ exports.Update = async (data, files) => {
         return result = { message: error.message, error: true };
     }
 }
+
 exports.Create = async (data, files) => {
     let result = {};
     try {
@@ -218,28 +219,28 @@ exports.Create = async (data, files) => {
             id_categoria: existingcategoria.id,
             id_statud: 1
         });
-        let imgProduct = files.files;
-        console.log(files.files)
-        if (imgProduct > 0) {
+        let imgProduct = files.imagen;
+        if (imgProduct) {
+            console.log('IMAGEN', imgProduct);
             const validExtensions = ["png", "jpg", "jpeg"];
-            imgProduct.forEach(async (element) => {
-                const extension = element.mimetype.split("/")[1];
-                if (!validExtensions.includes(extension)) {
-                    result = {
-                        error: true,
-                        message: `archivo no valido.`
-                    }
-                    logger.error(result);
-                    return result;
+            // imgProduct.forEach(async (element) => {
+            const extension = imgProduct.mimetype.split("/")[1];
+            if (!validExtensions.includes(extension)) {
+                result = {
+                    error: true,
+                    message: `archivo no valido.`
                 }
-                const uploaded = await cloudinary.v2.uploader.upload(
-                    element.tempFilePath
-                );
-                const { secure_url } = uploaded;
-                await img_productos.Create({
-                    id_producto: operation.id,
-                    url: secure_url
-                })
+                logger.error(result);
+                return result;
+            }
+            const uploaded = await cloudinary.v2.uploader.upload(
+                imgProduct.tempFilePath
+            );
+            const { secure_url } = uploaded;
+            await img_productos.create({
+                id_producto: operation.id,
+                url: secure_url
+                // })
             });
         }
         if (operation) {

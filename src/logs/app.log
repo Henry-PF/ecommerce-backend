@@ -6523,3 +6523,202 @@
 2023-11-12T20:57:01.461Z info: Received a GET request for /api/productos?page=1
 2023-11-12T20:57:01.647Z info: Operacion realizada con exito
 2023-11-12T20:57:01.837Z info: Operacion realizada con exito
+2023-11-12T23:25:07.152Z info: Received a GET request for /api/productos/76
+2023-11-12T23:25:07.170Z info: Received a GET request for /api/productos/76
+2023-11-12T23:25:10.607Z info: Operacion realizada con exito
+2023-11-12T23:25:10.617Z info: Operacion realizada con exito
+2023-11-12T23:25:13.011Z info: Received a GET request for /api/categorias
+2023-11-12T23:25:13.015Z info: Received a GET request for /api/filtros/search?nombre=negra&categoriaId=&precioMin=&precioMax=&page=1
+2023-11-12T23:25:13.025Z info: Received a GET request for /api/categorias
+2023-11-12T23:25:13.026Z info: Received a GET request for /api/filtros/search?nombre=negra&categoriaId=&precioMin=&precioMax=&page=1
+2023-11-12T23:25:13.199Z info: Operacion realizada con exito
+2023-11-12T23:25:13.383Z info: Operacion realizada con exito
+2023-11-12T23:25:16.851Z info: Received a GET request for /api/productos/76
+2023-11-12T23:25:16.855Z info: Received a GET request for /api/productos/76
+2023-11-12T23:25:17.039Z info: Operacion realizada con exito
+2023-11-12T23:25:17.046Z info: Operacion realizada con exito
+2023-11-12T23:25:23.500Z info: Received a GET request for /api/categorias
+2023-11-12T23:25:23.505Z info: Received a GET request for /api/filtros/search?nombre=negra&categoriaId=&precioMin=&precioMax=&page=1
+2023-11-12T23:25:23.512Z info: Received a GET request for /api/categorias
+2023-11-12T23:25:23.520Z info: Received a GET request for /api/filtros/search?nombre=negra&categoriaId=&precioMin=&precioMax=&page=1
+2023-11-12T23:25:23.689Z info: Operacion realizada con exito
+2023-11-12T23:25:23.706Z info: Operacion realizada con exito
+2023-11-12T23:25:38.910Z info: Received a GET request for /api/categorias
+2023-11-12T23:25:38.916Z info: Received a GET request for /api/productos?page=1
+2023-11-12T23:25:38.924Z info: Received a GET request for /api/categorias
+2023-11-12T23:25:38.929Z info: Received a GET request for /api/productos?page=1
+2023-11-12T23:25:40.438Z info: Operacion realizada con exito
+2023-11-12T23:25:40.464Z info: Operacion realizada con exito
+2023-11-12T23:25:40.638Z info: Operacion realizada con exito
+2023-11-12T23:25:40.669Z info: Operacion realizada con exito
+2023-11-12T23:25:44.275Z info: Received a GET request for /api/categorias
+2023-11-12T23:25:44.276Z info: Received a GET request for /api/productos?page=6
+2023-11-12T23:25:44.463Z info: Operacion realizada con exito
+2023-11-12T23:25:44.653Z info: Operacion realizada con exito
+2023-11-12T23:26:20.695Z info: Received a GET request for /api/categorias
+2023-11-12T23:26:20.702Z info: Received a GET request for /api/productos?page=6
+2023-11-12T23:26:22.319Z info: Operacion realizada con exito
+2023-11-12T23:26:22.701Z info: Operacion realizada con exito
+2023-11-12T23:26:28.978Z info: Received a GET request for /api/categorias
+2023-11-12T23:26:28.979Z info: Received a GET request for /api/productos?page=6
+2023-11-12T23:26:29.164Z info: Operacion realizada con exito
+2023-11-12T23:26:29.374Z info: Operacion realizada con exito
+2023-11-12T23:27:03.912Z info: Received a GET request for /api/categorias
+2023-11-12T23:27:03.916Z info: Received a GET request for /api/productos?page=6
+2023-11-12T23:27:05.422Z info: Operacion realizada con exito
+2023-11-12T23:27:05.634Z info: Operacion realizada con exito
+2023-11-12T23:27:11.038Z info: Received a GET request for /api/categorias
+2023-11-12T23:27:11.043Z info: Received a GET request for /api/categorias
+2023-11-12T23:27:11.225Z info: Operacion realizada con exito
+2023-11-12T23:27:11.229Z info: Operacion realizada con exito
+2023-11-12T23:27:51.631Z info: Received a OPTIONS request for /api/productos
+2023-11-12T23:27:51.757Z info: Received a POST request for /api/productos
+2023-11-12T23:27:53.626Z error: Cannot read properties of undefined (reading 'files')
+2023-11-12T23:28:02.518Z info: Received a GET request for /api/categorias
+2023-11-12T23:28:02.526Z info: Received a GET request for /api/categorias
+2023-11-12T23:28:02.530Z info: Received a GET request for /api/productos?page=1
+2023-11-12T23:28:02.532Z info: Received a GET request for /api/productos?page=1
+2023-11-12T23:28:02.718Z info: Operacion realizada con exito
+2023-11-12T23:28:02.907Z info: Operacion realizada con exito
+2023-11-12T23:28:03.486Z info: Operacion realizada con exito
+2023-11-12T23:28:03.679Z info: Operacion realizada con exito
+2023-11-12T23:28:06.381Z info: Received a GET request for /api/categorias
+2023-11-12T23:28:06.383Z info: Received a GET request for /api/filtros/search?nombre=camisa&categoriaId=&precioMin=&precioMax=&page=1
+2023-11-12T23:28:06.568Z info: Operacion realizada con exito
+2023-11-12T23:29:18.100Z info: Received a GET request for /api/categorias
+2023-11-12T23:29:18.109Z info: Received a GET request for /api/categorias
+2023-11-12T23:29:18.315Z info: Operacion realizada con exito
+2023-11-12T23:29:18.506Z info: Operacion realizada con exito
+2023-11-12T23:29:40.361Z info: Received a OPTIONS request for /api/productos
+2023-11-12T23:29:40.416Z info: Received a POST request for /api/productos
+2023-11-12T23:29:42.178Z error: Cannot read properties of undefined (reading 'files')
+2023-11-12T23:31:12.580Z info: Received a GET request for /api/categorias
+2023-11-12T23:31:14.212Z info: Operacion realizada con exito
+2023-11-12T23:31:41.309Z info: Received a GET request for /api/categorias
+2023-11-12T23:31:43.044Z info: Operacion realizada con exito
+2023-11-12T23:31:55.352Z info: Received a GET request for /api/categorias
+2023-11-12T23:31:55.368Z info: Received a GET request for /api/categorias
+2023-11-12T23:31:56.887Z info: Operacion realizada con exito
+2023-11-12T23:31:56.899Z info: Operacion realizada con exito
+2023-11-12T23:32:11.407Z info: Received a GET request for /api/categorias
+2023-11-12T23:32:12.978Z info: Operacion realizada con exito
+2023-11-12T23:32:38.451Z info: Received a OPTIONS request for /api/productos
+2023-11-12T23:32:38.506Z info: Received a POST request for /api/productos
+2023-11-12T23:32:40.252Z error: Cannot read properties of undefined (reading 'files')
+2023-11-12T23:33:42.458Z info: Received a GET request for /api/categorias
+2023-11-12T23:33:44.069Z info: Operacion realizada con exito
+2023-11-12T23:34:06.960Z info: Received a OPTIONS request for /api/productos
+2023-11-12T23:34:06.992Z info: Received a POST request for /api/productos
+2023-11-12T23:34:08.711Z error: Cannot read properties of undefined (reading 'files')
+2023-11-12T23:39:48.120Z info: Received a GET request for /api/categorias
+2023-11-12T23:39:48.123Z info: Received a GET request for /api/categorias
+2023-11-12T23:39:49.946Z info: Operacion realizada con exito
+2023-11-12T23:39:50.138Z info: Operacion realizada con exito
+2023-11-12T23:40:12.393Z info: Received a OPTIONS request for /api/productos
+2023-11-12T23:40:12.421Z info: Received a POST request for /api/productos
+2023-11-12T23:40:14.205Z error: Cannot read properties of undefined (reading 'files')
+2023-11-12T23:49:20.324Z info: Received a OPTIONS request for /api/productos
+2023-11-12T23:49:20.428Z info: Received a POST request for /api/productos
+2023-11-12T23:49:22.194Z error: Cannot read properties of undefined (reading 'files')
+2023-11-12T23:52:23.250Z info: Received a GET request for /api/categorias
+2023-11-12T23:52:24.847Z info: Operacion realizada con exito
+2023-11-12T23:53:29.148Z info: Received a GET request for /api/categorias
+2023-11-12T23:53:31.105Z info: Operacion realizada con exito
+2023-11-12T23:54:02.801Z info: Received a GET request for /api/categorias
+2023-11-12T23:54:04.366Z info: Operacion realizada con exito
+2023-11-12T23:54:04.990Z info: Received a GET request for /api/categorias
+2023-11-12T23:54:05.185Z info: Operacion realizada con exito
+2023-11-12T23:55:25.528Z info: Received a GET request for /api/categorias
+2023-11-12T23:55:25.540Z info: Received a GET request for /api/categorias
+2023-11-12T23:55:27.056Z info: Operacion realizada con exito
+2023-11-12T23:55:27.066Z info: Operacion realizada con exito
+2023-11-12T23:55:45.980Z info: Received a OPTIONS request for /api/productos
+2023-11-12T23:55:46.015Z info: Received a POST request for /api/productos
+2023-11-12T23:55:47.803Z error: Cannot read properties of undefined (reading 'files')
+2023-11-13T00:51:23.828Z info: Received a GET request for /api/categorias
+2023-11-13T00:51:23.865Z info: Received a GET request for /api/filtros/search?nombre=camisa&categoriaId=&precioMin=&precioMax=&page=1
+2023-11-13T00:51:23.879Z info: Received a GET request for /api/categorias
+2023-11-13T00:51:23.887Z info: Received a GET request for /api/filtros/search?nombre=camisa&categoriaId=&precioMin=&precioMax=&page=1
+2023-11-13T00:51:25.795Z info: Operacion realizada con exito
+2023-11-13T00:51:25.812Z info: Operacion realizada con exito
+2023-11-13T00:56:17.470Z info: Received a GET request for /api/productos/77
+2023-11-13T00:56:17.499Z info: Received a GET request for /api/productos/77
+2023-11-13T00:56:19.286Z info: Operacion realizada con exito
+2023-11-13T00:56:19.292Z info: Operacion realizada con exito
+2023-11-13T01:10:06.035Z info: Received a GET request for /api/productos/77
+2023-11-13T01:10:07.614Z info: Operacion realizada con exito
+2023-11-13T01:10:53.483Z info: Received a GET request for /api/categorias
+2023-11-13T01:10:53.492Z info: Received a GET request for /api/categorias
+2023-11-13T01:10:55.012Z info: Operacion realizada con exito
+2023-11-13T01:10:55.045Z info: Operacion realizada con exito
+2023-11-13T01:11:32.671Z info: Received a POST request for /api/productos
+2023-11-13T01:11:34.506Z info: Operacion realizada con exito
+2023-11-13T01:11:42.943Z info: Received a GET request for /api/productos/77
+2023-11-13T01:11:42.966Z info: Received a GET request for /api/productos/77
+2023-11-13T01:11:43.135Z info: Operacion realizada con exito
+2023-11-13T01:11:43.320Z info: Operacion realizada con exito
+2023-11-13T01:11:47.640Z info: Received a GET request for /api/categorias
+2023-11-13T01:11:47.646Z info: Received a GET request for /api/productos?page=1
+2023-11-13T01:11:47.652Z info: Received a GET request for /api/categorias
+2023-11-13T01:11:47.654Z info: Received a GET request for /api/productos?page=1
+2023-11-13T01:11:47.832Z info: Operacion realizada con exito
+2023-11-13T01:11:48.023Z info: Operacion realizada con exito
+2023-11-13T01:11:48.215Z info: Operacion realizada con exito
+2023-11-13T01:11:48.246Z info: Operacion realizada con exito
+2023-11-13T01:11:50.607Z info: Received a GET request for /api/categorias
+2023-11-13T01:11:50.613Z info: Received a GET request for /api/filtros/search?nombre=panalon&categoriaId=&precioMin=&precioMax=&page=1
+2023-11-13T01:11:50.801Z info: Operacion realizada con exito
+2023-11-13T01:11:54.694Z info: Received a GET request for /api/categorias
+2023-11-13T01:11:54.698Z info: Received a GET request for /api/filtros/search?nombre=pantalon&categoriaId=&precioMin=&precioMax=&page=1
+2023-11-13T01:11:54.885Z info: Operacion realizada con exito
+2023-11-13T01:14:21.720Z info: Received a GET request for /api/categorias
+2023-11-13T01:14:21.723Z info: Received a GET request for /api/filtros/search?nombre=pantalon&categoriaId=&precioMin=&precioMax=&page=1
+2023-11-13T01:14:21.738Z info: Received a GET request for /api/categorias
+2023-11-13T01:14:21.752Z info: Received a GET request for /api/filtros/search?nombre=pantalon&categoriaId=&precioMin=&precioMax=&page=1
+2023-11-13T01:14:23.469Z info: Operacion realizada con exito
+2023-11-13T01:14:23.478Z info: Operacion realizada con exito
+2023-11-13T01:14:32.171Z info: Received a GET request for /api/categorias
+2023-11-13T01:14:32.192Z info: Received a GET request for /api/productos?page=1
+2023-11-13T01:14:32.291Z info: Received a GET request for /api/categorias
+2023-11-13T01:14:32.295Z info: Received a GET request for /api/productos?page=1
+2023-11-13T01:14:32.363Z info: Operacion realizada con exito
+2023-11-13T01:14:32.478Z info: Operacion realizada con exito
+2023-11-13T01:14:32.577Z info: Operacion realizada con exito
+2023-11-13T01:14:32.673Z info: Operacion realizada con exito
+2023-11-13T01:15:55.115Z info: Received a GET request for /api/categorias
+2023-11-13T01:15:55.117Z info: Received a GET request for /api/categorias
+2023-11-13T01:15:56.650Z info: Operacion realizada con exito
+2023-11-13T01:15:56.660Z info: Operacion realizada con exito
+2023-11-13T01:17:51.568Z info: Received a POST request for /api/productos
+2023-11-13T01:17:54.463Z info: Operacion realizada con exito
+2023-11-13T01:19:16.675Z info: Received a POST request for /api/productos
+2023-11-13T01:19:18.520Z error: Cannot convert object to primitive value
+2023-11-13T01:20:50.183Z info: Received a POST request for /api/productos
+2023-11-13T01:20:51.988Z info: Operacion realizada con exito
+2023-11-13T01:21:42.305Z info: Received a GET request for /api/categorias
+2023-11-13T01:21:42.308Z info: Received a GET request for /api/filtros/search?nombre=negra&categoriaId=&precioMin=&precioMax=&page=1
+2023-11-13T01:21:43.915Z info: Operacion realizada con exito
+2023-11-13T01:21:49.520Z info: Received a GET request for /api/productos/87
+2023-11-13T01:21:49.551Z info: Received a GET request for /api/productos/87
+2023-11-13T01:21:49.734Z info: Operacion realizada con exito
+2023-11-13T01:21:49.785Z info: Operacion realizada con exito
+2023-11-13T01:21:52.254Z info: Received a GET request for /api/categorias
+2023-11-13T01:21:52.262Z info: Received a GET request for /api/filtros/search?nombre=negra&categoriaId=&precioMin=&precioMax=&page=1
+2023-11-13T01:21:52.283Z info: Received a GET request for /api/categorias
+2023-11-13T01:21:52.291Z info: Received a GET request for /api/filtros/search?nombre=negra&categoriaId=&precioMin=&precioMax=&page=1
+2023-11-13T01:21:52.448Z info: Operacion realizada con exito
+2023-11-13T01:21:52.635Z info: Operacion realizada con exito
+2023-11-13T01:41:18.109Z info: Received a GET request for /api/categorias
+2023-11-13T01:41:18.129Z info: Received a GET request for /api/filtros/search?nombre=negra&categoriaId=&precioMin=&precioMax=&page=1
+2023-11-13T01:41:18.162Z info: Received a GET request for /api/categorias
+2023-11-13T01:41:18.168Z info: Received a GET request for /api/filtros/search?nombre=negra&categoriaId=&precioMin=&precioMax=&page=1
+2023-11-13T01:41:23.057Z info: Operacion realizada con exito
+2023-11-13T01:41:23.059Z info: Operacion realizada con exito
+2023-11-13T02:19:05.082Z info: Received a POST request for /api/productos
+2023-11-13T02:19:07.349Z info: Operacion realizada con exito
+2023-11-13T02:20:31.194Z info: Received a POST request for /api/productos
+2023-11-13T02:20:31.652Z error: imgProduct.forEach is not a function
+2023-11-13T02:22:08.403Z info: Received a POST request for /api/productos
+2023-11-13T02:22:08.853Z error: imgProduct.forEach is not a function
+2023-11-13T02:23:56.436Z info: Received a POST request for /api/productos
+2023-11-13T02:24:01.108Z error: img_productos.Create is not a function
