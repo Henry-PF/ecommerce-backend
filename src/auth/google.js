@@ -18,18 +18,20 @@ passport.use(
             passReqToCallback: true,
         },
         async (request, accessToken, refreshToken, profile, done) => {
-
-            const userExist = await usuarios.findOne({
-                include: [{ model: personas }],
-                where: {
-                    googleId: {
-                        [Op.eq]: profile.id
+            try {
+                const userExist = await usuarios.findOne({
+                    include: [{ model: personas }],
+                    where: {
+                        googleId: {
+                            [Op.eq]: profile.id
+                        }
                     }
-                }
-            });
+                });
 
-            if (!userExist) {
-                console.log(profile)
+                if (userExist) {
+                    return done(null, userExist);
+                }
+
                 const defaultUser = {
                     nombre: profile.name.givenName,
                     apellido: profile.name.familyName,
@@ -39,27 +41,25 @@ passport.use(
                     direccion: '',
                 };
 
-                let userData = await personas.create(defaultUser);
-
+                const userData = await personas.create(defaultUser);
                 const password = securePassword.randomPassword({ length: 12, characters: securePassword.lower + securePassword.upper + securePassword.digits });
-
-                // Crear un hash de la contraseña
                 const hash = await bcrypt.hash(password, 10);
 
-                if (userData) {
-                    const newGoogleUser = await usuarios.create({
-                        include: [{ model: personas }],
-                        usuario: profile.displayName,
-                        password: hash,
-                        googleId: profile.id,
-                        id_datos: userData.id,
-                        id_statud: "1",
-                        type: "usuario"
-                    })
-                    done(null, newGoogleUser)
-                }
+                const newGoogleUser = await usuarios.create({
+                    include: [{ model: personas }],
+                    usuario: profile.displayName,
+                    password: hash,
+                    googleId: profile.id,
+                    id_datos: userData.id,
+                    id_statud: "1",
+                    type: "usuario"
+                });
+
+                return done(null, newGoogleUser);
+            } catch (error) {
+                console.error(error);
+                return done(error);
             }
-            done(null, userExist)
         }
     )
 );
