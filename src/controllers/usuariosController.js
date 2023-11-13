@@ -18,8 +18,7 @@ exports.create = async (data) => {
                 correo: dta.correo,
                 dni: dta.dni,
                 direccion: dta.direccion,
-                telefono: dta.telefono,
-                googleId: dta.googleId
+                telefono: dta.telefono
             }
             let hashF = await bcrypt.hash(password, 10).then(hash => {
                 return hash;
@@ -29,6 +28,7 @@ exports.create = async (data) => {
                 password: hashF,
                 id_statud: "1",
                 type: "usuario",
+                googleId: dta.googleId
             }
             //Verficacion si los datos de la persona ya existe
             const personaExiste = await personas.findOne({ where: { correo: { [Op.eq]: dtaPersona.correo } } })

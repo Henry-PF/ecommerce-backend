@@ -1,10 +1,10 @@
-const {categoria} = require("../db");
+const {statud} = require("../db");
 const { Op } = require("sequelize");
 const { logger } = require("../components/logger");
 exports.getAll= async ()=>{
     let result = {};
     try {
-        let operation = await categoria.findAll({attributes:{exclude:['createdAt', 'updatedAt']}});
+        let operation = await statud.findAll({attributes:{exclude:['createdAt', 'updatedAt']}});
         if(operation){
             result = {
                 data: operation,
@@ -27,7 +27,7 @@ exports.getAll= async ()=>{
 exports.getOne= async (data)=>{
     let result = {};
     try {
-        let operation = await categoria.findOne({
+        let operation = await statud.findOne({
             attributes:{exclude:['createdAt', 'updatedAt']},
             where: {id:{[Op.eq]:data.id}}
         });
@@ -53,7 +53,7 @@ exports.getOne= async (data)=>{
 exports.Delete= async (data)=>{
     let result = {};
     try {
-        let operation = await categoria.Update({id_statud:2},{where: {id:{[Op.eq]:data.id}}});
+        let operation = await statud.Update({id_statud:2},{where: {id:{[Op.eq]:data.id}}});
         if(operation){
             result = {
                 data: operation,
@@ -76,7 +76,7 @@ exports.Delete= async (data)=>{
 exports.Update= async (data)=>{
     let result = {};
     try {
-        let operation = await categoria.Update(data.data,{where: {id:{[Op.eq]:data.id}}});
+        let operation = await statud.Update(data.data,{where: {id:{[Op.eq]:data.id}}});
         if(operation){
             result = {
                 data: operation,
@@ -99,7 +99,7 @@ exports.Update= async (data)=>{
 exports.Create= async (data)=>{
     let result = {};
     try {
-        let operation = await categoria.create(data);
+        let operation = await statud.create(data);
         if(operation){
             result = {
                 data: operation,
