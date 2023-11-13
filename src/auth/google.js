@@ -4,10 +4,10 @@ const { usuarios, personas } = require('../db');
 const securePassword = require('secure-random-password');
 const bcrypt = require("bcrypt");
 const { Op } = require('sequelize');
-
-const GOOGLE_CALLBACK_URL = 'http://localhost:3002/api/auth/callback';
 const process = require("process");
 const env = process.env;
+
+const GOOGLE_CALLBACK_URL = 'https://backend-dev-jnpc.1.us-1.fl0.io/api/auth/callback';
 
 passport.use(
     new GoogleStrategy(
