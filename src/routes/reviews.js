@@ -14,7 +14,7 @@ router.delete("/", deleteReviews)
 
 //createMockUser
 router.get("/mock", async function (req, res) {
-    await require('../db').usuarios.create({ usuario: "unUsuario", password: "Aezakmi11", type: "Algo" })
+    await require('../db').usuarios.create({ usuario: "unUsuario", password: "Aezakmi11", type: "Algo", googleId: "asohfdoahfdoj" })
     return res.json("Created MockUser")
 })
 module.exports = router
