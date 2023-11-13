@@ -7,11 +7,13 @@ exports.buscarProductos = async (datos, productsPerPage = 10) => {
     try {
         const { nombre, categoriaId, precioMin, precioMax } = datos;
 
-        const filtro = {
-            nombre: {
+        const filtro = {};
+
+        if (nombre) {
+            filtro.nombre = {
                 [Op.iLike]: `%${nombre}%`,
-            },
-        };
+            };
+        }
 
         if (categoriaId) {
             const categoriasIds = categoriaId.split(',').map(id => parseInt(id, 10));
@@ -19,20 +21,20 @@ exports.buscarProductos = async (datos, productsPerPage = 10) => {
                 [Op.in]: categoriasIds,
             };
         }
-
-        if (precioMin && precioMax) {
+        if (!isNaN(parseFloat(precioMin)) && !isNaN(parseFloat(precioMax))) {
             filtro.precio = {
-                [Op.between]: [precioMin, precioMax],
+                [Op.between]: [parseFloat(precioMin), parseFloat(precioMax)],
             };
-        } else if (precioMin) {
+        } else if (!isNaN(parseFloat(precioMin))) {
             filtro.precio = {
-                [Op.gte]: precioMin,
+                [Op.gte]: parseFloat(precioMin),
             };
-        } else if (precioMax) {
+        } else if (!isNaN(parseFloat(precioMax))) {
             filtro.precio = {
-                [Op.lte]: precioMax,
+                [Op.lte]: parseFloat(precioMax),
             };
         }
+
 
         const totalProductos = await producto.count({
             where: filtro,
