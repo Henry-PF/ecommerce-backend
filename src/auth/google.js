@@ -8,6 +8,7 @@ const { Op } = require('sequelize');
 const GOOGLE_CALLBACK_URL = 'http://localhost:3002/api/auth/callback';
 const process = require("process");
 const env = process.env;
+
 passport.use(
     new GoogleStrategy(
         {
@@ -34,10 +35,11 @@ passport.use(
                     apellido: profile.name.familyName,
                     correo: profile.emails[0].value,
                     dni: 0,
+                    telefono: 0,
                     direccion: '',
                 };
 
-                let userData = await datos.create(defaultUser);
+                let userData = await personas.create(defaultUser);
 
                 const password = securePassword.randomPassword({ length: 12, characters: securePassword.lower + securePassword.upper + securePassword.digits });
 
@@ -47,7 +49,7 @@ passport.use(
                 if (userData) {
                     const newGoogleUser = await usuarios.create({
                         include: [{ model: personas }],
-                        nick: profile.displayName,
+                        usuario: profile.displayName,
                         password: hash,
                         googleId: profile.id,
                         id_datos: userData.id,
