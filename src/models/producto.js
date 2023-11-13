@@ -10,34 +10,34 @@ module.exports = (sequelize, DataTypes) => {
      * The `models/index` file will call this method automatically.
      */
     static associate(models) {
-      this.belongsTo(models.statud,{ foreignKey: "id_statud"});
-      this.belongsTo(models.categoria,{ foreignKey: "id_categoria"});
-      this.hasMany(models.img_productos,{ foreignKey: "id_producto"});
-      this.hasMany(models.detalle_carrito,{ foreignKey: "id_producto"});
-      this.hasMany(models.favoritos_productos,{ foreignKey: "id_producto"});
+      this.belongsTo(models.statud, { foreignKey: "id_statud" });
+      this.belongsTo(models.categoria, { foreignKey: "id_categoria" });
+      this.hasMany(models.img_productos, { foreignKey: "id_producto" });
+      this.hasMany(models.detalle_carrito, { foreignKey: "id_producto" });
+      this.hasMany(models.favoritos_productos, { foreignKey: "id_producto" });
     }
   }
   producto.init({
-    id:{
+    id: {
       type: DataTypes.INTEGER,
       allowNull: false,
       primaryKey: true,
       autoIncrement: true,
       unique: true,
     },
-    nombre:  {
+    nombre: {
       type: DataTypes.STRING,
       allowNull: false,
     },
-    descripcion:  {
+    descripcion: {
       type: DataTypes.STRING,
       allowNull: false,
     },
-    precio:{
-      type: DataTypes.STRING,
+    precio: {
+      type: DataTypes.FLOAT,
       allowNull: false,
     },
-    stock:{
+    stock: {
       type: DataTypes.STRING,
       allowNull: false,
     },
