@@ -4,7 +4,7 @@ const passport = require("../auth/google");
 
 exports.loginGoogle = passport.authenticate('google', { scope: ['email', 'profile'] })
 exports.googleCallback = passport.authenticate('google', {
-    successRedirect: "http://localhost:5173",
+    successRedirect: "https://trendyweb.onrender.com",
     failureRedirect: "/login",
     passReqToCallback: true
 }), (req, res) => {
