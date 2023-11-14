@@ -13,16 +13,16 @@ exports.googleCallback = passport.authenticate('google', { failureRedirect: "/lo
 exports.login = async (req, res) => {
     let result = {};
     try {
-        if (req.body) {
-            result = await login(req.body);
-        } else {
-            result = { message: "Faltan campos" }
+        result = await login(req.body);
+        if (result) {
+            res.status(200).json(result);
         }
     } catch (error) {
-        logger.error(error.message);
-        res.status(500).json({ message: error.message, error: true });
+        console.log(error)
+        return res.status(500).json({ error: { message: "Error al intentar ingresar al sistema." } });
     }
 }
+
 exports.forgoPassword = async (req, res) => {
     let result = {};
     try {

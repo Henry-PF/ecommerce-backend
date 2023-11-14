@@ -8650,3 +8650,78 @@
 2023-11-14T19:06:51.307Z error: password is not defined
 2023-11-14T19:09:27.044Z info: Received a POST request for /api/usuarios
 2023-11-14T19:09:27.045Z error: password is not defined
+2023-11-14T19:15:16.592Z info: Received a POST request for /api/usuarios
+2023-11-14T19:15:18.749Z error: usuario is not defined
+2023-11-14T19:16:53.245Z info: Received a POST request for /api/usuarios
+2023-11-14T19:16:55.449Z error: usuario is not defined
+2023-11-14T19:21:50.844Z info: Received a POST request for /api/usuarios
+2023-11-14T19:21:52.939Z error: sendEmail is not a function
+2023-11-14T19:23:40.822Z info: Received a POST request for /api/usuarios
+2023-11-14T19:36:49.583Z info: Received a POST request for /api/auth/login
+2023-11-14T19:36:52.405Z info: Received a POST request for /api/auth/login
+2023-11-14T19:36:52.898Z info: Received a POST request for /api/auth/login
+2023-11-14T19:36:53.066Z info: Received a POST request for /api/auth/login
+2023-11-14T19:36:53.219Z info: Received a POST request for /api/auth/login
+2023-11-14T19:36:53.365Z info: Received a POST request for /api/auth/login
+2023-11-14T19:36:53.516Z info: Received a POST request for /api/auth/login
+2023-11-14T19:36:53.667Z info: Received a POST request for /api/auth/login
+2023-11-14T19:41:21.565Z info: Received a POST request for /api/auth/login
+2023-11-14T19:41:33.474Z info: Received a POST request for /api/auth/login
+2023-11-14T19:41:57.106Z info: Received a POST request for /api/auth/login
+2023-11-14T19:41:58.235Z info: Received a POST request for /api/auth/login
+2023-11-14T19:41:58.827Z info: Received a POST request for /api/auth/login
+2023-11-14T19:41:59.424Z info: Received a POST request for /api/auth/login
+2023-11-14T19:41:59.724Z info: Received a POST request for /api/auth/login
+2023-11-14T19:44:08.409Z info: Received a POST request for /api/auth/login
+2023-11-14T19:44:10.384Z info: Received a POST request for /api/auth/login
+2023-11-14T19:44:10.864Z info: Received a POST request for /api/auth/login
+2023-11-14T19:44:11.043Z info: Received a POST request for /api/auth/login
+2023-11-14T19:44:11.210Z info: Received a POST request for /api/auth/login
+2023-11-14T19:44:11.331Z info: Received a POST request for /api/auth/login
+2023-11-14T19:48:25.276Z info: Received a POST request for /api/auth/login
+2023-11-14T19:49:11.410Z info: Received a POST request for /api/auth/login
+2023-11-14T19:49:41.488Z info: Received a POST request for /api/auth/login
+2023-11-14T19:50:21.225Z info: Received a POST request for /api/auth/login
+2023-11-14T19:50:30.549Z info: Received a POST request for /api/auth/login
+2023-11-14T19:50:36.961Z info: Received a POST request for /api/auth/login
+2023-11-14T19:52:05.622Z info: Received a POST request for /api/auth/login
+2023-11-14T19:52:08.098Z info: Received a POST request for /api/auth/login
+2023-11-14T19:52:08.736Z info: Received a POST request for /api/auth/login
+2023-11-14T19:52:09.337Z info: Received a POST request for /api/auth/login
+2023-11-14T19:52:09.629Z info: Received a POST request for /api/auth/login
+2023-11-14T19:59:11.364Z info: Received a POST request for /api/auth/login
+2023-11-14T19:59:16.264Z info: Received a POST request for /api/auth/login
+2023-11-14T20:05:10.099Z info: Received a POST request for /api/auth/login
+2023-11-14T20:05:32.552Z info: Received a POST request for /api/auth/login
+2023-11-14T20:05:47.096Z info: Received a POST request for /api/auth/login
+2023-11-14T20:06:35.579Z info: Received a POST request for /api/auth/login
+2023-11-14T20:07:00.102Z info: Received a POST request for /api/auth/login
+2023-11-14T20:07:12.475Z info: Received a POST request for /api/auth/login
+2023-11-14T20:07:20.737Z info: Received a POST request for /api/auth/login
+2023-11-14T20:07:21.019Z error: Contraseña incorrecta
+2023-11-14T20:07:23.536Z info: Received a POST request for /api/auth/login
+2023-11-14T20:07:23.807Z error: Contraseña incorrecta
+2023-11-14T20:07:32.872Z info: Received a POST request for /api/auth/login
+2023-11-14T20:07:33.144Z error: Contraseña incorrecta
+2023-11-14T20:07:51.690Z info: Received a POST request for /api/auth/login
+2023-11-14T20:07:53.453Z error: Contraseña incorrecta
+2023-11-14T20:08:09.376Z info: Received a POST request for /api/auth/login
+2023-11-14T20:08:11.071Z error: Contraseña incorrecta
+2023-11-14T20:08:15.295Z info: Received a POST request for /api/auth/login
+2023-11-14T20:08:17.802Z info: Received a POST request for /api/auth/login
+2023-11-14T20:09:57.622Z info: Received a POST request for /api/auth/login
+2023-11-14T20:10:12.415Z info: Received a POST request for /api/auth/login
+2023-11-14T20:10:39.998Z info: Received a POST request for /api/auth/login
+2023-11-14T20:10:46.905Z info: Received a POST request for /api/auth/login
+2023-11-14T20:10:57.408Z info: Received a POST request for /api/auth/login
+2023-11-14T20:10:57.696Z error: Contraseña incorrecta
+2023-11-14T20:11:40.321Z info: Received a POST request for /api/auth/login
+2023-11-14T20:11:40.610Z error: Contraseña incorrecta
+2023-11-14T20:11:44.512Z info: Received a POST request for /api/auth/login
+2023-11-14T20:12:19.977Z info: Received a POST request for /api/auth/login
+2023-11-14T20:12:28.074Z info: Received a POST request for /api/auth/login
+2023-11-14T20:12:28.363Z error: Contraseña incorrecta
+2023-11-14T20:13:30.587Z info: Received a POST request for /api/auth/login
+2023-11-14T20:13:32.251Z error: Contraseña incorrecta
+2023-11-14T20:14:32.383Z info: Received a POST request for /api/auth/login
+2023-11-14T20:14:34.136Z error: Contraseña incorrecta
