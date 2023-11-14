@@ -1,28 +1,26 @@
 const { Router } = require("express");
 const router = Router();
 const { login, forgoPassword, register, loginGoogle, googleCallback } = require("../handlers/authHandler");
+const passport = require("passport");
+const jwt = require('jsonwebtoken');
+const process = require("process");
+const env = process.env;
 
 router.get('/google', loginGoogle);
-router.get('/callback', googleCallback);
+
+router.get('/callback', passport.authenticate('google', { failureRedirect: '/login' }),
+    function (req, res) {
+        const user = req.user;
+        const token = jwt.sign({ user: req.user }, env.SECRECT_TOKEN, {
+            expiresIn: "1h",
+        });
+        res.cookie('token', token);
+        res.cookie('user', JSON.stringify(user));
+        res.redirect('http://localhost:5173');
+    }
+);
 router.post('/login', login);
 router.post('/forgoPassword', forgoPassword);
 router.post('/register', register);
-
-router.get('/user', (req, res) => {
-    try {
-        if (req.user) {
-            console.log('Usuario autenticado:', req.user);
-            res.json({
-                user: req.user,
-                success: true,
-                message: 'successfull',
-            });
-        }
-    } catch (error) {
-        console.error('Error en la ruta /user:', error);
-        res.status(500).json({ error: 'Error interno del servidor' });
-    }
-});
-
 
 module.exports = router;

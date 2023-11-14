@@ -8181,1068 +8181,472 @@
 2023-11-13T13:32:57.783Z info: Received a GET request for /api/productos?page=1
 2023-11-13T13:32:59.375Z info: Operacion realizada con exito
 2023-11-13T13:32:59.571Z info: Operacion realizada con exito
-2023-11-13T13:58:15.918Z info: Received a GET request for /api/productos/66
-2023-11-13T13:58:15.974Z info: Received a GET request for /api/productos/66
-2023-11-13T13:58:17.630Z info: Operacion realizada con exito
-2023-11-13T13:58:17.649Z info: Operacion realizada con exito
-2023-11-13T13:58:22.629Z info: Received a GET request for /api/categorias
-2023-11-13T13:58:22.633Z info: Received a GET request for /api/categorias
-2023-11-13T13:58:22.819Z info: Operacion realizada con exito
-2023-11-13T13:58:22.822Z info: Operacion realizada con exito
-2023-11-13T13:58:25.352Z info: Received a GET request for /api/categorias
-2023-11-13T13:58:25.354Z info: Received a GET request for /api/productos?page=1
-2023-11-13T13:58:25.360Z info: Received a GET request for /api/categorias
-2023-11-13T13:58:25.362Z info: Received a GET request for /api/productos?page=1
-2023-11-13T13:58:25.538Z info: Operacion realizada con exito
-2023-11-13T13:58:25.730Z info: Operacion realizada con exito
-2023-11-13T13:58:25.917Z info: Operacion realizada con exito
-2023-11-13T13:58:25.931Z info: Operacion realizada con exito
-2023-11-13T13:58:32.036Z info: Received a GET request for /api/categorias
-2023-11-13T13:58:32.040Z info: Received a GET request for /api/productos?page=2
-2023-11-13T13:58:32.224Z info: Operacion realizada con exito
-2023-11-13T13:58:32.422Z info: Operacion realizada con exito
-2023-11-13T13:58:38.163Z info: Received a GET request for /api/categorias
-2023-11-13T13:58:38.167Z info: Received a GET request for /api/productos?page=3
-2023-11-13T13:58:38.350Z info: Operacion realizada con exito
-2023-11-13T13:58:38.545Z info: Operacion realizada con exito
-2023-11-13T13:58:43.248Z info: Received a GET request for /api/categorias
-2023-11-13T13:58:43.249Z info: Received a GET request for /api/productos?page=4
-2023-11-13T13:58:43.435Z info: Operacion realizada con exito
-2023-11-13T13:58:43.628Z info: Operacion realizada con exito
-2023-11-13T13:58:49.358Z info: Received a GET request for /api/categorias
-2023-11-13T13:58:49.359Z info: Received a GET request for /api/productos?page=5
-2023-11-13T13:58:49.547Z info: Operacion realizada con exito
-2023-11-13T13:58:49.732Z info: Operacion realizada con exito
-2023-11-13T13:59:12.732Z info: Received a GET request for /api/categorias
-2023-11-13T13:59:12.734Z info: Received a GET request for /api/filtros/search?nombre=&categoriaId=12&precioMin=&precioMax=&page=5
-2023-11-13T13:59:14.261Z info: Operacion realizada con exito
-2023-11-13T13:59:15.892Z info: Received a GET request for /api/categorias
-2023-11-13T13:59:15.897Z info: Received a GET request for /api/productos?page=5
-2023-11-13T13:59:16.081Z info: Operacion realizada con exito
-2023-11-13T13:59:16.275Z info: Operacion realizada con exito
-2023-11-13T13:59:17.586Z info: Received a GET request for /api/categorias
-2023-11-13T13:59:17.588Z info: Received a GET request for /api/filtros/search?nombre=&categoriaId=2&precioMin=&precioMax=&page=5
-2023-11-13T13:59:17.774Z info: Operacion realizada con exito
-2023-11-13T13:59:23.065Z info: Received a GET request for /api/categorias
-2023-11-13T13:59:23.067Z info: Received a GET request for /api/filtros/search?nombre=&categoriaId=2&precioMin=&precioMax=&page=1
-2023-11-13T13:59:23.252Z info: Operacion realizada con exito
-2023-11-13T13:59:25.555Z info: Received a GET request for /api/categorias
-2023-11-13T13:59:25.556Z info: Received a GET request for /api/productos?page=1
-2023-11-13T13:59:25.744Z info: Operacion realizada con exito
-2023-11-13T13:59:25.941Z info: Operacion realizada con exito
-2023-11-13T14:01:36.264Z info: Received a GET request for /api/categorias
-2023-11-13T14:01:36.269Z info: Received a GET request for /api/productos?page=1
-2023-11-13T14:01:36.271Z info: Received a GET request for /api/categorias
-2023-11-13T14:01:36.277Z info: Received a GET request for /api/productos?page=1
-2023-11-13T14:01:37.886Z info: Operacion realizada con exito
-2023-11-13T14:01:37.901Z info: Operacion realizada con exito
-2023-11-13T14:01:38.087Z info: Operacion realizada con exito
-2023-11-13T14:01:38.101Z info: Operacion realizada con exito
-2023-11-13T14:07:22.812Z info: Received a GET request for /api/productos/57
-2023-11-13T14:07:22.816Z info: Received a GET request for /api/productos/57
-2023-11-13T14:07:24.383Z info: Operacion realizada con exito
-2023-11-13T14:07:24.407Z info: Operacion realizada con exito
-2023-11-13T14:08:17.931Z info: Received a GET request for /api/productos/57
-2023-11-13T14:08:17.936Z info: Received a GET request for /api/productos/57
-2023-11-13T14:08:19.469Z info: Operacion realizada con exito
-2023-11-13T14:08:19.493Z info: Operacion realizada con exito
-2023-11-13T14:08:22.429Z info: Received a GET request for /api/categorias
-2023-11-13T14:08:22.431Z info: Received a GET request for /api/productos?page=1
-2023-11-13T14:08:22.434Z info: Received a GET request for /api/categorias
-2023-11-13T14:08:22.441Z info: Received a GET request for /api/productos?page=1
-2023-11-13T14:08:22.625Z info: Operacion realizada con exito
-2023-11-13T14:08:22.810Z info: Operacion realizada con exito
-2023-11-13T14:08:22.999Z info: Operacion realizada con exito
-2023-11-13T14:08:23.012Z info: Operacion realizada con exito
-2023-11-13T14:08:26.689Z info: Received a GET request for /api/productos/56
-2023-11-13T14:08:26.696Z info: Received a GET request for /api/productos/56
-2023-11-13T14:08:26.876Z info: Operacion realizada con exito
-2023-11-13T14:08:26.888Z info: Operacion realizada con exito
-2023-11-13T14:09:19.802Z info: Received a GET request for /api/productos/56
-2023-11-13T14:09:19.804Z info: Received a GET request for /api/productos/56
-2023-11-13T14:09:21.369Z info: Operacion realizada con exito
-2023-11-13T14:09:21.403Z info: Operacion realizada con exito
-2023-11-13T14:09:24.023Z info: Received a GET request for /api/categorias
-2023-11-13T14:09:24.035Z info: Received a GET request for /api/productos?page=1
-2023-11-13T14:09:24.037Z info: Received a GET request for /api/categorias
-2023-11-13T14:09:24.038Z info: Received a GET request for /api/productos?page=1
-2023-11-13T14:09:24.215Z info: Operacion realizada con exito
-2023-11-13T14:09:24.400Z info: Operacion realizada con exito
-2023-11-13T14:09:24.586Z info: Operacion realizada con exito
-2023-11-13T14:09:24.598Z info: Operacion realizada con exito
-2023-11-13T14:09:28.558Z info: Received a GET request for /api/categorias
-2023-11-13T14:09:28.561Z info: Received a GET request for /api/productos?page=2
-2023-11-13T14:09:28.749Z info: Operacion realizada con exito
-2023-11-13T14:09:28.938Z info: Operacion realizada con exito
-2023-11-13T14:09:36.639Z info: Received a GET request for /api/productos/68
-2023-11-13T14:09:36.643Z info: Received a GET request for /api/productos/68
-2023-11-13T14:09:36.828Z info: Operacion realizada con exito
-2023-11-13T14:09:36.838Z info: Operacion realizada con exito
-2023-11-13T14:10:49.802Z info: Received a GET request for /api/productos/68
-2023-11-13T14:10:49.804Z info: Received a GET request for /api/productos/68
-2023-11-13T14:10:51.371Z info: Operacion realizada con exito
-2023-11-13T14:10:51.445Z info: Operacion realizada con exito
-2023-11-13T14:10:55.316Z info: Received a GET request for /api/categorias
-2023-11-13T14:10:55.317Z info: Received a GET request for /api/productos?page=1
-2023-11-13T14:10:55.322Z info: Received a GET request for /api/categorias
-2023-11-13T14:10:55.325Z info: Received a GET request for /api/productos?page=1
-2023-11-13T14:10:55.512Z info: Operacion realizada con exito
-2023-11-13T14:10:55.689Z info: Operacion realizada con exito
-2023-11-13T14:10:55.875Z info: Operacion realizada con exito
-2023-11-13T14:10:55.908Z info: Operacion realizada con exito
-2023-11-13T14:11:04.568Z info: Received a GET request for /api/categorias
-2023-11-13T14:11:04.569Z info: Received a GET request for /api/productos?page=2
-2023-11-13T14:11:04.756Z info: Operacion realizada con exito
-2023-11-13T14:11:04.948Z info: Operacion realizada con exito
-2023-11-13T14:11:12.189Z info: Received a GET request for /api/productos/67
-2023-11-13T14:11:12.193Z info: Received a GET request for /api/productos/67
-2023-11-13T14:11:12.377Z info: Operacion realizada con exito
-2023-11-13T14:11:12.388Z info: Operacion realizada con exito
-2023-11-13T14:11:53.969Z info: Received a GET request for /api/productos/67
-2023-11-13T14:11:53.975Z info: Received a GET request for /api/productos/67
-2023-11-13T14:11:55.572Z info: Operacion realizada con exito
-2023-11-13T14:11:55.579Z info: Operacion realizada con exito
-2023-11-13T14:12:04.611Z info: Received a GET request for /api/categorias
-2023-11-13T14:12:04.613Z info: Received a GET request for /api/productos?page=1
-2023-11-13T14:12:04.617Z info: Received a GET request for /api/categorias
-2023-11-13T14:12:04.619Z info: Received a GET request for /api/productos?page=1
-2023-11-13T14:12:04.799Z info: Operacion realizada con exito
-2023-11-13T14:12:04.986Z info: Operacion realizada con exito
-2023-11-13T14:12:05.174Z info: Operacion realizada con exito
-2023-11-13T14:12:05.183Z info: Operacion realizada con exito
-2023-11-13T14:12:12.353Z info: Received a GET request for /api/categorias
-2023-11-13T14:12:12.354Z info: Received a GET request for /api/filtros/search?nombre=&categoriaId=11&precioMin=&precioMax=&page=1
-2023-11-13T14:12:12.549Z info: Operacion realizada con exito
-2023-11-13T14:12:14.345Z info: Received a GET request for /api/categorias
-2023-11-13T14:12:14.346Z info: Received a GET request for /api/productos?page=1
-2023-11-13T14:12:14.531Z info: Operacion realizada con exito
-2023-11-13T14:12:14.733Z info: Operacion realizada con exito
-2023-11-13T14:12:19.727Z info: Received a GET request for /api/categorias
-2023-11-13T14:12:19.730Z info: Received a GET request for /api/filtros/search?nombre=&categoriaId=6&precioMin=&precioMax=&page=1
-2023-11-13T14:12:19.917Z info: Operacion realizada con exito
-2023-11-13T14:12:21.840Z info: Received a GET request for /api/categorias
-2023-11-13T14:12:21.842Z info: Received a GET request for /api/productos?page=1
-2023-11-13T14:12:22.027Z info: Operacion realizada con exito
-2023-11-13T14:12:22.227Z info: Operacion realizada con exito
-2023-11-13T14:12:29.143Z info: Received a GET request for /api/productos/57
-2023-11-13T14:12:29.147Z info: Received a GET request for /api/productos/57
-2023-11-13T14:12:29.335Z info: Operacion realizada con exito
-2023-11-13T14:12:29.339Z info: Operacion realizada con exito
-2023-11-13T14:13:06.812Z info: Received a GET request for /api/productos/55
-2023-11-13T14:13:06.817Z info: Received a GET request for /api/productos/55
-2023-11-13T14:13:08.550Z info: Operacion realizada con exito
-2023-11-13T14:13:08.560Z info: Operacion realizada con exito
-2023-11-13T14:14:15.842Z info: Received a GET request for /api/productos/55
-2023-11-13T14:14:15.903Z info: Received a GET request for /api/productos/55
-2023-11-13T14:14:17.422Z info: Operacion realizada con exito
-2023-11-13T14:14:17.445Z info: Operacion realizada con exito
-2023-11-13T14:14:42.522Z info: Received a GET request for /api/categorias
-2023-11-13T14:14:42.524Z info: Received a GET request for /api/productos?page=1
-2023-11-13T14:14:42.528Z info: Received a GET request for /api/categorias
-2023-11-13T14:14:42.532Z info: Received a GET request for /api/productos?page=1
-2023-11-13T14:14:44.053Z info: Operacion realizada con exito
-2023-11-13T14:14:44.092Z info: Operacion realizada con exito
-2023-11-13T14:14:44.272Z info: Operacion realizada con exito
-2023-11-13T14:14:44.289Z info: Operacion realizada con exito
-2023-11-13T14:14:53.500Z info: Received a GET request for /api/productos/58
-2023-11-13T14:14:53.505Z info: Received a GET request for /api/productos/58
-2023-11-13T14:14:53.694Z info: Operacion realizada con exito
-2023-11-13T14:14:53.697Z info: Operacion realizada con exito
-2023-11-13T14:29:10.892Z info: Received a GET request for /api/productos/58
-2023-11-13T14:29:10.895Z info: Received a GET request for /api/productos/58
-2023-11-13T14:29:12.451Z info: Operacion realizada con exito
-2023-11-13T14:29:12.506Z info: Operacion realizada con exito
-2023-11-13T14:29:22.397Z info: Received a GET request for /api/categorias
-2023-11-13T14:29:22.401Z info: Received a GET request for /api/productos?page=1
-2023-11-13T14:29:22.404Z info: Received a GET request for /api/categorias
-2023-11-13T14:29:22.408Z info: Received a GET request for /api/productos?page=1
-2023-11-13T14:29:22.595Z info: Operacion realizada con exito
-2023-11-13T14:29:22.783Z info: Operacion realizada con exito
-2023-11-13T14:29:22.968Z info: Operacion realizada con exito
-2023-11-13T14:29:22.990Z info: Operacion realizada con exito
-2023-11-13T14:29:28.846Z info: Received a GET request for /api/productos/55
-2023-11-13T14:29:28.851Z info: Received a GET request for /api/productos/55
-2023-11-13T14:29:29.040Z info: Operacion realizada con exito
-2023-11-13T14:29:29.042Z info: Operacion realizada con exito
-2023-11-13T14:29:55.497Z info: Received a GET request for /api/productos/55
-2023-11-13T14:29:55.558Z info: Received a GET request for /api/productos/55
-2023-11-13T14:29:57.015Z info: Operacion realizada con exito
-2023-11-13T14:29:57.053Z info: Operacion realizada con exito
-2023-11-13T14:30:04.707Z info: Received a GET request for /api/categorias
-2023-11-13T14:30:04.894Z info: Operacion realizada con exito
-2023-11-13T14:30:08.799Z info: Received a GET request for /api/productos/58
-2023-11-13T14:30:08.803Z info: Received a GET request for /api/productos/58
-2023-11-13T14:30:08.987Z info: Operacion realizada con exito
-2023-11-13T14:30:09.171Z info: Operacion realizada con exito
-2023-11-13T14:30:22.599Z info: Received a GET request for /api/categorias
-2023-11-13T14:30:22.602Z info: Received a GET request for /api/productos?page=1
-2023-11-13T14:30:22.604Z info: Received a GET request for /api/categorias
-2023-11-13T14:30:22.607Z info: Received a GET request for /api/productos?page=1
-2023-11-13T14:30:24.220Z info: Operacion realizada con exito
-2023-11-13T14:30:24.229Z info: Operacion realizada con exito
-2023-11-13T14:30:24.417Z info: Operacion realizada con exito
-2023-11-13T14:30:24.437Z info: Operacion realizada con exito
-2023-11-13T14:30:47.473Z info: Received a GET request for /api/productos/55
-2023-11-13T14:30:47.481Z info: Received a GET request for /api/productos/55
-2023-11-13T14:30:49.050Z info: Operacion realizada con exito
-2023-11-13T14:30:49.094Z info: Operacion realizada con exito
-2023-11-13T14:32:41.157Z info: Received a GET request for /api/productos/55
-2023-11-13T14:32:41.244Z info: Received a GET request for /api/productos/55
-2023-11-13T14:32:42.772Z info: Error al realizar su operacion
-2023-11-13T14:32:42.803Z info: Error al realizar su operacion
-2023-11-13T14:33:26.480Z info: Received a GET request for /api/productos/55
-2023-11-13T14:33:26.485Z info: Received a GET request for /api/productos/55
-2023-11-13T14:33:28.000Z info: Error al realizar su operacion
-2023-11-13T14:33:28.015Z info: Error al realizar su operacion
-2023-11-13T14:33:34.783Z info: Received a GET request for /api/productos/56
-2023-11-13T14:33:34.787Z info: Received a GET request for /api/productos/56
-2023-11-13T14:33:34.970Z info: Error al realizar su operacion
-2023-11-13T14:33:34.976Z info: Error al realizar su operacion
-2023-11-13T14:33:40.116Z info: Received a GET request for /api/categorias
-2023-11-13T14:33:40.122Z info: Received a GET request for /api/productos?page=1
-2023-11-13T14:33:40.126Z info: Received a GET request for /api/categorias
-2023-11-13T14:33:40.127Z info: Received a GET request for /api/productos?page=1
-2023-11-13T14:33:40.304Z info: Operacion realizada con exito
-2023-11-13T14:33:40.489Z info: Operacion realizada con exito
-2023-11-13T14:33:40.676Z info: Operacion realizada con exito
-2023-11-13T14:33:40.685Z info: Operacion realizada con exito
-2023-11-13T14:33:51.995Z info: Received a GET request for /api/productos/61
-2023-11-13T14:33:51.998Z info: Received a GET request for /api/productos/61
-2023-11-13T14:33:52.189Z info: Operacion realizada con exito
-2023-11-13T14:33:52.191Z info: Operacion realizada con exito
-2023-11-13T14:34:44.096Z info: Received a GET request for /api/productos/61
-2023-11-13T14:34:44.098Z info: Received a GET request for /api/productos/61
-2023-11-13T14:34:45.691Z info: Operacion realizada con exito
-2023-11-13T14:34:45.703Z info: Operacion realizada con exito
-2023-11-13T14:34:47.082Z info: Received a GET request for /api/categorias
-2023-11-13T14:34:47.085Z info: Received a GET request for /api/productos?page=1
-2023-11-13T14:34:47.089Z info: Received a GET request for /api/categorias
-2023-11-13T14:34:47.095Z info: Received a GET request for /api/productos?page=1
-2023-11-13T14:34:47.269Z info: Operacion realizada con exito
-2023-11-13T14:34:47.456Z info: Operacion realizada con exito
-2023-11-13T14:34:47.643Z info: Operacion realizada con exito
-2023-11-13T14:34:47.650Z info: Operacion realizada con exito
-2023-11-13T14:34:57.211Z info: Received a GET request for /api/productos/69
-2023-11-13T14:34:57.214Z info: Received a GET request for /api/productos/69
-2023-11-13T14:34:57.399Z info: Operacion realizada con exito
-2023-11-13T14:34:57.408Z info: Operacion realizada con exito
-2023-11-13T14:35:10.545Z info: Received a GET request for /api/productos/69
-2023-11-13T14:35:10.547Z info: Received a GET request for /api/productos/69
-2023-11-13T14:35:12.079Z info: Operacion realizada con exito
-2023-11-13T14:35:12.105Z info: Operacion realizada con exito
-2023-11-13T14:35:13.768Z info: Received a GET request for /api/categorias
-2023-11-13T14:35:13.772Z info: Received a GET request for /api/productos?page=1
-2023-11-13T14:35:13.780Z info: Received a GET request for /api/categorias
-2023-11-13T14:35:13.783Z info: Received a GET request for /api/productos?page=1
-2023-11-13T14:35:13.955Z info: Operacion realizada con exito
-2023-11-13T14:35:14.141Z info: Operacion realizada con exito
-2023-11-13T14:35:14.329Z info: Operacion realizada con exito
-2023-11-13T14:35:14.345Z info: Operacion realizada con exito
-2023-11-13T14:35:17.625Z info: Received a GET request for /api/productos/70
-2023-11-13T14:35:17.628Z info: Received a GET request for /api/productos/70
-2023-11-13T14:35:17.814Z info: Operacion realizada con exito
-2023-11-13T14:35:17.822Z info: Operacion realizada con exito
-2023-11-13T14:35:20.346Z info: Received a GET request for /api/categorias
-2023-11-13T14:35:20.349Z info: Received a GET request for /api/productos?page=1
-2023-11-13T14:35:20.352Z info: Received a GET request for /api/categorias
-2023-11-13T14:35:20.354Z info: Received a GET request for /api/productos?page=1
-2023-11-13T14:35:20.540Z info: Operacion realizada con exito
-2023-11-13T14:35:20.541Z info: Operacion realizada con exito
-2023-11-13T14:35:20.725Z info: Operacion realizada con exito
-2023-11-13T14:35:20.733Z info: Operacion realizada con exito
-2023-11-13T14:35:25.971Z info: Received a GET request for /api/productos/70
-2023-11-13T14:35:25.973Z info: Received a GET request for /api/productos/70
-2023-11-13T14:35:26.159Z info: Operacion realizada con exito
-2023-11-13T14:35:26.168Z info: Operacion realizada con exito
-2023-11-13T14:36:15.524Z info: Received a GET request for /api/productos/70
-2023-11-13T14:36:15.525Z info: Received a GET request for /api/productos/70
-2023-11-13T14:36:17.067Z info: Operacion realizada con exito
-2023-11-13T14:36:17.083Z info: Operacion realizada con exito
-2023-11-13T14:36:19.426Z info: Received a GET request for /api/categorias
-2023-11-13T14:36:19.429Z info: Received a GET request for /api/productos?page=1
-2023-11-13T14:36:19.434Z info: Received a GET request for /api/categorias
-2023-11-13T14:36:19.439Z info: Received a GET request for /api/productos?page=1
-2023-11-13T14:36:19.612Z info: Operacion realizada con exito
-2023-11-13T14:36:19.797Z info: Operacion realizada con exito
-2023-11-13T14:36:19.984Z info: Operacion realizada con exito
-2023-11-13T14:36:19.990Z info: Operacion realizada con exito
-2023-11-13T14:36:24.551Z info: Received a GET request for /api/productos/71
-2023-11-13T14:36:24.554Z info: Received a GET request for /api/productos/71
-2023-11-13T14:36:24.740Z info: Operacion realizada con exito
-2023-11-13T14:36:24.746Z info: Operacion realizada con exito
-2023-11-13T14:37:19.295Z info: Received a GET request for /api/productos/71
-2023-11-13T14:37:19.299Z info: Received a GET request for /api/productos/71
-2023-11-13T14:37:20.844Z info: Operacion realizada con exito
-2023-11-13T14:37:20.895Z info: Operacion realizada con exito
-2023-11-13T14:37:24.201Z info: Received a GET request for /api/categorias
-2023-11-13T14:37:24.204Z info: Received a GET request for /api/productos?page=1
-2023-11-13T14:37:24.212Z info: Received a GET request for /api/categorias
-2023-11-13T14:37:24.213Z info: Received a GET request for /api/productos?page=1
-2023-11-13T14:37:24.395Z info: Operacion realizada con exito
-2023-11-13T14:37:24.578Z info: Operacion realizada con exito
-2023-11-13T14:37:24.765Z info: Operacion realizada con exito
-2023-11-13T14:37:24.796Z info: Operacion realizada con exito
-2023-11-13T14:37:29.301Z info: Received a GET request for /api/categorias
-2023-11-13T14:37:29.302Z info: Received a GET request for /api/productos?page=2
-2023-11-13T14:37:29.486Z info: Operacion realizada con exito
-2023-11-13T14:37:29.681Z info: Operacion realizada con exito
-2023-11-13T14:37:40.000Z info: Received a GET request for /api/productos/72
-2023-11-13T14:37:40.003Z info: Received a GET request for /api/productos/72
-2023-11-13T14:37:40.188Z info: Operacion realizada con exito
-2023-11-13T14:37:40.191Z info: Operacion realizada con exito
-2023-11-13T14:38:09.895Z info: Received a GET request for /api/categorias
-2023-11-13T14:38:09.897Z info: Received a GET request for /api/productos?page=1
-2023-11-13T14:38:09.899Z info: Received a GET request for /api/categorias
-2023-11-13T14:38:09.901Z info: Received a GET request for /api/productos?page=1
-2023-11-13T14:38:11.458Z info: Operacion realizada con exito
-2023-11-13T14:38:11.476Z info: Operacion realizada con exito
-2023-11-13T14:38:11.662Z info: Operacion realizada con exito
-2023-11-13T14:38:11.683Z info: Operacion realizada con exito
-2023-11-13T14:38:14.929Z info: Received a GET request for /api/categorias
-2023-11-13T14:38:14.932Z info: Received a GET request for /api/productos?page=2
-2023-11-13T14:38:15.118Z info: Operacion realizada con exito
-2023-11-13T14:38:15.307Z info: Operacion realizada con exito
-2023-11-13T14:38:22.590Z info: Received a GET request for /api/productos/73
-2023-11-13T14:38:22.593Z info: Received a GET request for /api/productos/73
-2023-11-13T14:38:22.777Z info: Operacion realizada con exito
-2023-11-13T14:38:22.781Z info: Operacion realizada con exito
-2023-11-13T14:38:47.443Z info: Received a GET request for /api/categorias
-2023-11-13T14:38:47.444Z info: Received a GET request for /api/productos?page=2
-2023-11-13T14:38:48.961Z info: Operacion realizada con exito
-2023-11-13T14:38:49.154Z info: Operacion realizada con exito
-2023-11-13T14:38:54.385Z info: Received a GET request for /api/productos/74
-2023-11-13T14:38:54.387Z info: Received a GET request for /api/productos/74
-2023-11-13T14:38:54.575Z info: Operacion realizada con exito
-2023-11-13T14:38:54.577Z info: Operacion realizada con exito
-2023-11-13T14:48:42.163Z info: Received a GET request for /api/categorias
-2023-11-13T14:48:42.166Z info: Received a GET request for /api/productos?page=1
-2023-11-13T14:48:42.170Z info: Received a GET request for /api/categorias
-2023-11-13T14:48:42.176Z info: Received a GET request for /api/productos?page=1
-2023-11-13T14:48:43.730Z info: Operacion realizada con exito
-2023-11-13T14:48:43.758Z info: Operacion realizada con exito
-2023-11-13T14:48:43.933Z info: Operacion realizada con exito
-2023-11-13T14:48:43.957Z info: Operacion realizada con exito
-2023-11-13T14:48:47.646Z info: Received a GET request for /api/categorias
-2023-11-13T14:48:47.647Z info: Received a GET request for /api/productos?page=2
-2023-11-13T14:48:47.836Z info: Operacion realizada con exito
-2023-11-13T14:48:48.018Z info: Operacion realizada con exito
-2023-11-13T14:48:55.471Z info: Received a GET request for /api/productos/74
-2023-11-13T14:48:55.475Z info: Received a GET request for /api/productos/74
-2023-11-13T14:48:55.658Z info: Operacion realizada con exito
-2023-11-13T14:48:55.666Z info: Operacion realizada con exito
-2023-11-13T14:49:15.527Z info: Received a GET request for /api/productos/74
-2023-11-13T14:49:15.533Z info: Received a GET request for /api/productos/74
-2023-11-13T14:49:17.051Z info: Operacion realizada con exito
-2023-11-13T14:49:17.107Z info: Operacion realizada con exito
-2023-11-13T14:49:32.528Z info: Received a GET request for /api/productos/74
-2023-11-13T14:49:32.530Z info: Received a GET request for /api/productos/74
-2023-11-13T14:49:34.031Z info: Operacion realizada con exito
-2023-11-13T14:49:34.035Z info: Operacion realizada con exito
-2023-11-13T14:49:36.116Z info: Received a GET request for /api/categorias
-2023-11-13T14:49:36.119Z info: Received a GET request for /api/productos?page=1
-2023-11-13T14:49:36.122Z info: Received a GET request for /api/categorias
-2023-11-13T14:49:36.125Z info: Received a GET request for /api/productos?page=1
-2023-11-13T14:49:36.302Z info: Operacion realizada con exito
-2023-11-13T14:49:36.486Z info: Operacion realizada con exito
-2023-11-13T14:49:36.671Z info: Operacion realizada con exito
-2023-11-13T14:49:36.676Z info: Operacion realizada con exito
-2023-11-13T14:49:39.645Z info: Received a GET request for /api/categorias
-2023-11-13T14:49:39.647Z info: Received a GET request for /api/productos?page=2
-2023-11-13T14:49:39.837Z info: Operacion realizada con exito
-2023-11-13T14:49:40.026Z info: Operacion realizada con exito
-2023-11-13T14:49:51.657Z info: Received a GET request for /api/productos/73
-2023-11-13T14:49:51.661Z info: Received a GET request for /api/productos/73
-2023-11-13T14:49:53.240Z info: Operacion realizada con exito
-2023-11-13T14:49:53.288Z info: Operacion realizada con exito
-2023-11-13T14:49:56.607Z info: Received a GET request for /api/categorias
-2023-11-13T14:49:56.610Z info: Received a GET request for /api/productos?page=1
-2023-11-13T14:49:56.617Z info: Received a GET request for /api/categorias
-2023-11-13T14:49:56.619Z info: Received a GET request for /api/productos?page=1
-2023-11-13T14:49:56.797Z info: Operacion realizada con exito
-2023-11-13T14:49:56.981Z info: Operacion realizada con exito
-2023-11-13T14:49:57.172Z info: Operacion realizada con exito
-2023-11-13T14:49:57.180Z info: Operacion realizada con exito
-2023-11-13T14:50:00.451Z info: Received a GET request for /api/categorias
-2023-11-13T14:50:00.453Z info: Received a GET request for /api/productos?page=2
-2023-11-13T14:50:00.643Z info: Operacion realizada con exito
-2023-11-13T14:50:00.839Z info: Operacion realizada con exito
-2023-11-13T14:50:04.252Z info: Received a GET request for /api/categorias
-2023-11-13T14:50:04.254Z info: Received a GET request for /api/productos?page=3
-2023-11-13T14:50:04.445Z info: Operacion realizada con exito
-2023-11-13T14:50:04.638Z info: Operacion realizada con exito
-2023-11-13T14:50:08.468Z info: Received a GET request for /api/categorias
-2023-11-13T14:50:08.469Z info: Received a GET request for /api/productos?page=4
-2023-11-13T14:50:08.659Z info: Operacion realizada con exito
-2023-11-13T14:50:08.849Z info: Operacion realizada con exito
-2023-11-13T14:50:21.738Z info: Received a GET request for /api/filtros/search?nombre=remera&categoriaId=&precioMin=&precioMax=&page=4
-2023-11-13T14:50:21.742Z info: Received a GET request for /api/categorias
-2023-11-13T14:50:23.283Z info: Operacion realizada con exito
-2023-11-13T14:50:27.571Z info: Received a GET request for /api/categorias
-2023-11-13T14:50:27.572Z info: Received a GET request for /api/filtros/search?nombre=remera&categoriaId=&precioMin=&precioMax=&page=1
-2023-11-13T14:50:27.757Z info: Operacion realizada con exito
-2023-11-13T14:52:08.937Z info: Received a POST request for /api/productos
-2023-11-13T14:52:10.756Z error: archivo no valido.
-2023-11-13T14:52:16.989Z info: Received a GET request for /api/categorias
-2023-11-13T14:52:16.990Z info: Received a GET request for /api/filtros/search?nombre=remera&categoriaId=&precioMin=&precioMax=&page=1
-2023-11-13T14:52:17.001Z info: Received a GET request for /api/categorias
-2023-11-13T14:52:17.004Z info: Received a GET request for /api/filtros/search?nombre=remera&categoriaId=&precioMin=&precioMax=&page=1
-2023-11-13T14:52:17.176Z info: Operacion realizada con exito
-2023-11-13T14:52:17.547Z info: Operacion realizada con exito
-2023-11-13T14:58:57.769Z info: Received a POST request for /api/productos
-2023-11-13T14:59:01.023Z info: Operacion realizada con exito
-2023-11-13T14:59:52.530Z info: Received a GET request for /api/categorias
-2023-11-13T14:59:52.531Z info: Received a GET request for /api/filtros/search?nombre=remera&categoriaId=&precioMin=&precioMax=&page=1
-2023-11-13T14:59:52.538Z info: Received a GET request for /api/categorias
-2023-11-13T14:59:52.543Z info: Received a GET request for /api/filtros/search?nombre=remera&categoriaId=&precioMin=&precioMax=&page=1
-2023-11-13T14:59:54.120Z info: Operacion realizada con exito
-2023-11-13T14:59:54.136Z info: Operacion realizada con exito
-2023-11-13T15:01:02.050Z info: Received a GET request for /api/categorias
-2023-11-13T15:01:02.051Z info: Received a GET request for /api/filtros/search?nombre=remera&categoriaId=&precioMin=&precioMax=&page=1
-2023-11-13T15:01:02.057Z info: Received a GET request for /api/categorias
-2023-11-13T15:01:02.061Z info: Received a GET request for /api/filtros/search?nombre=remera&categoriaId=&precioMin=&precioMax=&page=1
-2023-11-13T15:01:02.111Z info: Received a GET request for /api/categorias
-2023-11-13T15:01:02.112Z info: Received a GET request for /api/categorias
-2023-11-13T15:01:03.626Z info: Operacion realizada con exito
-2023-11-13T15:01:03.642Z info: Operacion realizada con exito
-2023-11-13T15:01:03.688Z info: Operacion realizada con exito
-2023-11-13T15:01:03.815Z info: Operacion realizada con exito
-2023-11-13T15:03:33.618Z info: Received a GET request for /api/categorias
-2023-11-13T15:03:33.620Z info: Received a GET request for /api/filtros/search?nombre=remera&categoriaId=&precioMin=&precioMax=&page=1
-2023-11-13T15:03:33.629Z info: Received a GET request for /api/categorias
-2023-11-13T15:03:33.630Z info: Received a GET request for /api/filtros/search?nombre=remera&categoriaId=&precioMin=&precioMax=&page=1
-2023-11-13T15:03:35.217Z info: Operacion realizada con exito
-2023-11-13T15:03:35.234Z info: Operacion realizada con exito
-2023-11-13T15:05:19.702Z info: Received a POST request for /api/productos
-2023-11-13T15:05:22.877Z info: Operacion realizada con exito
-2023-11-13T15:07:50.362Z info: Received a GET request for /api/categorias
-2023-11-13T15:07:50.364Z info: Received a GET request for /api/filtros/search?nombre=remera&categoriaId=&precioMin=&precioMax=&page=1
-2023-11-13T15:07:50.368Z info: Received a GET request for /api/categorias
-2023-11-13T15:07:50.374Z info: Received a GET request for /api/filtros/search?nombre=remera&categoriaId=&precioMin=&precioMax=&page=1
-2023-11-13T15:07:51.976Z info: Operacion realizada con exito
-2023-11-13T15:07:52.001Z info: Operacion realizada con exito
-2023-11-13T15:07:55.637Z info: Received a GET request for /api/categorias
-2023-11-13T15:07:55.640Z info: Received a GET request for /api/filtros/search?nombre=remera&categoriaId=&precioMin=&precioMax=&page=2
-2023-11-13T15:07:55.829Z info: Operacion realizada con exito
-2023-11-13T15:07:59.289Z info: Received a GET request for /api/categorias
-2023-11-13T15:07:59.290Z info: Received a GET request for /api/filtros/search?nombre=remera&categoriaId=&precioMin=&precioMax=&page=1
-2023-11-13T15:07:59.477Z info: Operacion realizada con exito
-2023-11-13T15:08:04.728Z info: Received a GET request for /api/categorias
-2023-11-13T15:08:04.731Z info: Received a GET request for /api/productos?page=1
-2023-11-13T15:08:04.733Z info: Received a GET request for /api/categorias
-2023-11-13T15:08:04.735Z info: Received a GET request for /api/productos?page=1
-2023-11-13T15:08:04.917Z info: Operacion realizada con exito
-2023-11-13T15:08:05.103Z info: Operacion realizada con exito
-2023-11-13T15:08:05.291Z info: Operacion realizada con exito
-2023-11-13T15:08:05.300Z info: Operacion realizada con exito
-2023-11-13T15:08:11.420Z info: Received a GET request for /api/categorias
-2023-11-13T15:08:11.421Z info: Received a GET request for /api/productos?page=2
-2023-11-13T15:08:11.607Z info: Operacion realizada con exito
-2023-11-13T15:08:11.800Z info: Operacion realizada con exito
-2023-11-13T15:08:16.531Z info: Received a GET request for /api/categorias
-2023-11-13T15:08:16.533Z info: Received a GET request for /api/productos?page=3
-2023-11-13T15:08:16.718Z info: Operacion realizada con exito
-2023-11-13T15:08:16.908Z info: Operacion realizada con exito
-2023-11-13T15:08:22.535Z info: Received a GET request for /api/categorias
-2023-11-13T15:08:22.538Z info: Received a GET request for /api/productos?page=4
-2023-11-13T15:08:22.722Z info: Operacion realizada con exito
-2023-11-13T15:08:22.912Z info: Operacion realizada con exito
-2023-11-13T15:08:30.773Z info: Received a GET request for /api/categorias
-2023-11-13T15:08:30.774Z info: Received a GET request for /api/productos?page=3
-2023-11-13T15:08:30.960Z info: Operacion realizada con exito
-2023-11-13T15:08:31.152Z info: Operacion realizada con exito
-2023-11-13T15:08:34.357Z info: Received a GET request for /api/categorias
-2023-11-13T15:08:34.358Z info: Received a GET request for /api/productos?page=2
-2023-11-13T15:08:34.543Z info: Operacion realizada con exito
-2023-11-13T15:08:34.735Z info: Operacion realizada con exito
-2023-11-13T15:08:38.244Z info: Received a GET request for /api/categorias
-2023-11-13T15:08:38.245Z info: Received a GET request for /api/productos?page=1
-2023-11-13T15:08:38.433Z info: Operacion realizada con exito
-2023-11-13T15:08:38.624Z info: Operacion realizada con exito
-2023-11-13T15:08:42.395Z info: Received a GET request for /api/categorias
-2023-11-13T15:08:42.398Z info: Received a GET request for /api/productos?page=4
-2023-11-13T15:08:42.583Z info: Operacion realizada con exito
-2023-11-13T15:08:42.772Z info: Operacion realizada con exito
-2023-11-13T15:08:47.877Z info: Received a GET request for /api/categorias
-2023-11-13T15:08:47.879Z info: Received a GET request for /api/productos?page=1
-2023-11-13T15:08:48.064Z info: Operacion realizada con exito
-2023-11-13T15:08:48.256Z info: Operacion realizada con exito
-2023-11-13T15:12:47.348Z info: Received a GET request for /api/categorias
-2023-11-13T15:12:47.350Z info: Received a GET request for /api/categorias
-2023-11-13T15:12:49.280Z info: Operacion realizada con exito
-2023-11-13T15:12:49.305Z info: Operacion realizada con exito
-2023-11-13T15:22:38.315Z info: Received a GET request for /api/categorias
-2023-11-13T15:22:38.320Z info: Received a GET request for /api/productos?page=1
-2023-11-13T15:22:38.324Z info: Received a GET request for /api/categorias
-2023-11-13T15:22:38.326Z info: Received a GET request for /api/productos?page=1
-2023-11-13T15:22:40.275Z info: Operacion realizada con exito
-2023-11-13T15:22:40.460Z info: Operacion realizada con exito
-2023-11-13T15:22:40.523Z info: Operacion realizada con exito
-2023-11-13T15:22:40.658Z info: Operacion realizada con exito
-2023-11-13T15:22:42.551Z info: Received a GET request for /api/categorias
-2023-11-13T15:22:42.555Z info: Received a GET request for /api/categorias
-2023-11-13T15:22:42.738Z info: Operacion realizada con exito
-2023-11-13T15:22:42.748Z info: Operacion realizada con exito
-2023-11-13T15:22:45.029Z info: Received a GET request for /api/categorias
-2023-11-13T15:22:45.032Z info: Received a GET request for /api/productos?page=1
-2023-11-13T15:22:45.035Z info: Received a GET request for /api/categorias
-2023-11-13T15:22:45.038Z info: Received a GET request for /api/productos?page=1
-2023-11-13T15:22:45.223Z info: Operacion realizada con exito
-2023-11-13T15:22:45.224Z info: Operacion realizada con exito
-2023-11-13T15:22:45.411Z info: Operacion realizada con exito
-2023-11-13T15:22:45.424Z info: Operacion realizada con exito
-2023-11-13T15:40:23.447Z info: Received a GET request for /api/categorias
-2023-11-13T15:40:23.451Z info: Received a GET request for /api/productos?page=1
-2023-11-13T15:40:23.457Z info: Received a GET request for /api/categorias
-2023-11-13T15:40:23.462Z info: Received a GET request for /api/productos?page=1
-2023-11-13T15:40:25.572Z info: Operacion realizada con exito
-2023-11-13T15:40:25.751Z info: Operacion realizada con exito
-2023-11-13T15:40:25.988Z info: Operacion realizada con exito
-2023-11-13T15:40:25.991Z info: Operacion realizada con exito
-2023-11-13T15:40:34.566Z info: Received a GET request for /api/categorias
-2023-11-13T15:40:34.573Z info: Received a GET request for /api/filtros/search?nombre=remera&categoriaId=&precioMin=&precioMax=&page=1
-2023-11-13T15:40:34.576Z info: Received a GET request for /api/categorias
-2023-11-13T15:40:34.577Z info: Received a GET request for /api/filtros/search?nombre=remera&categoriaId=&precioMin=&precioMax=&page=1
-2023-11-13T15:40:34.754Z info: Operacion realizada con exito
-2023-11-13T15:40:34.772Z info: Operacion realizada con exito
-2023-11-13T15:41:10.413Z info: Received a GET request for /api/auth/google
-2023-11-13T15:41:18.007Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXlITO2TCU7yql-y37pE58ORd33f6bGzLq5txhQusBj0ycBmmAA9i2m1jKbEYzMTcA&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=0&prompt=consent
-2023-11-13T15:42:46.342Z info: Received a GET request for /api/categorias
-2023-11-13T15:42:46.357Z info: Received a GET request for /api/productos?page=1
-2023-11-13T15:42:46.362Z info: Received a GET request for /api/categorias
-2023-11-13T15:42:46.364Z info: Received a GET request for /api/productos?page=1
-2023-11-13T15:42:46.540Z info: Operacion realizada con exito
-2023-11-13T15:42:46.917Z info: Operacion realizada con exito
-2023-11-13T15:42:47.296Z info: Operacion realizada con exito
-2023-11-13T15:42:47.482Z info: Operacion realizada con exito
-2023-11-13T15:42:50.235Z info: Received a GET request for /api/categorias
-2023-11-13T15:42:50.237Z info: Received a GET request for /api/productos?page=1
-2023-11-13T15:42:50.241Z info: Received a GET request for /api/categorias
-2023-11-13T15:42:50.243Z info: Received a GET request for /api/productos?page=1
-2023-11-13T15:42:50.422Z info: Operacion realizada con exito
-2023-11-13T15:42:50.433Z info: Operacion realizada con exito
-2023-11-13T15:42:50.619Z info: Operacion realizada con exito
-2023-11-13T15:42:50.625Z info: Operacion realizada con exito
-2023-11-13T15:42:55.970Z info: Received a GET request for /api/categorias
-2023-11-13T15:42:55.971Z info: Received a GET request for /api/productos?page=2
-2023-11-13T15:42:56.156Z info: Operacion realizada con exito
-2023-11-13T15:42:56.350Z info: Operacion realizada con exito
-2023-11-13T15:43:00.902Z info: Received a GET request for /api/categorias
-2023-11-13T15:43:00.904Z info: Received a GET request for /api/productos?page=3
-2023-11-13T15:43:01.090Z info: Operacion realizada con exito
-2023-11-13T15:43:01.285Z info: Operacion realizada con exito
-2023-11-13T15:43:05.118Z info: Received a GET request for /api/categorias
-2023-11-13T15:43:05.119Z info: Received a GET request for /api/productos?page=4
-2023-11-13T15:43:05.304Z info: Operacion realizada con exito
-2023-11-13T15:43:05.496Z info: Operacion realizada con exito
-2023-11-13T16:06:52.794Z info: Received a GET request for /api/categorias
-2023-11-13T16:06:52.838Z info: Received a GET request for /api/productos?page=1
-2023-11-13T16:06:52.844Z info: Received a GET request for /api/categorias
-2023-11-13T16:06:52.880Z info: Received a GET request for /api/productos?page=1
-2023-11-13T16:06:54.450Z info: Operacion realizada con exito
-2023-11-13T16:06:54.827Z info: Operacion realizada con exito
-2023-11-13T16:06:55.006Z info: Operacion realizada con exito
-2023-11-13T16:06:55.122Z info: Operacion realizada con exito
-2023-11-13T16:07:04.591Z info: Received a GET request for /api/categorias
-2023-11-13T16:07:04.595Z info: Received a GET request for /api/filtros/search?nombre=remera&categoriaId=&precioMin=&precioMax=&page=1
-2023-11-13T16:07:04.605Z info: Received a GET request for /api/categorias
-2023-11-13T16:07:04.612Z info: Received a GET request for /api/filtros/search?nombre=remera&categoriaId=&precioMin=&precioMax=&page=1
-2023-11-13T16:07:04.804Z info: Operacion realizada con exito
-2023-11-13T16:07:04.816Z info: Operacion realizada con exito
-2023-11-13T16:07:14.405Z info: Received a GET request for /api/categorias
-2023-11-13T16:07:14.428Z info: Received a GET request for /api/productos?page=1
-2023-11-13T16:07:14.433Z info: Received a GET request for /api/categorias
-2023-11-13T16:07:14.434Z info: Received a GET request for /api/productos?page=1
-2023-11-13T16:07:14.627Z info: Operacion realizada con exito
-2023-11-13T16:07:14.631Z info: Operacion realizada con exito
-2023-11-13T16:07:14.815Z info: Operacion realizada con exito
-2023-11-13T16:07:14.834Z info: Operacion realizada con exito
-2023-11-13T16:07:20.676Z info: Received a GET request for /api/categorias
-2023-11-13T16:07:20.679Z info: Received a GET request for /api/productos?page=2
-2023-11-13T16:07:20.877Z info: Operacion realizada con exito
-2023-11-13T16:07:21.080Z info: Operacion realizada con exito
-2023-11-13T16:07:26.551Z info: Received a GET request for /api/categorias
-2023-11-13T16:07:26.552Z info: Received a GET request for /api/productos?page=3
-2023-11-13T16:07:26.740Z info: Operacion realizada con exito
-2023-11-13T16:07:26.941Z info: Operacion realizada con exito
-2023-11-13T16:07:32.743Z info: Received a GET request for /api/categorias
-2023-11-13T16:07:32.745Z info: Received a GET request for /api/filtros/search?nombre=&categoriaId=1&precioMin=&precioMax=&page=3
-2023-11-13T16:07:32.940Z info: Operacion realizada con exito
-2023-11-13T16:07:35.901Z info: Received a GET request for /api/categorias
-2023-11-13T16:07:35.905Z info: Received a GET request for /api/filtros/search?nombre=&categoriaId=1&precioMin=&precioMax=&page=1
-2023-11-13T16:07:36.090Z info: Operacion realizada con exito
-2023-11-13T16:07:38.947Z info: Received a GET request for /api/categorias
-2023-11-13T16:07:38.949Z info: Received a GET request for /api/productos?page=1
-2023-11-13T16:07:39.154Z info: Operacion realizada con exito
-2023-11-13T16:07:39.335Z info: Operacion realizada con exito
-2023-11-13T16:07:39.895Z info: Received a GET request for /api/categorias
-2023-11-13T16:07:39.898Z info: Received a GET request for /api/filtros/search?nombre=&categoriaId=2&precioMin=&precioMax=&page=1
-2023-11-13T16:07:40.088Z info: Operacion realizada con exito
-2023-11-13T16:07:41.334Z info: Received a GET request for /api/categorias
-2023-11-13T16:07:41.336Z info: Received a GET request for /api/productos?page=1
-2023-11-13T16:07:41.545Z info: Operacion realizada con exito
-2023-11-13T16:07:41.731Z info: Operacion realizada con exito
-2023-11-13T16:07:41.999Z info: Received a GET request for /api/categorias
-2023-11-13T16:07:42.000Z info: Received a GET request for /api/filtros/search?nombre=&categoriaId=3&precioMin=&precioMax=&page=1
-2023-11-13T16:07:42.198Z info: Operacion realizada con exito
-2023-11-13T16:07:43.733Z info: Received a GET request for /api/categorias
-2023-11-13T16:07:43.744Z info: Received a GET request for /api/productos?page=1
-2023-11-13T16:07:43.932Z info: Operacion realizada con exito
-2023-11-13T16:07:44.147Z info: Operacion realizada con exito
-2023-11-13T16:07:51.566Z info: Received a GET request for /api/categorias
-2023-11-13T16:07:51.571Z info: Received a GET request for /api/filtros/search?nombre=&categoriaId=&precioMin=2&precioMax=&page=1
-2023-11-13T16:07:51.745Z info: Received a GET request for /api/categorias
-2023-11-13T16:07:51.747Z info: Received a GET request for /api/filtros/search?nombre=&categoriaId=&precioMin=20&precioMax=&page=1
-2023-11-13T16:07:51.759Z info: Operacion realizada con exito
-2023-11-13T16:07:51.946Z info: Operacion realizada con exito
-2023-11-13T16:07:56.912Z info: Received a GET request for /api/filtros/search?nombre=&categoriaId=&precioMin=20&precioMax=4&page=1
-2023-11-13T16:07:56.915Z info: Received a GET request for /api/categorias
-2023-11-13T16:07:57.116Z info: Operacion realizada con exito
-2023-11-13T16:07:57.156Z info: Received a GET request for /api/categorias
-2023-11-13T16:07:57.160Z info: Received a GET request for /api/filtros/search?nombre=&categoriaId=&precioMin=20&precioMax=40&page=1
-2023-11-13T16:07:57.347Z info: Operacion realizada con exito
-2023-11-13T16:08:02.202Z info: Received a GET request for /api/categorias
-2023-11-13T16:08:02.209Z info: Received a GET request for /api/filtros/search?nombre=&categoriaId=&precioMin=20&precioMax=&page=1
-2023-11-13T16:08:02.395Z info: Operacion realizada con exito
-2023-11-13T16:08:03.032Z info: Received a GET request for /api/categorias
-2023-11-13T16:08:03.050Z info: Received a GET request for /api/productos?page=1
-2023-11-13T16:08:03.240Z info: Operacion realizada con exito
-2023-11-13T16:08:03.457Z info: Operacion realizada con exito
-2023-11-13T16:08:06.951Z info: Received a GET request for /api/categorias
-2023-11-13T16:08:06.954Z info: Received a GET request for /api/filtros/search?nombre=remera&categoriaId=&precioMin=&precioMax=&page=1
-2023-11-13T16:08:07.142Z info: Operacion realizada con exito
-2023-11-13T16:08:12.263Z info: Received a GET request for /api/categorias
-2023-11-13T16:08:12.264Z info: Received a GET request for /api/filtros/search?nombre=pantalon&categoriaId=&precioMin=&precioMax=&page=1
-2023-11-13T16:08:12.455Z info: Operacion realizada con exito
-2023-11-13T16:08:19.565Z info: Received a GET request for /api/categorias
-2023-11-13T16:08:19.567Z info: Received a GET request for /api/filtros/search?nombre=pantalon&categoriaId=1&precioMin=&precioMax=&page=1
-2023-11-13T16:08:19.753Z info: Operacion realizada con exito
-2023-11-13T16:08:22.284Z info: Received a GET request for /api/categorias
-2023-11-13T16:08:22.290Z info: Received a GET request for /api/filtros/search?nombre=pantalon&categoriaId=&precioMin=&precioMax=&page=1
-2023-11-13T16:08:22.473Z info: Operacion realizada con exito
-2023-11-13T16:08:22.815Z info: Received a GET request for /api/categorias
-2023-11-13T16:08:22.858Z info: Received a GET request for /api/filtros/search?nombre=pantalon&categoriaId=2&precioMin=&precioMax=&page=1
-2023-11-13T16:08:23.051Z info: Operacion realizada con exito
-2023-11-13T16:08:24.412Z info: Received a GET request for /api/categorias
-2023-11-13T16:08:24.416Z info: Received a GET request for /api/filtros/search?nombre=pantalon&categoriaId=2,3&precioMin=&precioMax=&page=1
-2023-11-13T16:08:24.605Z info: Operacion realizada con exito
-2023-11-13T16:08:26.426Z info: Received a GET request for /api/categorias
-2023-11-13T16:08:26.430Z info: Received a GET request for /api/filtros/search?nombre=pantalon&categoriaId=2&precioMin=&precioMax=&page=1
-2023-11-13T16:08:26.628Z info: Operacion realizada con exito
-2023-11-13T16:08:26.867Z info: Received a GET request for /api/categorias
-2023-11-13T16:08:26.870Z info: Received a GET request for /api/filtros/search?nombre=pantalon&categoriaId=2,1&precioMin=&precioMax=&page=1
-2023-11-13T16:08:27.060Z info: Operacion realizada con exito
-2023-11-13T16:08:32.050Z info: Received a GET request for /api/categorias
-2023-11-13T16:08:32.054Z info: Received a GET request for /api/filtros/search?nombre=pantalon&categoriaId=2,1&precioMin=2&precioMax=&page=1
-2023-11-13T16:08:32.240Z info: Operacion realizada con exito
-2023-11-13T16:08:32.274Z info: Received a GET request for /api/categorias
-2023-11-13T16:08:32.278Z info: Received a GET request for /api/filtros/search?nombre=pantalon&categoriaId=2,1&precioMin=20&precioMax=&page=1
-2023-11-13T16:08:32.443Z info: Received a GET request for /api/categorias
-2023-11-13T16:08:32.445Z info: Received a GET request for /api/filtros/search?nombre=pantalon&categoriaId=2,1&precioMin=200&precioMax=&page=1
-2023-11-13T16:08:32.470Z info: Operacion realizada con exito
-2023-11-13T16:08:32.668Z info: Operacion realizada con exito
-2023-11-13T16:08:35.971Z info: Received a GET request for /api/categorias
-2023-11-13T16:08:35.973Z info: Received a GET request for /api/filtros/search?nombre=pantalon&categoriaId=2,1&precioMin=200&precioMax=3&page=1
-2023-11-13T16:08:36.158Z info: Operacion realizada con exito
-2023-11-13T16:08:36.173Z info: Received a GET request for /api/categorias
-2023-11-13T16:08:36.174Z info: Received a GET request for /api/filtros/search?nombre=pantalon&categoriaId=2,1&precioMin=200&precioMax=30&page=1
-2023-11-13T16:08:36.288Z info: Received a GET request for /api/categorias
-2023-11-13T16:08:36.290Z info: Received a GET request for /api/filtros/search?nombre=pantalon&categoriaId=2,1&precioMin=200&precioMax=300&page=1
-2023-11-13T16:08:36.364Z info: Operacion realizada con exito
-2023-11-13T16:08:36.476Z info: Operacion realizada con exito
-2023-11-13T16:08:44.216Z info: Received a GET request for /api/categorias
-2023-11-13T16:08:44.218Z info: Received a GET request for /api/categorias
-2023-11-13T16:08:44.414Z info: Operacion realizada con exito
-2023-11-13T16:08:44.417Z info: Operacion realizada con exito
-2023-11-13T16:09:28.652Z info: Received a POST request for /api/productos
-2023-11-13T16:09:32.327Z info: Operacion realizada con exito
-2023-11-13T16:09:36.359Z info: Received a GET request for /api/categorias
-2023-11-13T16:09:36.361Z info: Received a GET request for /api/productos?page=1
-2023-11-13T16:09:36.371Z info: Received a GET request for /api/categorias
-2023-11-13T16:09:36.373Z info: Received a GET request for /api/productos?page=1
-2023-11-13T16:09:36.544Z info: Operacion realizada con exito
-2023-11-13T16:09:36.924Z info: Operacion realizada con exito
-2023-11-13T16:09:37.300Z info: Operacion realizada con exito
-2023-11-13T16:09:37.491Z info: Operacion realizada con exito
-2023-11-13T16:09:40.502Z info: Received a GET request for /api/categorias
-2023-11-13T16:09:40.504Z info: Received a GET request for /api/filtros/search?nombre=producto&categoriaId=&precioMin=&precioMax=&page=1
-2023-11-13T16:09:40.690Z info: Operacion realizada con exito
-2023-11-13T16:09:47.342Z info: Received a GET request for /api/productos/115
-2023-11-13T16:09:47.353Z info: Received a GET request for /api/productos/115
-2023-11-13T16:09:47.544Z info: Operacion realizada con exito
-2023-11-13T16:09:47.549Z info: Operacion realizada con exito
-2023-11-13T18:51:35.319Z info: Received a GET request for /api/auth/google
-2023-11-13T18:51:39.313Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXnURHbXwrs2hGG-6KLWXC2CztGtUmF0zMDlP7dc4rihd8gQM63nLAj4MZST0rkOag&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=1&prompt=consent
-2023-11-13T18:52:30.771Z info: Received a GET request for /api/auth/google
-2023-11-13T18:52:35.292Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXlDBUcpBjmiuWEs1fO4fC59jZ7QZqGYw-podNisoJs_1Oh2ZDnnxwy4Lc1v-ITbIA&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=1&prompt=consent
-2023-11-13T18:52:46.115Z info: Received a GET request for /api/auth/google
-2023-11-13T18:52:51.889Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXl7jvOrZNqqEGfdXu2dCGgczA9bRLDv9PyJ-TPmx_X07mEhoxwMqr9v9o2XRbAjXg&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=0&prompt=consent
-2023-11-13T18:53:53.972Z info: Received a GET request for /api/auth/google
-2023-11-13T18:53:58.790Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXlqdpzNmUmfn24fB2sk8J7LGX1dPDOnSZdICxOYMQkm4i1zxccOVBiB87XMoPyR1g&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=0&prompt=consent
-2023-11-13T19:03:59.138Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXlldiFprpTFTzvV2DpZDuf1r-mmsegRRs0y8rnioMJhYtCNmt1ibtpBo_KGjwshiw&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=0&prompt=consent
-2023-11-13T19:04:28.528Z info: Received a GET request for /api/auth/google
-2023-11-13T19:04:35.918Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXl_bu9zJJZ9JQkChltjzhV_4leu86Hqf-glCWCbeVndRsfEgCKq5WOxTO1eG6fqIA&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=1&prompt=consent
-2023-11-13T19:06:17.515Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXn8w0AW5WYCWG_X4aqHlMV7O1dwWqL53YpwHMGKhLVDZUjgFaHXoPLRSn3fLwYsow&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=0&prompt=consent
-2023-11-13T19:06:41.070Z info: Received a GET request for /api/auth/google
-2023-11-13T19:06:44.746Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXmbZxL9pnX4xUkkEaa-HwStINTFtHYbx_djHJAZGvj-a4uDmNhNETyjJzSmuQBtng&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=1&prompt=consent
-2023-11-13T19:06:58.924Z info: Received a GET request for /api/auth/google
-2023-11-13T19:07:03.143Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXkJLGrXLEyDeLZm0aYQfAXxPjow97G5rfQY11x_zxfPNKQib5WTyQt0f_jcdiQXIg&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=2&prompt=consent
-2023-11-13T19:07:33.814Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXkTk_jAXdTaA8ZMFNgg1XU-gxy1eKl8C3EazTkXX6BMMg8Jui1CbZGE74jTkULqhA&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=3&prompt=consent
-2023-11-13T19:08:22.255Z info: Received a GET request for /api/auth/google
-2023-11-13T19:08:26.000Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXkJQf6zHvsiSJ_g9rmsgik3NyhpZjgZXDdsRnmhUiUzFpnUqZYZI4eDHSbIxIDsRA&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=0&prompt=consent
-2023-11-13T19:09:23.557Z info: Received a GET request for /api/auth/google
-2023-11-13T19:09:27.912Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXnnfsmMKnn1EW0XAGpyV3V2PqNg4quP9BYqlhPY2x2DlaC32t4BbF0HdgCKbZo1aQ&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=1&prompt=consent
-2023-11-13T19:48:05.413Z info: Received a GET request for /api/auth/google
-2023-11-13T19:48:39.829Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXkIaAJeq2ZlHj1misYNsPkjhYEthqpQUlqsnYmbHwmNYApRHEPRHuV73tNOzoAvJw&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=0&prompt=consent
-2023-11-13T20:05:06.109Z info: Received a GET request for /api/auth/google
-2023-11-13T20:13:41.597Z info: Received a GET request for /api/auth/google
-2023-11-13T20:15:25.561Z info: Received a GET request for /api/auth/google
-2023-11-13T20:15:29.518Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXkrn4_msmf5QSSwq5xOprrmCQshZgvdJz8mcKeF-J3Myp5rrUvJviGWnuprKzKmsw&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=0&prompt=consent
-2023-11-13T20:16:05.767Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXlxovlVYZwTGrfCqRZHFV7Ohw-BmRrmi8sq4B9dqHKy0ZaYBewxBB3wdvxbMDMnvw&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=0&prompt=consent
-2023-11-13T20:16:21.245Z info: Received a GET request for /api/auth/google
-2023-11-13T20:16:24.914Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXlKxA2D1SHOyZQ0WdNUmlpUZP1FTRm8IMwfxujHZ1OWnbm6YfIjU6GHpUI9FIkNdA&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=0&prompt=consent
-2023-11-13T20:53:26.889Z info: Received a GET request for /api/auth/google
-2023-11-13T21:14:49.317Z info: Received a GET request for /api/auth/google
-2023-11-13T21:14:53.274Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXm8TwW4rDU_GxZWAAZ3IKqSyY6cnLEFlF7a1zvEmewKK5zVHjlwQb61fRObl9-RrA&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=1&prompt=consent
-2023-11-13T21:15:20.052Z info: Received a GET request for /api/URL_DE_TU_SERVIDOR/google/callback
-2023-11-13T21:15:23.144Z info: Received a GET request for /api/google/callback
-2023-11-13T21:15:27.219Z info: Received a GET request for /api/auth/callback
-2023-11-13T21:15:46.486Z info: Received a GET request for /api/auth/callback
-2023-11-13T21:15:46.490Z info: Received a GET request for /api/auth/callback
-2023-11-13T21:16:40.694Z info: Received a GET request for /api/auth/google
-2023-11-13T21:16:44.659Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXnwSN-SoBOtZjnaQcbScj4sBGT9S0s95FEZpPVn6nO7xWDQ3PfBd8BAt_CYMUxNmw&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=2&prompt=consent
-2023-11-13T21:16:50.537Z info: Received a GET request for /api/auth/callback
-2023-11-13T21:16:50.559Z info: Received a GET request for /api/auth/callback
-2023-11-13T21:17:57.217Z info: Received a GET request for /api/auth/callback
-2023-11-13T21:18:07.720Z info: Received a GET request for /api/auth/callback
-2023-11-13T21:18:07.768Z info: Received a GET request for /api/auth/callback
-2023-11-13T21:19:38.547Z info: Received a GET request for /api/auth/google
-2023-11-13T21:19:44.145Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXnj2qwO1nIXU2CdVkZrl5582rC_Vdlt9YjVhLr1QC2jeiaKSK5C_Ef0iGblGX3jpg&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=1&prompt=consent
-2023-11-13T21:19:50.332Z info: Received a GET request for /api/auth/callback
-2023-11-13T21:19:50.341Z info: Received a GET request for /api/auth/callback
-2023-11-13T21:30:04.689Z info: Received a GET request for /api/auth/google
-2023-11-13T21:30:13.934Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXkLID0mgSdS01W_P5TUdUrnioqQtrb2NewPv7CwvtgrtjpVQRSUa6Jrq3X25Qt70A&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=1&prompt=consent
-2023-11-13T21:30:47.240Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXktt9W2qBNU5XxZxMmjpu96STF7QhHwjgzh9GK-nDWWe_u2-_FthPkrsgEw1JMXBA&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=1&prompt=consent
-2023-11-13T21:30:51.404Z info: Received a GET request for /api/auth/callback
-2023-11-13T21:30:51.421Z info: Received a GET request for /api/auth/callback
-2023-11-13T21:38:25.092Z info: Received a GET request for /api/auth/user
-2023-11-13T21:38:30.312Z info: Received a GET request for /api/auth/user
-2023-11-13T21:38:30.316Z info: Received a GET request for /api/auth/user
-2023-11-13T21:39:16.923Z info: Received a GET request for /api/auth/google
-2023-11-13T21:39:20.327Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXl9Yr1J2Qs8xsg20DTWla3n4bfb55itAs5EUD5NQ2yCI2W_hZCy9uoGJCR6OSP0Vg&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=1&prompt=consent
-2023-11-13T21:39:24.721Z info: Received a GET request for /api/auth/user
-2023-11-13T21:39:24.731Z info: Received a GET request for /api/auth/user
-2023-11-13T21:41:55.856Z info: Received a GET request for /api/auth/google
-2023-11-13T21:41:59.911Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXkS6W6HRuNRSzU1YEbtU5AjsQNuvAFunX2noeB-VgZPG3aGqG46N46aYqz8C1dDog&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=1&prompt=consent
-2023-11-13T21:42:05.494Z info: Received a GET request for /api/auth/user
-2023-11-13T21:42:05.537Z info: Received a GET request for /api/auth/user
-2023-11-13T21:43:00.672Z info: Received a GET request for /api/auth/user
-2023-11-13T21:43:00.693Z info: Received a GET request for /api/auth/user
-2023-11-13T21:49:59.725Z info: Received a GET request for /api/auth/user
-2023-11-13T21:49:59.745Z info: Received a GET request for /api/auth/user
-2023-11-13T21:50:14.464Z info: Received a GET request for /api/auth/google
-2023-11-13T21:50:18.278Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXkalVmGsdhjfm0DGDnHqVoAIOkWC0EBCnaqZQWMBDIshs7rbjkOpdNoVb_DQb1_XA&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=1&prompt=consent
-2023-11-13T21:50:23.844Z info: Received a GET request for /api/auth/user
-2023-11-13T21:50:23.913Z info: Received a GET request for /api/auth/user
-2023-11-13T21:52:24.875Z info: Received a GET request for /api/auth/user
-2023-11-13T21:52:24.913Z info: Received a GET request for /api/auth/user
-2023-11-13T21:53:15.979Z info: Received a GET request for /api/auth/google
-2023-11-13T21:53:19.208Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXl9Sb6u0VQ-HG98tfhduZgjbWnhEfQ-0WuMWduJbY6-9z-CEZedWTdR8wlgPyGpmQ&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=1&prompt=consent
-2023-11-13T21:53:24.777Z info: Received a GET request for /api/auth/user
-2023-11-13T21:53:24.781Z info: Received a GET request for /api/auth/user
-2023-11-13T21:54:46.435Z info: Received a GET request for /api/auth/google
-2023-11-13T21:54:49.968Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXnhKie4UDfA2Yr-hML8NcoFX4uv-BG8bvOFofHptEW__wrHy6LNpI7y3LXfEQQcGg&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=1&prompt=consent
-2023-11-13T21:54:54.027Z info: Received a GET request for /api/auth/user
-2023-11-13T21:54:54.045Z info: Received a GET request for /api/auth/user
-2023-11-13T21:56:22.791Z info: Received a GET request for /api/auth/google
-2023-11-13T21:56:25.804Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXm8iYP8ZNQv48T_r30UwdqAerttvA3gN_19nFANqzcJWiLsP8qMLOtfxjeG3IRQwg&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=1&prompt=consent
-2023-11-13T21:56:29.914Z info: Received a GET request for /api/auth/user
-2023-11-13T21:56:29.985Z info: Received a GET request for /api/auth/user
-2023-11-13T21:57:02.798Z info: Received a GET request for /api/auth/google
-2023-11-13T21:57:06.460Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXncB8x-ZTgaenHHrSoseHT8HvBXrWZf3UeDHuZQNFJWrNQ4d0zBAY7Gedn8-__yZA&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=1&prompt=consent
-2023-11-13T21:57:10.556Z info: Received a GET request for /api/auth/user
-2023-11-13T21:57:10.592Z info: Received a GET request for /api/auth/user
-2023-11-13T22:01:00.383Z info: Received a GET request for /api/auth/user
-2023-11-13T22:01:00.416Z info: Received a GET request for /api/auth/user
-2023-11-13T22:01:15.354Z info: Received a GET request for /api/auth/google
-2023-11-13T22:01:19.138Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXk8lLfuadh9rK9I8EHPscyvVinKZSdHKXB2KZfmg7MK5G5SiiIpruOvNrSIMxGYDg&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=1&prompt=consent
-2023-11-13T22:01:24.981Z info: Received a GET request for /api/auth/user
-2023-11-13T22:01:25.052Z info: Received a GET request for /api/auth/user
-2023-11-13T22:04:52.217Z info: Received a GET request for /api/auth/google
-2023-11-13T22:04:55.498Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXlRxmG8dYcxQOxXaqeQVoGwfCYFTiCxFAe0Ru7acJ3CZUAZAWNepU4hqoe_Zv9pGA&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=1&prompt=consent
-2023-11-13T22:04:59.641Z info: Received a GET request for /api/auth/user
-2023-11-13T22:04:59.655Z info: Received a GET request for /api/auth/user
-2023-11-13T22:05:27.628Z info: Received a GET request for /api/auth/user
-2023-11-13T22:05:27.654Z info: Received a GET request for /api/auth/user
-2023-11-13T22:08:32.546Z info: Received a GET request for /api/auth/google
-2023-11-13T22:08:35.704Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXk9pX_TuAQCovkGlHxDyHBzU8vFStVOOBtwuA-kSHolDOpg7YQLXVTeATwj6HDmCA&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=1&prompt=consent
-2023-11-13T22:08:39.825Z info: Received a GET request for /api/auth/user
-2023-11-13T22:08:39.856Z info: Received a GET request for /api/auth/user
-2023-11-13T22:09:44.687Z info: Received a GET request for /api/auth/google
-2023-11-13T22:09:48.292Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXmXdvXLo1FnknsxRJX4V8vwEkW7waW5uH6PE__6rH7aEkvSXXP39OOjC-23lQAKxw&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=1&prompt=consent
-2023-11-13T22:09:53.854Z info: Received a GET request for /api/auth/user
-2023-11-13T22:09:53.913Z info: Received a GET request for /api/auth/user
-2023-11-13T22:10:33.834Z info: Received a GET request for /api/auth/google
-2023-11-13T22:10:36.929Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXmDoeP9VdrlF3h6QfGyQ_psQ0SSbJVIoMej_xB1q4D9NeiBPPVNRyLxCHBSTWC94w&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=1&prompt=consent
-2023-11-13T22:10:41.097Z info: Received a GET request for /api/auth/user
-2023-11-13T22:10:41.107Z info: Received a GET request for /api/auth/user
-2023-11-13T22:11:21.048Z info: Received a GET request for /api/auth/google
-2023-11-13T22:11:24.578Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXnEyQsG7sGO3Q_ZxnfquVsHHxYBYUvV8t0h1fAoroafdiXhu0FnDAeQX_7kGB2XVg&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=1&prompt=consent
-2023-11-13T22:12:58.395Z info: Received a GET request for /api/auth/google
-2023-11-13T22:13:01.967Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXneWHkCPCiWZP2taUOyXqtNyOkZNGUEikn775JF86Oqm9ItYzfQ2PcZkpuw07gqkQ&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=1&prompt=consent
-2023-11-13T22:13:15.478Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXneWHkCPCiWZP2taUOyXqtNyOkZNGUEikn775JF86Oqm9ItYzfQ2PcZkpuw07gqkQ&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=1&prompt=consent
-2023-11-13T22:13:16.119Z info: Received a GET request for /favicon.ico
-2023-11-13T22:13:53.225Z info: Received a GET request for /api/auth/google
-2023-11-13T22:13:56.839Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXlaJGmntI95R36-R2zWbd7VSP7YpP3e5xQwbabmkZJM2lqh8tuas_5w1zzh_kVfzQ&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=1&prompt=consent
-2023-11-13T22:14:50.672Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXlaJGmntI95R36-R2zWbd7VSP7YpP3e5xQwbabmkZJM2lqh8tuas_5w1zzh_kVfzQ&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=1&prompt=consent
-2023-11-13T22:14:51.244Z info: Received a GET request for /favicon.ico
-2023-11-13T22:14:52.607Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXlaJGmntI95R36-R2zWbd7VSP7YpP3e5xQwbabmkZJM2lqh8tuas_5w1zzh_kVfzQ&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=1&prompt=consent
-2023-11-13T22:15:54.686Z info: Received a GET request for /api/auth/google
-2023-11-13T22:15:57.682Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXlIzeZ71Nof0zhTF5bM5dYELtft0alDadI2m5_UYbwWxs2yZG7UCDJ78MStQXeFgA&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=1&prompt=consent
-2023-11-13T22:17:25.812Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXlIzeZ71Nof0zhTF5bM5dYELtft0alDadI2m5_UYbwWxs2yZG7UCDJ78MStQXeFgA&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=1&prompt=consent
-2023-11-13T22:17:32.733Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXn0mSp4gO1YIVCF4MobBr5En-ekGcP0Ypm6pe6Jqb60bFKrO7H6beqTpNRVUgiLfA&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=1&prompt=consent
-2023-11-13T22:17:53.896Z info: Received a GET request for /api/auth/google
-2023-11-13T22:17:57.074Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXm3QdSJKR6dgzetF5OpG0u3GUBvsw5lXs-zS1XZX5Eoy7eik-pStPaZymwKytgUHg&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=1&prompt=consent
-2023-11-13T22:18:01.368Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXm3QdSJKR6dgzetF5OpG0u3GUBvsw5lXs-zS1XZX5Eoy7eik-pStPaZymwKytgUHg&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=1&prompt=consent
-2023-11-13T22:18:01.840Z info: Received a GET request for /favicon.ico
-2023-11-13T22:19:13.053Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXm3QdSJKR6dgzetF5OpG0u3GUBvsw5lXs-zS1XZX5Eoy7eik-pStPaZymwKytgUHg&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=1&prompt=consent
-2023-11-13T22:19:22.849Z info: Received a GET request for /api/auth/google
-2023-11-13T22:19:26.329Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXkWuEZeJbN5LPLmdphpQz3I27kR7JLSpkK5RK7th_1Hgmsq96r2OHss0DxbSpryyA&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=1&prompt=consent
-2023-11-13T23:03:20.478Z info: Received a GET request for /api/auth/google
-2023-11-13T23:03:23.858Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXkij7T4J4rTDdKtXQzfvVMadTm2y2eWSMKqb70sX7vYkRBQJOYxoqupoVKIEJZ39g&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=1&prompt=consent
-2023-11-13T23:04:05.973Z info: Received a GET request for /api/auth/user
-2023-11-13T23:05:13.839Z info: Received a GET request for /api/auth/user
-2023-11-13T23:05:14.166Z info: Received a GET request for /favicon.ico
-2023-11-13T23:05:52.033Z info: Received a GET request for /api/auth/user
-2023-11-13T23:06:11.339Z info: Received a GET request for /api/auth/google
-2023-11-13T23:06:16.777Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXlJus1rUKfR64ge-QgGfHhX-qGyYjSW0vBpdqOJJUrKxVakT2MjUZoUgVuQD1WKEA&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=1&prompt=consent
-2023-11-13T23:06:29.099Z info: Received a GET request for /api/auth/user
-2023-11-13T23:06:29.428Z info: Received a GET request for /favicon.ico
-2023-11-13T23:06:53.065Z info: Received a GET request for /api/auth/user
-2023-11-13T23:06:53.190Z info: Received a GET request for /favicon.ico
-2023-11-13T23:07:44.576Z info: Received a GET request for /api/auth/user
-2023-11-13T23:08:04.117Z info: Received a GET request for /api/auth/user
-2023-11-13T23:08:06.551Z info: Received a GET request for /api/auth/user
-2023-11-13T23:08:07.787Z info: Received a GET request for /api/auth/user
-2023-11-13T23:08:08.438Z info: Received a GET request for /api/auth/user
-2023-11-13T23:08:09.078Z info: Received a GET request for /api/auth/user
-2023-11-13T23:08:26.112Z info: Received a GET request for /api/auth/google
-2023-11-13T23:08:29.590Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXlxSH3B5m6GB529g72L5DA5OQBhr7gUiGx5LQEEWDsofULBV3hdq_wykVEtopKjJQ&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=1&prompt=consent
-2023-11-13T23:08:40.471Z info: Received a GET request for /api/auth/user
-2023-11-13T23:08:40.814Z info: Received a GET request for /favicon.ico
-2023-11-13T23:09:02.078Z info: Received a GET request for /api/auth/user
-2023-11-13T23:09:02.413Z info: Received a GET request for /favicon.ico
-2023-11-13T23:09:27.884Z info: Received a GET request for /api/auth/user
-2023-11-13T23:09:38.043Z info: Received a GET request for /api/auth/google
-2023-11-13T23:09:41.277Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXkW2H3wHF8RNZEnxgwdQxyQkKP9phAVHKwUo0QG331wfCJ9VvxMaAQVwEtZEbnZug&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=1&prompt=consent
-2023-11-13T23:09:51.575Z info: Received a GET request for /api/auth/user
-2023-11-13T23:09:51.921Z info: Received a GET request for /favicon.ico
-2023-11-13T23:11:36.267Z info: Received a GET request for /api/auth/google
-2023-11-13T23:11:39.677Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXkL79vE_rCQQkwsEVKICGERIzwO6_Hk2EQ6lqsSuRhSYv1EJBVRvPXDz9oNesU7zw&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=1&prompt=consent
-2023-11-13T23:11:44.672Z info: Received a GET request for /api/auth/user
-2023-11-13T23:11:48.758Z info: Received a GET request for /api/auth/user
-2023-11-13T23:11:50.106Z info: Received a GET request for /api/auth/user
-2023-11-13T23:14:49.093Z info: Received a GET request for /api/auth/google
-2023-11-13T23:14:52.490Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXlViPPb0Zisyha8toqRhR8OlaUgIc8xaHj6ftFvE4PUE9qs6L6XrWV4ACXEJ1Y-fg&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=1&prompt=consent
-2023-11-13T23:15:00.343Z info: Received a GET request for /api/auth/user
-2023-11-13T23:15:00.713Z info: Received a GET request for /favicon.ico
-2023-11-13T23:20:19.527Z info: Received a GET request for /api/auth/user
-2023-11-13T23:20:19.664Z info: Received a GET request for /favicon.ico
-2023-11-13T23:20:25.328Z info: Received a GET request for /api/auth/google
-2023-11-13T23:20:28.535Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXnkkHYEp6z3HXThGblZtR5lMhFti0Df03J_GIU1TmTEfs5cxgV1JW9O6HzFeWDfeA&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=1&prompt=consent
-2023-11-13T23:20:36.557Z info: Received a GET request for /api/auth/user
-2023-11-13T23:20:36.922Z info: Received a GET request for /favicon.ico
-2023-11-13T23:21:28.022Z info: Received a GET request for /api/auth/user
-2023-11-13T23:21:29.671Z info: Received a GET request for /api/auth/user
-2023-11-13T23:21:29.710Z info: Received a GET request for /api/auth/user
-2023-11-13T23:22:03.318Z info: Received a GET request for /api/auth/google
-2023-11-13T23:22:07.006Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXkDEm0IBqgFtljSKudGubPe0g_9oeM29HQNzju9JZEohpDqefja_0TlAs5KQh02Jg&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=1&prompt=consent
-2023-11-13T23:22:13.050Z info: Received a GET request for /api/auth/user
-2023-11-13T23:22:13.100Z info: Received a GET request for /api/auth/user
-2023-11-13T23:22:16.104Z info: Received a GET request for /api/auth/user
-2023-11-13T23:22:16.512Z info: Received a GET request for /favicon.ico
-2023-11-13T23:23:37.317Z info: Received a GET request for /api/auth/user
-2023-11-13T23:23:37.333Z info: Received a GET request for /api/auth/user
-2023-11-13T23:23:59.464Z info: Received a GET request for /api/auth/user
-2023-11-13T23:23:59.824Z info: Received a GET request for /favicon.ico
-2023-11-13T23:24:32.530Z info: Received a GET request for /api/auth/user
-2023-11-13T23:24:38.952Z info: Received a GET request for /api/auth/user
-2023-11-13T23:24:45.224Z info: Received a GET request for /api/auth/user
-2023-11-13T23:24:45.291Z info: Received a GET request for /api/auth/user
-2023-11-13T23:24:50.464Z info: Received a GET request for /api/auth/user
-2023-11-13T23:24:50.818Z info: Received a GET request for /favicon.ico
-2023-11-13T23:25:42.177Z info: Received a GET request for /api/auth/user
-2023-11-13T23:25:42.198Z info: Received a GET request for /api/auth/user
-2023-11-13T23:26:19.723Z info: Received a GET request for /api/auth/user
-2023-11-13T23:26:26.564Z info: Received a GET request for /api/auth/user
-2023-11-13T23:26:26.642Z info: Received a GET request for /api/auth/user
-2023-11-13T23:26:38.599Z info: Received a GET request for /api/auth/google
-2023-11-13T23:26:42.210Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXl-91gyYTwABQtmHMF8zWl7l9kqKne5rv4kL3g2TXJU07oJUaLGqjz-iSHlu085qQ&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=1&prompt=consent
-2023-11-13T23:26:47.719Z info: Received a GET request for /api/auth/user
-2023-11-13T23:26:47.764Z info: Received a GET request for /api/auth/user
-2023-11-13T23:26:52.252Z info: Received a GET request for /api/auth/user
-2023-11-13T23:26:52.594Z info: Received a GET request for /favicon.ico
-2023-11-13T23:27:14.851Z info: Received a GET request for /api/auth/user
-2023-11-13T23:27:15.210Z info: Received a GET request for /favicon.ico
-2023-11-13T23:28:49.716Z info: Received a GET request for /api/auth/user
-2023-11-13T23:29:05.007Z info: Received a GET request for /api/auth/user
-2023-11-13T23:29:05.041Z info: Received a GET request for /api/auth/user
-2023-11-13T23:29:05.196Z info: Received a GET request for /api/auth/user
-2023-11-13T23:29:05.526Z info: Received a GET request for /favicon.ico
-2023-11-13T23:29:24.714Z info: Received a GET request for /api/auth/google
-2023-11-13T23:29:27.989Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXnibi8Rv8itjF6EZnwqd9qDP6lY3epJ87Arvu57k1XCm-_Op3s4PKOiAl48geMc7A&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=1&prompt=consent
-2023-11-13T23:29:33.723Z info: Received a GET request for /api/auth/user
-2023-11-13T23:29:33.910Z info: Received a GET request for /api/auth/user
-2023-11-13T23:29:36.454Z info: Received a GET request for /api/auth/user
-2023-11-13T23:29:36.787Z info: Received a GET request for /favicon.ico
-2023-11-13T23:30:31.743Z info: Received a GET request for /api/auth/user
-2023-11-13T23:30:34.241Z info: Received a GET request for /api/auth/user
-2023-11-13T23:30:34.578Z info: Received a GET request for /favicon.ico
-2023-11-13T23:30:39.248Z info: Received a GET request for /api/auth/user
-2023-11-13T23:30:39.347Z info: Received a GET request for /api/auth/user
-2023-11-13T23:31:45.543Z info: Received a GET request for /api/auth/google
-2023-11-13T23:31:48.877Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXkHEnqzZMcpeHpD9iJ16TlzpFYI1DzAYpZgQq7xxSemQycnwL2IzwZoffyxkbjfbA&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=1&prompt=consent
-2023-11-13T23:31:54.402Z info: Received a GET request for /api/auth/user
-2023-11-13T23:31:54.407Z info: Received a GET request for /api/auth/user
-2023-11-13T23:31:55.997Z info: Received a GET request for /api/auth/user
-2023-11-13T23:31:56.330Z info: Received a GET request for /favicon.ico
-2023-11-13T23:32:14.109Z info: Received a GET request for /api/auth/user
-2023-11-13T23:32:15.852Z info: Received a GET request for /api/auth/user
-2023-11-13T23:32:16.040Z info: Received a GET request for /api/auth/user
-2023-11-13T23:32:54.291Z info: Received a GET request for /api/auth/user
-2023-11-13T23:32:54.616Z info: Received a GET request for /favicon.ico
-2023-11-13T23:33:06.041Z info: Received a GET request for /api/auth/user
-2023-11-13T23:33:18.270Z info: Received a GET request for /api/auth/user
-2023-11-13T23:34:52.805Z info: Received a GET request for /api/auth/user
-2023-11-13T23:34:52.868Z info: Received a GET request for /api/auth/user
-2023-11-13T23:37:28.831Z info: Received a GET request for /api/auth/user
-2023-11-13T23:37:28.991Z info: Received a GET request for /favicon.ico
-2023-11-13T23:37:30.539Z info: Received a GET request for /api/auth/user
-2023-11-13T23:37:39.034Z info: Received a GET request for /api/auth/google
-2023-11-13T23:37:42.216Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXmcsTfdLEmfKkPZBK8TYB_kML_rR35-P2yWBQrfePkJ59ye8ji7hfn7VCko90Qs-g&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=1&prompt=consent
-2023-11-13T23:37:48.028Z info: Received a GET request for /api/auth/user
-2023-11-13T23:37:48.033Z info: Received a GET request for /api/auth/user
-2023-11-13T23:37:48.929Z info: Received a GET request for /api/auth/user
-2023-11-13T23:37:49.312Z info: Received a GET request for /favicon.ico
-2023-11-13T23:39:44.225Z info: Received a GET request for /api/auth/google
-2023-11-13T23:39:47.622Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXldeo52BqzQa_9x9vu7L_9Ju4m4BjFmGoHjmXiJRZ2o74UU6rrXS7jYPg157ry4Vg&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=1&prompt=consent
-2023-11-13T23:39:53.743Z info: Received a GET request for /api/auth/user
-2023-11-13T23:39:53.790Z info: Received a GET request for /api/auth/user
-2023-11-13T23:39:54.676Z info: Received a GET request for /api/auth/user
-2023-11-13T23:39:55.139Z info: Received a GET request for /favicon.ico
-2023-11-13T23:40:40.443Z info: Received a GET request for /api/auth/user
-2023-11-13T23:41:00.880Z info: Received a GET request for /api/auth/user
-2023-11-13T23:41:56.016Z info: Received a GET request for /api/auth/user
-2023-11-13T23:43:11.514Z info: Received a GET request for /api/auth/user
-2023-11-13T23:43:24.814Z info: Received a GET request for /api/auth/user
-2023-11-13T23:43:28.862Z info: Received a GET request for /api/auth/user
-2023-11-13T23:43:38.533Z info: Received a GET request for /api/auth/user
-2023-11-13T23:43:38.552Z info: Received a GET request for /api/auth/user
-2023-11-13T23:44:11.725Z info: Received a GET request for /api/auth/user
-2023-11-13T23:45:33.640Z info: Received a GET request for /api/auth/user
-2023-11-13T23:50:58.232Z info: Received a GET request for /api/auth/google
-2023-11-13T23:51:01.406Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXmDBp5hWtTXEq1RMXfAP3FsB7uHhHrTq5cZHFfFDbGlhz1WkhBh-oUf-2LTqTF67Q&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=1&prompt=consent
-2023-11-13T23:51:07.169Z info: Received a GET request for /api/auth/user
-2023-11-13T23:51:07.176Z info: Received a GET request for /api/auth/user
-2023-11-13T23:51:09.681Z info: Received a GET request for /api/auth/user
-2023-11-13T23:51:09.803Z info: Received a GET request for /favicon.ico
-2023-11-13T23:51:10.857Z info: Received a GET request for /api/auth/user
-2023-11-13T23:51:10.961Z info: Received a GET request for /favicon.ico
-2023-11-13T23:51:11.593Z info: Received a GET request for /api/auth/user
-2023-11-13T23:51:13.047Z info: Received a GET request for /api/auth/user
-2023-11-13T23:51:14.554Z info: Received a GET request for /api/auth/user
-2023-11-13T23:51:34.506Z info: Received a GET request for /api/auth/google
-2023-11-13T23:51:37.583Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXm0B2d22nyCnzbzAr2XLjfq0hmgN6HSNjy3-zPkkysj9ClnvuIcoHd8_ezTjETOQA&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=1&prompt=consent
-2023-11-13T23:51:43.084Z info: Received a GET request for /api/auth/user
-2023-11-13T23:51:43.087Z info: Received a GET request for /api/auth/user
-2023-11-13T23:52:01.155Z info: Received a GET request for /api/auth/google
-2023-11-13T23:52:05.192Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXmStsgJ32-cd5ZipZqTuvkfFNNctPuTxPx3d_FR28n0FSgLVZJSae6BrvVaMq8Z4g&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=1&prompt=consent
-2023-11-13T23:52:09.021Z info: Received a GET request for /api/auth/user
-2023-11-13T23:52:09.048Z info: Received a GET request for /api/auth/user
-2023-11-13T23:52:13.402Z info: Received a GET request for /api/auth/user
-2023-11-13T23:52:13.792Z info: Received a GET request for /favicon.ico
-2023-11-13T23:53:08.010Z info: Received a GET request for /api/auth/user
-2023-11-13T23:53:08.012Z info: Received a GET request for /api/auth/user
-2023-11-13T23:55:41.886Z info: Received a GET request for /api/auth/user
-2023-11-13T23:55:41.941Z info: Received a GET request for /api/auth/user
-2023-11-13T23:55:57.438Z info: Received a GET request for /api/auth/user
-2023-11-13T23:55:57.441Z info: Received a GET request for /api/auth/user
-2023-11-13T23:56:06.627Z info: Received a GET request for /api/auth/user
-2023-11-13T23:56:06.669Z info: Received a GET request for /api/auth/user
-2023-11-13T23:58:19.325Z info: Received a GET request for /api/auth/user
-2023-11-13T23:58:19.345Z info: Received a GET request for /api/auth/user
-2023-11-13T23:58:25.684Z info: Received a GET request for /api/auth/user
-2023-11-13T23:58:27.721Z info: Received a GET request for /api/auth/user
-2023-11-13T23:58:28.843Z info: Received a GET request for /api/auth/user
-2023-11-13T23:58:55.789Z info: Received a GET request for /api/auth/user
-2023-11-13T23:58:56.119Z info: Received a GET request for /favicon.ico
-2023-11-14T00:00:05.120Z info: Received a GET request for /api/auth/user
-2023-11-14T00:00:13.199Z info: Received a GET request for /api/auth/user
-2023-11-14T00:00:13.206Z info: Received a GET request for /api/auth/user
-2023-11-14T00:01:33.406Z info: Received a GET request for /api/auth/user
-2023-11-14T00:02:30.775Z info: Received a GET request for /api/auth/google
-2023-11-14T00:02:34.781Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXkXWFSjQtqNiAx8sKxCbZGfCspsNrNVGomRk2dfuTHGkuoBgv-H40BCqHz6ombzVQ&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=1&prompt=consent
-2023-11-14T00:02:40.334Z info: Received a GET request for /api/auth/user
-2023-11-14T00:02:40.341Z info: Received a GET request for /api/auth/user
-2023-11-14T00:02:44.586Z info: Received a GET request for /api/auth/user
-2023-11-14T00:02:44.910Z info: Received a GET request for /favicon.ico
-2023-11-14T00:02:46.239Z info: Received a GET request for /api/auth/user
-2023-11-14T00:02:46.564Z info: Received a GET request for /favicon.ico
-2023-11-14T00:02:48.355Z info: Received a GET request for /api/auth/user
-2023-11-14T00:03:31.046Z info: Received a GET request for /api/auth/user
-2023-11-14T00:03:39.307Z info: Received a GET request for /api/auth/user
-2023-11-14T00:03:39.314Z info: Received a GET request for /api/auth/user
-2023-11-14T00:04:40.818Z info: Received a GET request for /api/auth/google
-2023-11-14T00:04:45.206Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXnM0MCT1d83h5iDy7YATh69PF9KcuepcV28bRT9ISN5js6rE-ewRadAXTYCZNwONw&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=1&prompt=consent
-2023-11-14T00:04:51.239Z info: Received a GET request for /api/auth/user
-2023-11-14T00:04:51.245Z info: Received a GET request for /api/auth/user
-2023-11-14T00:04:57.665Z info: Received a GET request for /api/auth/user
-2023-11-14T00:04:57.999Z info: Received a GET request for /favicon.ico
-2023-11-14T00:05:25.172Z info: Received a GET request for /api/auth/user
-2023-11-14T00:05:25.174Z info: Received a GET request for /api/auth/user
-2023-11-14T00:07:03.300Z info: Received a GET request for /api/auth/user
-2023-11-14T00:07:06.591Z info: Received a GET request for /api/auth/user
-2023-11-14T00:07:06.678Z info: Received a GET request for /api/auth/user
-2023-11-14T00:08:33.749Z info: Received a GET request for /api/auth/google
-2023-11-14T00:08:37.152Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXlKcVpw4vkht7XnfogP-ZjLn1ZP-SrAsEVW0ME1FkSbn6svL0Ke8Yz31cDtb2YDpg&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=1&prompt=consent
-2023-11-14T00:08:42.841Z info: Received a GET request for /api/auth/user
-2023-11-14T00:08:42.862Z info: Received a GET request for /api/auth/user
-2023-11-14T00:09:58.804Z info: Received a GET request for /api/auth/user
-2023-11-14T00:09:58.823Z info: Received a GET request for /api/auth/user
-2023-11-14T00:10:03.707Z info: Received a GET request for /api/auth/user
-2023-11-14T00:10:03.711Z info: Received a GET request for /api/categorias
-2023-11-14T00:10:03.720Z info: Received a GET request for /api/productos?page=1
-2023-11-14T00:10:03.771Z info: Received a GET request for /api/auth/user
-2023-11-14T00:10:03.775Z info: Received a GET request for /api/categorias
-2023-11-14T00:10:03.781Z info: Received a GET request for /api/productos?page=1
-2023-11-14T00:10:05.485Z info: Operacion realizada con exito
-2023-11-14T00:10:05.510Z info: Operacion realizada con exito
-2023-11-14T00:10:05.713Z info: Operacion realizada con exito
-2023-11-14T00:10:05.718Z info: Operacion realizada con exito
-2023-11-14T00:10:16.336Z info: Received a GET request for /api/auth/user
-2023-11-14T00:10:16.460Z info: Received a GET request for /api/auth/user
-2023-11-14T00:10:25.829Z info: Received a GET request for /api/auth/user
-2023-11-14T00:12:25.257Z info: Received a GET request for /api/auth/user
-2023-11-14T00:12:32.550Z info: Received a GET request for /api/auth/user
-2023-11-14T00:12:32.736Z info: Received a GET request for /api/auth/user
-2023-11-14T00:13:01.896Z info: Received a GET request for /api/auth/user
-2023-11-14T00:13:04.362Z info: Received a GET request for /api/auth/user
-2023-11-14T00:13:04.409Z info: Received a GET request for /api/auth/user
-2023-11-14T00:13:25.142Z info: Received a GET request for /api/auth/user
-2023-11-14T00:54:34.094Z info: Received a GET request for /api/auth/user
-2023-11-14T01:14:57.321Z info: Received a GET request for /api/auth/user
-2023-11-14T01:14:57.645Z info: Received a GET request for /favicon.ico
-2023-11-14T01:16:03.157Z info: Received a GET request for /api/auth/user
-2023-11-14T01:17:32.042Z info: Received a GET request for /api/auth/user
-2023-11-14T01:17:32.377Z info: Received a GET request for /favicon.ico
-2023-11-14T01:19:45.282Z info: Received a GET request for /api/auth/google
-2023-11-14T01:19:46.539Z info: Received a GET request for /api/auth/user
-2023-11-14T01:20:07.621Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXmvA8T0rhQ8TS6OYj-4vrtgJO1tiHfWqXoYt83bczBTbUUhM4bFT6jTd2j-qZdZgw&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=1&prompt=consent
-2023-11-14T01:20:13.450Z info: Received a GET request for /api/auth/user
-2023-11-14T01:20:13.453Z info: Received a GET request for /api/auth/user
-2023-11-14T01:20:16.001Z info: Received a GET request for /api/auth/user
-2023-11-14T01:20:26.351Z info: Received a GET request for /api/auth/user
-2023-11-14T01:20:26.371Z info: Received a GET request for /api/auth/user
-2023-11-14T01:20:59.481Z info: Received a GET request for /api/auth/user
-2023-11-14T01:20:59.536Z info: Received a GET request for /api/auth/user
-2023-11-14T01:21:47.199Z info: Received a GET request for /api/auth/user
-2023-11-14T01:21:47.208Z info: Received a GET request for /api/auth/user
+2023-11-13T14:30:06.785Z info: Received a GET request for /
+2023-11-14T01:24:37.143Z info: Received a GET request for /api/auth/user
+2023-11-14T01:24:37.214Z info: Received a GET request for /api/auth/user
+2023-11-14T01:24:41.845Z info: Received a GET request for /api/auth/google
+2023-11-14T01:25:39.644Z info: Received a GET request for /api/auth/google
+2023-11-14T01:25:43.010Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXk_kgrTaXU61dGQG2_jobo1WFeGolvwQ0JFTy8PDysv_TnAg--0sP24EFq_Kpr_RA&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=1&prompt=consent
+2023-11-14T01:25:50.454Z info: Received a GET request for /api/auth/user
+2023-11-14T01:26:46.511Z info: Received a GET request for /api/auth/google
+2023-11-14T01:26:50.002Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXlr3w-20-Bk0S5diLcP6SlhhA9WY4WDEJ40aWYsMLL4t1uGLas_od8ccTmFyFooBQ&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=1&prompt=consent
+2023-11-14T01:26:54.340Z info: Received a GET request for /api/auth/user
+2023-11-14T01:26:54.342Z info: Received a GET request for /api/auth/user
+2023-11-14T01:27:05.167Z info: Received a GET request for /api/auth/user
+2023-11-14T01:27:22.170Z info: Received a GET request for /api/auth/user
+2023-11-14T01:27:22.234Z info: Received a GET request for /api/auth/user
+2023-11-14T01:32:13.767Z info: Received a GET request for /api/auth/user
+2023-11-14T01:35:59.538Z info: Received a GET request for /api/auth/user
+2023-11-14T01:35:59.546Z info: Received a GET request for /api/auth/user
+2023-11-14T01:36:03.278Z info: Received a GET request for /api/auth/user
+2023-11-14T01:36:03.424Z info: Received a GET request for /api/auth/user
+2023-11-14T01:37:59.708Z info: Received a GET request for /api/auth/google
+2023-11-14T01:38:03.285Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXluQUUo7ikK2SNgbswLDQTDjoKeGYcuoMErarUl1zYzSLMAPkl7u59Iq7WNivYt2Q&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=1&prompt=consent
+2023-11-14T01:38:36.972Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXluQUUo7ikK2SNgbswLDQTDjoKeGYcuoMErarUl1zYzSLMAPkl7u59Iq7WNivYt2Q&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=1&prompt=consent
+2023-11-14T01:38:37.515Z info: Received a GET request for /favicon.ico
+2023-11-14T01:38:38.967Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXluQUUo7ikK2SNgbswLDQTDjoKeGYcuoMErarUl1zYzSLMAPkl7u59Iq7WNivYt2Q&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=1&prompt=consent
+2023-11-14T01:42:10.099Z info: Received a GET request for /api/auth/google
+2023-11-14T01:42:14.034Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXnJ-EM4MnDuj-aYy1rWbah8sPorqwjvA8r-NmCDNGrEcmf7wjyKR6r15c0lI46u9g&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=1&prompt=consent
+2023-11-14T01:42:16.284Z info: Received a GET request for /
+2023-11-14T01:42:48.595Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXkhmDjihc142Fn7RQAspEYzF5XTK33eI9pEe5itOKcPOwXUYZrfy_b-4T-zi3I07g&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=1&prompt=consent
+2023-11-14T02:00:33.295Z info: Received a GET request for /api/auth/google
+2023-11-14T02:00:36.771Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXllDgg0xLedsDb_mETU0XSh7WyNcBty5-_gXgiCugA5UjBGYYQbCfytFCvnNZ3HQA&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=1&prompt=consent
+2023-11-14T02:00:43.820Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXllDgg0xLedsDb_mETU0XSh7WyNcBty5-_gXgiCugA5UjBGYYQbCfytFCvnNZ3HQA&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=1&prompt=consent
+2023-11-14T02:01:51.594Z info: Received a GET request for /api/auth/google
+2023-11-14T02:01:55.032Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXn8Ah7bW5_FfrBGefdJyeBA0gc0ahnqj4RpGkyNm-6s-bUT0dtQFWPVTQuzYQPmlg&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=1&prompt=consent
+2023-11-14T02:03:33.431Z info: Received a GET request for /api/auth/google
+2023-11-14T02:03:36.615Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXkCl9iVWPWBBlH-k06vfD6rwK2ER823dumDSeSXNa5IxF27Is4qep7IRRN9gzyaGw&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=1&prompt=consent
+2023-11-14T02:04:32.293Z info: Received a GET request for /api/auth/google
+2023-11-14T02:04:35.727Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXm04XazPrnCLVbocBhjmxyK6hmKBXMr6VFto_cadAkLb5FgXm7We9hMoxV813ilkg&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=1&prompt=consent
+2023-11-14T02:06:09.658Z info: Received a GET request for /api/auth/google
+2023-11-14T02:06:12.715Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXmIiqlJY6nnECzJPLUSkBKmUoo_D4AU0lT8writiztyKo03o4yGd5c6TpXNS9_K_w&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=1&prompt=consent
+2023-11-14T02:06:41.910Z info: Received a GET request for /api/auth/google
+2023-11-14T02:06:45.139Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXmdcdDxiOgTHfwI0hauugyf6qCnQl2tMhTYKcwDBqtptrs-r6fYFOuZ8EzZmh4UwQ&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=1&prompt=consent
+2023-11-14T02:09:44.247Z info: Received a GET request for /api/auth/google
+2023-11-14T02:09:47.694Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXnnCC_9QlF19qLUzrDx7Zvk9lJU-LBAmjiEWjYgM2WvNFqf8rECcaWqvy9ASruRdg&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=1&prompt=consent
+2023-11-14T02:28:22.554Z info: Received a GET request for /api/auth/google
+2023-11-14T02:28:26.508Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXn1j_9g0ibfBvNQ4NYB8fM0jFemfiHqWVXU4b33Y-445fGNNsMLZKj0JPasWcsQlA&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=1&prompt=consent
+2023-11-14T02:33:42.844Z info: Received a GET request for /api/auth/google
+2023-11-14T02:33:46.488Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXnmfS-gJaCEHZxzCHA6E7TAbR3QNCPhy2VFvpST7asK3yMbKCjkZTAh0kMPMHUHhQ&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=1&prompt=consent
+2023-11-14T02:41:35.479Z info: Received a GET request for /api/auth/google
+2023-11-14T02:41:39.160Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXnLUfpL0hgWd_Rt7XL1pMMSG7EGJd8jokPJBlhDpNLk53nY7noGIjyOlTMhHBy3oQ&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=1&prompt=consent
+2023-11-14T02:43:18.607Z info: Received a GET request for /api/auth/google
+2023-11-14T02:43:21.819Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXmjkOicxPLBrpIrbfovirbZQbnTK8Z-lvH2km887Yg671emU8cK9r7g_vEpeNs4DA&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=2&prompt=consent
+2023-11-14T02:44:26.876Z info: Received a GET request for /api/auth/google
+2023-11-14T02:44:30.785Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXnMOFx6NagVpOPCHQ2fmqotqhZDDLoQ6ksMhsgQUCkgotM455FvSHxS4MaJx4L8_g&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=2&prompt=consent
+2023-11-14T02:45:16.052Z info: Received a GET request for /api/auth/google
+2023-11-14T02:45:19.923Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXmvHzsWUWtFkvjxGsiSQdaO7zm_F6lhYO_mJX42qfUry5kIoisCuEdp66SGRaQZ_w&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=2&prompt=consent
+2023-11-14T02:48:15.452Z info: Received a GET request for /api/auth/google
+2023-11-14T02:48:19.545Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXk_TcMGFYYdnAmCeRyQqi9xnaJXshGeJF2tFQqf_v9ZAUjxxItg0rAhSzuz1-rH7g&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=1&prompt=consent
+2023-11-14T02:48:44.752Z info: Received a GET request for /api/auth/google
+2023-11-14T02:48:48.712Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXnwUyc2tyNu9OJRqKyoCEy26hvQA3exuxKNaf9-ChnfGKrs08tbxCa6gZUGPg9jUA&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=2&prompt=consent
+2023-11-14T02:51:02.490Z info: Received a GET request for /api/auth/google
+2023-11-14T02:51:05.917Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXkMfqFq1si5jUNnNBSjRzejH-GJa5OvO11z4SNdWfdzipIA1zJWGDIWfwmXHgycCA&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=1&prompt=consent
+2023-11-14T02:51:30.423Z info: Received a GET request for /api/auth/google
+2023-11-14T02:51:33.966Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXlkEFyK_v-ZvWTeHrj63BfDUOCe5iah1Rkd-MkipEImJj_LV5AX_FoDnB7qb4mJaw&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=1&prompt=consent
+2023-11-14T02:53:31.171Z info: Received a GET request for /api/auth/google
+2023-11-14T02:53:34.741Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXn2ViX2RB7uClziwMkcx6TsiiO7VaCOlI3T3_TGaoY8Lj-g-PYBqaaurSMHS6KgNQ&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=1&prompt=consent
+2023-11-14T02:54:30.735Z info: Received a GET request for /api/auth/google
+2023-11-14T02:54:33.938Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXm1-qp-0PB5dFsbFEZEyDYttvoLt6TwwVKJA1vYVFBVd4_EI0j5gtP9XM9S8skWtA&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=1&prompt=consent
+2023-11-14T02:54:52.013Z info: Received a GET request for /api/auth/google
+2023-11-14T02:54:55.344Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXm4EtDx7gg0nz4ErYWJUs5YfbDhsvtu1OQ77E5QA482KS1B9RUnktj3qZZPBts3eA&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=1&prompt=consent
+2023-11-14T02:55:14.598Z info: Received a GET request for /api/auth/google
+2023-11-14T02:55:19.149Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXnuS4vZBo4F0RQqPmeJyROAaE-skECA5_BUw_ZQR1SO9WJQwlu6hghs0Ij3GB_5Dw&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=2&prompt=consent
+2023-11-14T02:57:05.784Z info: Received a GET request for /api/auth/google
+2023-11-14T02:57:09.127Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXkFu82acWcCfgeKQtSww3bCwoLnQ1j9kAmfzrlQLT1ox7MAkOjyYwqkyXPa1U5tHg&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=1&prompt=consent
+2023-11-14T02:57:28.976Z info: Received a GET request for /api/auth/google
+2023-11-14T02:57:32.495Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXnZZd7ejhxU4PL-QTr7h4h0YnXgD_EqeXl-86dFUDeBFw3_mww39NNSkhuYLnvaTA&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=1&prompt=consent
+2023-11-14T02:59:16.072Z info: Received a GET request for /api/auth/google
+2023-11-14T02:59:19.785Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXlGjoIzSNgAKJHFRHpFKaYOP4qk6Kqt5j_BSMwnRauggPbdBBljFUNqt4Jw0CNYog&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=2&prompt=consent
+2023-11-14T02:59:36.836Z info: Received a GET request for /api/auth/google
+2023-11-14T02:59:40.964Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXkSm2k4LlJmed9UfnzpITiH2MAa_iJERabhWW5kAVSbcQJLrbHe9yUqmV5NiqhiHA&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=2&prompt=consent
+2023-11-14T03:00:40.865Z info: Received a GET request for /api/auth/google
+2023-11-14T03:00:44.166Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXlPKxLigVMZG1HxFoxJBCywKWKfYlhNM0gPo0hBrz63vy-EQTSFa8Q8y8Rkr0idzA&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=1&prompt=consent
+2023-11-14T03:01:40.826Z info: Received a GET request for /api/auth/google
+2023-11-14T03:01:44.656Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXmswLUaH7OX7D4sIrVTgarCdqlBsgaL_WEADbx7_Q8dyz-6BeF5pl87oyry_k3-Sg&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=2&prompt=consent
+2023-11-14T03:07:24.056Z info: Received a GET request for /api/auth/google
+2023-11-14T03:07:27.669Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXmAslM2EZwECTykkc6rgBua4nO_5pzgXD3rGbGmojNfVv40mrTiIdLjSq6Pe0VNOQ&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=1&prompt=consent
+2023-11-14T03:09:31.216Z info: Received a GET request for /api/auth/google
+2023-11-14T03:09:36.547Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXn4afEiJ_R9x-Edbzuv4dF3AbKR6EYKvyGUKcH54fK8Fs4cUcodOC9m1J4f94l9zg&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=1&prompt=consent
+2023-11-14T03:10:10.038Z info: Received a GET request for /api/auth/google
+2023-11-14T03:10:13.540Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXmbroc8kdhrSNNJ96qqSuwezIwzmOZmftI2t_Gs62xH6aI-SAl5BeSV4Pm3UeqGVA&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=1&prompt=consent
+2023-11-14T03:10:32.450Z info: Received a GET request for /api/auth/google
+2023-11-14T03:10:36.826Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXmHojXtVBwDinoosfZ5V0TWlB7IFqAN4fmocYgTGyTrJ9iaUwdhAKRHOSSKdpuxSg&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=1&prompt=consent
+2023-11-14T03:11:09.454Z info: Received a GET request for /api/auth/google
+2023-11-14T03:11:15.895Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXmQ5IUx2-b05fsxvwepi3zWlCTk7icZ0CEPkPK3xhr97fuHyyV7nSH1a41t_d-yfw&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=1&prompt=consent
+2023-11-14T03:12:47.550Z info: Received a GET request for /api/auth/google
+2023-11-14T03:13:48.966Z info: Received a GET request for /api/auth/google
+2023-11-14T03:13:52.442Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXkYcB-0rAJMEj7Ri6wLqdyLG7yX44VUBbxGZ2dKTGtAiagXuX0ckIpy8hnZjIpmEg&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=1&prompt=consent
+2023-11-14T03:16:36.161Z info: Received a GET request for /api/auth/google
+2023-11-14T03:16:40.171Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXn8CK3KfNgkt9ewmzlt40Tfki0Zi2xL1uqRab5dsGp47fM3PsnxE1ZGVtUIul_WoA&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=1&prompt=consent
+2023-11-14T03:18:22.871Z info: Received a GET request for /api/auth/google
+2023-11-14T03:18:26.432Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXn_irrIs8sNBU-iT_Y37_9fpTRuZSMFSlH4UsoX2ZCmNiNn_yqbd75NVDgcKq5CeA&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=1&prompt=consent
+2023-11-14T03:18:36.830Z info: Received a GET request for /api/auth/google
+2023-11-14T03:18:40.425Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXkkSVTPxZOmtwDlXygFyUs1B_8jMEAR5AorC0aXD6TpGHi2qWMt7VgBQ-7DOLeQhA&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=2&prompt=consent
+2023-11-14T03:19:05.000Z info: Received a GET request for /api/auth/google
+2023-11-14T03:19:08.562Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXnOvjpNy-1FoQ40IW87dibFgvciq_yEIBNYfoe-jV1ecDJ6ejAJo0JIuzK_qXnuwA&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=1&prompt=consent
+2023-11-14T03:19:40.295Z info: Received a GET request for /api/auth/google
+2023-11-14T03:19:43.757Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXnToEx-wM4s6hPOKodEwHJgtTHQwVl5ZH_qbMSHIhgdpvbMJuRYW5IWiPCuTxGSmw&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=1&prompt=consent
+2023-11-14T14:19:19.331Z info: Received a GET request for /api/auth/google
+2023-11-14T14:19:22.402Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXnJW0vCAc2iHnTif-1moQIOk8rUWr5qTiWS2lbVTHSGzn0qLVrm-zBJysm25CllEw&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=1&prompt=consent
+2023-11-14T14:20:48.666Z info: Received a GET request for /api/auth/google
+2023-11-14T14:20:52.528Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXl6mPOuwP89Kndj983rMg9xVSKiWEARYze5IzzEOGQQwou8u4BR_9lS6Vuyq4e_cQ&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=2&prompt=consent
+2023-11-14T14:36:41.516Z info: Received a GET request for /api/auth/google
+2023-11-14T14:36:45.509Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXlszvVFsuttgqZoDrH1_Ao0ZHHGr3p9OFmL-JUjzqkxrwqiZo_mYvcNjgPpcqNnUA&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=2&prompt=consent
+2023-11-14T14:39:03.199Z info: Received a GET request for /api/categorias
+2023-11-14T14:39:03.211Z info: Received a GET request for /api/filtros/search?nombre=remera&categoriaId=&precioMin=&precioMax=&page=1
+2023-11-14T14:39:03.222Z info: Received a GET request for /api/categorias
+2023-11-14T14:39:03.224Z info: Received a GET request for /api/filtros/search?nombre=remera&categoriaId=&precioMin=&precioMax=&page=1
+2023-11-14T14:39:03.403Z info: Operacion realizada con exito
+2023-11-14T14:39:03.781Z info: Operacion realizada con exito
+2023-11-14T14:39:07.577Z info: Received a GET request for /api/categorias
+2023-11-14T14:39:07.580Z info: Received a GET request for /api/filtros/search?nombre=remera&categoriaId=&precioMin=&precioMax=&page=2
+2023-11-14T14:39:07.764Z info: Operacion realizada con exito
+2023-11-14T14:39:13.844Z info: Received a GET request for /api/categorias
+2023-11-14T14:39:13.846Z info: Received a GET request for /api/filtros/search?nombre=remera&categoriaId=&precioMin=&precioMax=&page=1
+2023-11-14T14:39:14.031Z info: Operacion realizada con exito
+2023-11-14T14:39:17.072Z info: Received a GET request for /api/categorias
+2023-11-14T14:39:17.074Z info: Received a GET request for /api/filtros/search?nombre=remera&categoriaId=&precioMin=&precioMax=&page=2
+2023-11-14T14:39:17.260Z info: Operacion realizada con exito
+2023-11-14T14:40:36.533Z info: Received a GET request for /api/categorias
+2023-11-14T14:40:36.542Z info: Received a GET request for /api/filtros/search?nombre=remera&categoriaId=&precioMin=&precioMax=&page=1
+2023-11-14T14:40:36.727Z info: Operacion realizada con exito
+2023-11-14T14:40:39.755Z info: Received a GET request for /api/categorias
+2023-11-14T14:40:39.756Z info: Received a GET request for /api/filtros/search?nombre=remera&categoriaId=&precioMin=&precioMax=&page=2
+2023-11-14T14:40:39.942Z info: Operacion realizada con exito
+2023-11-14T14:40:45.106Z info: Received a GET request for /api/categorias
+2023-11-14T14:40:45.107Z info: Received a GET request for /api/filtros/search?nombre=pantalon&categoriaId=&precioMin=&precioMax=&page=2
+2023-11-14T14:40:45.293Z info: Operacion realizada con exito
+2023-11-14T14:40:48.741Z info: Received a GET request for /api/categorias
+2023-11-14T14:40:48.743Z info: Received a GET request for /api/filtros/search?nombre=pantalon&categoriaId=&precioMin=&precioMax=&page=1
+2023-11-14T14:40:48.928Z info: Operacion realizada con exito
+2023-11-14T14:41:39.264Z info: Received a GET request for /api/filtros/search?nombre=pantalon&categoriaId=1&precioMin=&precioMax=&page=1
+2023-11-14T14:41:39.271Z info: Received a GET request for /api/categorias
+2023-11-14T14:41:40.897Z info: Operacion realizada con exito
+2023-11-14T14:41:41.709Z info: Received a GET request for /api/categorias
+2023-11-14T14:41:41.710Z info: Received a GET request for /api/filtros/search?nombre=pantalon&categoriaId=1,2&precioMin=&precioMax=&page=1
+2023-11-14T14:41:41.897Z info: Operacion realizada con exito
+2023-11-14T14:41:42.968Z info: Received a GET request for /api/categorias
+2023-11-14T14:41:42.970Z info: Received a GET request for /api/filtros/search?nombre=pantalon&categoriaId=2&precioMin=&precioMax=&page=1
+2023-11-14T14:41:43.156Z info: Operacion realizada con exito
+2023-11-14T14:41:44.438Z info: Received a GET request for /api/categorias
+2023-11-14T14:41:44.440Z info: Received a GET request for /api/filtros/search?nombre=pantalon&categoriaId=&precioMin=&precioMax=&page=1
+2023-11-14T14:41:44.623Z info: Operacion realizada con exito
+2023-11-14T14:41:45.461Z info: Received a GET request for /api/categorias
+2023-11-14T14:41:45.463Z info: Received a GET request for /api/filtros/search?nombre=pantalon&categoriaId=3&precioMin=&precioMax=&page=1
+2023-11-14T14:41:45.647Z info: Operacion realizada con exito
+2023-11-14T14:41:47.706Z info: Received a GET request for /api/categorias
+2023-11-14T14:41:47.707Z info: Received a GET request for /api/filtros/search?nombre=pantalon&categoriaId=&precioMin=&precioMax=&page=1
+2023-11-14T14:41:47.891Z info: Operacion realizada con exito
+2023-11-14T14:41:48.648Z info: Received a GET request for /api/categorias
+2023-11-14T14:41:48.650Z info: Received a GET request for /api/filtros/search?nombre=pantalon&categoriaId=2&precioMin=&precioMax=&page=1
+2023-11-14T14:41:48.834Z info: Operacion realizada con exito
+2023-11-14T14:41:50.263Z info: Received a GET request for /api/categorias
+2023-11-14T14:41:50.264Z info: Received a GET request for /api/filtros/search?nombre=pantalon&categoriaId=2,1&precioMin=&precioMax=&page=1
+2023-11-14T14:41:50.447Z info: Operacion realizada con exito
+2023-11-14T14:41:56.511Z info: Received a GET request for /api/categorias
+2023-11-14T14:41:56.512Z info: Received a GET request for /api/filtros/search?nombre=pantalon&categoriaId=1&precioMin=&precioMax=&page=1
+2023-11-14T14:41:56.696Z info: Operacion realizada con exito
+2023-11-14T14:41:57.539Z info: Received a GET request for /api/categorias
+2023-11-14T14:41:57.541Z info: Received a GET request for /api/filtros/search?nombre=pantalon&categoriaId=&precioMin=&precioMax=&page=1
+2023-11-14T14:41:57.724Z info: Operacion realizada con exito
+2023-11-14T14:42:00.473Z info: Received a GET request for /api/categorias
+2023-11-14T14:42:00.475Z info: Received a GET request for /api/filtros/search?nombre=remera&categoriaId=&precioMin=&precioMax=&page=1
+2023-11-14T14:42:00.660Z info: Operacion realizada con exito
+2023-11-14T14:42:04.069Z info: Received a GET request for /api/categorias
+2023-11-14T14:42:04.072Z info: Received a GET request for /api/filtros/search?nombre=remera&categoriaId=2&precioMin=&precioMax=&page=1
+2023-11-14T14:42:04.256Z info: Operacion realizada con exito
+2023-11-14T14:42:09.196Z info: Received a GET request for /api/categorias
+2023-11-14T14:42:09.198Z info: Received a GET request for /api/filtros/search?nombre=remera&categoriaId=2,1&precioMin=&precioMax=&page=1
+2023-11-14T14:42:09.381Z info: Operacion realizada con exito
+2023-11-14T14:42:13.667Z info: Received a GET request for /api/categorias
+2023-11-14T14:42:13.669Z info: Received a GET request for /api/filtros/search?nombre=remera&categoriaId=2,1&precioMin=&precioMax=&page=2
+2023-11-14T14:42:13.854Z info: Operacion realizada con exito
+2023-11-14T14:42:19.044Z info: Received a GET request for /api/categorias
+2023-11-14T14:42:19.048Z info: Received a GET request for /api/filtros/search?nombre=pantalon&categoriaId=2,1&precioMin=&precioMax=&page=2
+2023-11-14T14:42:19.229Z info: Operacion realizada con exito
+2023-11-14T14:42:23.218Z info: Received a GET request for /api/categorias
+2023-11-14T14:42:23.221Z info: Received a GET request for /api/filtros/search?nombre=pantalon&categoriaId=2,1&precioMin=&precioMax=&page=1
+2023-11-14T14:42:23.403Z info: Operacion realizada con exito
+2023-11-14T14:42:24.885Z info: Received a GET request for /api/categorias
+2023-11-14T14:42:24.886Z info: Received a GET request for /api/filtros/search?nombre=pantalon&categoriaId=1&precioMin=&precioMax=&page=1
+2023-11-14T14:42:25.071Z info: Operacion realizada con exito
+2023-11-14T14:42:29.218Z info: Received a GET request for /api/categorias
+2023-11-14T14:42:29.220Z info: Received a GET request for /api/filtros/search?nombre=pantalon&categoriaId=1,2&precioMin=&precioMax=&page=1
+2023-11-14T14:42:29.403Z info: Operacion realizada con exito
+2023-11-14T14:42:29.587Z info: Received a GET request for /api/categorias
+2023-11-14T14:42:29.590Z info: Received a GET request for /api/filtros/search?nombre=pantalon&categoriaId=2&precioMin=&precioMax=&page=1
+2023-11-14T14:42:29.772Z info: Operacion realizada con exito
+2023-11-14T14:42:31.984Z info: Received a GET request for /api/categorias
+2023-11-14T14:42:31.985Z info: Received a GET request for /api/filtros/search?nombre=remera&categoriaId=2&precioMin=&precioMax=&page=1
+2023-11-14T14:42:32.177Z info: Operacion realizada con exito
+2023-11-14T14:42:36.531Z info: Received a GET request for /api/categorias
+2023-11-14T14:42:36.532Z info: Received a GET request for /api/filtros/search?nombre=remera&categoriaId=&precioMin=&precioMax=&page=1
+2023-11-14T14:42:36.716Z info: Operacion realizada con exito
+2023-11-14T14:44:38.620Z info: Received a GET request for /api/filtros/search?nombre=remera&categoriaId=&precioMin=&precioMax=&page=2
+2023-11-14T14:44:38.639Z info: Received a GET request for /api/categorias
+2023-11-14T14:44:39.014Z info: Operacion realizada con exito
+2023-11-14T14:44:43.898Z info: Received a GET request for /api/categorias
+2023-11-14T14:44:43.901Z info: Received a GET request for /api/filtros/search?nombre=pantalon&categoriaId=&precioMin=&precioMax=&page=2
+2023-11-14T14:44:44.085Z info: Operacion realizada con exito
+2023-11-14T14:44:50.291Z info: Received a GET request for /api/categorias
+2023-11-14T14:44:50.293Z info: Received a GET request for /api/filtros/search?nombre=pantalon&categoriaId=&precioMin=&precioMax=&page=1
+2023-11-14T14:44:50.300Z info: Received a GET request for /api/categorias
+2023-11-14T14:44:50.301Z info: Received a GET request for /api/filtros/search?nombre=pantalon&categoriaId=&precioMin=&precioMax=&page=1
+2023-11-14T14:44:50.483Z info: Operacion realizada con exito
+2023-11-14T14:44:50.667Z info: Operacion realizada con exito
+2023-11-14T14:44:59.136Z info: Received a GET request for /api/categorias
+2023-11-14T14:44:59.138Z info: Received a GET request for /api/filtros/search?nombre=remera&categoriaId=&precioMin=&precioMax=&page=1
+2023-11-14T14:44:59.326Z info: Operacion realizada con exito
+2023-11-14T14:45:02.594Z info: Received a GET request for /api/categorias
+2023-11-14T14:45:02.596Z info: Received a GET request for /api/filtros/search?nombre=remera&categoriaId=&precioMin=&precioMax=&page=2
+2023-11-14T14:45:02.781Z info: Operacion realizada con exito
+2023-11-14T14:45:06.074Z info: Received a GET request for /api/categorias
+2023-11-14T14:45:06.079Z info: Received a GET request for /api/filtros/search?nombre=pantalon&categoriaId=&precioMin=&precioMax=&page=2
+2023-11-14T14:45:06.270Z info: Operacion realizada con exito
+2023-11-14T14:45:29.670Z info: Received a GET request for /api/categorias
+2023-11-14T14:45:29.675Z info: Received a GET request for /api/filtros/search?nombre=pantalon&categoriaId=&precioMin=&precioMax=&page=1
+2023-11-14T14:45:31.293Z info: Operacion realizada con exito
+2023-11-14T14:46:33.983Z info: Received a GET request for /api/categorias
+2023-11-14T14:46:33.996Z info: Received a GET request for /api/filtros/search?nombre=pantalon&categoriaId=&precioMin=&precioMax=&page=1
+2023-11-14T14:46:34.008Z info: Received a GET request for /api/categorias
+2023-11-14T14:46:34.013Z info: Received a GET request for /api/filtros/search?nombre=pantalon&categoriaId=&precioMin=&precioMax=&page=1
+2023-11-14T14:46:34.185Z info: Operacion realizada con exito
+2023-11-14T14:46:34.563Z info: Operacion realizada con exito
+2023-11-14T14:46:41.650Z info: Received a GET request for /api/categorias
+2023-11-14T14:46:41.653Z info: Received a GET request for /api/filtros/search?nombre=remera&categoriaId=&precioMin=&precioMax=&page=1
+2023-11-14T14:46:41.837Z info: Operacion realizada con exito
+2023-11-14T14:46:46.078Z info: Received a GET request for /api/categorias
+2023-11-14T14:46:46.080Z info: Received a GET request for /api/filtros/search?nombre=remera&categoriaId=&precioMin=&precioMax=&page=2
+2023-11-14T14:46:46.274Z info: Operacion realizada con exito
+2023-11-14T14:46:49.255Z info: Received a GET request for /api/categorias
+2023-11-14T14:46:49.257Z info: Received a GET request for /api/filtros/search?nombre=pantalon&categoriaId=&precioMin=&precioMax=&page=2
+2023-11-14T14:46:49.442Z info: Operacion realizada con exito
+2023-11-14T14:47:07.244Z info: Received a GET request for /api/categorias
+2023-11-14T14:47:07.246Z info: Received a GET request for /api/filtros/search?nombre=pantalon&categoriaId=&precioMin=&precioMax=&page=1
+2023-11-14T14:47:07.255Z info: Received a GET request for /api/categorias
+2023-11-14T14:47:07.257Z info: Received a GET request for /api/filtros/search?nombre=pantalon&categoriaId=&precioMin=&precioMax=&page=1
+2023-11-14T14:47:08.792Z info: Operacion realizada con exito
+2023-11-14T14:47:08.803Z info: Operacion realizada con exito
+2023-11-14T14:47:22.719Z info: Received a GET request for /api/categorias
+2023-11-14T14:47:22.724Z info: Received a GET request for /api/filtros/search?nombre=pantalon&categoriaId=1&precioMin=&precioMax=&page=1
+2023-11-14T14:47:24.257Z info: Operacion realizada con exito
+2023-11-14T14:47:25.588Z info: Received a GET request for /api/categorias
+2023-11-14T14:47:25.590Z info: Received a GET request for /api/filtros/search?nombre=pantalon&categoriaId=&precioMin=&precioMax=&page=1
+2023-11-14T14:47:25.595Z info: Received a GET request for /api/categorias
+2023-11-14T14:47:25.598Z info: Received a GET request for /api/filtros/search?nombre=pantalon&categoriaId=&precioMin=&precioMax=&page=1
+2023-11-14T14:47:25.774Z info: Operacion realizada con exito
+2023-11-14T14:47:25.960Z info: Operacion realizada con exito
+2023-11-14T14:51:44.727Z info: Received a GET request for /api/categorias
+2023-11-14T14:51:44.731Z info: Received a GET request for /api/filtros/search?nombre=pantalon&categoriaId=&precioMin=&precioMax=&page=1
+2023-11-14T14:51:46.363Z info: Operacion realizada con exito
+2023-11-14T14:51:51.889Z info: Received a GET request for /api/categorias
+2023-11-14T14:51:51.890Z info: Received a GET request for /api/filtros/search?nombre=remera&categoriaId=&precioMin=&precioMax=&page=1
+2023-11-14T14:51:52.074Z info: Operacion realizada con exito
+2023-11-14T14:51:55.014Z info: Received a GET request for /api/categorias
+2023-11-14T14:51:55.015Z info: Received a GET request for /api/filtros/search?nombre=remera&categoriaId=&precioMin=&precioMax=&page=1
+2023-11-14T14:51:55.203Z info: Operacion realizada con exito
+2023-11-14T14:52:32.518Z info: Received a GET request for /api/categorias
+2023-11-14T14:52:32.532Z info: Received a GET request for /api/filtros/search?nombre=remera&categoriaId=&precioMin=&precioMax=&page=1
+2023-11-14T14:52:32.544Z info: Received a GET request for /api/categorias
+2023-11-14T14:52:32.547Z info: Received a GET request for /api/filtros/search?nombre=remera&categoriaId=&precioMin=&precioMax=&page=1
+2023-11-14T14:52:32.713Z info: Operacion realizada con exito
+2023-11-14T14:52:33.092Z info: Operacion realizada con exito
+2023-11-14T14:52:36.393Z info: Received a GET request for /api/categorias
+2023-11-14T14:52:36.395Z info: Received a GET request for /api/filtros/search?nombre=remera&categoriaId=&precioMin=&precioMax=&page=1
+2023-11-14T14:52:36.584Z info: Operacion realizada con exito
+2023-11-14T14:53:20.951Z info: Received a GET request for /api/categorias
+2023-11-14T14:53:20.954Z info: Received a GET request for /api/filtros/search?nombre=remera&categoriaId=&precioMin=&precioMax=&page=1
+2023-11-14T14:53:22.771Z info: Operacion realizada con exito
+2023-11-14T14:54:25.842Z info: Received a GET request for /api/categorias
+2023-11-14T14:54:25.846Z info: Received a GET request for /api/filtros/search?nombre=remera&categoriaId=&precioMin=&precioMax=&page=2
+2023-11-14T14:54:25.906Z info: Received a GET request for /api/categorias
+2023-11-14T14:54:25.907Z info: Received a GET request for /api/filtros/search?nombre=remera&categoriaId=&precioMin=&precioMax=&page=1
+2023-11-14T14:54:27.407Z info: Operacion realizada con exito
+2023-11-14T14:54:27.441Z info: Operacion realizada con exito
+2023-11-14T14:54:31.860Z info: Received a GET request for /api/categorias
+2023-11-14T14:54:31.862Z info: Received a GET request for /api/filtros/search?nombre=remera&categoriaId=&precioMin=&precioMax=&page=1
+2023-11-14T14:54:32.056Z info: Operacion realizada con exito
+2023-11-14T14:54:43.105Z info: Received a GET request for /api/categorias
+2023-11-14T14:54:43.107Z info: Received a GET request for /api/filtros/search?nombre=remera&categoriaId=&precioMin=&precioMax=&page=1
+2023-11-14T14:54:44.631Z info: Operacion realizada con exito
+2023-11-14T14:54:45.152Z info: Received a GET request for /api/categorias
+2023-11-14T14:54:45.154Z info: Received a GET request for /api/filtros/search?nombre=remera&categoriaId=&precioMin=&precioMax=&page=1
+2023-11-14T14:54:45.345Z info: Operacion realizada con exito
+2023-11-14T14:54:54.328Z info: Received a GET request for /api/categorias
+2023-11-14T14:54:54.330Z info: Received a GET request for /api/filtros/search?nombre=remera&categoriaId=&precioMin=&precioMax=&page=2
+2023-11-14T14:54:54.345Z info: Received a GET request for /api/categorias
+2023-11-14T14:54:54.346Z info: Received a GET request for /api/filtros/search?nombre=remera&categoriaId=&precioMin=&precioMax=&page=1
+2023-11-14T14:54:54.515Z info: Operacion realizada con exito
+2023-11-14T14:54:54.701Z info: Operacion realizada con exito
+2023-11-14T14:55:02.951Z info: Received a GET request for /api/categorias
+2023-11-14T14:55:02.953Z info: Received a GET request for /api/filtros/search?nombre=remera&categoriaId=&precioMin=&precioMax=&page=2
+2023-11-14T14:55:02.967Z info: Received a GET request for /api/categorias
+2023-11-14T14:55:02.968Z info: Received a GET request for /api/filtros/search?nombre=remera&categoriaId=&precioMin=&precioMax=&page=1
+2023-11-14T14:55:03.139Z info: Operacion realizada con exito
+2023-11-14T14:55:03.155Z info: Operacion realizada con exito
+2023-11-14T14:55:08.222Z info: Received a GET request for /api/categorias
+2023-11-14T14:55:08.224Z info: Received a GET request for /api/filtros/search?nombre=remera&categoriaId=&precioMin=&precioMax=&page=1
+2023-11-14T14:55:08.410Z info: Operacion realizada con exito
+2023-11-14T14:55:14.721Z info: Received a GET request for /api/categorias
+2023-11-14T14:55:14.724Z info: Received a GET request for /api/filtros/search?nombre=remera&categoriaId=&precioMin=&precioMax=&page=2
+2023-11-14T14:55:14.909Z info: Operacion realizada con exito
+2023-11-14T14:56:30.180Z info: Received a GET request for /api/categorias
+2023-11-14T14:56:30.182Z info: Received a GET request for /api/filtros/search?nombre=pantalon&categoriaId=&precioMin=&precioMax=&page=2
+2023-11-14T14:56:31.967Z info: Operacion realizada con exito
+2023-11-14T14:56:34.290Z info: Received a GET request for /api/categorias
+2023-11-14T14:56:34.292Z info: Received a GET request for /api/filtros/search?nombre=pantalon&categoriaId=&precioMin=&precioMax=&page=1
+2023-11-14T14:56:34.483Z info: Operacion realizada con exito
+2023-11-14T15:01:41.923Z info: Received a GET request for /api/categorias
+2023-11-14T15:01:41.925Z info: Received a GET request for /api/productos?page=1
+2023-11-14T15:01:50.671Z info: Operacion realizada con exito
+2023-11-14T15:01:51.123Z info: Operacion realizada con exito
+2023-11-14T15:01:51.375Z info: Received a GET request for /api/categorias
+2023-11-14T15:01:51.377Z info: Received a GET request for /api/productos?page=1
+2023-11-14T15:01:51.381Z info: Received a GET request for /api/categorias
+2023-11-14T15:01:51.382Z info: Received a GET request for /api/productos?page=1
+2023-11-14T15:01:51.566Z info: Operacion realizada con exito
+2023-11-14T15:01:51.747Z info: Operacion realizada con exito
+2023-11-14T15:01:51.932Z info: Operacion realizada con exito
+2023-11-14T15:01:51.953Z info: Operacion realizada con exito
+2023-11-14T15:02:06.451Z info: Received a GET request for /api/productos/58
+2023-11-14T15:02:06.459Z info: Received a GET request for /api/productos/58
+2023-11-14T15:02:07.988Z info: Operacion realizada con exito
+2023-11-14T15:02:08.002Z info: Operacion realizada con exito
+2023-11-14T15:43:48.098Z info: Received a GET request for /api/auth/google
+2023-11-14T15:43:51.959Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXniWwl7tCojId5WcKrgtQJosq5uDwSq5B1mMYZKXjdy2LXWE_IAL7jlG6yy6MTCYg&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=1&prompt=consent
+2023-11-14T15:44:18.196Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXniWwl7tCojId5WcKrgtQJosq5uDwSq5B1mMYZKXjdy2LXWE_IAL7jlG6yy6MTCYg&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=1&prompt=consent
+2023-11-14T15:44:18.485Z info: Received a GET request for /favicon.ico
+2023-11-14T15:44:20.087Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXniWwl7tCojId5WcKrgtQJosq5uDwSq5B1mMYZKXjdy2LXWE_IAL7jlG6yy6MTCYg&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=1&prompt=consent
+2023-11-14T15:44:20.283Z info: Received a GET request for /favicon.ico
+2023-11-14T15:44:59.105Z info: Received a GET request for /api/auth/google
+2023-11-14T15:45:02.303Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXnoxcf7RyMH7FUOF6mIww16hGI_tBZE2iOcCKQRplRlEZ6bYsfimzISsiiC4jY7KQ&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=1&prompt=consent
+2023-11-14T15:45:49.143Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXnbm5eNooWQMZaTF-Ttl46OD801m_QN8H0c6Dq_ANOrrKkKTSXukVbP7MqNuggERQ&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=1&prompt=consent
+2023-11-14T15:45:57.162Z info: Received a GET request for /api/auth/google
+2023-11-14T15:46:01.736Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXmwcr7oqRfEORjt6b11SsrMExqDD6IG6rHfPtSOHt83r1-e_G_Qkrx_TdwRH2R0EQ&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=2&prompt=consent
+2023-11-14T15:48:12.389Z info: Received a GET request for /api/auth/google
+2023-11-14T15:48:15.999Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXkfQWYXpW7i965klGBudpsnhwMERn0XSYKrxz3_vcbUZWMFYo_C0fpu-ojW9dC2jg&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=1&prompt=consent
+2023-11-14T15:50:14.376Z info: Received a GET request for /api/auth/google
+2023-11-14T15:50:18.880Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXkPtKDeh8AH29p12EPPqcgxAQ4jyMQADRUpdGCTLYb_rnV9r1fo3k4m8asrbf5akg&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=1&prompt=consent
+2023-11-14T15:51:07.578Z info: Received a GET request for /api/auth/google
+2023-11-14T15:51:11.085Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXmSqZbZojv9i0JNDpEdYw5Up3E-bVqobY7myK0YOZOWwppPWxgBzWAb6h-jeu_rRg&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=1&prompt=consent
+2023-11-14T15:51:20.333Z info: Received a GET request for /api/auth/google
+2023-11-14T15:51:24.171Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXmMdCiV5wTZHB9OYO67rP5Ok9DbYedqbzTNUnT0MAX7OSPjl3Phbvlj0rnvou_Yrg&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=2&prompt=consent
+2023-11-14T15:55:25.162Z info: Received a GET request for /api/auth/google
+2023-11-14T15:55:28.600Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXkyC135Q49TDSEUpV2y5GmAxKfiGo_0Hm8tj5vFUnIum7mCT9hJ3f-_5as6l_0U-Q&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=1&prompt=consent
+2023-11-14T15:55:50.307Z info: Received a GET request for /api/auth/google
+2023-11-14T15:55:53.900Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXkkxFqXAh09CWTnzRRWzaATmkr5_T4U1TIQGHsfhA2iGcs_hXjbABdbnnhwborp9w&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=2&prompt=consent
+2023-11-14T15:56:44.412Z info: Received a GET request for /api/auth/google
+2023-11-14T15:56:47.828Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXnGEsOZkXt4EjjQbZXu4YlSeyjdVYkX-wEXriyNYrAH8C8cdg8hFxesa90FwwYYSw&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=1&prompt=consent
+2023-11-14T15:57:00.398Z info: Received a GET request for /api/auth/google
+2023-11-14T15:57:04.394Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXnhGG5azhUhMw55POkE6Z8pcpt5_gj9A213arIChQfTMZOzO9IgNKJFC5aOtL08Iw&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=2&prompt=consent
+2023-11-14T15:57:31.769Z info: Received a GET request for /api/auth/google
+2023-11-14T15:57:35.234Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXksErCD3Clm6vTYWgFESxkr5kvMfCic9Vy2sXtXJDjSYqmsq4TDOWZIubLEfRh_zg&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=1&prompt=consent
+2023-11-14T15:58:56.407Z info: Received a GET request for /api/auth/google
+2023-11-14T15:59:00.659Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXn0AOifLuIqzQoPimhmt9_Uk8osD_53PZlDA_2vvdNdPlJotXFv1MmjYtJ74nugdg&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=2&prompt=consent
+2023-11-14T16:03:23.692Z info: Received a GET request for /api/auth/google
+2023-11-14T16:03:28.892Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXlRvWdAQMD-CSgjxYGft7o-9I9OzJogNuaJsi1fJPfNm8tspuond5cPUG9nq6hC-A&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=1&prompt=consent
+2023-11-14T16:09:12.050Z info: Received a GET request for /api/auth/google
+2023-11-14T16:09:17.329Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXnU4K61bwF2kMhkQWMKl8yTnk8NOWTO2CMoBFF4cLEIhm6cU2TXpzkOkPqFwy0kjw&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=1&prompt=consent
+2023-11-14T16:15:52.672Z info: Received a GET request for /api/auth/google
+2023-11-14T16:15:57.652Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXnI6-rOohd6OGP4UZliCrK8GQOUF0j3kGRjUwVEP0LP-QdYbsztAN1Es8px1BT1AA&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=1&prompt=consent
+2023-11-14T16:20:18.442Z info: Received a GET request for /api/auth/google
+2023-11-14T16:20:23.758Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXnHm9c2h26xAlOJu-pCJiBz826rrh5P-d8e82H4Q1FXsKjFhNX-FhYN3p_y0QtoJw&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=1&prompt=consent
+2023-11-14T16:26:45.891Z info: Received a GET request for /api/auth/google
+2023-11-14T16:26:49.205Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXka-UvNgf8ngLs-wym8nNcmzXAmGhD4YreXYtlaBxAhGv36MHl-x-D9f13PTyA_0g&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=1&prompt=consent
+2023-11-14T16:30:59.738Z info: Received a GET request for /api/auth/google
+2023-11-14T16:31:03.068Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXkIVGf7aZ1Ll8eQpJ1MJeRC6s99v8O8p-zrYSZAwlcwlOZ-o63oARXcOlrVlBlHew&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=1&prompt=consent
+2023-11-14T16:31:23.376Z info: Received a GET request for /api/auth/google
+2023-11-14T16:31:27.423Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXkhmLjmxEKDyXvjwm8CuFVPVT-_UOVK80xJYXeJISTJLxGWEeWk8MX-i9z8VMwxjw&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=1&prompt=consent
+2023-11-14T16:35:10.975Z info: Received a GET request for /api/auth/google
+2023-11-14T16:35:17.128Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXlp76l4BZXOT7uCN459JbSDmKjiZr56MptQmSd9TKTGPC1IyKXxWaHs76BZEB-tOA&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=2&prompt=consent
+2023-11-14T16:35:56.279Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXlp76l4BZXOT7uCN459JbSDmKjiZr56MptQmSd9TKTGPC1IyKXxWaHs76BZEB-tOA&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=2&prompt=consent
+2023-11-14T16:36:04.539Z info: Received a GET request for /api/auth/google
+2023-11-14T16:36:08.025Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXlkrCBGCBXNRBeCwP-NLD3x_iMgGouOXFnUMc-WVJxQsTj2kPXYy3T04mJ3NF-XEg&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=1&prompt=consent
+2023-11-14T16:39:04.197Z info: Received a GET request for /api/auth/google
+2023-11-14T16:39:07.488Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXmDwRv1Is7RjM7dymploV3pfBVZB2XotmzwKyEJrnsGa5fVc2mbaKkkVTxdIH1jkQ&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=1&prompt=consent
+2023-11-14T16:41:44.578Z info: Received a GET request for /api/auth/google
+2023-11-14T16:41:51.468Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXnfuXDcQH0sm_2-KQ30yAGwnLPrW0m4wlovym8ovU9xzff8s8FB1ZpG2miNcFrYvQ&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=2&prompt=consent
+2023-11-14T16:50:34.010Z info: Received a GET request for /api/auth/google
+2023-11-14T16:50:37.595Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXnBsuEoIqP8gEhDRcZJ8Y9BEpq80ZZpmc4tig-2LjyqvMtB1fXZPVOcdoZ7SLQHjg&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=2&prompt=consent
+2023-11-14T16:51:18.139Z info: Received a GET request for /api/auth/google
+2023-11-14T16:51:22.156Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXkcVkpKQ9stjiTdGtaKealo3a94RXf7_ULgP-2z0M3HWp7GYarV8yUvySgjUKWwbg&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=1&prompt=consent
+2023-11-14T18:40:29.248Z info: Received a GET request for /api/categorias
+2023-11-14T18:40:29.255Z info: Received a GET request for /api/productos?page=1
+2023-11-14T18:40:29.263Z info: Received a GET request for /api/categorias
+2023-11-14T18:40:29.265Z info: Received a GET request for /api/productos?page=1
+2023-11-14T18:40:30.872Z info: Operacion realizada con exito
+2023-11-14T18:40:30.897Z info: Operacion realizada con exito
+2023-11-14T18:40:31.087Z info: Operacion realizada con exito
+2023-11-14T18:40:31.104Z info: Operacion realizada con exito
+2023-11-14T18:40:56.974Z info: Received a GET request for /api/categorias
+2023-11-14T18:40:56.976Z info: Received a GET request for /api/productos?page=1
+2023-11-14T18:40:58.491Z info: Operacion realizada con exito
+2023-11-14T18:40:58.721Z info: Operacion realizada con exito
+2023-11-14T18:50:14.024Z info: Received a GET request for /api/categorias
+2023-11-14T18:50:14.030Z info: Received a GET request for /api/productos?page=1
+2023-11-14T18:50:14.035Z info: Received a GET request for /api/categorias
+2023-11-14T18:50:14.037Z info: Received a GET request for /api/productos?page=1
+2023-11-14T18:50:16.495Z info: Operacion realizada con exito
+2023-11-14T18:50:16.499Z info: Operacion realizada con exito
+2023-11-14T18:50:16.716Z info: Operacion realizada con exito
+2023-11-14T18:50:16.721Z info: Operacion realizada con exito
+2023-11-14T18:52:12.040Z info: Received a GET request for /api/categorias
+2023-11-14T18:52:12.042Z info: Received a GET request for /api/filtros/search?nombre=&categoriaId=1&precioMin=&precioMax=&page=1
+2023-11-14T18:52:13.622Z info: Operacion realizada con exito
+2023-11-14T18:52:15.166Z info: Received a GET request for /api/categorias
+2023-11-14T18:52:15.167Z info: Received a GET request for /api/productos?page=1
+2023-11-14T18:52:15.351Z info: Operacion realizada con exito
+2023-11-14T18:52:15.541Z info: Operacion realizada con exito
+2023-11-14T18:52:15.654Z info: Received a GET request for /api/categorias
+2023-11-14T18:52:15.657Z info: Received a GET request for /api/filtros/search?nombre=&categoriaId=2&precioMin=&precioMax=&page=1
+2023-11-14T18:52:15.840Z info: Operacion realizada con exito
+2023-11-14T18:52:16.882Z info: Received a GET request for /api/categorias
+2023-11-14T18:52:16.883Z info: Received a GET request for /api/filtros/search?nombre=&categoriaId=2,1&precioMin=&precioMax=&page=1
+2023-11-14T18:52:17.067Z info: Operacion realizada con exito
+2023-11-14T18:52:17.686Z info: Received a GET request for /api/categorias
+2023-11-14T18:52:17.687Z info: Received a GET request for /api/filtros/search?nombre=&categoriaId=1&precioMin=&precioMax=&page=1
+2023-11-14T18:52:17.871Z info: Operacion realizada con exito
+2023-11-14T18:52:22.780Z info: Received a GET request for /api/categorias
+2023-11-14T18:52:22.782Z info: Received a GET request for /api/filtros/search?nombre=&categoriaId=1&precioMin=&precioMax=&page=2
+2023-11-14T18:52:22.965Z info: Operacion realizada con exito
+2023-11-14T18:52:26.724Z info: Received a GET request for /api/categorias
+2023-11-14T18:52:26.726Z info: Received a GET request for /api/productos?page=2
+2023-11-14T18:52:26.909Z info: Operacion realizada con exito
+2023-11-14T18:52:27.101Z info: Operacion realizada con exito
+2023-11-14T18:52:30.462Z info: Received a GET request for /api/categorias
+2023-11-14T18:52:30.463Z info: Received a GET request for /api/productos?page=1
+2023-11-14T18:52:30.647Z info: Operacion realizada con exito
+2023-11-14T18:52:30.835Z info: Operacion realizada con exito
+2023-11-14T19:01:23.095Z info: Received a GET request for /api/categorias
+2023-11-14T19:01:23.097Z info: Received a GET request for /api/productos?page=1
+2023-11-14T19:01:24.701Z info: Operacion realizada con exito
+2023-11-14T19:01:24.897Z info: Operacion realizada con exito
+2023-11-14T19:04:14.034Z info: Received a GET request for /api/categorias
+2023-11-14T19:04:14.038Z info: Received a GET request for /api/productos?page=1
+2023-11-14T19:04:14.041Z info: Received a GET request for /api/categorias
+2023-11-14T19:04:14.045Z info: Received a GET request for /api/productos?page=1
+2023-11-14T19:04:15.285Z info: Received a GET request for /api/categorias
+2023-11-14T19:04:15.288Z info: Received a GET request for /api/productos?page=1
+2023-11-14T19:04:15.295Z info: Received a GET request for /api/categorias
+2023-11-14T19:04:15.296Z info: Received a GET request for /api/productos?page=1
+2023-11-14T19:04:15.645Z info: Operacion realizada con exito
+2023-11-14T19:04:15.657Z info: Operacion realizada con exito
+2023-11-14T19:04:15.830Z info: Operacion realizada con exito
+2023-11-14T19:04:15.864Z info: Operacion realizada con exito
+2023-11-14T19:04:16.018Z info: Operacion realizada con exito
+2023-11-14T19:04:16.050Z info: Operacion realizada con exito
+2023-11-14T19:04:16.054Z info: Operacion realizada con exito
+2023-11-14T19:04:16.067Z info: Operacion realizada con exito
+2023-11-14T19:04:18.854Z info: Received a GET request for /api/categorias
+2023-11-14T19:04:18.856Z info: Received a GET request for /api/productos?page=1
+2023-11-14T19:04:18.858Z info: Received a GET request for /api/categorias
+2023-11-14T19:04:18.859Z info: Received a GET request for /api/productos?page=1
+2023-11-14T19:04:19.040Z info: Operacion realizada con exito
+2023-11-14T19:04:19.045Z info: Operacion realizada con exito
+2023-11-14T19:04:19.235Z info: Operacion realizada con exito
+2023-11-14T19:04:19.241Z info: Operacion realizada con exito
+2023-11-14T19:06:51.299Z info: Received a POST request for /api/usuarios
+2023-11-14T19:06:51.307Z error: password is not defined
+2023-11-14T19:09:27.044Z info: Received a POST request for /api/usuarios
+2023-11-14T19:09:27.045Z error: password is not defined

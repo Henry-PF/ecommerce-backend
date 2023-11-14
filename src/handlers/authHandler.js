@@ -4,10 +4,11 @@ const passport = require("../auth/google");
 
 exports.loginGoogle = passport.authenticate('google', { scope: ['email', 'profile'] })
 
-exports.googleCallback = passport.authenticate('google', {
-    successRedirect: "http://localhost:5173",
-    failureRedirect: "/login",
-})
+exports.googleCallback = passport.authenticate('google', { failureRedirect: "/login" }), (req, res) => {
+    const user = req.user;
+    res.cookie('userData', JSON.stringify(user));
+    res.redirect('/');
+}
 
 exports.login = async (req, res) => {
     let result = {};
