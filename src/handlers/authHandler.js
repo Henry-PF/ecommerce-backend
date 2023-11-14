@@ -3,15 +3,12 @@ const { logger } = require("../components/logger");
 const passport = require("../auth/google");
 
 exports.loginGoogle = passport.authenticate('google', { scope: ['email', 'profile'] })
+
 exports.googleCallback = passport.authenticate('google', {
     successRedirect: "http://localhost:5173",
     failureRedirect: "/login",
-    passReqToCallback: true
-}), (req, res) => {
-    // If you use "Content-Type": "application/json"
-    // req.isAuthenticated is true if authentication was success else it is false
-    res.json({ auth: req.isAuthenticated() });
-};
+})
+
 exports.login = async (req, res) => {
     let result = {};
     try {
