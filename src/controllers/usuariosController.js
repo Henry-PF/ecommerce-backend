@@ -43,8 +43,6 @@ exports.create = async (data) => {
             user = await usuarios.create(dtaUsuario);
 
             if (user) {
-                result.data = user;
-                result.message = "Usuario registrado con éxito";
                 await sendEmail(
                     dta.correo,
                     "Bienvenido a Trendy ✔",
@@ -55,7 +53,7 @@ exports.create = async (data) => {
                     A continuación, encontrarás algunos detalles sobre tu cuenta:
                     </p>
                     <ul>
-                        <li>Nombre de usuario: ${usuario}</li>
+                        <li>Nombre de usuario: ${dtaUsuario.usuario}</li>
                     </ul>
                     <p>¡Si tienes alguna pregunta o necesitas asistencia, no dudes en ponerte en contacto con nuestro equipo de soporte!</p>
                     <p>¡Esperamos que disfrutes de tu experiencia con Trendy!</p>`
