@@ -11,7 +11,7 @@ exports.create = async (data) => {
     let result = {};
     try {
         if (data) {
-            let dta = data;
+            let dta = data.data;
             let dtaPersona = {
                 nombre: dta.nombre,
                 apellido: dta.apellido,
@@ -20,15 +20,15 @@ exports.create = async (data) => {
                 direccion: dta.direccion,
                 telefono: dta.telefono
             }
-            let hashF = await bcrypt.hash(password, 10).then(hash => {
+            let hashF = await bcrypt.hash(data.password, 10).then(hash => {
                 return hash;
             })
             let dtaUsuario = {
-                usuario: usuario,
+                usuario: data.usuario,
                 password: hashF,
-                id_statud: "1",
+                id_statud: 1,
                 type: "usuario",
-                googleId: dta.googleId
+                googleId: ""
             }
             //Verficacion si los datos de la persona ya existe
             const personaExiste = await personas.findOne({ where: { correo: { [Op.eq]: dtaPersona.correo } } })
