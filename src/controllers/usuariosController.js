@@ -1,8 +1,8 @@
-const {usuarios,personas, statud} = require("../db");
+const { usuarios, personas, statud } = require("../db");
 const { Op } = require("sequelize");
 const jwt = require("jsonwebtoken");
 const bcrypt = require("bcrypt");
-const sendEmail = require('../config/mailer');
+const { sendEmail } = require('../config/mailer');
 const process = require("process");
 const env = process.env
 const { logger } = require("../components/logger");
@@ -11,7 +11,7 @@ exports.create = async (data) => {
     let result = {};
     try {
         if (data) {
-            let dta = data;
+            let dta = data.data;
             let dtaPersona = {
                 nombre: dta.nombre,
                 apellido: dta.apellido,
@@ -20,15 +20,15 @@ exports.create = async (data) => {
                 direccion: dta.direccion,
                 telefono: dta.telefono
             }
-            let hashF = await bcrypt.hash(password, 10).then(hash => {
+            let hashF = await bcrypt.hash(data.password, 10).then(hash => {
                 return hash;
             })
             let dtaUsuario = {
-                usuario: usuario,
+                usuario: data.usuario,
                 password: hashF,
-                id_statud: "1",
+                id_statud: 1,
                 type: "usuario",
-                googleId: dta.googleId
+                googleId: ""
             }
             //Verficacion si los datos de la persona ya existe
             const personaExiste = await personas.findOne({ where: { correo: { [Op.eq]: dtaPersona.correo } } })
@@ -43,8 +43,6 @@ exports.create = async (data) => {
             user = await usuarios.create(dtaUsuario);
 
             if (user) {
-                result.data = user;
-                result.message = "Usuario registrado con éxito";
                 await sendEmail(
                     dta.correo,
                     "Bienvenido a Trendy ✔",
@@ -55,7 +53,7 @@ exports.create = async (data) => {
                     A continuación, encontrarás algunos detalles sobre tu cuenta:
                     </p>
                     <ul>
-                        <li>Nombre de usuario: ${usuario}</li>
+                        <li>Nombre de usuario: ${dtaUsuario.usuario}</li>
                     </ul>
                     <p>¡Si tienes alguna pregunta o necesitas asistencia, no dudes en ponerte en contacto con nuestro equipo de soporte!</p>
                     <p>¡Esperamos que disfrutes de tu experiencia con Trendy!</p>`
@@ -72,7 +70,7 @@ exports.create = async (data) => {
         return result;
     } catch (error) {
         logger.error(error.message);
-        return result={message : error.message,error:true};
+        return result = { message: error.message, error: true };
     }
 }
 
@@ -83,33 +81,33 @@ exports.update = async (data) => {
             let dataUser = await usuarios.findOne({
                 include: [personas],
                 where: {
-                    id:{
+                    id: {
                         [Op.eq]: data.id
                     }
                 }
             });
             if (dataUser) {
-                let data_persona={
-                    "nombre":data.nombre,
-                    "apellido":data.apellido,
-                    "telefono":data.telefono,
-                    "direccion":data.direccion,
-                    "dni":data.dni
+                let data_persona = {
+                    "nombre": data.nombre,
+                    "apellido": data.apellido,
+                    "telefono": data.telefono,
+                    "direccion": data.direccion,
+                    "dni": data.dni
                 }
-                await personas.update(data_persona,{
+                await personas.update(data_persona, {
                     where: {
-                        id:{
+                        id: {
                             [Op.eq]: dataUser.id_persona
                         }
                     }
                 })
-                let data_usuario ={
+                let data_usuario = {
                     "type": data.type,
                     "id_statud": data.id_statud
                 }
-                await usuarios.update(data_usuario,{
+                await usuarios.update(data_usuario, {
                     where: {
-                        id:{
+                        id: {
                             [Op.eq]: data.id
                         }
                     }
@@ -119,7 +117,7 @@ exports.update = async (data) => {
         return result;
     } catch (error) {
         logger.error(error.message);
-        return result={message : error.message,error:true};
+        return result = { message: error.message, error: true };
     }
 }
 exports.findAll = async () => {
@@ -135,7 +133,7 @@ exports.findAll = async () => {
         return result;
     } catch (error) {
         logger.error(error.message);
-        return result={message : error.message,error:true};
+        return result = { message: error.message, error: true };
     }
 }
 
@@ -157,7 +155,7 @@ exports.FindID = async (id) => {
         return result;
     } catch (error) {
         logger.error(error.message);
-        return result={message : error.message,error:true};
+        return result = { message: error.message, error: true };
     }
 }
 
@@ -188,7 +186,7 @@ exports.Delete = async (id) => {
         return result;
     } catch (error) {
         logger.error(error.message);
-        return result={message : error.message,error:true};
+        return result = { message: error.message, error: true };
     }
 }
 
@@ -219,7 +217,7 @@ exports.findEmail = async (data) => {
         return result;
     } catch (error) {
         logger.error(error.message);
-        return result={message : error.message,error:true};
+        return result = { message: error.message, error: true };
     }
 }
 
@@ -239,10 +237,10 @@ exports.forgoPassword = async (data) => {
             include: [
                 {
                     model: usuarios,
-                    attributes:['id','password'],
+                    attributes: ['id', 'password'],
                     where: {
-                        id_statud:{
-                            [Op.eq] : 1
+                        id_statud: {
+                            [Op.eq]: 1
                         }
                     }
                 }
@@ -260,7 +258,7 @@ exports.forgoPassword = async (data) => {
                 })
                 let updateDta = await usuarios.update({ password: hashF }, {
                     where: {
-                        id:{
+                        id: {
                             [Op.eq]: dta.usuarios[0].dataValues.id
                         }
                     }
@@ -284,10 +282,11 @@ exports.forgoPassword = async (data) => {
         return result;
     } catch (error) {
         logger.error(error.message);
-        return result={message : error.message,error:true};
+        return result = { message: error.message, error: true };
     }
 }
 exports.login = async (data) => {
+    console.log(data);
     let result = {};
     try {
         await personas.findOne({
@@ -319,12 +318,14 @@ exports.login = async (data) => {
                     result.token = token;
                 }
             } else {
-                result.error = "Usuario no registrado";
+                throw new Error('Usuario no registrado');
+                // result.error = "Usuario no registrado";
             }
         });
+        console.log(result);
         return result;
     } catch (error) {
         logger.error(error.message);
-        return result={message : error.message,error:true};
+        return result = { message: error.message, error: true };
     }
 }

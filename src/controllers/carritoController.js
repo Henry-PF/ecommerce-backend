@@ -35,7 +35,6 @@ exports.getCarrito = async (data)=>{
                     }
                 }
             });
-
             if(dtaCarrito){
                 result = {
                     data: dtaCarrito,
@@ -84,18 +83,129 @@ exports.create = async (data)=>{
         return result={message : error.message,error:true};
     }
 }
-
-exports.update = async (data)=>{
+exports.addItem = async (data)=>{
     let result = "";
     try{
-        
+        if (data) {
+            let dtaCarrito = await carrito.findOne({
+                where:{
+                    id_usuario:{
+                        [Op.eq]:data.id_usuario
+                    }
+                }
+            });
+            if(dtaCarrito){
+                let dtaProducto = await producto.findOne({
+                    where:{
+                        id:{
+                            [Op.eq]:data.id_producto
+                        }
+                    }
+                });
+                if (dtaProducto){
+                    let subtotal = parseFloat((data.cantidad).toFixed(2)) * parseFloat(dtaProducto.precio);
+                    let aggProd = await detalle_carrito.create({
+                        id_producto:dtaProducto.id,
+                        cantidad : data.cantidad,
+                        subtotal : subtotal,
+                        id_carrito: dtaCarrito.id
+                    });
+                    if(aggProd){
+                        let dataCarrito =await updateTotalCarrito({
+                            monto:subtotal,
+                            id_carrito:dtaCarrito.id
+                        })
+                        result = {
+                            data: {
+                                item:aggProd,
+                                carrito:dataCarrito
+                            },
+                            error: false,
+                            message:"Operacion realizada con exito"
+                        }
+                    }
+                }else{
+                    result = {error:true,message:"producto no existente"};
+                }
+            }else{
+                result = {error:true,message:"carrito no existente"};
+            }
+        }else{
+            result = {error:true,message:"falta parametros"};
+        }
+        logger.info(result);
+        return result;
     }catch(error){
         logger.error(error.message);
         return result={message : error.message,error:true};
     }
 }
 
-exports.delete = async (data)=>{
+const updateTotalCarrito = async (data)=>{
+    let result = "";
+    try{
+        if(data){
+            let dtaCarrito = await carrito.findOne({
+                where:{
+                    id:{
+                        [Op.eq]:data.id_carrito
+                    }
+                }
+            });
+            if(dtaCarrito){
+                dtaCarrito.total += data.monto;
+                dtaCarrito.save();
+                result = dtaCarrito;
+            }else{
+                result = {error:true,message:"carrito no existente"};
+            }
+        }else{
+            result = {error:true,message:"falta parametros"};
+        }
+        logger.info(result);
+        return result;
+    }catch(error){
+        logger.error(error.message);
+        return result={message : error.message,error:true};
+    }
+}
+
+exports.update = async (data)=>{
+    let result = "";
+    try{
+        if(data){
+            let dtaCarrito = await carrito.findOne({
+                where:{
+                    id:{
+                        [Op.eq]:data.id_carrito
+                    }
+                }
+            });
+            if(dtaCarrito){
+                let updCarrito=await carrito.update({data});
+                if(updCarrito){
+                    result = {
+                        error: false,
+                        message:"Operacion realizada con exito"
+                    }
+                }else{
+                    result = {error:true,message:"Error al actualizar el carrito"};
+                }
+            }else{
+                result = {error:true,message:"carrito no existente"};
+            }
+        }else{
+            result = {error:true,message:"falta parametros"};
+        }
+        logger.info(result);
+        return result;
+    }catch(error){
+        logger.error(error.message);
+        return result={message : error.message,error:true};
+    }
+}
+
+exports.Delete = async (data)=>{
     let result = "";
     try{
         if(data.id){
