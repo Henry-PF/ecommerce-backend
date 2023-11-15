@@ -121,7 +121,7 @@ exports.getOne = async (data) => {
 exports.Delete = async (data) => {
     let result = {};
     try {
-        let operation = producto.Update({ id_statud: 2 }, { where: { id: { [Op.eq]: data.id } } });
+        let operation = producto.update({ id_statud: 2 }, { where: { id: { [Op.eq]: data.id } } });
         if (operation) {
             result = {
                 data: operation,
