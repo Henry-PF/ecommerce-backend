@@ -6,6 +6,44 @@ const { review, usuarios } = require("../db")
     una vez que la autenticacion este hecha, se va a tomar el id de la sesión.
 */
 
+// Crear reporte
+exports.createReport = async (data) => {
+    const result = {
+        data: null,
+        message: "",
+        error: false,
+        status: 200,
+    };
+
+    try {
+        // Obtener y validar datos para el reporte desde 'data'
+        const { userId, reportDetails } = data;
+
+        // Verificar la existencia del usuario (mockeado por ahora)
+        const user = await usuarios.findOne({ where: { id: userId }, attributes: { exclude: ["password"] } });
+
+        if (!user) {
+            result.error = true;
+            result.message = "El usuario no existe";
+            result.status = 404;
+        } else {
+            // Lógica para crear el reporte aquí
+            // Por ejemplo:
+            // await createReportFunction(reportDetails, user);
+
+            result.message = "Reporte creado exitosamente";
+            result.status = 201; // Podría ser 200 o el código que desees
+        }
+    } catch (error) {
+        result.error = true;
+        result.message = "Error al procesar el reporte";
+        result.status = 500;
+    }
+
+    return result;
+};
+
+
 //obtener las reseñas de todos los usuarios.
 exports.getAllReviews = async () => {
     const result = {

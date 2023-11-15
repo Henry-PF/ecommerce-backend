@@ -1,6 +1,14 @@
-const { create, put, getAllReviews, del, } = require("../controllers/reviewsController")
+const { create, put, getAllReviews, del, createReport } = require("../controllers/reviewsController")
 
-
+// Creacion de reportes
+exports.createReport = async (req, res) => {
+    try {
+        const result = await createReport(req); // Llama al controlador para crear reportes
+        return res.status(result.status || 200).json(result);
+    } catch (error) {
+        return res.status(500).json({ error: true, message: "Error al procesar la creación del reporte" });
+    }
+};
 
 
 //obtener todas

@@ -1,4 +1,4 @@
-const { createReview, editReview, getAll, deleteReviews } = require("../handlers/reviewsHandler")
+const { createReview, editReview, getAll, deleteReviews, createReport } = require("../handlers/reviewsHandler")
 
 const router = require("express").Router()
 
@@ -11,6 +11,17 @@ router.post("/", createReview)
 router.put("/", editReview)
 //delete
 router.delete("/", deleteReviews)
+
+
+// Crear reporte (nueva ruta para manejar la creación de reportes)
+router.post("/report", async (req, res) => {
+    try {
+        const result = await createReport(req, res); // Llama al handler para crear reportes
+        return res.status(result.status || 200).json(result);
+    } catch (error) {
+        return res.status(500).json({ error: true, message: "Error al procesar la creación del reporte" });
+    }
+});
 
 //createMockUser
 router.get("/mock", async function (req, res) {
