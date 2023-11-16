@@ -62,6 +62,7 @@ exports.create = async (data)=>{
             let newCarrito= await carrito.create({
                 id_usuario:data.id,
                 id_statud:1,
+                total:0,
                 fecha: new Date().toLocaleDateString().toString()
             });
             if(!newCarrito){
