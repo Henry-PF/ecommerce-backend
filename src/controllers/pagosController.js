@@ -92,15 +92,17 @@ exports.createOrder = async (req, res) => {
                     let dataCarrito= await detalle_carrito.findAll({where:{id_carrito: { [Op.eq]: dta_carrito.id }}})
                     if (dataCarrito) {
                         dataCarrito.forEach(async (element) => {
-                            let dataDetalleFactura = await factura_detalle.create({
-                                id_factura: dta_factura.id,
-                                id_producto: element.id_producto,
-                                cantidad: element.cantidad,
-                                subtotal: element.subtotal,
-                            });
-                            if(!dataDetalleFactura){
-                                res.status(500).json({ message: "Error al registrar el detalle de la factura",error: true });
-                            }
+                          let newData = {
+                            id_usuario:dta_User.id,
+                            id_factura: dtafactura.id,
+                            id_producto: element.id_producto,
+                            cantidad: element.cantidad,
+                            subtotal: element.subtotal,
+                          }
+                          let dataDetalleFactura = await factura_detalle.create(newData);
+                          if(!dataDetalleFactura){
+                              res.status(500).json({ message: "Error al registrar el detalle de la factura",error: true });
+                          }
                         });
                     }else{
                         res.status(500).json({ message: "Carrito sin productos asignados",error: true });
