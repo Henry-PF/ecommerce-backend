@@ -1,5 +1,5 @@
-const { categoria, producto, img_productos, favoritos_productos } = require("../db");
-const { Op } = require("sequelize");
+const { categoria, producto, img_productos, favoritos_productos, conn } = require("../db");
+const { Op, where } = require("sequelize");
 const { logger } = require("../components/logger");
 const cloudinary = require("../config/cloudinary");
 
@@ -121,7 +121,7 @@ exports.getOne = async (data) => {
 exports.Delete = async (data) => {
     let result = {};
     try {
-        let operation = producto.Update({ id_statud: 2 }, { where: { id: { [Op.eq]: data.id } } });
+        let operation = producto.update({ id_statud: 2 }, { where: { id: { [Op.eq]: data.id } } });
         if (operation) {
             result = {
                 data: operation,
@@ -142,53 +142,94 @@ exports.Delete = async (data) => {
     }
 }
 exports.Update = async (data, files) => {
-    let result = {};
+    const result = {}
     try {
-        if (data.data) {
-            let operation = producto.Update(data.data, { where: { id: { [Op.eq]: data.id } } });
-            if (operation) {
-                /*let imgProduct = files;
-                if(imgProduct > 0){
-                    const validExtensions = ["png", "jpg", "jpeg"];
-                    imgProduct.forEach(async (element) => {
-                        const extension = element.mimetype.split("/")[1];
-                        if (!validExtensions.includes(extension)) {
-                            result = {
-                                error: true,
-                                message:`archivo no valido.`
-                            }
-                            logger.error(result);
-                            return result;
-                        }
-                        const uploaded = await cloudinary.v2.uploader.upload(
-                            element.tempFilePath
-                        );
-                        const { secure_url } = uploaded;
-                        await img_productos.Update({
-                            id_producto:operation.id,
-                            url:secure_url
-                        },{where: {id:{[Op.eq]:data.id}}})
-                    });
-                }*/
-                result = {
-                    data: operation,
-                    error: false,
-                    message: "Operacion realizada con exito"
-                }
-            } else {
-                result = {
-                    error: true,
-                    message: "Error al realizar su operacion"
-                }
-            }
-            logger.info(result);
-            return result;
-        }
+        if (data) {
+            await conn.transaction(async function (t) {
+                //obtener producto
+                const product = await producto.findOne({
+                    where: {
+                        id: { [Op.eq]: data.id }
+                    },
+                    transaction: t
+                })
 
+                if (product) {
+
+                    //datos de producto
+                    const productData = {
+                        ...data
+                    }
+
+                    //evitar que se pase el id 
+                    delete productData["id"]
+
+                    await product.update(productData, { transaction: t })
+
+                    //si hay un solo archivo.
+                    if (files && typeof files === "object") {
+                        files = [files]
+                    }
+
+                    if (files?.length) {
+                        //definir extensiones válidas
+                        const validExtensions = ["png", "jpg", "jpeg"];
+
+                        //validar archivos
+                        await Promise.all(files.map(async (file) => {
+                            //obtener extension del archivo
+                            const extension = file.mimetype.split("/")[1]
+
+                            //validar extension
+                            if (!validExtensions.includes(extension)) {
+                                result.error = true
+                                result.message = "Archivo no valido"
+                                logger.error(result)
+                                return result
+                            }
+
+                            //subir imagen a cloudinary
+                            const upload = await cloudinary.v2.uploader.upload(
+                                file.tempFilePath
+                            )
+
+                            //obtener url
+                            const { secure_url } = upload
+                            console.log(secure_url)
+
+                            //actualizar imagenes
+                            await img_productos.update({
+                                id_producto: product.id,
+                                url: secure_url
+                            }, {
+                                where: {
+                                    id_producto: {
+                                        [Op.eq]: data.id
+                                    }
+                                },
+                                transaction: t
+                            })
+
+                        })
+                        )
+                    }
+
+                    result.message = "Cambios realizados con éxito"
+                    result.status = 200
+
+                } else {
+                    result.message = "El producto solicitado no existe."
+                    result.status = 404
+                }
+            })
+        }
     } catch (error) {
-        logger.error(error.message);
-        return result = { message: error.message, error: true };
+        result.error = true
+        result.message = "Se produjo un error al actualizar el producto solicitado"
+        result.status = 500
+        logger.error(result)
     }
+    return result
 }
 
 exports.Create = async (data, files) => {
@@ -262,3 +303,4 @@ exports.Create = async (data, files) => {
         return result = { message: error.message, error: true };
     }
 }
+
