@@ -2,11 +2,9 @@ const {usuarios,carrito,detalle_carrito,pagos,factura,factura_detalle} = require
 const axios = require("axios");
 const { Op } = require("sequelize");
 const { sendEmail } = require("../config/mailer.js");
-const {
-  PAYPAL_API,
-  PAYPAL_API_CLIENT,
-  PAYPAL_API_SECRET,
-} = require("../config/configPaypal.js");
+const process = require("process");
+
+const {PAYPAL_API_CLIENT,PAYPAL_API_SECRET,PAYPAL_API} = process.env;
 
 let access_token = "";
 setAccess_token = (valor) => { access_token = valor; }
