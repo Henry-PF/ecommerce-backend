@@ -12,6 +12,7 @@ module.exports = (sequelize, DataTypes) => {
     static associate(models) {
       this.belongsTo(models.statud,{ foreignKey: "id_statud"});
       this.belongsTo(models.usuarios,{ foreignKey: "id_usuario"});
+      this.hasMany(models.detalle_carrito,{ foreignKey: "id_carrito"});
     }
   }
   pedidos.init({
