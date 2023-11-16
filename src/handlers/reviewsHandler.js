@@ -7,7 +7,7 @@ const { create, put, getAllReviews, del, } = require("../controllers/reviewsCont
 
 exports.getAll = async (req, res) => {
     try {
-        const result = await getAllReviews(req)
+        const result = await getAllReviews()
         return res.status(result.status || 200).json(result)
     } catch (error) {
         return res.status(500).json({ error: true, message: "Error al consultar la base de datos." })

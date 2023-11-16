@@ -33,6 +33,7 @@ exports.getAllReviews = async () => {
 //crear reseña
 exports.create = async (data) => {
     //resultado
+    console.log(data);
     const result = {
         data: null,
         message: "",

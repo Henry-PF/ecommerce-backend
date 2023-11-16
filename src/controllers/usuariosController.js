@@ -314,7 +314,7 @@ exports.login = async (data) => {
                     const token = jwt.sign({ userId: dta.usuarios[0].usuario.id }, env.SECRECT_TOKEN, {
                         expiresIn: "1h",
                     });
-                    result.data = dta;
+                    result.data = dta.usuarios[0];
                     result.token = token;
                 }
             } else {
