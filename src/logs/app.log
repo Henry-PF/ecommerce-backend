@@ -2,3 +2,74 @@
 2023-11-16T01:53:23.488Z info: Received a POST request for /api/pago/create-order
 2023-11-16T02:03:34.496Z info: Received a POST request for /api/pago/create-order
 2023-11-16T02:04:10.830Z info: Received a POST request for /api/pago/create-order
+2023-11-16T17:05:49.722Z info: Received a GET request for /api/productos/1
+2023-11-16T17:05:51.082Z info: Error al realizar su operacion
+2023-11-16T17:05:59.608Z info: Received a GET request for /api/productos/1
+2023-11-16T17:05:59.768Z info: Error al realizar su operacion
+2023-11-16T17:06:09.339Z info: Received a GET request for /api/productos/58
+2023-11-16T17:06:09.507Z info: Operacion realizada con exito
+2023-11-16T17:06:58.415Z info: Received a GET request for /api/productos/58
+2023-11-16T17:06:58.592Z info: Operacion realizada con exito
+2023-11-16T17:09:00.698Z info: Received a GET request for /api/productos/58
+2023-11-16T17:09:00.705Z error: productsReview is not associated to producto!
+2023-11-16T17:09:44.122Z info: Received a GET request for /api/productos/58
+2023-11-16T17:09:44.301Z info: Operacion realizada con exito
+2023-11-16T17:10:03.629Z info: Received a GET request for /api/productos/58
+2023-11-16T17:10:03.802Z info: Operacion realizada con exito
+2023-11-16T17:10:08.422Z info: Received a GET request for /api/productos/58
+2023-11-16T17:10:08.586Z info: Operacion realizada con exito
+2023-11-16T17:15:47.024Z info: Received a POST request for /api/productsReview/
+2023-11-16T17:16:21.239Z info: Received a POST request for /api/productReviews/
+2023-11-16T17:16:35.252Z info: Received a GET request for /api/productos/58
+2023-11-16T17:16:36.539Z info: Operacion realizada con exito
+2023-11-16T17:16:57.283Z info: Received a POST request for /api/productReviews/
+2023-11-16T17:17:00.559Z info: Received a POST request for /api/productReviews/
+2023-11-16T17:17:19.236Z info: Received a POST request for /api/productReviews/
+2023-11-16T17:17:26.789Z info: Received a GET request for /api/productos/58
+2023-11-16T17:17:26.954Z info: Operacion realizada con exito
+2023-11-16T17:20:56.247Z info: Received a GET request for /api/productos/58
+2023-11-16T17:20:56.431Z error: column productsReviews.id_usuario does not exist
+2023-11-16T17:20:59.293Z info: Received a GET request for /api/productos/58
+2023-11-16T17:20:59.462Z error: column productsReviews.id_usuario does not exist
+2023-11-16T17:21:56.913Z info: Received a GET request for /api/productos/57
+2023-11-16T17:21:57.088Z info: Operacion realizada con exito
+2023-11-16T17:22:00.954Z info: Received a GET request for /api/productos/58
+2023-11-16T17:22:01.121Z info: Operacion realizada con exito
+2023-11-16T17:23:11.900Z info: Received a POST request for /api/productReviews/
+2023-11-16T17:23:17.826Z info: Received a POST request for /api/productReviews/
+2023-11-16T17:23:23.718Z info: Received a POST request for /api/productReviews/
+2023-11-16T17:23:53.891Z info: Received a GET request for /api/usuarios
+2023-11-16T17:24:03.154Z info: Received a POST request for /api/productReviews/
+2023-11-16T17:24:10.645Z info: Received a POST request for /api/productReviews/
+2023-11-16T17:31:45.245Z info: Received a POST request for /api/productReviews/
+2023-11-16T17:31:54.978Z info: Received a GET request for /api/productos/58
+2023-11-16T17:31:55.161Z info: Operacion realizada con exito
+2023-11-16T17:34:07.855Z info: Received a PUT request for /api/productReviews/
+2023-11-16T17:34:20.850Z info: Received a POST request for /api/productReviews/
+2023-11-16T17:34:42.839Z info: Received a PUT request for /api/productReviews/
+2023-11-16T17:35:57.618Z info: Received a PUT request for /api/productReviews/
+2023-11-16T17:36:02.504Z info: Received a GET request for /api/productos/58
+2023-11-16T17:36:02.675Z info: Operacion realizada con exito
+2023-11-16T17:36:12.778Z info: Received a PUT request for /api/productReviews/
+2023-11-16T17:36:17.274Z info: Received a GET request for /api/productos/58
+2023-11-16T17:36:17.436Z info: Operacion realizada con exito
+2023-11-16T17:37:39.392Z info: Received a PUT request for /api/productReviews/
+2023-11-16T17:37:43.319Z info: Received a GET request for /api/productos/58
+2023-11-16T17:37:43.489Z info: Operacion realizada con exito
+2023-11-16T17:37:49.692Z info: Received a POST request for /api/productReviews/
+2023-11-16T17:37:53.691Z info: Received a DELETE request for /api/productReviews/
+2023-11-16T17:37:55.810Z info: Received a DELETE request for /api/productReviews/
+2023-11-16T17:38:18.070Z info: Received a DELETE request for /api/productReviews/
+2023-11-16T17:39:10.077Z info: Received a DELETE request for /api/productReviews/
+2023-11-16T17:39:14.596Z info: Received a GET request for /api/productos/58
+2023-11-16T17:39:14.765Z info: Operacion realizada con exito
+2023-11-16T17:39:31.072Z info: Received a GET request for /api/productos/58
+2023-11-16T17:39:31.243Z info: Operacion realizada con exito
+2023-11-16T17:40:40.536Z info: Received a DELETE request for /api/productReviews/
+2023-11-16T17:41:36.915Z info: Received a POST request for /api/productReviews/
+2023-11-16T17:41:47.565Z info: Received a GET request for /api/productReviews/
+2023-11-16T17:41:47.738Z error: Se produjo un error al obtener las reseñas.
+2023-11-16T17:43:24.164Z info: Received a GET request for /api/productReviews/
+2023-11-16T17:43:45.302Z info: Received a PUT request for /api/productReviews/
+2023-11-16T17:43:50.205Z info: Received a GET request for /api/productReviews/
+2023-11-16T17:43:56.994Z info: Received a DELETE request for /api/productReviews/
