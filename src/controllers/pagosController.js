@@ -89,9 +89,9 @@ exports.createOrder = async (req, res) => {
               })
               if(dtaPago){
                 if (dtafactura) {
-                    let dataCarrito=detalle_carrito.findAll({where:{id_carrito: { [Op.eq]: dta_carrito.id }}})
+                    let dataCarrito= await detalle_carrito.findAll({where:{id_carrito: { [Op.eq]: dta_carrito.id }}})
                     if (dataCarrito) {
-                        dataCarrito.map(async (element) => {
+                        dataCarrito.forEach(async (element) => {
                             let dataDetalleFactura = await factura_detalle.create({
                                 id_factura: dta_factura.id,
                                 id_producto: element.id_producto,
