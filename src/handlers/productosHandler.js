@@ -57,12 +57,12 @@ exports.DeleteProducto = async (req, res) => {
 exports.UpdateProducto = async (req, res) => {
     let result = {};
     try {
-        if (req.body) {
-            result = await Update(req.body, req.files)
+        if (req.body?.id) {
+            result = await Update(req.body, req?.files?.files)
         } else {
-            result = { message: "faltan campos", error: true }
+            result = { status: 400, message: "faltan campos", error: true }
         }
-        res.status(200).json(result);
+        res.status(result.status || 200).json(result);
     } catch (error) {
         logger.error(error.message);
         res.status(500).json({ message: error.message, error: true })
