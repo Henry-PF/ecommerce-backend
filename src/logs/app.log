@@ -1301,3 +1301,122 @@
 2023-11-17T04:16:29.565Z info: Received a GET request for /api/favoritos/44
 2023-11-17T04:16:29.763Z info: Received a GET request for /api/favoritos/44
 2023-11-17T04:16:29.765Z info: Received a GET request for /api/favoritos/44
+2023-11-17T04:23:37.710Z info: Received a GET request for /api/usuarios/44
+2023-11-17T04:23:37.723Z info: Received a GET request for /api/categorias
+2023-11-17T04:23:37.724Z info: Received a GET request for /api/filtros/search?nombre=remera&categoriaId=&precioMin=&precioMax=&page=1
+2023-11-17T04:23:39.602Z info: Operacion realizada con exito
+2023-11-17T04:24:06.189Z info: Received a GET request for /api/favoritos/44
+2023-11-17T04:24:06.194Z info: Received a GET request for /api/favoritos/44
+2023-11-17T04:24:06.196Z info: Received a GET request for /api/favoritos/44
+2023-11-17T04:24:06.198Z info: Received a GET request for /api/usuarios/44
+2023-11-17T04:24:06.200Z info: Received a GET request for /api/usuarios/44
+2023-11-17T04:24:06.205Z info: Received a GET request for /api/favoritos/44
+2023-11-17T04:24:07.677Z info: Received a GET request for /api/categorias
+2023-11-17T04:24:07.730Z info: Received a GET request for /api/filtros/search?nombre=remera&categoriaId=&precioMin=&precioMax=&page=1
+2023-11-17T04:24:07.737Z info: Received a GET request for /api/categorias
+2023-11-17T04:24:07.743Z info: Received a GET request for /api/filtros/search?nombre=remera&categoriaId=&precioMin=&precioMax=&page=1
+2023-11-17T04:24:07.755Z info: Received a GET request for /api/favoritos/44
+2023-11-17T04:24:07.888Z info: Received a GET request for /api/favoritos/44
+2023-11-17T04:24:07.929Z info: Operacion realizada con exito
+2023-11-17T04:24:07.931Z info: Received a GET request for /api/favoritos/44
+2023-11-17T04:24:07.941Z info: Operacion realizada con exito
+2023-11-17T04:24:08.896Z info: Received a GET request for /api/favoritos/44
+2023-11-17T04:24:08.900Z info: Received a GET request for /api/usuarios/44
+2023-11-17T04:24:08.906Z info: Received a GET request for /api/favoritos/44
+2023-11-17T04:24:08.908Z info: Received a GET request for /api/categorias
+2023-11-17T04:24:08.909Z info: Received a GET request for /api/filtros/search?nombre=remera&categoriaId=&precioMin=&precioMax=&page=1
+2023-11-17T04:24:08.916Z info: Received a GET request for /api/favoritos/44
+2023-11-17T04:24:09.094Z info: Operacion realizada con exito
+2023-11-17T04:24:09.103Z info: Received a GET request for /api/usuarios/44
+2023-11-17T04:24:09.107Z info: Received a GET request for /api/favoritos/44
+2023-11-17T04:24:09.109Z info: Received a GET request for /api/categorias
+2023-11-17T04:24:09.110Z info: Received a GET request for /api/filtros/search?nombre=remera&categoriaId=&precioMin=&precioMax=&page=1
+2023-11-17T04:24:09.292Z info: Received a GET request for /api/favoritos/44
+2023-11-17T04:24:09.295Z info: Received a GET request for /api/favoritos/44
+2023-11-17T04:24:09.299Z info: Operacion realizada con exito
+2023-11-17T04:24:09.306Z info: Received a GET request for /api/favoritos/44
+2023-11-17T04:24:09.309Z info: Received a GET request for /api/favoritos/44
+2023-11-17T04:24:09.313Z info: Received a GET request for /api/favoritos/44
+2023-11-17T04:24:09.514Z info: Received a GET request for /api/favoritos/44
+2023-11-17T04:24:09.517Z info: Received a GET request for /api/favoritos/44
+2023-11-17T04:24:09.519Z info: Received a GET request for /api/favoritos/44
+2023-11-17T04:24:09.521Z info: Received a GET request for /api/favoritos/44
+2023-11-17T04:24:09.646Z info: Received a GET request for /api/favoritos/44
+2023-11-17T04:24:09.712Z info: Received a GET request for /api/favoritos/44
+2023-11-17T04:24:09.714Z info: Received a GET request for /api/favoritos/44
+2023-11-17T04:24:12.970Z info: Received a GET request for /api/favoritos/44
+2023-11-17T04:24:12.976Z info: Received a GET request for /api/reviews
+2023-11-17T04:24:12.979Z info: Received a GET request for /api/usuarios/44
+2023-11-17T04:24:13.022Z info: Received a GET request for /api/favoritos/44
+2023-11-17T04:24:13.024Z info: Received a GET request for /api/usuarios/44
+2023-11-17T04:24:13.026Z info: Received a GET request for /api/reviews
+2023-11-17T04:24:13.236Z info: Received a GET request for /api/favoritos/44
+2023-11-17T04:24:13.278Z info: Received a GET request for /api/favoritos/44
+2023-11-17T04:24:14.095Z info: Received a GET request for /api/favoritos/44
+2023-11-17T04:24:15.119Z info: Received a GET request for /api/favoritos/44
+2023-11-17T04:24:17.802Z info: Received a GET request for /api/favoritos/44
+2023-11-17T04:24:17.806Z info: Received a GET request for /api/usuarios/44
+2023-11-17T04:24:17.812Z info: Received a GET request for /api/favoritos/44
+2023-11-17T04:24:17.815Z info: Received a GET request for /api/productos?page=1
+2023-11-17T04:24:17.817Z info: Received a GET request for /api/categorias
+2023-11-17T04:24:17.819Z info: Received a GET request for /api/favoritos/44
+2023-11-17T04:24:17.987Z info: Received a GET request for /api/usuarios/44
+2023-11-17T04:24:18.000Z info: Received a GET request for /api/favoritos/44
+2023-11-17T04:24:18.004Z info: Operacion realizada con exito
+2023-11-17T04:24:18.007Z info: Received a GET request for /api/categorias
+2023-11-17T04:24:18.014Z info: Received a GET request for /api/productos?page=1
+2023-11-17T04:24:18.166Z info: Received a GET request for /api/favoritos/44
+2023-11-17T04:24:18.189Z info: Operacion realizada con exito
+2023-11-17T04:24:18.194Z info: Received a GET request for /api/favoritos/44
+2023-11-17T04:24:18.198Z info: Received a GET request for /api/favoritos/44
+2023-11-17T04:24:18.204Z info: Operacion realizada con exito
+2023-11-17T04:24:18.279Z info: Received a GET request for /api/favoritos/44
+2023-11-17T04:24:18.281Z info: Received a GET request for /api/favoritos/44
+2023-11-17T04:24:18.378Z info: Received a GET request for /api/favoritos/44
+2023-11-17T04:24:18.393Z info: Received a GET request for /api/favoritos/44
+2023-11-17T04:24:18.402Z info: Received a GET request for /api/favoritos/44
+2023-11-17T04:24:18.559Z info: Operacion realizada con exito
+2023-11-17T04:24:18.597Z info: Received a GET request for /api/favoritos/44
+2023-11-17T04:24:18.599Z info: Received a GET request for /api/favoritos/44
+2023-11-17T04:24:19.204Z info: Received a POST request for /api/favoritos
+2023-11-17T04:24:21.735Z info: Received a GET request for /api/favoritos/44
+2023-11-17T04:24:21.740Z info: Received a GET request for /api/favoritos/44
+2023-11-17T04:24:22.625Z info: Received a GET request for /api/favoritos/44
+2023-11-17T04:24:22.627Z info: Received a GET request for /api/favoritos/44
+2023-11-17T04:24:25.255Z info: Received a POST request for /api/favoritos
+2023-11-17T04:24:27.732Z info: Received a GET request for /api/favoritos/44
+2023-11-17T04:24:27.734Z info: Received a GET request for /api/favoritos/44
+2023-11-17T04:24:28.737Z info: Received a GET request for /api/favoritos/44
+2023-11-17T04:24:28.739Z info: Received a GET request for /api/favoritos/44
+2023-11-17T04:24:29.534Z info: Received a POST request for /api/favoritos
+2023-11-17T04:24:31.996Z info: Received a GET request for /api/favoritos/44
+2023-11-17T04:24:31.998Z info: Received a GET request for /api/favoritos/44
+2023-11-17T04:24:33.623Z info: Received a GET request for /api/favoritos/44
+2023-11-17T04:24:33.626Z info: Received a GET request for /api/favoritos/44
+2023-11-17T04:24:35.307Z info: Received a POST request for /api/favoritos
+2023-11-17T04:24:37.783Z info: Received a GET request for /api/favoritos/44
+2023-11-17T04:24:37.786Z info: Received a GET request for /api/favoritos/44
+2023-11-17T04:24:38.696Z info: Received a GET request for /api/favoritos/44
+2023-11-17T04:24:38.698Z info: Received a GET request for /api/favoritos/44
+2023-11-17T04:24:40.271Z info: Received a POST request for /api/favoritos
+2023-11-17T04:24:42.695Z info: Received a GET request for /api/favoritos/44
+2023-11-17T04:24:42.698Z info: Received a GET request for /api/favoritos/44
+2023-11-17T04:24:57.268Z info: Received a POST request for /api/favoritos/delete
+2023-11-17T04:24:59.285Z info: Received a GET request for /api/favoritos/44
+2023-11-17T04:25:01.136Z info: Received a GET request for /api/favoritos/44
+2023-11-17T04:25:01.139Z info: Received a GET request for /api/favoritos/44
+2023-11-17T04:25:05.516Z info: Received a GET request for /api/favoritos/44
+2023-11-17T04:25:05.533Z info: Received a GET request for /api/usuarios/44
+2023-11-17T04:25:05.535Z info: Received a GET request for /api/reviews
+2023-11-17T04:25:05.575Z info: Received a GET request for /api/favoritos/44
+2023-11-17T04:25:05.577Z info: Received a GET request for /api/usuarios/44
+2023-11-17T04:25:05.579Z info: Received a GET request for /api/reviews
+2023-11-17T04:25:05.755Z info: Received a GET request for /api/favoritos/44
+2023-11-17T04:25:06.113Z info: Received a GET request for /api/favoritos/44
+2023-11-17T04:25:09.099Z info: Received a GET request for /api/favoritos/44
+2023-11-17T04:25:46.793Z info: Received a GET request for /api/carrito/44
+2023-11-17T04:25:46.796Z info: Received a GET request for /api/carrito/44
+2023-11-17T04:25:48.289Z info: Operacion realizada con exito
+2023-11-17T04:25:48.333Z info: Operacion realizada con exito
+2023-11-17T04:25:59.621Z info: Received a POST request for /api/pago/create-order
+2023-11-17T04:26:04.948Z info: Received a PUT request for /api/carrito/44
