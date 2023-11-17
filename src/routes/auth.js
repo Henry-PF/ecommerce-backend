@@ -16,7 +16,7 @@ router.get('/callback', passport.authenticate('google', { failureRedirect: '/log
         });
         res.cookie('token', token);
         res.cookie('user', JSON.stringify(user));
-        res.redirect('http://localhost:5173');
+        res.redirect('http://localhost:3001');
     }
 );
 router.post('/login', login);

@@ -1,6 +1,6 @@
 const passport = require('passport');
 const GoogleStrategy = require('passport-google-oauth20').Strategy;
-const { usuarios, personas } = require('../db');
+const { usuarios, personas, carrito } = require('../db');
 const securePassword = require('secure-random-password');
 const bcrypt = require("bcrypt");
 const { Op } = require('sequelize');
@@ -59,6 +59,22 @@ passport.use(
                         { model: personas }
                     ]
                 });
+
+                if (newGoogleUser) {
+                    console.log(newGoogleUser);
+                    try {
+                        const dataCart = {
+                            id_usuario: newGoogleUser.id,
+                            id_statud: 1,
+                            total: 0,
+                            fecha: new Date().toLocaleDateString().toString()
+                        }
+
+                        await carrito.create(dataCart)
+                    } catch (error) {
+                        console.error(error);
+                    }
+                }
 
                 if (newGoogleUser) {
                     await sendEmail(
