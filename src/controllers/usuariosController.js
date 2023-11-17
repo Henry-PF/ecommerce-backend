@@ -170,7 +170,7 @@ exports.Delete = async (id) => {
             }
         });
         if (dataUser) {
-            let dtaN = await usuarios.update({ isactivo: false }, {
+            let dtaN = await usuarios.update({ id_statud: parseInt(data.status) }, {
                 where: {
                     id: {
                         [Op.eq]: id
