@@ -1681,3 +1681,64 @@
 2023-11-17T16:37:47.904Z info: Operacion realizada con exito
 2023-11-17T16:37:48.091Z info: Operacion realizada con exito
 2023-11-17T16:37:48.095Z info: Operacion realizada con exito
+2023-11-17T22:39:35.310Z info: Received a GET request for /api/usuarios/null
+2023-11-17T22:39:35.331Z info: Received a GET request for /api/usuarios/null
+2023-11-17T22:39:35.524Z error: invalid input syntax for type integer: "null"
+2023-11-17T22:39:35.724Z error: invalid input syntax for type integer: "null"
+2023-11-17T22:39:59.351Z info: Received a GET request for /api/usuarios/null
+2023-11-17T22:39:59.355Z info: Received a GET request for /api/usuarios/null
+2023-11-17T22:39:59.359Z info: Received a GET request for /api/reviews
+2023-11-17T22:39:59.366Z info: Received a GET request for /api/reviews
+2023-11-17T22:39:59.429Z info: Received a POST request for /api/usuarios
+2023-11-17T22:40:00.848Z error: invalid input syntax for type integer: "null"
+2023-11-17T22:40:00.916Z error: invalid input syntax for type integer: "null"
+2023-11-17T22:40:01.457Z error: notNull Violation: carrito.fecha cannot be null,
+notNull Violation: carrito.total cannot be null
+2023-11-17T22:44:25.970Z info: Received a GET request for /api/usuarios/null
+2023-11-17T22:44:26.124Z info: Received a GET request for /api/usuarios/null
+2023-11-17T22:44:27.542Z error: invalid input syntax for type integer: "null"
+2023-11-17T22:44:27.639Z error: invalid input syntax for type integer: "null"
+2023-11-17T22:44:37.205Z info: Received a POST request for /api/usuarios
+2023-11-17T22:44:37.258Z info: Received a GET request for /api/usuarios/null
+2023-11-17T22:44:37.274Z info: Received a GET request for /api/reviews
+2023-11-17T22:44:37.309Z info: Received a GET request for /api/usuarios/null
+2023-11-17T22:44:37.321Z info: Received a GET request for /api/reviews
+2023-11-17T22:44:37.454Z error: invalid input syntax for type integer: "null"
+2023-11-17T22:44:37.647Z error: invalid input syntax for type integer: "null"
+2023-11-17T22:44:38.306Z error: notNull Violation: carrito.fecha cannot be null,
+notNull Violation: carrito.total cannot be null
+2023-11-17T22:45:15.012Z info: Received a GET request for /api/usuarios/null
+2023-11-17T22:45:15.016Z info: Received a GET request for /api/usuarios/null
+2023-11-17T22:45:16.532Z error: invalid input syntax for type integer: "null"
+2023-11-17T22:45:16.594Z error: invalid input syntax for type integer: "null"
+2023-11-17T22:46:22.306Z info: Received a POST request for /api/usuarios
+2023-11-17T22:46:22.315Z info: Received a GET request for /api/usuarios/null
+2023-11-17T22:46:22.329Z info: Received a GET request for /api/reviews
+2023-11-17T22:46:22.337Z info: Received a GET request for /api/usuarios/null
+2023-11-17T22:46:22.341Z info: Received a GET request for /api/reviews
+2023-11-17T22:46:23.863Z error: invalid input syntax for type integer: "null"
+2023-11-17T22:46:23.903Z error: invalid input syntax for type integer: "null"
+2023-11-17T22:46:24.466Z error: notNull Violation: carrito.fecha cannot be null,
+notNull Violation: carrito.total cannot be null
+2023-11-17T22:47:20.000Z info: Received a POST request for /api/carrito
+2023-11-17T22:47:21.602Z info: Operacion realizada con exito
+2023-11-17T22:48:54.997Z info: Received a POST request for /api/usuarios
+2023-11-17T22:48:55.107Z info: Received a GET request for /api/usuarios/null
+2023-11-17T22:48:55.121Z info: Received a GET request for /api/reviews
+2023-11-17T22:48:55.128Z info: Received a GET request for /api/usuarios/null
+2023-11-17T22:48:55.134Z info: Received a GET request for /api/reviews
+2023-11-17T22:48:56.609Z error: invalid input syntax for type integer: "null"
+2023-11-17T22:48:56.694Z error: invalid input syntax for type integer: "null"
+2023-11-17T22:48:57.162Z error: notNull Violation: carrito.fecha cannot be null,
+notNull Violation: carrito.total cannot be null
+2023-11-17T22:55:57.413Z info: Received a GET request for /api/usuarios/null
+2023-11-17T22:55:57.474Z info: Received a GET request for /api/usuarios/null
+2023-11-17T22:55:59.053Z error: invalid input syntax for type integer: "null"
+2023-11-17T22:55:59.062Z error: invalid input syntax for type integer: "null"
+2023-11-17T22:56:06.190Z info: Received a POST request for /api/usuarios
+2023-11-17T22:56:06.236Z info: Received a GET request for /api/usuarios/null
+2023-11-17T22:56:06.243Z info: Received a GET request for /api/reviews
+2023-11-17T22:56:06.275Z info: Received a GET request for /api/usuarios/null
+2023-11-17T22:56:06.279Z info: Received a GET request for /api/reviews
+2023-11-17T22:56:06.436Z error: invalid input syntax for type integer: "null"
+2023-11-17T22:56:06.633Z error: invalid input syntax for type integer: "null"

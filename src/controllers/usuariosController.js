@@ -1,4 +1,4 @@
-const { usuarios, personas, statud } = require("../db");
+const { usuarios, personas, statud, carrito } = require("../db");
 const { Op } = require("sequelize");
 const jwt = require("jsonwebtoken");
 const bcrypt = require("bcrypt");
@@ -41,6 +41,21 @@ exports.create = async (data) => {
             }
             //Crear usuario
             user = await usuarios.create(dtaUsuario);
+
+            if (user) {
+                try {
+                    const dataCart = {
+                        id_usuario: user.id,
+                        id_statud: 1,
+                        total: 0,
+                        fecha: new Date().toLocaleDateString().toString()
+                    }
+
+                    await carrito.create(dataCart)
+                } catch (error) {
+                    console.error(error);
+                }
+            }
 
             if (user) {
                 await sendEmail(
