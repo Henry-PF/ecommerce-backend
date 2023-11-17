@@ -3,7 +3,7 @@ const { getFavoritosHandler, addFavoritosHandler, deleteFavoritosHandler } = req
 
 const router = Router()
 
-router.get("/", getFavoritosHandler)
+router.get("/:id", getFavoritosHandler)
 router.post("/", addFavoritosHandler)
 router.post("/delete", deleteFavoritosHandler)
 

@@ -2,7 +2,7 @@ const { getFavoritos, addFavorito, deleteFavs } = require("../controllers/favori
 
 exports.getFavoritosHandler = async (req, res) => {
     try {
-        const result = await getFavoritos(req.query)
+        const result = await getFavoritos(req.params.id)
 
         return res.status(result.status || 200).json(result)
     } catch (error) {

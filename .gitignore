@@ -2,3 +2,4 @@
 node_modules
 ./src/logs/
 src/logs
+src/logs/
