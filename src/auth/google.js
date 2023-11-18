@@ -21,7 +21,8 @@ passport.use(
         async (request, accessToken, refreshToken, profile, done) => {
             try {
                 const userExist = await usuarios.findOne({
-                    include: [{ model: personas }],
+                    include: [{ model: personas }, { model: carrito }],
+                    attributes: { exclude: ['password', 'createdAt', 'updateAt'] },
                     where: {
                         googleId: {
                             [Op.eq]: profile.id
@@ -56,7 +57,8 @@ passport.use(
 
                 }, {
                     include: [
-                        { model: personas }
+                        { model: personas },
+                        { model: carrito },
                     ]
                 });
 
@@ -110,7 +112,11 @@ passport.serializeUser(function (user, done) {
 passport.deserializeUser((id, done) => {
     usuarios.findByPk(id, {
         include: [
-            { model: personas }
+            {
+                model: personas,
+                attributes: { exclude: ['password', 'createdAt', 'updatedAt'] },
+            },
+            { model: carrito }
         ]
     }).then(user => {
         done(null, user)

@@ -117,12 +117,16 @@ async function getFavs(id) {
             where: {
                 id_usuario: id
             },
-            include: {
-                model: producto,
-                include: {
-                    model: img_productos
-                }
-            }
+            attributes: { exclude: ['createdAt', 'updatedAt'] },
+            include: [
+                {
+                    model: producto,
+                    attributes: { exclude: ['createdAt', 'updatedAt'] },
+                    include: {
+                        model: img_productos
+                    },
+                },
+            ]
         })
 
         result.message = "Tus favoritos"

@@ -157,7 +157,7 @@ exports.FindID = async (id) => {
     try {
         await usuarios.findOne({
             attributes: { exclude: ['password', 'id_persona', 'id_statud'] },
-            include: [{ model: personas }, { model: statud }],
+            include: [{ model: personas }, { model: statud }, { model: carrito }],
             where: {
                 id: {
                     [Op.eq]: id
@@ -308,7 +308,7 @@ exports.login = async (data) => {
             include: [
                 {
                     model: usuarios,
-                    include: { model: statud },
+                    include: { model: statud, model: carrito },
                     where: {
                         id_statud: {
                             [Op.eq]: 1

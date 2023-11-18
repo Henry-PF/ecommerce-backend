@@ -1782,3 +1782,411 @@ notNull Violation: carrito.total cannot be null
 2023-11-17T23:12:14.248Z info: Received a GET request for /api/reviews
 2023-11-17T23:12:15.716Z info: Received a GET request for /api/favoritos/63
 2023-11-17T23:12:15.803Z info: Received a GET request for /api/favoritos/63
+2023-11-17T23:21:56.430Z info: Received a GET request for /api/favoritos/63
+2023-11-17T23:21:57.101Z info: Received a GET request for /api/favoritos/63
+2023-11-17T23:21:59.622Z info: Received a GET request for /api/favoritos/63
+2023-11-17T23:21:59.630Z info: Received a GET request for /api/usuarios/63
+2023-11-17T23:21:59.636Z info: Received a GET request for /api/favoritos/63
+2023-11-17T23:21:59.648Z info: Received a GET request for /api/categorias
+2023-11-17T23:21:59.651Z info: Received a GET request for /api/productos?page=1
+2023-11-17T23:21:59.654Z info: Received a GET request for /api/favoritos/63
+2023-11-17T23:21:59.822Z info: Received a GET request for /api/usuarios/63
+2023-11-17T23:21:59.850Z info: Received a GET request for /api/favoritos/63
+2023-11-17T23:22:00.021Z info: Received a GET request for /api/categorias
+2023-11-17T23:22:00.039Z info: Operacion realizada con exito
+2023-11-17T23:22:00.046Z info: Received a GET request for /api/productos?page=1
+2023-11-17T23:22:00.232Z info: Received a GET request for /api/favoritos/63
+2023-11-17T23:22:00.416Z info: Received a GET request for /api/favoritos/63
+2023-11-17T23:22:00.422Z info: Received a GET request for /api/favoritos/63
+2023-11-17T23:22:00.613Z info: Operacion realizada con exito
+2023-11-17T23:22:00.629Z info: Received a GET request for /api/favoritos/63
+2023-11-17T23:22:00.808Z info: Operacion realizada con exito
+2023-11-17T23:22:00.818Z info: Received a GET request for /api/favoritos/63
+2023-11-17T23:22:00.822Z info: Received a GET request for /api/favoritos/63
+2023-11-17T23:22:01.032Z info: Received a GET request for /api/favoritos/63
+2023-11-17T23:22:01.036Z info: Received a GET request for /api/favoritos/63
+2023-11-17T23:22:01.220Z info: Operacion realizada con exito
+2023-11-17T23:22:01.258Z info: Received a GET request for /api/favoritos/63
+2023-11-17T23:22:01.262Z info: Received a GET request for /api/favoritos/63
+2023-11-17T23:22:01.912Z info: Received a POST request for /api/favoritos
+2023-11-17T23:22:04.767Z info: Received a GET request for /api/favoritos/63
+2023-11-17T23:22:04.770Z info: Received a GET request for /api/favoritos/63
+2023-11-17T23:22:05.832Z info: Received a GET request for /api/favoritos/63
+2023-11-17T23:22:05.835Z info: Received a GET request for /api/favoritos/63
+2023-11-17T23:22:06.764Z info: Received a POST request for /api/favoritos
+2023-11-17T23:22:09.444Z info: Received a GET request for /api/favoritos/63
+2023-11-17T23:22:09.447Z info: Received a GET request for /api/favoritos/63
+2023-11-17T23:22:11.913Z info: Received a POST request for /api/favoritos/delete
+2023-11-17T23:22:12.547Z info: Received a GET request for /api/favoritos/63
+2023-11-17T23:22:14.527Z info: Received a GET request for /api/favoritos/63
+2023-11-17T23:22:14.530Z info: Received a GET request for /api/favoritos/63
+2023-11-17T23:22:16.057Z info: Received a POST request for /api/favoritos
+2023-11-17T23:22:18.633Z info: Received a GET request for /api/favoritos/63
+2023-11-17T23:22:18.637Z info: Received a GET request for /api/favoritos/63
+2023-11-17T23:22:27.121Z info: Received a GET request for /api/favoritos/63
+2023-11-17T23:22:27.124Z info: Received a GET request for /api/favoritos/63
+2023-11-17T23:27:05.802Z info: Received a GET request for /api/favoritos/63
+2023-11-17T23:27:05.808Z error: carrito is not defined
+2023-11-17T23:27:05.819Z info: Received a GET request for /api/favoritos/63
+2023-11-17T23:27:05.821Z error: carrito is not defined
+2023-11-17T23:27:11.744Z info: Received a GET request for /api/favoritos/63
+2023-11-17T23:27:11.746Z error: carrito is not defined
+2023-11-17T23:27:44.653Z info: Received a GET request for /api/favoritos/63
+2023-11-17T23:27:44.654Z error: carrito is not defined
+2023-11-17T23:27:44.657Z info: Received a GET request for /api/favoritos/63
+2023-11-17T23:27:44.658Z error: carrito is not defined
+2023-11-17T23:27:46.455Z info: Received a GET request for /api/favoritos/63
+2023-11-17T23:27:46.457Z error: carrito is not defined
+2023-11-17T23:27:46.460Z info: Received a GET request for /api/favoritos/63
+2023-11-17T23:27:46.461Z error: carrito is not defined
+2023-11-17T23:30:03.758Z info: Received a GET request for /api/favoritos/63
+2023-11-17T23:30:03.759Z error: carrito is not defined
+2023-11-17T23:32:27.398Z info: Received a GET request for /api/favoritos/63
+2023-11-17T23:32:27.404Z error: carrito is not defined
+2023-11-17T23:32:28.438Z info: Received a GET request for /api/favoritos/63
+2023-11-17T23:32:28.441Z error: carrito is not defined
+2023-11-17T23:32:28.447Z info: Received a GET request for /api/favoritos/63
+2023-11-17T23:32:28.449Z error: carrito is not defined
+2023-11-17T23:33:44.716Z info: Received a GET request for /api/favoritos/63
+2023-11-17T23:33:44.733Z info: Received a GET request for /api/favoritos/63
+2023-11-17T23:34:31.926Z info: Received a GET request for /api/favoritos/63
+2023-11-17T23:34:31.943Z info: Received a GET request for /api/favoritos/63
+2023-11-17T23:35:09.386Z info: Received a GET request for /api/favoritos/63
+2023-11-17T23:35:09.405Z info: Received a GET request for /api/favoritos/63
+2023-11-17T23:35:17.308Z info: Received a GET request for /api/favoritos/63
+2023-11-17T23:38:31.765Z info: Received a GET request for /api/favoritos/63
+2023-11-17T23:38:31.780Z info: Received a GET request for /api/usuarios/63
+2023-11-17T23:38:33.395Z info: Received a GET request for /api/favoritos/63
+2023-11-17T23:39:57.007Z info: Received a GET request for /api/usuarios/null
+2023-11-17T23:39:57.012Z info: Received a GET request for /api/categorias
+2023-11-17T23:39:57.015Z info: Received a GET request for /api/productos?page=1
+2023-11-17T23:39:57.021Z info: Received a GET request for /api/usuarios/null
+2023-11-17T23:39:57.024Z info: Received a GET request for /api/categorias
+2023-11-17T23:39:57.028Z info: Received a GET request for /api/productos?page=1
+2023-11-17T23:39:58.552Z info: Operacion realizada con exito
+2023-11-17T23:39:58.566Z error: invalid input syntax for type integer: "null"
+2023-11-17T23:39:58.626Z info: Operacion realizada con exito
+2023-11-17T23:39:58.637Z error: invalid input syntax for type integer: "null"
+2023-11-17T23:39:58.774Z info: Operacion realizada con exito
+2023-11-17T23:39:58.921Z info: Operacion realizada con exito
+2023-11-17T23:40:01.581Z info: Received a POST request for /api/auth/login
+2023-11-17T23:40:06.731Z info: Received a POST request for /api/auth/login
+2023-11-17T23:40:11.614Z info: Received a GET request for /api/favoritos/55
+2023-11-17T23:40:22.167Z info: Received a GET request for /api/favoritos/55
+2023-11-17T23:40:22.171Z info: Received a GET request for /api/favoritos/55
+2023-11-17T23:40:23.152Z info: Received a GET request for /api/favoritos/55
+2023-11-17T23:40:25.863Z info: Received a GET request for /api/favoritos/55
+2023-11-17T23:40:25.866Z info: Received a GET request for /api/usuarios/55
+2023-11-17T23:40:25.873Z info: Received a GET request for /api/usuarios/55
+2023-11-17T23:40:25.878Z info: Received a GET request for /api/favoritos/55
+2023-11-17T23:40:25.881Z info: Received a GET request for /api/usuarios/55
+2023-11-17T23:40:25.884Z info: Received a GET request for /api/usuarios/55
+2023-11-17T23:40:26.082Z info: Received a GET request for /api/favoritos/55
+2023-11-17T23:40:26.276Z info: Received a GET request for /api/favoritos/55
+2023-11-17T23:41:42.475Z info: Received a GET request for /api/usuarios/null
+2023-11-17T23:41:42.481Z info: Received a GET request for /api/reviews
+2023-11-17T23:41:42.517Z info: Received a GET request for /api/usuarios/null
+2023-11-17T23:41:42.522Z info: Received a GET request for /api/reviews
+2023-11-17T23:41:44.225Z error: invalid input syntax for type integer: "null"
+2023-11-17T23:41:44.264Z error: invalid input syntax for type integer: "null"
+2023-11-17T23:41:47.002Z info: Received a POST request for /api/auth/login
+2023-11-17T23:41:48.033Z info: Received a GET request for /api/favoritos/55
+2023-11-17T23:41:48.038Z info: Received a GET request for /api/usuarios/55
+2023-11-17T23:41:48.041Z info: Received a GET request for /api/reviews
+2023-11-17T23:41:48.088Z info: Received a GET request for /api/favoritos/55
+2023-11-17T23:41:48.090Z info: Received a GET request for /api/usuarios/55
+2023-11-17T23:41:48.093Z info: Received a GET request for /api/reviews
+2023-11-17T23:41:48.272Z info: Received a GET request for /api/favoritos/55
+2023-11-17T23:41:48.432Z info: Received a GET request for /api/favoritos/55
+2023-11-17T23:41:51.239Z info: Received a GET request for /api/favoritos/55
+2023-11-17T23:41:51.804Z info: Received a GET request for /api/favoritos/55
+2023-11-17T23:42:36.057Z info: Received a GET request for /api/favoritos/55
+2023-11-17T23:42:37.286Z info: Received a GET request for /api/favoritos/55
+2023-11-17T23:42:40.170Z info: Received a GET request for /api/usuarios/null
+2023-11-17T23:42:40.176Z info: Received a GET request for /api/reviews
+2023-11-17T23:42:40.257Z info: Received a GET request for /api/usuarios/null
+2023-11-17T23:42:40.259Z info: Received a GET request for /api/reviews
+2023-11-17T23:42:40.376Z error: invalid input syntax for type integer: "null"
+2023-11-17T23:42:40.577Z error: invalid input syntax for type integer: "null"
+2023-11-17T23:42:44.123Z info: Received a POST request for /api/auth/login
+2023-11-17T23:42:49.006Z info: Received a POST request for /api/auth/login
+2023-11-17T23:42:56.468Z info: Received a POST request for /api/auth/login
+2023-11-17T23:43:03.417Z info: Received a POST request for /api/auth/login
+2023-11-17T23:43:29.390Z info: Received a POST request for /api/auth/login
+2023-11-17T23:43:32.814Z info: Received a GET request for /api/favoritos/55
+2023-11-17T23:43:32.842Z info: Received a GET request for /api/reviews
+2023-11-17T23:43:32.848Z info: Received a GET request for /api/usuarios/55
+2023-11-17T23:43:32.900Z info: Received a GET request for /api/favoritos/55
+2023-11-17T23:43:32.902Z info: Received a GET request for /api/usuarios/55
+2023-11-17T23:43:32.905Z info: Received a GET request for /api/reviews
+2023-11-17T23:43:33.409Z info: Received a GET request for /api/favoritos/55
+2023-11-17T23:43:33.777Z info: Received a GET request for /api/favoritos/55
+2023-11-17T23:44:04.146Z info: Received a GET request for /api/usuarios/null
+2023-11-17T23:44:04.149Z info: Received a GET request for /api/reviews
+2023-11-17T23:44:04.245Z info: Received a GET request for /api/usuarios/null
+2023-11-17T23:44:04.254Z info: Received a GET request for /api/reviews
+2023-11-17T23:44:05.711Z error: invalid input syntax for type integer: "null"
+2023-11-17T23:44:05.777Z error: invalid input syntax for type integer: "null"
+2023-11-17T23:44:08.203Z info: Received a POST request for /api/auth/login
+2023-11-17T23:44:14.536Z info: Received a POST request for /api/auth/login
+2023-11-17T23:44:20.587Z info: Received a POST request for /api/auth/login
+2023-11-17T23:44:32.014Z info: Received a POST request for /api/auth/login
+2023-11-17T23:44:52.417Z info: Received a POST request for /api/auth/login
+2023-11-17T23:44:55.436Z info: Received a GET request for /api/favoritos/55
+2023-11-17T23:44:55.447Z info: Received a GET request for /api/reviews
+2023-11-17T23:44:55.457Z info: Received a GET request for /api/usuarios/55
+2023-11-17T23:44:55.480Z info: Received a GET request for /api/favoritos/55
+2023-11-17T23:44:55.500Z info: Received a GET request for /api/usuarios/55
+2023-11-17T23:44:55.503Z info: Received a GET request for /api/reviews
+2023-11-17T23:44:56.049Z info: Received a GET request for /api/favoritos/55
+2023-11-17T23:44:56.411Z info: Received a GET request for /api/favoritos/55
+2023-11-17T23:45:23.589Z info: Received a GET request for /api/reviews
+2023-11-17T23:45:23.593Z info: Received a GET request for /api/usuarios/null
+2023-11-17T23:45:23.596Z info: Received a GET request for /api/usuarios/null
+2023-11-17T23:45:23.600Z info: Received a GET request for /api/reviews
+2023-11-17T23:45:25.140Z error: invalid input syntax for type integer: "null"
+2023-11-17T23:45:25.189Z error: invalid input syntax for type integer: "null"
+2023-11-17T23:45:27.229Z info: Received a POST request for /api/auth/login
+2023-11-17T23:45:28.816Z info: Received a GET request for /api/favoritos/55
+2023-11-17T23:45:28.821Z info: Received a GET request for /api/usuarios/55
+2023-11-17T23:45:28.823Z info: Received a GET request for /api/reviews
+2023-11-17T23:45:28.904Z info: Received a GET request for /api/favoritos/55
+2023-11-17T23:45:28.909Z info: Received a GET request for /api/usuarios/55
+2023-11-17T23:45:28.914Z info: Received a GET request for /api/reviews
+2023-11-17T23:45:29.083Z info: Received a GET request for /api/favoritos/55
+2023-11-17T23:45:29.232Z info: Received a GET request for /api/favoritos/55
+2023-11-17T23:45:53.246Z info: Received a GET request for /api/usuarios/null
+2023-11-17T23:45:53.248Z info: Received a GET request for /api/reviews
+2023-11-17T23:45:53.250Z info: Received a GET request for /api/usuarios/null
+2023-11-17T23:45:53.252Z info: Received a GET request for /api/reviews
+2023-11-17T23:45:54.947Z error: invalid input syntax for type integer: "null"
+2023-11-17T23:45:55.019Z error: invalid input syntax for type integer: "null"
+2023-11-17T23:46:23.648Z info: Received a POST request for /api/auth/login
+2023-11-17T23:46:37.240Z info: Received a POST request for /api/auth/login
+2023-11-17T23:46:40.217Z info: Received a GET request for /api/favoritos/55
+2023-11-17T23:46:40.227Z info: Received a GET request for /api/usuarios/55
+2023-11-17T23:46:40.246Z info: Received a GET request for /api/reviews
+2023-11-17T23:46:40.272Z info: Received a GET request for /api/favoritos/55
+2023-11-17T23:46:40.279Z info: Received a GET request for /api/usuarios/55
+2023-11-17T23:46:40.284Z info: Received a GET request for /api/reviews
+2023-11-17T23:46:40.645Z info: Received a GET request for /api/favoritos/55
+2023-11-17T23:46:41.185Z info: Received a GET request for /api/favoritos/55
+2023-11-17T23:47:15.564Z info: Received a GET request for /api/usuarios/null
+2023-11-17T23:47:15.568Z info: Received a GET request for /api/reviews
+2023-11-17T23:47:15.634Z info: Received a GET request for /api/usuarios/null
+2023-11-17T23:47:15.637Z info: Received a GET request for /api/reviews
+2023-11-17T23:47:17.104Z error: invalid input syntax for type integer: "null"
+2023-11-17T23:47:17.161Z error: invalid input syntax for type integer: "null"
+2023-11-17T23:47:18.366Z info: Received a POST request for /api/auth/login
+2023-11-17T23:47:19.933Z info: Received a GET request for /api/favoritos/55
+2023-11-17T23:47:19.968Z info: Received a GET request for /api/usuarios/55
+2023-11-17T23:47:20.003Z info: Received a GET request for /api/reviews
+2023-11-17T23:47:20.024Z info: Received a GET request for /api/favoritos/55
+2023-11-17T23:47:20.055Z info: Received a GET request for /api/usuarios/55
+2023-11-17T23:47:20.057Z info: Received a GET request for /api/reviews
+2023-11-17T23:47:20.181Z info: Received a GET request for /api/favoritos/55
+2023-11-17T23:47:20.386Z info: Received a GET request for /api/favoritos/55
+2023-11-17T23:48:58.312Z info: Received a POST request for /api/auth/login
+2023-11-17T23:49:00.063Z info: Received a GET request for /api/favoritos/55
+2023-11-17T23:49:00.096Z info: Received a GET request for /api/reviews
+2023-11-17T23:49:00.103Z info: Received a GET request for /api/usuarios/55
+2023-11-17T23:49:00.128Z info: Received a GET request for /api/favoritos/55
+2023-11-17T23:49:00.135Z info: Received a GET request for /api/usuarios/55
+2023-11-17T23:49:00.144Z info: Received a GET request for /api/reviews
+2023-11-17T23:49:00.709Z info: Received a GET request for /api/favoritos/55
+2023-11-17T23:49:01.089Z info: Received a GET request for /api/favoritos/55
+2023-11-17T23:49:33.282Z info: Received a GET request for /api/usuarios/null
+2023-11-17T23:49:33.293Z info: Received a GET request for /api/reviews
+2023-11-17T23:49:33.309Z info: Received a GET request for /api/usuarios/null
+2023-11-17T23:49:33.325Z info: Received a GET request for /api/reviews
+2023-11-17T23:49:34.829Z error: invalid input syntax for type integer: "null"
+2023-11-17T23:49:34.848Z error: invalid input syntax for type integer: "null"
+2023-11-17T23:49:39.067Z info: Received a POST request for /api/auth/login
+2023-11-17T23:49:40.660Z info: Received a GET request for /api/favoritos/55
+2023-11-17T23:49:40.665Z info: Received a GET request for /api/usuarios/55
+2023-11-17T23:49:40.675Z info: Received a GET request for /api/reviews
+2023-11-17T23:49:40.682Z info: Received a GET request for /api/favoritos/55
+2023-11-17T23:49:40.685Z info: Received a GET request for /api/usuarios/55
+2023-11-17T23:49:40.689Z info: Received a GET request for /api/reviews
+2023-11-17T23:49:40.966Z info: Received a GET request for /api/favoritos/55
+2023-11-17T23:49:41.091Z info: Received a GET request for /api/favoritos/55
+2023-11-17T23:49:56.289Z info: Received a GET request for /api/usuarios/null
+2023-11-17T23:49:56.336Z info: Received a GET request for /api/reviews
+2023-11-17T23:49:56.421Z info: Received a GET request for /api/usuarios/null
+2023-11-17T23:49:56.424Z info: Received a GET request for /api/reviews
+2023-11-17T23:49:58.033Z error: invalid input syntax for type integer: "null"
+2023-11-17T23:49:58.058Z error: invalid input syntax for type integer: "null"
+2023-11-17T23:50:04.719Z info: Received a POST request for /api/auth/login
+2023-11-17T23:50:06.321Z info: Received a GET request for /api/favoritos/55
+2023-11-17T23:50:06.326Z info: Received a GET request for /api/reviews
+2023-11-17T23:50:06.329Z info: Received a GET request for /api/usuarios/55
+2023-11-17T23:50:06.367Z info: Received a GET request for /api/favoritos/55
+2023-11-17T23:50:06.406Z info: Received a GET request for /api/usuarios/55
+2023-11-17T23:50:06.421Z info: Received a GET request for /api/reviews
+2023-11-17T23:50:06.606Z info: Received a GET request for /api/favoritos/55
+2023-11-17T23:50:06.725Z info: Received a GET request for /api/favoritos/55
+2023-11-17T23:50:20.693Z info: Received a GET request for /api/usuarios/null
+2023-11-17T23:50:20.697Z info: Received a GET request for /api/reviews
+2023-11-17T23:50:20.706Z info: Received a GET request for /api/usuarios/null
+2023-11-17T23:50:20.708Z info: Received a GET request for /api/reviews
+2023-11-17T23:50:22.195Z error: invalid input syntax for type integer: "null"
+2023-11-17T23:50:22.250Z error: invalid input syntax for type integer: "null"
+2023-11-17T23:50:24.380Z info: Received a POST request for /api/auth/login
+2023-11-17T23:50:25.956Z info: Received a GET request for /api/favoritos/55
+2023-11-17T23:50:25.973Z info: Received a GET request for /api/usuarios/55
+2023-11-17T23:50:25.976Z info: Received a GET request for /api/reviews
+2023-11-17T23:50:26.022Z info: Received a GET request for /api/favoritos/55
+2023-11-17T23:50:26.024Z info: Received a GET request for /api/usuarios/55
+2023-11-17T23:50:26.030Z info: Received a GET request for /api/reviews
+2023-11-17T23:50:26.251Z info: Received a GET request for /api/favoritos/55
+2023-11-17T23:50:26.445Z info: Received a GET request for /api/favoritos/55
+2023-11-17T23:50:40.112Z info: Received a GET request for /api/usuarios/null
+2023-11-17T23:50:40.115Z info: Received a GET request for /api/reviews
+2023-11-17T23:50:40.170Z info: Received a GET request for /api/usuarios/null
+2023-11-17T23:50:40.173Z info: Received a GET request for /api/reviews
+2023-11-17T23:50:41.623Z error: invalid input syntax for type integer: "null"
+2023-11-17T23:50:41.700Z error: invalid input syntax for type integer: "null"
+2023-11-17T23:50:42.887Z info: Received a POST request for /api/auth/login
+2023-11-17T23:50:44.373Z info: Received a GET request for /api/favoritos/55
+2023-11-17T23:50:44.381Z info: Received a GET request for /api/usuarios/55
+2023-11-17T23:50:44.487Z info: Received a GET request for /api/reviews
+2023-11-17T23:50:44.500Z info: Received a GET request for /api/favoritos/55
+2023-11-17T23:50:44.504Z info: Received a GET request for /api/usuarios/55
+2023-11-17T23:50:44.509Z info: Received a GET request for /api/reviews
+2023-11-17T23:50:44.682Z info: Received a GET request for /api/favoritos/55
+2023-11-17T23:50:44.791Z info: Received a GET request for /api/favoritos/55
+2023-11-17T23:50:53.890Z info: Received a GET request for /api/usuarios/null
+2023-11-17T23:50:53.893Z info: Received a GET request for /api/reviews
+2023-11-17T23:50:53.895Z info: Received a GET request for /api/usuarios/null
+2023-11-17T23:50:53.898Z info: Received a GET request for /api/reviews
+2023-11-17T23:50:54.106Z error: invalid input syntax for type integer: "null"
+2023-11-17T23:50:54.109Z error: invalid input syntax for type integer: "null"
+2023-11-17T23:50:57.123Z info: Received a POST request for /api/auth/login
+2023-11-17T23:50:58.727Z info: Received a GET request for /api/favoritos/55
+2023-11-17T23:50:58.732Z info: Received a GET request for /api/usuarios/55
+2023-11-17T23:50:58.737Z info: Received a GET request for /api/reviews
+2023-11-17T23:50:58.772Z info: Received a GET request for /api/favoritos/55
+2023-11-17T23:50:58.788Z info: Received a GET request for /api/usuarios/55
+2023-11-17T23:50:58.790Z info: Received a GET request for /api/reviews
+2023-11-17T23:50:59.010Z info: Received a GET request for /api/favoritos/55
+2023-11-17T23:50:59.158Z info: Received a GET request for /api/favoritos/55
+2023-11-17T23:52:43.769Z info: Received a GET request for /api/favoritos/55
+2023-11-17T23:52:43.784Z info: Received a GET request for /api/usuarios/55
+2023-11-17T23:52:45.350Z info: Received a GET request for /api/favoritos/55
+2023-11-17T23:52:53.109Z info: Received a GET request for /api/favoritos/55
+2023-11-17T23:52:53.114Z info: Received a GET request for /api/usuarios/55
+2023-11-17T23:52:53.324Z info: Received a GET request for /api/favoritos/55
+2023-11-17T23:52:56.970Z info: Received a GET request for /api/usuarios/null
+2023-11-17T23:52:56.973Z info: Received a GET request for /api/reviews
+2023-11-17T23:52:57.009Z info: Received a GET request for /api/usuarios/null
+2023-11-17T23:52:57.014Z info: Received a GET request for /api/reviews
+2023-11-17T23:52:57.171Z error: invalid input syntax for type integer: "null"
+2023-11-17T23:52:57.370Z error: invalid input syntax for type integer: "null"
+2023-11-17T23:53:04.502Z info: Received a GET request for /api/auth/google
+2023-11-17T23:53:08.386Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXm01wUhz2VLiYXzeOEmfzymifCw2ngCrXRicAgmvLAwSFt-pialtP-lJq-xm1hQcA&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=1&prompt=consent
+2023-11-17T23:53:11.980Z info: Received a GET request for /api/favoritos/63
+2023-11-17T23:53:12.016Z info: Received a GET request for /api/usuarios/63
+2023-11-17T23:53:12.096Z info: Received a GET request for /api/reviews
+2023-11-17T23:53:12.099Z info: Received a GET request for /api/favoritos/63
+2023-11-17T23:53:12.105Z info: Received a GET request for /api/usuarios/63
+2023-11-17T23:53:12.108Z info: Received a GET request for /api/reviews
+2023-11-17T23:53:12.426Z info: Received a GET request for /api/favoritos/63
+2023-11-17T23:53:12.974Z info: Received a GET request for /api/favoritos/63
+2023-11-17T23:54:28.689Z info: Received a GET request for /api/usuarios/null
+2023-11-17T23:54:28.705Z info: Received a GET request for /api/reviews
+2023-11-17T23:54:28.749Z info: Received a GET request for /api/usuarios/null
+2023-11-17T23:54:28.753Z info: Received a GET request for /api/reviews
+2023-11-17T23:54:30.359Z error: invalid input syntax for type integer: "null"
+2023-11-17T23:54:30.363Z error: invalid input syntax for type integer: "null"
+2023-11-17T23:54:33.338Z info: Received a GET request for /api/auth/google
+2023-11-17T23:54:37.588Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXldRXv0WNp1FsSHE_c85F0O7jA_ue_9FDLp384-L3J3fS5TQg_MvqiKwwz5jEiriw&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=1&prompt=consent
+2023-11-17T23:54:39.749Z info: Received a GET request for /api/reviews
+2023-11-17T23:54:39.758Z info: Received a GET request for /api/favoritos/63
+2023-11-17T23:54:39.760Z info: Received a GET request for /api/usuarios/63
+2023-11-17T23:54:39.845Z info: Received a GET request for /api/favoritos/63
+2023-11-17T23:54:39.848Z info: Received a GET request for /api/usuarios/63
+2023-11-17T23:54:39.850Z info: Received a GET request for /api/reviews
+2023-11-17T23:54:40.241Z info: Received a GET request for /api/favoritos/63
+2023-11-17T23:54:40.331Z info: Received a GET request for /api/favoritos/63
+2023-11-17T23:56:26.742Z info: Received a GET request for /api/usuarios/null
+2023-11-17T23:56:26.801Z info: Received a GET request for /api/reviews
+2023-11-17T23:56:26.817Z info: Received a GET request for /api/usuarios/null
+2023-11-17T23:56:26.820Z info: Received a GET request for /api/reviews
+2023-11-17T23:56:28.249Z error: invalid input syntax for type integer: "null"
+2023-11-17T23:56:28.353Z error: invalid input syntax for type integer: "null"
+2023-11-17T23:57:09.807Z info: Received a GET request for /api/auth/google
+2023-11-17T23:57:13.571Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXlPMcObPzW_We8hZG6FqCqy64NvykdWz_IFEkrFodIBhSgkz36AzLBYSGS7wO1HBQ&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=1&prompt=consent
+2023-11-17T23:57:17.205Z info: Received a GET request for /api/favoritos/63
+2023-11-17T23:57:17.214Z info: Received a GET request for /api/usuarios/63
+2023-11-17T23:57:17.218Z info: Received a GET request for /api/reviews
+2023-11-17T23:57:17.251Z info: Received a GET request for /api/favoritos/63
+2023-11-17T23:57:17.263Z info: Received a GET request for /api/usuarios/63
+2023-11-17T23:57:17.268Z info: Received a GET request for /api/reviews
+2023-11-17T23:57:17.625Z info: Received a GET request for /api/favoritos/63
+2023-11-17T23:57:18.163Z info: Received a GET request for /api/favoritos/63
+2023-11-17T23:57:19.423Z info: Received a GET request for /api/favoritos/63
+2023-11-17T23:57:20.306Z info: Received a GET request for /api/favoritos/63
+2023-11-17T23:59:29.281Z info: Received a GET request for /api/usuarios/null
+2023-11-17T23:59:29.297Z info: Received a GET request for /api/reviews
+2023-11-17T23:59:29.305Z info: Received a GET request for /api/usuarios/null
+2023-11-17T23:59:29.308Z info: Received a GET request for /api/reviews
+2023-11-17T23:59:29.492Z error: invalid input syntax for type integer: "null"
+2023-11-17T23:59:29.893Z error: invalid input syntax for type integer: "null"
+2023-11-17T23:59:32.916Z info: Received a GET request for /api/auth/google
+2023-11-17T23:59:36.176Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXk77eH8PgkYPKwpUeJJuA_nc0GQ3nTVqiTTD2mKFuS5Jyv24_vsOw9_ZnCmw6HOpQ&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=1&prompt=consent
+2023-11-17T23:59:37.730Z info: Received a GET request for /api/favoritos/63
+2023-11-17T23:59:37.744Z info: Received a GET request for /api/usuarios/63
+2023-11-17T23:59:37.748Z info: Received a GET request for /api/reviews
+2023-11-17T23:59:37.777Z info: Received a GET request for /api/favoritos/63
+2023-11-17T23:59:37.780Z info: Received a GET request for /api/usuarios/63
+2023-11-17T23:59:37.784Z info: Received a GET request for /api/reviews
+2023-11-17T23:59:38.020Z info: Received a GET request for /api/favoritos/63
+2023-11-17T23:59:38.170Z info: Received a GET request for /api/favoritos/63
+2023-11-17T23:59:58.503Z info: Received a GET request for /api/usuarios/null
+2023-11-17T23:59:58.526Z info: Received a GET request for /api/reviews
+2023-11-17T23:59:58.546Z info: Received a GET request for /api/usuarios/null
+2023-11-17T23:59:58.552Z info: Received a GET request for /api/reviews
+2023-11-18T00:00:00.003Z error: invalid input syntax for type integer: "null"
+2023-11-18T00:00:00.056Z error: invalid input syntax for type integer: "null"
+2023-11-18T00:00:04.282Z info: Received a GET request for /api/auth/google
+2023-11-18T00:00:08.627Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXlyZt2ah030ZpDSXAfl4z6n7P6fnMxg7m_BbJhZ-xa-VXTq8d4HN4cSUFVTNPUGeQ&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=1&prompt=consent
+2023-11-18T00:00:10.120Z info: Received a GET request for /api/favoritos/63
+2023-11-18T00:00:10.124Z info: Received a GET request for /api/usuarios/63
+2023-11-18T00:00:10.131Z info: Received a GET request for /api/reviews
+2023-11-18T00:00:10.144Z info: Received a GET request for /api/favoritos/63
+2023-11-18T00:00:10.152Z info: Received a GET request for /api/usuarios/63
+2023-11-18T00:00:10.154Z info: Received a GET request for /api/reviews
+2023-11-18T00:00:10.534Z info: Received a GET request for /api/favoritos/63
+2023-11-18T00:00:11.074Z info: Received a GET request for /api/favoritos/63
+2023-11-18T00:01:34.442Z info: Received a GET request for /api/usuarios/null
+2023-11-18T00:01:34.458Z info: Received a GET request for /api/usuarios/null
+2023-11-18T00:01:34.465Z info: Received a GET request for /api/reviews
+2023-11-18T00:01:34.469Z info: Received a GET request for /api/reviews
+2023-11-18T00:01:34.657Z error: invalid input syntax for type integer: "null"
+2023-11-18T00:01:34.861Z error: invalid input syntax for type integer: "null"
+2023-11-18T00:01:36.842Z info: Received a GET request for /api/auth/google
+2023-11-18T00:01:40.241Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXmcB8lr8Tff7c1j0IrN71GAzS1OO_kgPeRt3HmQVcvpJl3VhK6pXREbBdDC3F2YOw&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=1&prompt=consent
+2023-11-18T00:01:42.573Z info: Received a GET request for /api/reviews
+2023-11-18T00:01:42.578Z info: Received a GET request for /api/favoritos/63
+2023-11-18T00:01:42.582Z info: Received a GET request for /api/usuarios/63
+2023-11-18T00:01:42.594Z info: Received a GET request for /api/favoritos/63
+2023-11-18T00:01:42.597Z info: Received a GET request for /api/usuarios/63
+2023-11-18T00:01:42.599Z info: Received a GET request for /api/reviews
+2023-11-18T00:01:42.965Z info: Received a GET request for /api/favoritos/63
+2023-11-18T00:01:43.092Z info: Received a GET request for /api/favoritos/63
+2023-11-18T00:06:24.966Z info: Received a GET request for /api/auth/google
+2023-11-18T00:06:28.156Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXkAohhc7fgjHnlzOqGcadL2dUGN3QpWl6htZa8Nhq4nlGdIcLZuQBmFrU0P0kPL1w&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=1&prompt=consent
+2023-11-18T00:06:30.466Z info: Received a GET request for /api/favoritos/63
+2023-11-18T00:06:30.474Z info: Received a GET request for /api/usuarios/63
+2023-11-18T00:06:30.513Z info: Received a GET request for /api/favoritos/63
+2023-11-18T00:06:30.517Z info: Received a GET request for /api/reviews
+2023-11-18T00:06:30.521Z info: Received a GET request for /api/usuarios/63
+2023-11-18T00:06:30.528Z info: Received a GET request for /api/reviews
+2023-11-18T00:06:30.880Z info: Received a GET request for /api/favoritos/63
+2023-11-18T00:06:31.438Z info: Received a GET request for /api/favoritos/63
+2023-11-18T00:06:57.363Z info: Received a GET request for /api/usuarios/null
+2023-11-18T00:06:57.367Z info: Received a GET request for /api/usuarios/null
+2023-11-18T00:06:57.388Z info: Received a GET request for /api/reviews
+2023-11-18T00:06:57.498Z info: Received a GET request for /api/reviews
+2023-11-18T00:06:59.224Z error: invalid input syntax for type integer: "null"
+2023-11-18T00:06:59.243Z error: invalid input syntax for type integer: "null"
