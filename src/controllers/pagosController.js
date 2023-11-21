@@ -143,12 +143,20 @@ exports.captureOrder = async (req, res) => {
         if (dtapagos) {
             const response = await axios.post(`${PAYPAL_API}v2/checkout/orders/${token}/capture`,{},{
                 headers: {
-                    Authorization: `Bearer ${getAccess_token}`,
+                    Authorization: `Bearer ${getAccess_token()}`,
                 }
             }
         );
         if (response.data.status === "COMPLETED") {
             let dtafactura = await factura.findOne({
+                include:[ {
+                  attributes: { exclude: ['createdAt', 'updatedAt'] },
+                  model: usuarios,
+                  include:[{
+                    attributes: { exclude: ['createdAt', 'updatedAt'] },
+                    model: personas,
+                  }]
+              },],
                 where: {
                     id: {
                         [Op.eq]: dtapagos.id_factura
@@ -163,7 +171,7 @@ exports.captureOrder = async (req, res) => {
 
             //Enviaremos la notificacion del pago
             await sendEmail(
-            dtapagos.usuario.dato.correo, // Cambia por la dirección de correo a la que deseas enviar la notificación
+            dtafactura.usuario.dato.correo, // Cambia por la dirección de correo a la que deseas enviar la notificación
             "Notificación de Pago",
             "Su pago se a realizado con éxito"
             );
