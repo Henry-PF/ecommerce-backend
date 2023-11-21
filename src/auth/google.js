@@ -8,7 +8,7 @@ const process = require("process");
 const { sendEmail } = require('../config/mailer');
 const env = process.env;
 
-const GOOGLE_CALLBACK_URL = 'http://localhost:3002/api/auth/callback';
+const GOOGLE_CALLBACK_URL = 'https://backend-dev-jnpc.1.us-1.fl0.io//api/auth/callback';
 
 passport.use(
     new GoogleStrategy(
