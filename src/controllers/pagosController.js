@@ -40,8 +40,8 @@ exports.createOrder = async (req, res) => {
               landing_page: "LOGIN",
               user_action: "PAY_NOW",
               shipping_preference: "NO_SHIPPING",
-              return_url: `https://backend-dev-jnpc.1.us-1.fl0.io//api/pago/capture-order?carrito=${dta_carrito.id}`,
-              cancel_url: "https://backend-dev-jnpc.1.us-1.fl0.io//pago/cancel-order",
+              return_url: `https://backend-dev-jnpc.1.us-1.fl0.io/api/pago/capture-order?carrito=${dta_carrito.id}`,
+              cancel_url: "https://backend-dev-jnpc.1.us-1.fl0.io/pago/cancel-order",
             },
           };
 
