@@ -1,13 +1,14 @@
 const passport = require('passport');
 const GoogleStrategy = require('passport-google-oauth20').Strategy;
-const { usuarios, personas } = require('../db');
+const { usuarios, personas, carrito } = require('../db');
 const securePassword = require('secure-random-password');
 const bcrypt = require("bcrypt");
 const { Op } = require('sequelize');
 const process = require("process");
+const { sendEmail } = require('../config/mailer');
 const env = process.env;
 
-const GOOGLE_CALLBACK_URL = 'https://backend-dev-jnpc.1.us-1.fl0.io/api/auth/callback';
+const GOOGLE_CALLBACK_URL = 'https://backend-dev-jnpc.1.us-1.fl0.io//api/auth/callback';
 
 passport.use(
     new GoogleStrategy(
@@ -20,7 +21,8 @@ passport.use(
         async (request, accessToken, refreshToken, profile, done) => {
             try {
                 const userExist = await usuarios.findOne({
-                    include: [{ model: personas }],
+                    include: [{ model: personas }, { model: carrito }],
+                    attributes: { exclude: ['password', 'createdAt', 'updateAt'] },
                     where: {
                         googleId: {
                             [Op.eq]: profile.id
@@ -46,15 +48,54 @@ passport.use(
                 const hash = await bcrypt.hash(password, 10);
 
                 const newGoogleUser = await usuarios.create({
-                    include: [{ model: personas }],
                     usuario: profile.displayName,
                     password: hash,
                     googleId: profile.id,
-                    id_datos: userData.id,
+                    id_persona: userData.id,
                     id_statud: "1",
-                    type: "usuario"
+                    type: "usuario",
+
+                }, {
+                    include: [
+                        { model: personas },
+                        { model: carrito },
+                    ]
                 });
 
+                if (newGoogleUser) {
+                    console.log(newGoogleUser);
+                    try {
+                        const dataCart = {
+                            id_usuario: newGoogleUser.id,
+                            id_statud: 1,
+                            total: 0,
+                            fecha: new Date().toLocaleDateString().toString()
+                        }
+
+                        await carrito.create(dataCart)
+                    } catch (error) {
+                        console.error(error);
+                    }
+                }
+
+                if (newGoogleUser) {
+                    await sendEmail(
+                        defaultUser.correo,
+                        "Bienvenido a Trendy ✔",
+                        "<h1>Bienvenido a Trendy</h1>",
+                        `<p>Hola ${defaultUser.nombre},</p>
+                            <p>Gracias por registrarte en Trendy, tu tienda online.</p>
+                        <p>
+                        A continuación, encontrarás algunos detalles sobre tu cuenta:
+                        </p>
+                        <ul>
+                            <li>Nombre de usuario: ${newGoogleUser.usuario}</li>
+                        </ul>
+                        <p>¡Si tienes alguna pregunta o necesitas asistencia, no dudes en ponerte en contacto con nuestro equipo de soporte!</p>
+                        <p>¡Esperamos que disfrutes de tu experiencia con Trendy!</p>`
+                    );
+                    console.log(newGoogleUser);
+                }
                 return done(null, newGoogleUser);
             } catch (error) {
                 console.error(error);
@@ -71,13 +112,15 @@ passport.serializeUser(function (user, done) {
 passport.deserializeUser((id, done) => {
     usuarios.findByPk(id, {
         include: [
-            { model: personas, as: 'persona' }
+            {
+                model: personas,
+                attributes: { exclude: ['password', 'createdAt', 'updatedAt'] },
+            },
+            { model: carrito }
         ]
     }).then(user => {
-        console.log(user);
         done(null, user)
     })
-    done(null, id)
 });
 
 module.exports = passport;

@@ -2,7 +2,8 @@ const { logger } = require("../components/logger")
 const { favoritos_productos, producto, usuarios, img_productos } = require("../db")
 
 //obtener 
-exports.getFavoritos = async (data) => {
+exports.getFavoritos = async (id) => {
+    console.log(id);
     //respuesta
     const result = {
         data: [],
@@ -11,7 +12,7 @@ exports.getFavoritos = async (data) => {
     }
     try {
 
-        const userId = data?.userId
+        const userId = id
 
         if (!userId) {
             result.message = "Faltan datos para la consulta"
@@ -68,6 +69,7 @@ exports.addFavorito = async (data) => {
 }
 
 exports.deleteFavs = async (data) => {
+    console.log('deleteFav', data);
     const result = {
         data: [],
         message: "",
@@ -103,7 +105,7 @@ exports.deleteFavs = async (data) => {
 //funciones
 
 //obtener favoritos
-async function getFavs(userId) {
+async function getFavs(id) {
     //respuesta
     const result = {
         data: null,
@@ -113,14 +115,18 @@ async function getFavs(userId) {
     try {
         const favs = await favoritos_productos.findAll({
             where: {
-                id_usuario: userId
+                id_usuario: id
             },
-            includes: {
-                model: producto,
-                includes: {
-                    model: img_productos
-                }
-            }
+            attributes: { exclude: ['createdAt', 'updatedAt'] },
+            include: [
+                {
+                    model: producto,
+                    attributes: { exclude: ['createdAt', 'updatedAt'] },
+                    include: {
+                        model: img_productos
+                    },
+                },
+            ]
         })
 
         result.message = "Tus favoritos"
@@ -210,8 +216,6 @@ async function addFavs(userId, productId) {
 
 //delete
 async function delFavs(userId, productId) {
-    console.log(userId, productId)
-
     //respuesta
     const result = {
         data: [],
