@@ -1,6 +1,6 @@
 const { Router } = require("express");
 const router = Router();
-const {findAll,FindID,Delete,update,create} = require("../handlers/usuariosHandler")
+const { findAll, FindID, Delete, update, create } = require("../handlers/usuariosHandler")
 
 router.get("/", findAll);
 router.get("/:id", FindID);

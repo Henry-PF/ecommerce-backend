@@ -1,20 +1,15 @@
-const { createReview, editReview, getAll, deleteReviews } = require("../handlers/reviewsHandler")
+const { createReview, editReview, getAll, deleteReviews, findReview } = require("../handlers/reviewsHandler")
 
 const router = require("express").Router()
 
+//Encontrar Review
+router.get("/:id", findReview)
 //obtenerTodas
 router.get("/", getAll)
-
 //create Review
 router.post("/", createReview)
 //edit review
-router.put("/", editReview)
+router.post("/", editReview)
 //delete
-router.delete("/", deleteReviews)
-
-//createMockUser
-router.get("/mock", async function (req, res) {
-    await require('../db').usuarios.create({ usuario: "unUsuario", password: "Aezakmi11", type: "Algo", googleId: "asohfdoahfdoj" })
-    return res.json("Created MockUser")
-})
+router.post("/", deleteReviews)
 module.exports = router

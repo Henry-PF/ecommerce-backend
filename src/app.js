@@ -3,6 +3,7 @@ const session = require('express-session');
 const bodyParser = require("body-parser");
 const morgan = require("morgan");
 const passport = require("passport");
+const cors = require("cors");
 const routes = require("./routes/index.js");
 require("dotenv").config();
 require("./db.js");
@@ -17,14 +18,15 @@ server.name = "API";
 
 server.use(
   session({
-    secret: '123456',
+    secret: process.env.SECRET_KEY,
     resave: false,
     saveUninitialized: true,
   })
 );
-
+server.use(cors());
 server.use(passport.initialize());
 server.use(passport.session());
+
 
 server.use(
   fileupload({
