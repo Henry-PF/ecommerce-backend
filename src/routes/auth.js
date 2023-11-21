@@ -8,7 +8,7 @@ const env = process.env;
 
 router.get('/google', loginGoogle);
 
-router.get('/callback', passport.authenticate('google', { failureRedirect: 'https://trendyweb.onrender.com/' }),
+router.get('/callback', passport.authenticate('google', { failureRedirect: 'http://localhost:3001' }),
     function (req, res) {
         const user = req.user;
         console.log(user);
@@ -17,7 +17,7 @@ router.get('/callback', passport.authenticate('google', { failureRedirect: 'http
         });
         res.cookie('token', token);
         res.cookie('user', JSON.stringify(user));
-        res.redirect('https://trendyweb.onrender.com/');
+        res.redirect('http://localhost:3001');
     }
 );
 router.post('/login', login);
