@@ -60,7 +60,6 @@ exports.getCarrito = async (data) => {
 }
 
 exports.create = async (data) => {
-    console.log(data);
     let result = "";
     try {
         if (data.id) {
