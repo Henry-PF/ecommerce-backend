@@ -54,9 +54,10 @@ exports.getOne = async (data) => {
 };
 exports.Delete = async (data) => {
     let result = {};
+    console.log("data:", data);
     try {
         let operation = await categoria.update(
-            { id_statud: 2 },
+            { id_statud: data.id_statud },
             { where: { id: { [Op.eq]: data.id } } }
         );
 
@@ -79,33 +80,7 @@ exports.Delete = async (data) => {
         return (result = { message: error.message, error: true });
     }
 };
-exports.Active = async (data) => {
-    let result = {};
-    try {
-        let operation = await categoria.update(
-            { id_statud: 1 },
-            { where: { id: { [Op.eq]: data.id } } }
-        );
-        console.log(operation);
-        if (operation) {
-            result = {
-                data: operation,
-                error: false,
-                message: "Operacion realizada con exito",
-            };
-        } else {
-            result = {
-                error: true,
-                message: "Error al realizar su operacion",
-            };
-        }
-        logger.info(result);
-        return result;
-    } catch (error) {
-        logger.error(error.message);
-        return (result = { message: error.message, error: true });
-    }
-};
+
 exports.Update = async (data) => {
     let result = {};
     console.log(data.dato.nombre);

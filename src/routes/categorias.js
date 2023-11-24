@@ -14,6 +14,5 @@ router.get("/:id", getOneCategory);
 router.post("/", CreateCategory);
 router.post("/delete", DeleteCategory);
 router.post("/update", UpdateCategory);
-router.post("/active", ActiveCategory);
 
 module.exports = router;

@@ -48,6 +48,7 @@ exports.getOneCategory = async (req, res) => {
 };
 exports.DeleteCategory = async (req, res) => {
     let result = {};
+    console.log(req.body);
     try {
         if (req.body) {
             result = await Delete(req.body);
@@ -60,20 +61,7 @@ exports.DeleteCategory = async (req, res) => {
         res.status(500).json({ message: error.message, error: true });
     }
 };
-exports.ActiveCategory = async (req, res) => {
-    let result = {};
-    try {
-        if (req.body) {
-            result = await Active(req.body);
-        } else {
-            result = { message: "faltan campos", error: true };
-        }
-        res.status(200).json(result);
-    } catch (error) {
-        logger.error(error.message);
-        res.status(500).json({ message: error.message, error: true });
-    }
-};
+
 exports.UpdateCategory = async (req, res) => {
     let result = {};
 
