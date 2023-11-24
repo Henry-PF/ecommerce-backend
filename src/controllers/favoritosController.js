@@ -3,8 +3,6 @@ const { favoritos_productos, producto, usuarios, img_productos } = require("../d
 
 //obtener 
 exports.getFavoritos = async (id) => {
-    console.log(id);
-    //respuesta
     const result = {
         data: [],
         message: "",
@@ -46,8 +44,10 @@ exports.addFavorito = async (data) => {
         const { userId, productId } = data
 
         if (!userId || !productId) {
-            result.message = "Faltan datos para la consulta"
-            result.status = 400
+            result.data = []
+            result.error = true
+            result.message = "Debes iniciar sesión"
+            result.status = 201
             return result
         }
 
@@ -179,8 +179,9 @@ async function addFavs(userId, productId) {
         })
 
         if (!isNew) {
+            result.error = true
             result.message = "El producto ya está en tu lista de favoritos."
-            result.status = 409
+            result.status = 200
             return result
         }
 

@@ -92,10 +92,10 @@ exports.create = async (data) => {
 
 exports.addItem = async (data) => {
     let result = "";
-    let aggProd; // Define aggProd aquí para tener un ámbito más amplio
+    let aggProd;
 
     try {
-        if (data) {
+        if (data.id_usuario) {
             let dtaCarrito = await carrito.findOne({
                 where: {
                     id_usuario: {
@@ -255,7 +255,6 @@ exports.removeItem = async (data) => {
 
 
 const updateTotalCarrito = async (data) => {
-    let result = "";
     try {
         if (data) {
             let dtaCarrito = await carrito.findOne({
@@ -265,29 +264,32 @@ const updateTotalCarrito = async (data) => {
                     }
                 }
             });
+
             if (dtaCarrito) {
-                dtaCarrito.total = await detalle_carrito.sum('subtotal', {
+                const total = await detalle_carrito.sum('subtotal', {
                     where: {
                         id_carrito: {
                             [Op.eq]: dtaCarrito.id
                         }
                     }
                 });
+
+                dtaCarrito.total = total || 0;
+
                 await dtaCarrito.save();
-                result = dtaCarrito;
+                return dtaCarrito;
             } else {
-                result = { error: true, message: "Carrito no existente" };
+                return { error: true, message: "Carrito no existente" };
             }
         } else {
-            result = { error: true, message: "Faltan parámetros" };
+            return { error: true, message: "Faltan parámetros" };
         }
-        logger.info(result);
-        return result;
     } catch (error) {
         logger.error(error.message);
-        return result = { message: error.message, error: true };
+        return { message: error.message, error: true };
     }
 }
+
 
 exports.deleteItem = async (data) => {
     let result = "";
