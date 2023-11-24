@@ -16,6 +16,8 @@ module.exports = (sequelize, DataTypes) => {
       this.hasMany(models.factura,{ foreignKey: "id_usuario"});
       this.hasMany(models.favoritos_productos,{ foreignKey: "id_usuario"});
       this.hasMany(models.review,{ foreignKey: "id_usuario"});
+      this.hasMany(models.productsReview,{ foreignKey: "id_usuario"});
+
     }
   }
   usuarios.init({
