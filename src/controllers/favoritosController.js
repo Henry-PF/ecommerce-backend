@@ -2,8 +2,7 @@ const { logger } = require("../components/logger")
 const { favoritos_productos, producto, usuarios, img_productos } = require("../db")
 
 //obtener 
-exports.getFavoritos = async (data) => {
-    //respuesta
+exports.getFavoritos = async (id) => {
     const result = {
         data: [],
         message: "",
@@ -11,7 +10,7 @@ exports.getFavoritos = async (data) => {
     }
     try {
 
-        const userId = data?.userId
+        const userId = id
 
         if (!userId) {
             result.message = "Faltan datos para la consulta"
@@ -45,8 +44,10 @@ exports.addFavorito = async (data) => {
         const { userId, productId } = data
 
         if (!userId || !productId) {
-            result.message = "Faltan datos para la consulta"
-            result.status = 400
+            result.data = []
+            result.error = true
+            result.message = "Debes iniciar sesión"
+            result.status = 201
             return result
         }
 
@@ -68,6 +69,7 @@ exports.addFavorito = async (data) => {
 }
 
 exports.deleteFavs = async (data) => {
+    console.log('deleteFav', data);
     const result = {
         data: [],
         message: "",
@@ -103,7 +105,7 @@ exports.deleteFavs = async (data) => {
 //funciones
 
 //obtener favoritos
-async function getFavs(userId) {
+async function getFavs(id) {
     //respuesta
     const result = {
         data: null,
@@ -113,14 +115,18 @@ async function getFavs(userId) {
     try {
         const favs = await favoritos_productos.findAll({
             where: {
-                id_usuario: userId
+                id_usuario: id
             },
-            includes: {
-                model: producto,
-                includes: {
-                    model: img_productos
-                }
-            }
+            attributes: { exclude: ['createdAt', 'updatedAt'] },
+            include: [
+                {
+                    model: producto,
+                    attributes: { exclude: ['createdAt', 'updatedAt'] },
+                    include: {
+                        model: img_productos
+                    },
+                },
+            ]
         })
 
         result.message = "Tus favoritos"
@@ -173,8 +179,9 @@ async function addFavs(userId, productId) {
         })
 
         if (!isNew) {
+            result.error = true
             result.message = "El producto ya está en tu lista de favoritos."
-            result.status = 409
+            result.status = 200
             return result
         }
 
@@ -210,8 +217,6 @@ async function addFavs(userId, productId) {
 
 //delete
 async function delFavs(userId, productId) {
-    console.log(userId, productId)
-
     //respuesta
     const result = {
         data: [],

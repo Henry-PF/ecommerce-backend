@@ -1,4 +1,4 @@
-const { review, usuarios } = require("../db")
+const { review, usuarios, personas } = require("../db")
 
 
 /*Importante:
@@ -33,6 +33,7 @@ exports.getAllReviews = async () => {
 //crear reseña
 exports.create = async (data) => {
     //resultado
+    console.log(data);
     const result = {
         data: null,
         message: "",
@@ -163,6 +164,23 @@ exports.del = async (data) => {
     return result
 }
 
+exports.findReview = async (data) => {
+    console.log(data.id);
+    let result = {};
+    try {
+        await review.findOne({
+            where: { id_usuario: data.id }
+        }).then((dta) => {
+            result.data = dta;
+        });
+
+        return result;
+    } catch (error) {
+        logger.error(error.message);
+        return result = { message: error.message, error: true };
+    }
+}
+
 //function para obtener todas las reseñas
 async function getAllReviews(reviewId) {
     //resultados
@@ -173,12 +191,15 @@ async function getAllReviews(reviewId) {
     }
     try {
         const reviews = await review.findAll({
-            includes: {
+            include: [{
                 model: usuarios,
                 attributes: {
                     exclude: ["password"]
-                }
-            }
+                },
+                include: [{
+                    model: personas,
+                }]
+            }]
         })
 
         if (!reviews) {

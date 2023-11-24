@@ -1,4 +1,4 @@
-const { usuarios, personas, statud } = require("../db");
+const { usuarios, personas, statud, carrito } = require("../db");
 const { Op } = require("sequelize");
 const jwt = require("jsonwebtoken");
 const bcrypt = require("bcrypt");
@@ -41,6 +41,21 @@ exports.create = async (data) => {
             }
             //Crear usuario
             user = await usuarios.create(dtaUsuario);
+
+            if (user) {
+                try {
+                    const dataCart = {
+                        id_usuario: user.id,
+                        id_statud: 1,
+                        total: 0,
+                        fecha: new Date().toLocaleDateString().toString()
+                    }
+
+                    await carrito.create(dataCart)
+                } catch (error) {
+                    console.error(error);
+                }
+            }
 
             if (user) {
                 await sendEmail(
@@ -142,7 +157,7 @@ exports.FindID = async (id) => {
     try {
         await usuarios.findOne({
             attributes: { exclude: ['password', 'id_persona', 'id_statud'] },
-            include: [{ model: personas }, { model: statud }],
+            include: [{ model: personas }, { model: statud }, { model: carrito }],
             where: {
                 id: {
                     [Op.eq]: id
@@ -170,7 +185,7 @@ exports.Delete = async (id) => {
             }
         });
         if (dataUser) {
-            let dtaN = await usuarios.update({ isactivo: false }, {
+            let dtaN = await usuarios.update({ id_statud: parseInt(data.status) }, {
                 where: {
                     id: {
                         [Op.eq]: id
@@ -293,7 +308,7 @@ exports.login = async (data) => {
             include: [
                 {
                     model: usuarios,
-                    include: { model: statud },
+                    include: { model: statud, model: carrito },
                     where: {
                         id_statud: {
                             [Op.eq]: 1
@@ -314,7 +329,7 @@ exports.login = async (data) => {
                     const token = jwt.sign({ userId: dta.usuarios[0].usuario.id }, env.SECRECT_TOKEN, {
                         expiresIn: "1h",
                     });
-                    result.data = dta;
+                    result.data = dta.usuarios[0];
                     result.token = token;
                 }
             } else {

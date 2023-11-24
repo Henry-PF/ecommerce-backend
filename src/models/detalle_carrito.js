@@ -10,23 +10,23 @@ module.exports = (sequelize, DataTypes) => {
      * The `models/index` file will call this method automatically.
      */
     static associate(models) {
-      this.belongsTo(models.carrito,{ foreignKey: "id_carrito"});
-      this.belongsTo(models.producto,{ foreignKey: "id_producto"});
+      this.belongsTo(models.carrito, { foreignKey: "id_carrito" });
+      this.belongsTo(models.producto, { foreignKey: "id_producto" });
     }
   }
   detalle_pedidos.init({
-    id:{
+    id: {
       type: DataTypes.INTEGER,
       allowNull: false,
       primaryKey: true,
       autoIncrement: true,
       unique: true,
     },
-    cantidad:  {
+    cantidad: {
       type: DataTypes.STRING,
       allowNull: false,
     },
-    subtotal:  {
+    subtotal: {
       type: DataTypes.STRING,
       allowNull: false,
     },
