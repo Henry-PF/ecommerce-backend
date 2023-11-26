@@ -3,7 +3,7 @@ const { createReview, editReview, deleteReviews, getReview } = require("../handl
 const router = require("express").Router()
 
 //obtenerTodas
-router.get("/", getReview)
+router.get("/:id", getReview)
 //create Review
 router.post("/", createReview)
 //edit review

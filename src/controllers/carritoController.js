@@ -251,8 +251,6 @@ exports.removeItem = async (data) => {
     }
 };
 
-
-
 const updateTotalCarrito = async (data) => {
     try {
         if (data) {
@@ -288,7 +286,6 @@ const updateTotalCarrito = async (data) => {
         return { message: error.message, error: true };
     }
 }
-
 
 exports.deleteItem = async (data) => {
     let result = "";

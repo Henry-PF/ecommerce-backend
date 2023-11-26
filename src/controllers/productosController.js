@@ -10,7 +10,7 @@ exports.getAll = async (data) => {
         //page = pagina
         const page = parseInt(data?.page) || 1
         //cantidad de productos por pagina
-        const productsPerPage = 10
+        const productsPerPage = 9
 
         //desplazamiento = numero de pagina - 1 * numero de productos 
         // (por ej: si pagina = 1 ==> el offset es 0, si pagina = 2 offset = 10), asi puede omitir cierta cant de productos

@@ -1,5 +1,5 @@
 const { logger } = require("../components/logger")
-const { productsReview, usuarios, producto } = require("../db")
+const { productsReview, usuarios, producto, personas } = require("../db")
 
 
 /*Importante:
@@ -14,11 +14,10 @@ exports.getProductReview = async (data) => {
         message: "",
         error: false,
     }
+
     try {
 
-
-
-        const allReviews = await getReview()
+        const allReviews = await getReview(data.id)
 
         //retornar la respuesta pertinente
         result.data = allReviews.data
@@ -177,7 +176,7 @@ exports.del = async (data) => {
 }
 
 //function para obtener todas las reseñas
-async function getReview() {
+async function getReview(id) {
     //resultados
     const result = {
         data: null,
@@ -186,7 +185,17 @@ async function getReview() {
     }
     try {
         const reviews = await productsReview.findAll({
-           
+            where: {
+                id_producto: id
+            },
+            include: [
+                {
+                    model: usuarios,
+                    include: [{
+                        model: personas
+                    }]
+                }
+            ]
         })
 
         if (!reviews) {
