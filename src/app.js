@@ -33,8 +33,8 @@ server.use(
 server.use(passport.initialize());
 server.use(passport.session());
 
-server.use(cookieParser())
-
+server.use(cors());
+server.use(cookieParser());
 
 server.use(
   fileupload({
