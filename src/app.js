@@ -10,6 +10,7 @@ require("./db.js");
 var path = require('path');
 const { logger } = require("./components/logger.js");
 const fileupload = require("express-fileupload");
+const cookieParser = require('cookie-parser');
 
 const server = express();
 
@@ -24,6 +25,7 @@ server.use(
   })
 );
 server.use(cors());
+server.use(cookieParser());
 server.use(passport.initialize());
 server.use(passport.session());
 
