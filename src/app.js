@@ -21,12 +21,11 @@ let sessionConfig ={
   name: 'backend-trendy',
   resave: false,
   saveUninitialized: false,
-  store: store,
   cookie: {
-          sameSite: 'none',
-          secure: true,
-          maxAge: 24 * 60 * 60 * 1000
-      }
+    sameSite: 'none',
+    secure: true,
+    maxAge: 24 * 60 * 60 * 1000
+  }
 }
 
 
