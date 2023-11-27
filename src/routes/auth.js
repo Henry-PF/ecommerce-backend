@@ -7,7 +7,7 @@ const process = require("process");
 const env = process.env;
 
 router.use((req, res, next) => {
-    res.setHeader("Content-Security-Policy", "default-src 'self'; script-src 'self'; connect-src 'self' http://localhost:3001; img-src 'self'");
+    res.setHeader("Content-Security-Policy", "default-src 'self'; script-src 'self'; connect-src 'self' https://trendy-web-lemon.vercel.app/; img-src 'self'");
     next();
 });
 
