@@ -6,6 +6,11 @@ const jwt = require('jsonwebtoken');
 const process = require("process");
 const env = process.env;
 
+router.use((req, res, next) => {
+    res.setHeader("Content-Security-Policy", "default-src 'self'; script-src 'self'; connect-src 'self' http://localhost:3001; img-src 'self'");
+    next();
+});
+
 router.get('/google', loginGoogle);
 
 router.get('/callback', passport.authenticate('google', { failureRedirect: 'https://trendy-web-lemon.vercel.app' }),
