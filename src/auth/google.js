@@ -54,16 +54,15 @@ passport.use(
                     id_persona: userData.id,
                     id_statud: "1",
                     type: "usuario",
-
                 }, {
                     include: [
                         { model: personas },
-                        { model: carrito },
-                    ]
+                        { model: carrito }
+                    ],
+                    attributes: { exclude: ['password', 'createdAt', 'updatedAt'] },
                 });
 
                 if (newGoogleUser) {
-                    console.log(newGoogleUser);
                     try {
                         const dataCart = {
                             id_usuario: newGoogleUser.id,
@@ -94,28 +93,24 @@ passport.use(
                         <p>¡Si tienes alguna pregunta o necesitas asistencia, no dudes en ponerte en contacto con nuestro equipo de soporte!</p>
                         <p>¡Esperamos que disfrutes de tu experiencia con Trendy!</p>`
                     );
-                    console.log(newGoogleUser);
                 }
-                return done(null, newGoogleUser);
+                done(null, newGoogleUser);
             } catch (error) {
                 console.error(error);
-                return done(error);
+                done(error);
             }
         }
     )
 );
 
 passport.serializeUser(function (user, done) {
-    done(null, user.id)
+    done(null, user)
 });
 
-passport.deserializeUser((id, done) => {
-    usuarios.findByPk(id, {
+passport.deserializeUser((user, done) => {
+    usuarios.findByPk(user.id, {
         include: [
-            {
-                model: personas,
-                attributes: { exclude: ['password', 'createdAt', 'updatedAt'] },
-            },
+            { model: personas },
             { model: carrito }
         ]
     }).then(user => {

@@ -41,7 +41,7 @@ exports.createOrder = async (req, res) => {
               user_action: "PAY_NOW",
               shipping_preference: "NO_SHIPPING",
               return_url: `https://backend-dev-jnpc.1.us-1.fl0.io/api/pago/capture-order?carrito=${dta_carrito.id}`,
-              cancel_url: "https://backend-dev-jnpc.1.us-1.fl0.io/pago/cancel-order",
+              cancel_url: "https://backend-dev-jnpc.1.us-1.fl0.io/api/pago/cancel-order",
             },
           };
 
@@ -203,7 +203,7 @@ exports.captureOrder = async (req, res) => {
           }
         });
       }
-      res.redirect("https://trendyweb.onrender.com/");
+      res.redirect("https://trendy-web-lemon.vercel.app/");
     } else {
       res.status(401).json({ message: "ruta no encontrada" })
     }
@@ -214,5 +214,5 @@ exports.captureOrder = async (req, res) => {
 };
 
 exports.cancelOrder = (req, res) => {
-  res.redirect("https://trendyweb.onrender.com/");
+  res.redirect("https://trendy-web-lemon.vercel.app/");
 };
