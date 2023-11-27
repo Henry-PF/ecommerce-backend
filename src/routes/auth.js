@@ -24,7 +24,8 @@ router.get('/callback', passport.authenticate('google', { failureRedirect: 'http
             secure: true,
             httpOnly: true,
             path: "https://trendy-web-lemon.vercel.app",
-            maxAge: 30 * 24 * 60 * 60 * 1000, // 30days });
+            maxAge: 30 * 24 * 60 * 60 * 1000
+        });
         res.cookie('user', JSON.stringify(user),{ sameSite: 'none', secure: true });
         res.redirect('https://trendy-web-lemon.vercel.app/')
     }
