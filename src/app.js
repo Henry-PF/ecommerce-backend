@@ -39,7 +39,7 @@ server.use(session(sessionConfig));
 server.use(passport.initialize());
 server.use(passport.session());
 
-server.use(cors());
+server.use(cors({ credentials: true, origin: 'https://trendy-web-lemon.vercel.app/' }));
 server.use(cookieParser());
 
 server.use(
