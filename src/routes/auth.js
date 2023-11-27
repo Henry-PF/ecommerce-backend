@@ -8,7 +8,7 @@ const env = process.env;
 
 router.get('/google', loginGoogle);
 
-router.get('/callback', passport.authenticate('google', { failureRedirect: 'http://localhost:3001' }),
+router.get('/callback', passport.authenticate('google', { failureRedirect: 'https://trendy-web-lemon.vercel.app' }),
     function (req, res) {
         const user = req.user;
         console.log('USUARIO', user);
@@ -17,7 +17,7 @@ router.get('/callback', passport.authenticate('google', { failureRedirect: 'http
         });
         res.cookie('token', token);
         res.cookie('user', JSON.stringify(user));
-        res.redirect('http://localhost:3001');
+        res.redirect('https://trendy-web-lemon.vercel.app');
     }
 );
 router.post('/login', login);
