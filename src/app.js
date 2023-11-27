@@ -16,19 +16,26 @@ const server = express();
 
 server.name = "API";
 
+let sessionConfig ={
+  secret: process.env.SECRET_KEY,
+  name: 'backend-trendy',
+  resave: false,
+  saveUninitialized: false,
+  store: store,
+  cookie: {
+          sameSite: 'none',
+          secure: true,
+          maxAge: 24 * 60 * 60 * 1000
+      }
+}
 
-server.use(
-  session({
-    secret: process.env.SECRET_KEY,
-    resave: true,
-    saveUninitialized: true,
-    cookie: {
-            sameSite: 'none',
-            secure: true,
-            maxAge: 24 * 60 * 60 * 1000
-        }
-  })
-);
+
+if (process.env.NODE_ENV === 'production') {
+  server.set('trust proxy', 1); // trust first proxy
+  sessionConfig.cookie.secure = true; // serve secure cookies
+}
+
+server.use(session(sessionConfig));
 
 server.use(passport.initialize());
 server.use(passport.session());
