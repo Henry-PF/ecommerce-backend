@@ -2,7 +2,7 @@ const express = require("express");
 const session = require('express-session');
 const bodyParser = require("body-parser");
 const morgan = require("morgan");
-const passport = require("passport");
+const passport = require("./auth/google.js");
 const cors = require("cors");
 const routes = require("./routes/index.js");
 require("dotenv").config();
@@ -32,6 +32,8 @@ server.use(
 
 server.use(passport.initialize());
 server.use(passport.session());
+
+server.use(cookieParser())
 
 
 server.use(
