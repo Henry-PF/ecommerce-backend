@@ -20,13 +20,16 @@ server.name = "API";
 server.use(
   session({
     secret: process.env.SECRET_KEY,
-    resave: false,
+    resave: true,
     saveUninitialized: true,
+    cookie: {
+            sameSite: 'none',
+            secure: true,
+            maxAge: 24 * 60 * 60 * 1000
+        }
   })
 );
 
-server.use(cors());
-server.use(cookieParser());
 server.use(passport.initialize());
 server.use(passport.session());
 
