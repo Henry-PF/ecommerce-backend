@@ -23,7 +23,11 @@ server.use(
     saveUninitialized: true,
   })
 );
-server.use(cors());
+server.use(cors({
+  origin: 'https://trendy-web-lemon.vercel.app',
+  methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
+  credentials: true, 
+}));
 server.use(passport.initialize());
 server.use(passport.session());
 
@@ -36,19 +40,19 @@ server.use(
   })
 );
 
-server.use(bodyParser.urlencoded({ extended: true, limit: "50mb" }));
-server.use(bodyParser.json({ limit: "50mb" }));
-server.use(morgan("dev"));
-server.use((req, res, next) => {
-  res.header("Access-Control-Allow-Origin", "*");
-  res.header("Access-Control-Allow-Credentials", "true");
-  res.header(
-    "Access-Control-Allow-Headers",
-    "Origin, X-Requested-With, Content-Type, Accept"
-  );
-  res.header("Access-Control-Allow-Methods", "GET, POST, OPTIONS, PUT, DELETE");
-  next();
-});
+// server.use(bodyParser.urlencoded({ extended: true, limit: "50mb" }));
+// server.use(bodyParser.json({ limit: "50mb" }));
+// server.use(morgan("dev"));
+// server.use((req, res, next) => {
+//   res.header("Access-Control-Allow-Origin", "*");
+//   res.header("Access-Control-Allow-Credentials", "true");
+//   res.header(
+//     "Access-Control-Allow-Headers",
+//     "Origin, X-Requested-With, Content-Type, Accept"
+//   );
+//   res.header("Access-Control-Allow-Methods", "GET, POST, OPTIONS, PUT, DELETE");
+//   next();
+// });
 
 
 server.use(express.static(path.join(__dirname, 'public')))
