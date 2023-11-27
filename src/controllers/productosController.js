@@ -1,4 +1,4 @@
-const { categoria, producto, img_productos, favoritos_productos, productsReview, conn } = require("../db");
+const { categoria, producto, img_productos, favoritos_productos, productsReview, conn, producto_categorias } = require("../db");
 const { Op, where } = require("sequelize");
 const { logger } = require("../components/logger");
 const cloudinary = require("../config/cloudinary");
@@ -40,7 +40,7 @@ exports.getAll = async (data) => {
 
             include: [
                 {
-                    model: categoria,
+                    model: producto_categorias,
                     attributes: { exclude: ['createdAt', 'updatedAt', 'id'] }
                 },
                 {

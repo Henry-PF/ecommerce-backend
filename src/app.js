@@ -10,6 +10,7 @@ require("./db.js");
 var path = require('path');
 const { logger } = require("./components/logger.js");
 const fileupload = require("express-fileupload");
+const cookieParser = require('cookie-parser');
 
 const server = express();
 
@@ -23,11 +24,9 @@ server.use(
     saveUninitialized: true,
   })
 );
-server.use(cors({
-  origin: 'https://trendy-web-lemon.vercel.app',
-  methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
-  credentials: true, 
-}));
+
+server.use(cors());
+server.use(cookieParser());
 server.use(passport.initialize());
 server.use(passport.session());
 
