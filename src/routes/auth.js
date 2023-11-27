@@ -8,7 +8,7 @@ const env = process.env;
 
 router.get('/google', loginGoogle);
 
-router.get('/callback', passport.authenticate('google', { failureRedirect: 'http://localhost:3001' }),
+router.get('/callback', passport.authenticate('google', { failureRedirect: 'https://trendy-web-lemon.vercel.app' }),
     function (req, res) {
         const user = req.user;
         const token = jwt.sign({ user }, env.SECRECT_TOKEN, {
