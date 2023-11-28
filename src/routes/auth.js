@@ -14,18 +14,19 @@ router.get('/callback', passport.authenticate('google', { failureRedirect: 'http
         const token = jwt.sign({ user }, env.SECRECT_TOKEN, {
             expiresIn: "1h",
         });
-        res.setHeader(
-            'Set-Cookie',
-            cookie.serialize('user', user, {
-                sameSite: 'lax',
-                httpOnly: true,
-                path: '/',
-                secure: true,
-                maxAge: 60 * 60 * 24 * 7 * 52
-            })
-        )
-        // res.cookie('token', token,{ sameSite: 'None',secure: true });
-        // res.cookie('user', JSON.stringify(user),{ sameSite: 'None',secure: true });
+        res.cookie('user', JSON.stringify(user), {
+            sameSite: 'None', 
+            secure: true,       
+            path: '/',          
+            maxAge: 60 * 60 * 24 * 7 * 52
+        });
+
+        // Configuración de la cookie 'token'
+        res.cookie('token', token, {
+            sameSite: 'None', 
+            secure: true,       
+            path: '/',        
+        });
         res.redirect('https://trendy-web-lemon.vercel.app/')
     }
 );
