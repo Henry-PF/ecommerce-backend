@@ -41,7 +41,12 @@ server.use(session(sessionConfig));
 server.use(passport.initialize());
 server.use(passport.session());
 
-server.use(cors());
+const corsOptions = {
+  origin: '*',
+  credentials: true,
+};
+
+server.use(cors(corsOptions));
 
 server.use(
   fileupload({
