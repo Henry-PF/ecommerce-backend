@@ -17,14 +17,15 @@ router.get('/callback', passport.authenticate('google', { failureRedirect: 'http
         res.cookie('user', JSON.stringify(user), {
             sameSite: 'None', 
             secure: true,       
-            path: '/',          
-            maxAge: 60 * 60 * 24 * 7 * 52
+            httpOnly: true,
+            path: '/',    
         });
 
         // Configuración de la cookie 'token'
         res.cookie('token', token, {
             sameSite: 'None', 
-            secure: true,       
+            secure: true, 
+            httpOnly: true,
             path: '/',        
         });
 
