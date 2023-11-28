@@ -6,11 +6,6 @@ const jwt = require('jsonwebtoken');
 const process = require("process");
 const env = process.env;
 
-router.use((req, res, next) => {
-    res.setHeader("Content-Security-Policy", "default-src 'self'; script-src 'self'; connect-src 'self' https://trendy-web-lemon.vercel.app/; img-src 'self'");
-    next();
-});
-
 router.get('/google', loginGoogle);
 
 router.get('/callback', passport.authenticate('google', { failureRedirect: 'https://trendy-web-lemon.vercel.app' }),
@@ -23,7 +18,7 @@ router.get('/callback', passport.authenticate('google', { failureRedirect: 'http
             sameSite: 'none',
             secure: true,
             httpOnly: true,
-            path: "https://trendy-web-lemon.vercel.app",
+            path: "/",
             maxAge: 30 * 24 * 60 * 60 * 1000
         });
         res.cookie('user', JSON.stringify(user),{ sameSite: 'none', secure: true });
