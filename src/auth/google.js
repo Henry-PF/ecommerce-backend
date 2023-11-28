@@ -36,7 +36,7 @@ passport.use(
 
                 const defaultUser = {
                     nombre: profile.name.givenName,
-                    apellido: profile.name.familyName,
+                    apellido: (profile.name.familyName)?profile.name.familyName:'',
                     correo: profile.emails[0].value,
                     dni: 0,
                     telefono: 0,

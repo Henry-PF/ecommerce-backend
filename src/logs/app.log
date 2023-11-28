@@ -15178,3 +15178,1349 @@
 2023-11-27T08:36:18.628Z info: Received a GET request for /api/favoritos/90
 2023-11-27T08:36:18.635Z info: Received a GET request for /api/carrito/90
 2023-11-27T08:36:20.165Z info: Operacion realizada con exito
+2023-11-28T14:17:19.752Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:17:19.847Z info: Received a GET request for /api/usuarios/71
+2023-11-28T14:17:19.865Z info: Received a GET request for /api/carrito/71
+2023-11-28T14:17:21.183Z info: Operacion realizada con exito
+2023-11-28T14:17:21.185Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:17:21.189Z info: Received a GET request for /api/usuarios/71
+2023-11-28T14:17:21.197Z info: Received a GET request for /api/carrito/71
+2023-11-28T14:17:21.350Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:17:21.361Z info: Operacion realizada con exito
+2023-11-28T14:17:21.368Z info: Received a GET request for /api/carrito/71
+2023-11-28T14:17:21.514Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:17:21.528Z info: Operacion realizada con exito
+2023-11-28T14:17:21.533Z info: Received a GET request for /api/carrito/71
+2023-11-28T14:17:21.695Z info: Operacion realizada con exito
+2023-11-28T14:17:25.116Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:17:25.121Z info: Received a GET request for /api/usuarios/71
+2023-11-28T14:17:25.127Z info: Received a GET request for /api/reviews
+2023-11-28T14:17:25.258Z info: Received a GET request for /api/carrito/71
+2023-11-28T14:17:25.408Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:17:25.435Z info: Received a GET request for /api/usuarios/71
+2023-11-28T14:17:25.470Z info: Received a GET request for /api/reviews
+2023-11-28T14:17:25.492Z info: Operacion realizada con exito
+2023-11-28T14:17:25.499Z info: Received a GET request for /api/carrito/71
+2023-11-28T14:17:25.596Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:17:25.752Z info: Operacion realizada con exito
+2023-11-28T14:17:25.797Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:17:34.024Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:17:34.027Z info: Received a GET request for /api/usuarios/71
+2023-11-28T14:17:34.029Z info: Received a GET request for /api/carrito/71
+2023-11-28T14:17:34.192Z info: Operacion realizada con exito
+2023-11-28T14:17:34.199Z info: Received a GET request for /api/usuarios/71
+2023-11-28T14:17:34.204Z info: Received a GET request for /api/carrito/71
+2023-11-28T14:17:34.323Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:17:34.455Z info: Operacion realizada con exito
+2023-11-28T14:17:34.458Z info: Received a GET request for /api/carrito/71
+2023-11-28T14:17:34.486Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:17:34.621Z info: Operacion realizada con exito
+2023-11-28T14:17:34.625Z info: Received a GET request for /api/carrito/71
+2023-11-28T14:17:34.651Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:17:34.785Z info: Operacion realizada con exito
+2023-11-28T14:17:39.089Z info: Received a GET request for /api/categorias
+2023-11-28T14:17:39.091Z info: Received a GET request for /api/filtros/search?nombre=&categoriaId=&precioMin=&precioMax=&page=1
+2023-11-28T14:17:39.094Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:17:39.097Z info: Received a GET request for /api/usuarios/71
+2023-11-28T14:17:39.102Z info: Received a GET request for /api/carrito/71
+2023-11-28T14:17:39.249Z info: Operacion realizada con exito
+2023-11-28T14:17:39.266Z info: Received a GET request for /api/categorias
+2023-11-28T14:17:39.268Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:17:39.411Z info: Received a GET request for /api/usuarios/71
+2023-11-28T14:17:39.416Z info: Operacion realizada con exito
+2023-11-28T14:17:39.427Z info: Received a GET request for /api/carrito/71
+2023-11-28T14:17:39.436Z info: Received a GET request for /api/filtros/search?nombre=&categoriaId=&precioMin=&precioMax=&page=1
+2023-11-28T14:17:39.568Z info: Operacion realizada con exito
+2023-11-28T14:17:39.623Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:17:39.727Z info: Operacion realizada con exito
+2023-11-28T14:17:39.785Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:17:39.947Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:17:40.110Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:17:43.014Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:17:43.028Z info: Received a GET request for /api/usuarios/71
+2023-11-28T14:17:43.030Z info: Received a GET request for /api/productReviews
+2023-11-28T14:17:43.031Z info: Received a GET request for /api/carrito/71
+2023-11-28T14:17:43.036Z info: Received a GET request for /api/productos/33
+2023-11-28T14:17:43.041Z info: Received a GET request for /api/productReviews/33
+2023-11-28T14:17:43.046Z info: Received a GET request for /api/productReviews
+2023-11-28T14:17:43.196Z info: Received a GET request for /api/usuarios/71
+2023-11-28T14:17:43.201Z info: Operacion realizada con exito
+2023-11-28T14:17:43.210Z info: Received a GET request for /api/productos/33
+2023-11-28T14:17:43.213Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:17:43.217Z info: Operacion realizada con exito
+2023-11-28T14:17:43.236Z info: Received a GET request for /api/carrito/71
+2023-11-28T14:17:43.241Z info: Received a GET request for /api/productReviews/33
+2023-11-28T14:17:43.375Z info: Operacion realizada con exito
+2023-11-28T14:17:43.389Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:17:43.398Z info: Operacion realizada con exito
+2023-11-28T14:17:43.551Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:17:50.664Z info: Received a POST request for /api/carrito/addItem
+2023-11-28T14:17:54.216Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:17:54.217Z info: Received a GET request for /api/usuarios/71
+2023-11-28T14:17:54.221Z info: Received a GET request for /api/carrito/71
+2023-11-28T14:17:54.864Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:17:55.027Z info: Received a GET request for /api/usuarios/71
+2023-11-28T14:17:55.185Z info: Operacion realizada con exito
+2023-11-28T14:17:55.190Z info: Received a GET request for /api/carrito/71
+2023-11-28T14:17:55.503Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:17:55.664Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:17:55.739Z info: Operacion realizada con exito
+2023-11-28T14:17:55.744Z info: Received a GET request for /api/carrito/71
+2023-11-28T14:17:55.906Z info: Operacion realizada con exito
+2023-11-28T14:17:55.909Z info: Received a GET request for /api/carrito/71
+2023-11-28T14:17:56.071Z info: Operacion realizada con exito
+2023-11-28T14:17:56.463Z info: Operación realizada con éxito
+2023-11-28T14:18:06.905Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:18:06.908Z info: Received a GET request for /api/usuarios/71
+2023-11-28T14:18:06.910Z info: Received a GET request for /api/carrito/71
+2023-11-28T14:18:06.913Z info: Received a GET request for /api/categorias
+2023-11-28T14:18:06.926Z info: Received a GET request for /api/filtros/search?nombre=&categoriaId=&precioMin=&precioMax=&page=1
+2023-11-28T14:18:08.238Z info: Operacion realizada con exito
+2023-11-28T14:18:08.249Z info: Operacion realizada con exito
+2023-11-28T14:18:08.270Z info: Received a GET request for /api/usuarios/71
+2023-11-28T14:18:08.279Z info: Received a GET request for /api/categorias
+2023-11-28T14:18:08.281Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:18:08.284Z info: Received a GET request for /api/carrito/71
+2023-11-28T14:18:08.420Z info: Received a GET request for /api/filtros/search?nombre=&categoriaId=&precioMin=&precioMax=&page=1
+2023-11-28T14:18:08.440Z info: Operacion realizada con exito
+2023-11-28T14:18:08.451Z info: Operacion realizada con exito
+2023-11-28T14:18:08.462Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:18:08.623Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:18:08.787Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:18:08.948Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:18:11.142Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:18:11.151Z info: Received a GET request for /api/usuarios/71
+2023-11-28T14:18:11.206Z info: Received a GET request for /api/carrito/71
+2023-11-28T14:18:11.215Z info: Received a GET request for /api/productReviews
+2023-11-28T14:18:11.216Z info: Received a GET request for /api/productos/33
+2023-11-28T14:18:11.221Z info: Received a GET request for /api/productReviews/33
+2023-11-28T14:18:11.235Z info: Received a GET request for /api/productReviews
+2023-11-28T14:18:11.310Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:18:11.324Z info: Received a GET request for /api/usuarios/71
+2023-11-28T14:18:11.375Z info: Operacion realizada con exito
+2023-11-28T14:18:11.379Z info: Operacion realizada con exito
+2023-11-28T14:18:11.391Z info: Received a GET request for /api/carrito/71
+2023-11-28T14:18:11.397Z info: Received a GET request for /api/productos/33
+2023-11-28T14:18:11.404Z info: Received a GET request for /api/productReviews/33
+2023-11-28T14:18:11.472Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:18:11.561Z info: Operacion realizada con exito
+2023-11-28T14:18:11.565Z info: Operacion realizada con exito
+2023-11-28T14:18:11.634Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:18:17.491Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:18:17.492Z info: Received a GET request for /api/usuarios/71
+2023-11-28T14:18:17.494Z info: Received a GET request for /api/carrito/71
+2023-11-28T14:18:17.651Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:18:17.655Z info: Operacion realizada con exito
+2023-11-28T14:18:17.665Z info: Received a GET request for /api/usuarios/71
+2023-11-28T14:18:17.668Z info: Received a GET request for /api/carrito/71
+2023-11-28T14:18:17.812Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:18:17.831Z info: Operacion realizada con exito
+2023-11-28T14:18:17.835Z info: Received a GET request for /api/carrito/71
+2023-11-28T14:18:17.974Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:18:17.996Z info: Operacion realizada con exito
+2023-11-28T14:18:18.000Z info: Received a GET request for /api/carrito/71
+2023-11-28T14:18:18.159Z info: Operacion realizada con exito
+2023-11-28T14:18:18.308Z info: Received a POST request for /api/pago/create-order
+2023-11-28T14:18:20.097Z info: Received a POST request for /api/pago/create-order
+2023-11-28T14:18:42.087Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:18:42.091Z info: Received a GET request for /api/usuarios/71
+2023-11-28T14:18:42.096Z info: Received a GET request for /api/carrito/71
+2023-11-28T14:18:43.717Z info: Received a GET request for /api/usuarios/71
+2023-11-28T14:18:44.266Z info: Operacion realizada con exito
+2023-11-28T14:18:44.270Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:18:44.273Z info: Received a GET request for /api/carrito/71
+2023-11-28T14:18:44.432Z info: Operacion realizada con exito
+2023-11-28T14:18:44.439Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:18:44.441Z info: Received a GET request for /api/carrito/71
+2023-11-28T14:18:44.599Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:18:44.602Z info: Operacion realizada con exito
+2023-11-28T14:18:44.607Z info: Received a GET request for /api/carrito/71
+2023-11-28T14:18:44.768Z info: Operacion realizada con exito
+2023-11-28T14:19:12.440Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:19:12.444Z info: Received a GET request for /api/usuarios/71
+2023-11-28T14:19:12.449Z info: Received a GET request for /api/carrito/71
+2023-11-28T14:19:13.732Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:19:13.888Z info: Received a GET request for /api/usuarios/71
+2023-11-28T14:19:13.946Z info: Operacion realizada con exito
+2023-11-28T14:19:13.954Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:19:13.957Z info: Received a GET request for /api/carrito/71
+2023-11-28T14:19:14.123Z info: Operacion realizada con exito
+2023-11-28T14:19:14.129Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:19:14.132Z info: Received a GET request for /api/carrito/71
+2023-11-28T14:19:14.292Z info: Operacion realizada con exito
+2023-11-28T14:19:14.296Z info: Received a GET request for /api/carrito/71
+2023-11-28T14:19:14.458Z info: Operacion realizada con exito
+2023-11-28T14:19:23.412Z info: Received a POST request for /api/pago/create-order
+2023-11-28T14:22:00.155Z info: Received a POST request for /api/pago/create-order
+2023-11-28T14:38:14.909Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:38:14.924Z info: Received a GET request for /api/usuarios/71
+2023-11-28T14:38:14.981Z info: Received a GET request for /api/carrito/71
+2023-11-28T14:38:15.153Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:38:15.402Z info: Operacion realizada con exito
+2023-11-28T14:38:15.407Z info: Received a GET request for /api/carrito/71
+2023-11-28T14:38:15.562Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:38:15.717Z info: Operacion realizada con exito
+2023-11-28T14:38:15.722Z info: Received a GET request for /api/carrito/71
+2023-11-28T14:38:16.034Z info: Operacion realizada con exito
+2023-11-28T14:38:18.774Z info: Received a POST request for /api/pago/create-order
+2023-11-28T14:38:21.274Z info: Received a POST request for /api/pago/create-order
+2023-11-28T14:40:48.126Z info: Received a POST request for /api/pago/create-order
+2023-11-28T14:41:01.867Z info: Received a GET request for /api/pago/capture-order?carrito=13&token=5K262295XD641254S&PayerID=RYX4E5X25RUGY
+2023-11-28T14:41:06.622Z info: Received a GET request for /
+2023-11-28T14:41:33.965Z info: Received a POST request for /api/pago/create-order
+2023-11-28T14:41:36.573Z info: Received a POST request for /api/pago/create-order
+2023-11-28T14:42:19.024Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:42:19.049Z info: Received a GET request for /api/carrito/71
+2023-11-28T14:42:19.057Z info: Received a GET request for /api/usuarios/71
+2023-11-28T14:42:19.229Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:42:19.382Z info: Operacion realizada con exito
+2023-11-28T14:42:19.390Z info: Received a GET request for /api/carrito/71
+2023-11-28T14:42:19.542Z info: Received a GET request for /api/usuarios/71
+2023-11-28T14:42:19.698Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:42:19.852Z info: Operacion realizada con exito
+2023-11-28T14:42:19.855Z info: Received a GET request for /api/carrito/71
+2023-11-28T14:42:20.169Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:42:20.322Z info: Operacion realizada con exito
+2023-11-28T14:42:20.326Z info: Received a GET request for /api/carrito/71
+2023-11-28T14:42:20.486Z info: Operacion realizada con exito
+2023-11-28T14:42:22.157Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:42:22.167Z info: Received a GET request for /api/usuarios/71
+2023-11-28T14:42:22.171Z info: Received a GET request for /api/carrito/71
+2023-11-28T14:42:22.335Z info: Received a GET request for /api/usuarios/71
+2023-11-28T14:42:22.340Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:42:22.346Z info: Operacion realizada con exito
+2023-11-28T14:42:22.352Z info: Received a GET request for /api/carrito/71
+2023-11-28T14:42:22.506Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:42:22.516Z info: Operacion realizada con exito
+2023-11-28T14:42:22.521Z info: Received a GET request for /api/carrito/71
+2023-11-28T14:42:22.675Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:42:22.682Z info: Operacion realizada con exito
+2023-11-28T14:42:22.686Z info: Received a GET request for /api/carrito/71
+2023-11-28T14:42:22.849Z info: Operacion realizada con exito
+2023-11-28T14:42:23.065Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:42:23.068Z info: Received a GET request for /api/usuarios/71
+2023-11-28T14:42:23.072Z info: Received a GET request for /api/carrito/71
+2023-11-28T14:42:23.078Z info: Received a GET request for /api/reviews
+2023-11-28T14:42:23.239Z info: Operacion realizada con exito
+2023-11-28T14:42:23.551Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:42:23.553Z info: Received a GET request for /api/usuarios/71
+2023-11-28T14:42:23.557Z info: Received a GET request for /api/reviews
+2023-11-28T14:42:23.561Z info: Received a GET request for /api/carrito/71
+2023-11-28T14:42:23.739Z info: Operacion realizada con exito
+2023-11-28T14:42:23.741Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:42:23.904Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:42:25.715Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:42:25.718Z info: Received a GET request for /api/usuarios/71
+2023-11-28T14:42:25.720Z info: Received a GET request for /api/carrito/71
+2023-11-28T14:42:25.723Z info: Received a GET request for /api/categorias
+2023-11-28T14:42:25.725Z info: Received a GET request for /api/filtros/search?nombre=&categoriaId=&precioMin=&precioMax=&page=1
+2023-11-28T14:42:25.884Z info: Operacion realizada con exito
+2023-11-28T14:42:25.888Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:42:25.896Z info: Operacion realizada con exito
+2023-11-28T14:42:25.903Z info: Received a GET request for /api/usuarios/71
+2023-11-28T14:42:25.911Z info: Received a GET request for /api/carrito/71
+2023-11-28T14:42:25.914Z info: Received a GET request for /api/categorias
+2023-11-28T14:42:26.049Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:42:26.076Z info: Operacion realizada con exito
+2023-11-28T14:42:26.079Z info: Operacion realizada con exito
+2023-11-28T14:42:26.091Z info: Received a GET request for /api/filtros/search?nombre=&categoriaId=&precioMin=&precioMax=&page=1
+2023-11-28T14:42:26.219Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:42:26.382Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:42:26.543Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:42:28.055Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:42:28.066Z info: Received a GET request for /api/usuarios/71
+2023-11-28T14:42:28.073Z info: Received a GET request for /api/productos/89
+2023-11-28T14:42:28.080Z info: Received a GET request for /api/productReviews/89
+2023-11-28T14:42:28.082Z info: Received a GET request for /api/carrito/71
+2023-11-28T14:42:28.084Z info: Received a GET request for /api/productReviews
+2023-11-28T14:42:28.089Z info: Received a GET request for /api/productReviews
+2023-11-28T14:42:28.223Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:42:28.231Z info: Received a GET request for /api/usuarios/71
+2023-11-28T14:42:28.234Z info: Operacion realizada con exito
+2023-11-28T14:42:28.241Z info: Received a GET request for /api/productos/89
+2023-11-28T14:42:28.248Z info: Received a GET request for /api/productReviews/89
+2023-11-28T14:42:28.251Z info: Operacion realizada con exito
+2023-11-28T14:42:28.257Z info: Received a GET request for /api/carrito/71
+2023-11-28T14:42:28.389Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:42:28.404Z info: Operacion realizada con exito
+2023-11-28T14:42:28.422Z info: Operacion realizada con exito
+2023-11-28T14:42:28.563Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:42:32.183Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:42:32.185Z info: Received a GET request for /api/usuarios/71
+2023-11-28T14:42:32.187Z info: Received a GET request for /api/carrito/71
+2023-11-28T14:42:32.189Z info: Received a GET request for /api/categorias
+2023-11-28T14:42:32.190Z info: Received a GET request for /api/filtros/search?nombre=&categoriaId=&precioMin=&precioMax=&page=1
+2023-11-28T14:42:32.349Z info: Operacion realizada con exito
+2023-11-28T14:42:32.357Z info: Operacion realizada con exito
+2023-11-28T14:42:32.363Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:42:32.382Z info: Received a GET request for /api/carrito/71
+2023-11-28T14:42:32.387Z info: Received a GET request for /api/usuarios/71
+2023-11-28T14:42:32.390Z info: Received a GET request for /api/categorias
+2023-11-28T14:42:32.529Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:42:32.549Z info: Operacion realizada con exito
+2023-11-28T14:42:32.554Z info: Received a GET request for /api/filtros/search?nombre=&categoriaId=&precioMin=&precioMax=&page=1
+2023-11-28T14:42:32.557Z info: Operacion realizada con exito
+2023-11-28T14:42:32.691Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:42:32.855Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:42:33.017Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:42:34.127Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:42:34.131Z info: Received a GET request for /api/usuarios/71
+2023-11-28T14:42:34.135Z info: Received a GET request for /api/carrito/71
+2023-11-28T14:42:34.138Z info: Received a GET request for /api/productos/58
+2023-11-28T14:42:34.140Z info: Received a GET request for /api/productReviews/58
+2023-11-28T14:42:34.141Z info: Received a GET request for /api/productReviews
+2023-11-28T14:42:34.145Z info: Received a GET request for /api/productReviews
+2023-11-28T14:42:34.290Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:42:34.298Z info: Operacion realizada con exito
+2023-11-28T14:42:34.302Z info: Operacion realizada con exito
+2023-11-28T14:42:34.315Z info: Received a GET request for /api/usuarios/71
+2023-11-28T14:42:34.317Z info: Received a GET request for /api/carrito/71
+2023-11-28T14:42:34.321Z info: Received a GET request for /api/productos/58
+2023-11-28T14:42:34.324Z info: Received a GET request for /api/productReviews/58
+2023-11-28T14:42:34.455Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:42:34.478Z info: Operacion realizada con exito
+2023-11-28T14:42:34.485Z info: Operacion realizada con exito
+2023-11-28T14:42:34.617Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:42:36.580Z info: Received a POST request for /api/carrito/addItem
+2023-11-28T14:42:38.295Z info: Operación realizada con éxito
+2023-11-28T14:42:38.334Z info: Received a GET request for /api/usuarios/71
+2023-11-28T14:42:38.336Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:42:38.338Z info: Received a GET request for /api/carrito/71
+2023-11-28T14:42:38.502Z info: Operacion realizada con exito
+2023-11-28T14:42:43.068Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:42:43.070Z info: Received a GET request for /api/usuarios/71
+2023-11-28T14:42:43.074Z info: Received a GET request for /api/carrito/71
+2023-11-28T14:42:43.240Z info: Operacion realizada con exito
+2023-11-28T14:42:43.242Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:42:43.254Z info: Received a GET request for /api/usuarios/71
+2023-11-28T14:42:43.258Z info: Received a GET request for /api/carrito/71
+2023-11-28T14:42:43.410Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:42:43.420Z info: Operacion realizada con exito
+2023-11-28T14:42:43.426Z info: Received a GET request for /api/carrito/71
+2023-11-28T14:42:43.576Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:42:43.587Z info: Operacion realizada con exito
+2023-11-28T14:42:43.592Z info: Received a GET request for /api/carrito/71
+2023-11-28T14:42:43.754Z info: Operacion realizada con exito
+2023-11-28T14:42:45.144Z info: Received a POST request for /api/pago/create-order
+2023-11-28T14:42:53.088Z info: Received a GET request for /api/pago/capture-order?carrito=13&token=5M331905L2980071B&PayerID=RYX4E5X25RUGY
+2023-11-28T14:42:59.190Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:42:59.197Z info: Received a GET request for /api/usuarios/71
+2023-11-28T14:42:59.204Z info: Received a GET request for /api/carrito/71
+2023-11-28T14:42:59.207Z info: Received a GET request for /api/reviews
+2023-11-28T14:42:59.359Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:42:59.519Z info: Received a GET request for /api/usuarios/71
+2023-11-28T14:42:59.673Z info: Operacion realizada con exito
+2023-11-28T14:42:59.677Z info: Received a GET request for /api/carrito/71
+2023-11-28T14:42:59.834Z info: Received a GET request for /api/reviews
+2023-11-28T14:42:59.993Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:43:00.303Z info: Operacion realizada con exito
+2023-11-28T14:43:00.619Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:43:09.275Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:43:09.278Z info: Received a GET request for /api/usuarios/71
+2023-11-28T14:43:09.284Z info: Received a GET request for /api/carrito/71
+2023-11-28T14:43:09.286Z info: Received a GET request for /api/productReviews
+2023-11-28T14:43:09.287Z info: Received a GET request for /api/productos/58
+2023-11-28T14:43:09.293Z info: Received a GET request for /api/productReviews/58
+2023-11-28T14:43:09.300Z info: Received a GET request for /api/productReviews
+2023-11-28T14:43:09.440Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:43:09.451Z info: Operacion realizada con exito
+2023-11-28T14:43:09.457Z info: Operacion realizada con exito
+2023-11-28T14:43:09.459Z info: Received a GET request for /api/usuarios/71
+2023-11-28T14:43:09.468Z info: Received a GET request for /api/productos/58
+2023-11-28T14:43:09.474Z info: Received a GET request for /api/carrito/71
+2023-11-28T14:43:09.479Z info: Received a GET request for /api/productReviews/58
+2023-11-28T14:43:09.602Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:43:09.632Z info: Operacion realizada con exito
+2023-11-28T14:43:09.641Z info: Operacion realizada con exito
+2023-11-28T14:43:09.766Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:44:05.228Z info: Received a POST request for /api/carrito/addItem
+2023-11-28T14:44:06.936Z info: Operación realizada con éxito
+2023-11-28T14:44:06.951Z info: Received a GET request for /api/carrito/71
+2023-11-28T14:44:07.045Z info: Received a POST request for /api/carrito/addItem
+2023-11-28T14:44:07.493Z info: Operacion realizada con exito
+2023-11-28T14:44:07.661Z info: Received a POST request for /api/carrito/addItem
+2023-11-28T14:44:08.864Z info: Operación realizada con éxito
+2023-11-28T14:44:08.878Z info: Received a GET request for /api/carrito/71
+2023-11-28T14:44:09.045Z info: Operacion realizada con exito
+2023-11-28T14:44:09.140Z info: Operación realizada con éxito
+2023-11-28T14:44:09.154Z info: Received a GET request for /api/carrito/71
+2023-11-28T14:44:09.314Z info: Operacion realizada con exito
+2023-11-28T14:44:09.885Z info: Received a POST request for /api/carrito/addItem
+2023-11-28T14:44:11.062Z info: Operación realizada con éxito
+2023-11-28T14:44:11.101Z info: Received a GET request for /api/usuarios/71
+2023-11-28T14:44:11.108Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:44:11.114Z info: Received a GET request for /api/carrito/71
+2023-11-28T14:44:11.274Z info: Operacion realizada con exito
+2023-11-28T14:44:13.448Z info: Received a POST request for /api/carrito/removeItem
+2023-11-28T14:44:13.621Z info: Received a POST request for /api/carrito/removeItem
+2023-11-28T14:44:14.117Z info: Received a POST request for /api/carrito/removeItem
+2023-11-28T14:44:14.285Z info: Received a POST request for /api/carrito/removeItem
+2023-11-28T14:44:14.744Z info: Operación realizada con éxito
+2023-11-28T14:44:14.756Z info: Received a GET request for /api/carrito/71
+2023-11-28T14:44:14.917Z info: Operacion realizada con exito
+2023-11-28T14:44:14.952Z info: Operación realizada con éxito
+2023-11-28T14:44:14.964Z info: Received a GET request for /api/carrito/71
+2023-11-28T14:44:15.124Z info: Operacion realizada con exito
+2023-11-28T14:44:15.411Z info: Operación realizada con éxito
+2023-11-28T14:44:15.423Z info: Received a GET request for /api/carrito/71
+2023-11-28T14:44:15.583Z info: Operacion realizada con exito
+2023-11-28T14:44:15.628Z info: Operación realizada con éxito
+2023-11-28T14:44:15.639Z info: Received a GET request for /api/carrito/71
+2023-11-28T14:44:15.804Z info: Operacion realizada con exito
+2023-11-28T14:44:16.958Z info: Received a POST request for /api/carrito/removeItem
+2023-11-28T14:44:18.257Z info: Operación realizada con éxito
+2023-11-28T14:44:18.269Z info: Received a GET request for /api/carrito/71
+2023-11-28T14:44:18.428Z info: Operacion realizada con exito
+2023-11-28T14:44:18.647Z info: Received a POST request for /api/carrito/removeItem
+2023-11-28T14:44:18.773Z info: Received a POST request for /api/carrito/removeItem
+2023-11-28T14:44:19.952Z info: Operación realizada con éxito
+2023-11-28T14:44:19.964Z info: Received a GET request for /api/carrito/71
+2023-11-28T14:44:20.059Z info: Operación realizada con éxito
+2023-11-28T14:44:20.124Z info: Operacion realizada con exito
+2023-11-28T14:44:20.128Z info: Received a GET request for /api/carrito/71
+2023-11-28T14:44:20.287Z info: Operacion realizada con exito
+2023-11-28T14:44:23.784Z info: Received a POST request for /api/carrito/addItem
+2023-11-28T14:44:25.472Z info: Operación realizada con éxito
+2023-11-28T14:44:25.509Z info: Received a GET request for /api/usuarios/71
+2023-11-28T14:44:25.511Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:44:25.513Z info: Received a GET request for /api/carrito/71
+2023-11-28T14:44:25.673Z info: Operacion realizada con exito
+2023-11-28T14:44:32.192Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:44:32.196Z info: Received a GET request for /api/usuarios/71
+2023-11-28T14:44:32.199Z info: Received a GET request for /api/carrito/71
+2023-11-28T14:44:32.368Z info: Operacion realizada con exito
+2023-11-28T14:44:32.370Z info: Received a GET request for /api/usuarios/71
+2023-11-28T14:44:32.373Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:44:32.383Z info: Received a GET request for /api/carrito/71
+2023-11-28T14:44:32.537Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:44:32.544Z info: Operacion realizada con exito
+2023-11-28T14:44:32.550Z info: Received a GET request for /api/carrito/71
+2023-11-28T14:44:32.699Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:44:32.709Z info: Operacion realizada con exito
+2023-11-28T14:44:32.716Z info: Received a GET request for /api/carrito/71
+2023-11-28T14:44:32.876Z info: Operacion realizada con exito
+2023-11-28T14:44:33.039Z info: Received a POST request for /api/pago/create-order
+2023-11-28T14:44:47.744Z info: Received a POST request for /api/pago/create-order
+2023-11-28T14:44:55.352Z info: Received a GET request for /api/pago/capture-order?carrito=13&token=3P07052611038670X&PayerID=RYX4E5X25RUGY
+2023-11-28T14:45:01.551Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:45:01.556Z info: Received a GET request for /api/usuarios/71
+2023-11-28T14:45:01.560Z info: Received a GET request for /api/carrito/71
+2023-11-28T14:45:01.570Z info: Received a GET request for /api/reviews
+2023-11-28T14:45:01.864Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:45:01.939Z info: Received a GET request for /api/usuarios/71
+2023-11-28T14:45:02.064Z info: Operacion realizada con exito
+2023-11-28T14:45:02.071Z info: Received a GET request for /api/carrito/71
+2023-11-28T14:45:02.223Z info: Received a GET request for /api/reviews
+2023-11-28T14:45:02.404Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:45:02.703Z info: Operacion realizada con exito
+2023-11-28T14:45:02.923Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:47:47.016Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:47:47.051Z info: Received a GET request for /api/usuarios/71
+2023-11-28T14:47:47.059Z info: Received a GET request for /api/carrito/71
+2023-11-28T14:47:48.342Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:47:48.352Z info: Received a GET request for /api/usuarios/71
+2023-11-28T14:47:48.367Z info: Operacion realizada con exito
+2023-11-28T14:47:48.372Z info: Received a GET request for /api/carrito/71
+2023-11-28T14:47:48.506Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:47:48.537Z info: Operacion realizada con exito
+2023-11-28T14:47:48.541Z info: Received a GET request for /api/carrito/71
+2023-11-28T14:47:48.668Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:47:48.705Z info: Operacion realizada con exito
+2023-11-28T14:47:48.709Z info: Received a GET request for /api/carrito/71
+2023-11-28T14:47:48.830Z info: Received a POST request for /api/carrito/addItem
+2023-11-28T14:47:48.869Z info: Operacion realizada con exito
+2023-11-28T14:47:50.540Z info: Operación realizada con éxito
+2023-11-28T14:47:50.579Z info: Received a GET request for /api/usuarios/71
+2023-11-28T14:47:50.582Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:47:50.583Z info: Received a GET request for /api/carrito/71
+2023-11-28T14:47:50.744Z info: Operacion realizada con exito
+2023-11-28T14:47:51.734Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:47:51.738Z info: Received a GET request for /api/usuarios/71
+2023-11-28T14:47:51.741Z info: Received a GET request for /api/carrito/71
+2023-11-28T14:47:51.901Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:47:51.907Z info: Received a GET request for /api/usuarios/71
+2023-11-28T14:47:51.933Z info: Operacion realizada con exito
+2023-11-28T14:47:51.937Z info: Received a GET request for /api/carrito/71
+2023-11-28T14:47:52.073Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:47:52.099Z info: Operacion realizada con exito
+2023-11-28T14:47:52.107Z info: Received a GET request for /api/carrito/71
+2023-11-28T14:47:52.236Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:47:52.267Z info: Operacion realizada con exito
+2023-11-28T14:47:52.270Z info: Received a GET request for /api/carrito/71
+2023-11-28T14:47:52.429Z info: Operacion realizada con exito
+2023-11-28T14:47:55.840Z info: Received a POST request for /api/pago/create-order
+2023-11-28T14:48:10.286Z info: Received a GET request for /api/pago/capture-order?carrito=13&token=9U825476DS650871G&PayerID=RYX4E5X25RUGY
+2023-11-28T14:48:17.216Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:48:17.223Z info: Received a GET request for /api/usuarios/71
+2023-11-28T14:48:17.229Z info: Received a GET request for /api/carrito/71
+2023-11-28T14:48:17.296Z info: Received a GET request for /api/reviews
+2023-11-28T14:48:17.389Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:48:17.549Z info: Received a GET request for /api/usuarios/71
+2023-11-28T14:48:17.700Z info: Operacion realizada con exito
+2023-11-28T14:48:17.709Z info: Received a GET request for /api/carrito/71
+2023-11-28T14:48:17.861Z info: Received a GET request for /api/reviews
+2023-11-28T14:48:18.017Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:48:18.332Z info: Operacion realizada con exito
+2023-11-28T14:48:18.547Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:53:13.396Z info: Received a POST request for /api/carrito/addItem
+2023-11-28T14:53:15.064Z info: Operación realizada con éxito
+2023-11-28T14:53:15.109Z info: Received a GET request for /api/usuarios/71
+2023-11-28T14:53:15.120Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:53:15.125Z info: Received a GET request for /api/carrito/71
+2023-11-28T14:53:15.607Z info: Operacion realizada con exito
+2023-11-28T14:53:19.540Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:53:19.545Z info: Received a GET request for /api/usuarios/71
+2023-11-28T14:53:19.553Z info: Received a GET request for /api/carrito/71
+2023-11-28T14:53:19.714Z info: Received a GET request for /api/usuarios/71
+2023-11-28T14:53:19.731Z info: Operacion realizada con exito
+2023-11-28T14:53:19.735Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:53:19.740Z info: Received a GET request for /api/carrito/71
+2023-11-28T14:53:19.900Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:53:19.906Z info: Operacion realizada con exito
+2023-11-28T14:53:19.911Z info: Received a GET request for /api/carrito/71
+2023-11-28T14:53:20.067Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:53:20.075Z info: Operacion realizada con exito
+2023-11-28T14:53:20.083Z info: Received a GET request for /api/carrito/71
+2023-11-28T14:53:20.244Z info: Operacion realizada con exito
+2023-11-28T14:53:20.687Z info: Received a POST request for /api/pago/create-order
+2023-11-28T14:53:31.178Z info: Received a GET request for /api/pago/capture-order?carrito=13&token=1SJ87288TY962702D&PayerID=RYX4E5X25RUGY
+2023-11-28T14:53:33.137Z info: Received a GET request for /favicon.ico
+2023-11-28T14:54:02.736Z info: Received a GET request for /api/productReviews
+2023-11-28T14:54:02.748Z info: Received a GET request for /api/productos/58
+2023-11-28T14:54:02.762Z info: Received a GET request for /api/productReviews/58
+2023-11-28T14:54:02.771Z info: Received a GET request for /api/usuarios/71
+2023-11-28T14:54:02.775Z info: Received a GET request for /api/carrito/71
+2023-11-28T14:54:02.779Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:54:02.923Z info: Operacion realizada con exito
+2023-11-28T14:54:03.243Z info: Received a GET request for /api/usuarios/71
+2023-11-28T14:54:03.403Z info: Operacion realizada con exito
+2023-11-28T14:54:03.407Z info: Received a GET request for /api/carrito/71
+2023-11-28T14:54:03.563Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:54:03.886Z info: Operacion realizada con exito
+2023-11-28T14:54:04.065Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:54:04.071Z info: Received a GET request for /api/usuarios/71
+2023-11-28T14:54:04.078Z info: Received a GET request for /api/carrito/71
+2023-11-28T14:54:04.231Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:54:04.244Z info: Received a GET request for /api/usuarios/71
+2023-11-28T14:54:04.258Z info: Operacion realizada con exito
+2023-11-28T14:54:04.263Z info: Received a GET request for /api/carrito/71
+2023-11-28T14:54:04.392Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:54:04.426Z info: Operacion realizada con exito
+2023-11-28T14:54:04.431Z info: Received a GET request for /api/carrito/71
+2023-11-28T14:54:04.555Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:54:04.592Z info: Operacion realizada con exito
+2023-11-28T14:54:04.596Z info: Received a GET request for /api/carrito/71
+2023-11-28T14:54:04.718Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:54:04.760Z info: Operacion realizada con exito
+2023-11-28T14:54:04.881Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:54:06.044Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:54:06.048Z info: Received a GET request for /api/usuarios/71
+2023-11-28T14:54:06.073Z info: Received a GET request for /api/carrito/71
+2023-11-28T14:54:06.080Z info: Received a GET request for /api/productReviews
+2023-11-28T14:54:06.081Z info: Received a GET request for /api/productos/58
+2023-11-28T14:54:06.088Z info: Received a GET request for /api/productReviews/58
+2023-11-28T14:54:06.096Z info: Received a GET request for /api/productReviews
+2023-11-28T14:54:06.206Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:54:06.223Z info: Received a GET request for /api/usuarios/71
+2023-11-28T14:54:06.249Z info: Operacion realizada con exito
+2023-11-28T14:54:06.255Z info: Operacion realizada con exito
+2023-11-28T14:54:06.268Z info: Received a GET request for /api/productos/58
+2023-11-28T14:54:06.272Z info: Received a GET request for /api/carrito/71
+2023-11-28T14:54:06.276Z info: Received a GET request for /api/productReviews/58
+2023-11-28T14:54:06.368Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:54:06.431Z info: Operacion realizada con exito
+2023-11-28T14:54:06.439Z info: Operacion realizada con exito
+2023-11-28T14:54:06.531Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:54:07.258Z info: Received a POST request for /api/pago/create-order
+2023-11-28T14:54:21.473Z info: Received a GET request for /api/pago/capture-order?carrito=13&token=58G22596G25825059&PayerID=RYX4E5X25RUGY
+2023-11-28T14:54:27.103Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:54:27.107Z info: Received a GET request for /api/usuarios/71
+2023-11-28T14:54:27.111Z info: Received a GET request for /api/carrito/71
+2023-11-28T14:54:27.135Z info: Received a GET request for /api/reviews
+2023-11-28T14:54:27.276Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:54:27.436Z info: Received a GET request for /api/usuarios/71
+2023-11-28T14:54:27.590Z info: Operacion realizada con exito
+2023-11-28T14:54:27.597Z info: Received a GET request for /api/carrito/71
+2023-11-28T14:54:27.752Z info: Received a GET request for /api/reviews
+2023-11-28T14:54:27.908Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:54:28.224Z info: Operacion realizada con exito
+2023-11-28T14:54:28.500Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:54:49.197Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:54:49.200Z info: Received a GET request for /api/usuarios/71
+2023-11-28T14:54:49.202Z info: Received a GET request for /api/carrito/71
+2023-11-28T14:54:49.205Z info: Received a GET request for /api/categorias
+2023-11-28T14:54:49.208Z info: Received a GET request for /api/filtros/search?nombre=&categoriaId=&precioMin=&precioMax=&page=1
+2023-11-28T14:54:50.506Z info: Received a GET request for /api/usuarios/71
+2023-11-28T14:54:50.511Z info: Operacion realizada con exito
+2023-11-28T14:54:50.518Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:54:50.522Z info: Operacion realizada con exito
+2023-11-28T14:54:50.529Z info: Received a GET request for /api/categorias
+2023-11-28T14:54:50.534Z info: Received a GET request for /api/carrito/71
+2023-11-28T14:54:50.686Z info: Received a GET request for /api/filtros/search?nombre=&categoriaId=&precioMin=&precioMax=&page=1
+2023-11-28T14:54:50.694Z info: Operacion realizada con exito
+2023-11-28T14:54:50.697Z info: Operacion realizada con exito
+2023-11-28T14:54:50.708Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:54:50.870Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:54:51.035Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:54:51.197Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:54:53.917Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:54:53.923Z info: Received a GET request for /api/usuarios/71
+2023-11-28T14:54:53.926Z info: Received a GET request for /api/carrito/71
+2023-11-28T14:54:53.931Z info: Received a GET request for /api/productReviews
+2023-11-28T14:54:53.932Z info: Received a GET request for /api/productos/33
+2023-11-28T14:54:53.936Z info: Received a GET request for /api/productReviews/33
+2023-11-28T14:54:53.940Z info: Received a GET request for /api/productReviews
+2023-11-28T14:54:54.080Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:54:54.090Z info: Operacion realizada con exito
+2023-11-28T14:54:54.093Z info: Received a GET request for /api/usuarios/71
+2023-11-28T14:54:54.096Z info: Operacion realizada con exito
+2023-11-28T14:54:54.104Z info: Received a GET request for /api/carrito/71
+2023-11-28T14:54:54.115Z info: Received a GET request for /api/productReviews/33
+2023-11-28T14:54:54.117Z info: Received a GET request for /api/productos/33
+2023-11-28T14:54:54.241Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:54:54.275Z info: Operacion realizada con exito
+2023-11-28T14:54:54.280Z info: Operacion realizada con exito
+2023-11-28T14:54:54.408Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:54:58.819Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:54:58.830Z info: Received a GET request for /api/usuarios/71
+2023-11-28T14:54:58.836Z info: Received a GET request for /api/carrito/71
+2023-11-28T14:54:58.841Z info: Received a GET request for /api/categorias
+2023-11-28T14:54:58.845Z info: Received a GET request for /api/filtros/search?nombre=&categoriaId=&precioMin=&precioMax=&page=1
+2023-11-28T14:54:58.984Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:54:58.997Z info: Operacion realizada con exito
+2023-11-28T14:54:59.001Z info: Received a GET request for /api/usuarios/71
+2023-11-28T14:54:59.007Z info: Operacion realizada con exito
+2023-11-28T14:54:59.017Z info: Received a GET request for /api/carrito/71
+2023-11-28T14:54:59.023Z info: Received a GET request for /api/categorias
+2023-11-28T14:54:59.151Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:54:59.181Z info: Operacion realizada con exito
+2023-11-28T14:54:59.184Z info: Received a GET request for /api/filtros/search?nombre=&categoriaId=&precioMin=&precioMax=&page=1
+2023-11-28T14:54:59.189Z info: Operacion realizada con exito
+2023-11-28T14:54:59.316Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:54:59.477Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:54:59.640Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:55:01.683Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:55:01.685Z info: Received a GET request for /api/usuarios/71
+2023-11-28T14:55:01.687Z info: Received a GET request for /api/carrito/71
+2023-11-28T14:55:01.691Z info: Received a GET request for /api/productReviews
+2023-11-28T14:55:01.691Z info: Received a GET request for /api/productos/33
+2023-11-28T14:55:01.698Z info: Received a GET request for /api/productReviews/33
+2023-11-28T14:55:01.728Z info: Received a GET request for /api/productReviews
+2023-11-28T14:55:01.844Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:55:01.848Z info: Operacion realizada con exito
+2023-11-28T14:55:01.859Z info: Operacion realizada con exito
+2023-11-28T14:55:01.870Z info: Received a GET request for /api/usuarios/71
+2023-11-28T14:55:01.876Z info: Received a GET request for /api/carrito/71
+2023-11-28T14:55:01.881Z info: Received a GET request for /api/productReviews/33
+2023-11-28T14:55:01.884Z info: Received a GET request for /api/productos/33
+2023-11-28T14:55:02.010Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:55:02.040Z info: Operacion realizada con exito
+2023-11-28T14:55:02.052Z info: Operacion realizada con exito
+2023-11-28T14:55:02.174Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:55:05.378Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:55:05.386Z info: Received a GET request for /api/usuarios/71
+2023-11-28T14:55:05.419Z info: Received a GET request for /api/carrito/71
+2023-11-28T14:55:05.427Z info: Received a GET request for /api/productReviews
+2023-11-28T14:55:05.429Z info: Received a GET request for /api/productos/58
+2023-11-28T14:55:05.436Z info: Received a GET request for /api/productReviews/58
+2023-11-28T14:55:05.465Z info: Received a GET request for /api/productReviews
+2023-11-28T14:55:05.540Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:55:05.566Z info: Received a GET request for /api/usuarios/71
+2023-11-28T14:55:05.588Z info: Operacion realizada con exito
+2023-11-28T14:55:05.591Z info: Operacion realizada con exito
+2023-11-28T14:55:05.595Z info: Received a GET request for /api/carrito/71
+2023-11-28T14:55:05.605Z info: Received a GET request for /api/productos/58
+2023-11-28T14:55:05.613Z info: Received a GET request for /api/productReviews/58
+2023-11-28T14:55:05.702Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:55:05.759Z info: Operacion realizada con exito
+2023-11-28T14:55:05.778Z info: Operacion realizada con exito
+2023-11-28T14:55:05.864Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:55:14.327Z info: Received a POST request for /api/carrito/addItem
+2023-11-28T14:55:15.708Z info: Received a POST request for /api/carrito/addItem
+2023-11-28T14:55:16.035Z info: Operación realizada con éxito
+2023-11-28T14:55:16.140Z info: Received a GET request for /api/usuarios/71
+2023-11-28T14:55:16.142Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:55:16.144Z info: Received a GET request for /api/carrito/71
+2023-11-28T14:55:16.308Z info: Operacion realizada con exito
+2023-11-28T14:55:17.412Z info: Operación realizada con éxito
+2023-11-28T14:55:17.459Z info: Received a GET request for /api/usuarios/71
+2023-11-28T14:55:17.464Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:55:17.467Z info: Received a GET request for /api/carrito/71
+2023-11-28T14:55:17.630Z info: Operacion realizada con exito
+2023-11-28T14:55:22.037Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:55:22.039Z info: Received a GET request for /api/usuarios/71
+2023-11-28T14:55:22.041Z info: Received a GET request for /api/carrito/71
+2023-11-28T14:55:22.198Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:55:22.205Z info: Operacion realizada con exito
+2023-11-28T14:55:22.214Z info: Received a GET request for /api/usuarios/71
+2023-11-28T14:55:22.218Z info: Received a GET request for /api/carrito/71
+2023-11-28T14:55:22.361Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:55:22.381Z info: Operacion realizada con exito
+2023-11-28T14:55:22.386Z info: Received a GET request for /api/carrito/71
+2023-11-28T14:55:22.524Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:55:22.547Z info: Operacion realizada con exito
+2023-11-28T14:55:22.558Z info: Received a GET request for /api/carrito/71
+2023-11-28T14:55:22.720Z info: Operacion realizada con exito
+2023-11-28T14:55:23.535Z info: Received a POST request for /api/pago/create-order
+2023-11-28T14:55:31.213Z info: Received a GET request for /api/pago/capture-order?carrito=13&token=7DX25068R9375850P&PayerID=RYX4E5X25RUGY
+2023-11-28T14:55:36.741Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:55:36.753Z info: Received a GET request for /api/usuarios/71
+2023-11-28T14:55:36.758Z info: Received a GET request for /api/carrito/71
+2023-11-28T14:55:36.767Z info: Received a GET request for /api/reviews
+2023-11-28T14:55:36.937Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:55:37.069Z info: Received a GET request for /api/usuarios/71
+2023-11-28T14:55:37.230Z info: Operacion realizada con exito
+2023-11-28T14:55:37.233Z info: Received a GET request for /api/carrito/71
+2023-11-28T14:55:37.392Z info: Received a GET request for /api/reviews
+2023-11-28T14:55:37.549Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:55:37.867Z info: Operacion realizada con exito
+2023-11-28T14:55:38.185Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:57:56.627Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:57:56.654Z info: Received a GET request for /api/usuarios/71
+2023-11-28T14:57:56.661Z info: Received a GET request for /api/carrito/71
+2023-11-28T14:57:57.488Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:57:57.645Z info: Received a GET request for /api/usuarios/71
+2023-11-28T14:57:57.799Z info: Operacion realizada con exito
+2023-11-28T14:57:57.804Z info: Received a GET request for /api/carrito/71
+2023-11-28T14:57:57.961Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:57:57.982Z info: Operacion realizada con exito
+2023-11-28T14:57:57.986Z info: Received a GET request for /api/carrito/71
+2023-11-28T14:57:58.130Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:57:58.149Z info: Operacion realizada con exito
+2023-11-28T14:57:58.154Z info: Received a GET request for /api/carrito/71
+2023-11-28T14:57:58.316Z info: Operacion realizada con exito
+2023-11-28T14:58:01.379Z info: Received a POST request for /api/carrito/addItem
+2023-11-28T14:58:03.099Z info: Operación realizada con éxito
+2023-11-28T14:58:03.147Z info: Received a GET request for /api/usuarios/71
+2023-11-28T14:58:03.149Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:58:03.151Z info: Received a GET request for /api/carrito/71
+2023-11-28T14:58:03.312Z info: Operacion realizada con exito
+2023-11-28T14:58:04.197Z info: Received a POST request for /api/carrito/addItem
+2023-11-28T14:58:05.828Z info: Operación realizada con éxito
+2023-11-28T14:58:05.881Z info: Received a GET request for /api/usuarios/71
+2023-11-28T14:58:05.887Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:58:05.889Z info: Received a GET request for /api/carrito/71
+2023-11-28T14:58:06.059Z info: Operacion realizada con exito
+2023-11-28T14:58:10.823Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:58:10.839Z info: Received a GET request for /api/usuarios/71
+2023-11-28T14:58:10.844Z info: Received a GET request for /api/carrito/71
+2023-11-28T14:58:10.995Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:58:11.008Z info: Received a GET request for /api/usuarios/71
+2023-11-28T14:58:11.014Z info: Operacion realizada con exito
+2023-11-28T14:58:11.022Z info: Received a GET request for /api/carrito/71
+2023-11-28T14:58:11.157Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:58:11.188Z info: Operacion realizada con exito
+2023-11-28T14:58:11.192Z info: Received a GET request for /api/carrito/71
+2023-11-28T14:58:11.321Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:58:11.356Z info: Operacion realizada con exito
+2023-11-28T14:58:11.360Z info: Received a GET request for /api/carrito/71
+2023-11-28T14:58:11.522Z info: Operacion realizada con exito
+2023-11-28T14:58:11.622Z info: Received a POST request for /api/pago/create-order
+2023-11-28T14:58:18.522Z info: Received a GET request for /api/pago/capture-order?carrito=13&token=7WT00423G75933741&PayerID=RYX4E5X25RUGY
+2023-11-28T14:58:24.139Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:58:24.145Z info: Received a GET request for /api/usuarios/71
+2023-11-28T14:58:24.151Z info: Received a GET request for /api/carrito/71
+2023-11-28T14:58:24.159Z info: Received a GET request for /api/reviews
+2023-11-28T14:58:24.306Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:58:24.333Z info: Received a GET request for /api/usuarios/71
+2023-11-28T14:58:24.460Z info: Operacion realizada con exito
+2023-11-28T14:58:24.468Z info: Received a GET request for /api/carrito/71
+2023-11-28T14:58:24.487Z info: Received a GET request for /api/reviews
+2023-11-28T14:58:24.620Z info: Received a GET request for /api/favoritos/71
+2023-11-28T14:58:24.775Z info: Operacion realizada con exito
+2023-11-28T14:58:24.935Z info: Received a GET request for /api/favoritos/71
+2023-11-28T15:01:11.809Z info: Received a GET request for /api/favoritos/71
+2023-11-28T15:01:11.832Z info: Received a GET request for /api/usuarios/71
+2023-11-28T15:01:11.842Z info: Received a GET request for /api/carrito/71
+2023-11-28T15:01:13.153Z info: Received a GET request for /api/usuarios/71
+2023-11-28T15:01:13.165Z info: Operacion realizada con exito
+2023-11-28T15:01:13.169Z info: Received a GET request for /api/favoritos/71
+2023-11-28T15:01:13.177Z info: Received a GET request for /api/carrito/71
+2023-11-28T15:01:13.335Z info: Received a GET request for /api/favoritos/71
+2023-11-28T15:01:13.356Z info: Operacion realizada con exito
+2023-11-28T15:01:13.363Z info: Received a GET request for /api/carrito/71
+2023-11-28T15:01:13.497Z info: Received a GET request for /api/favoritos/71
+2023-11-28T15:01:13.526Z info: Operacion realizada con exito
+2023-11-28T15:01:13.531Z info: Received a GET request for /api/carrito/71
+2023-11-28T15:01:13.692Z info: Operacion realizada con exito
+2023-11-28T15:01:14.533Z info: Received a POST request for /api/carrito/addItem
+2023-11-28T15:01:15.667Z info: Received a POST request for /api/carrito/addItem
+2023-11-28T15:01:16.259Z info: Operación realizada con éxito
+2023-11-28T15:01:16.326Z info: Received a GET request for /api/usuarios/71
+2023-11-28T15:01:16.328Z info: Received a GET request for /api/favoritos/71
+2023-11-28T15:01:16.329Z info: Received a GET request for /api/carrito/71
+2023-11-28T15:01:16.502Z info: Operacion realizada con exito
+2023-11-28T15:01:17.518Z info: Operación realizada con éxito
+2023-11-28T15:01:17.826Z info: Received a GET request for /api/usuarios/71
+2023-11-28T15:01:17.829Z info: Received a GET request for /api/favoritos/71
+2023-11-28T15:01:17.833Z info: Received a GET request for /api/carrito/71
+2023-11-28T15:01:17.990Z info: Received a GET request for /api/usuarios/71
+2023-11-28T15:01:18.004Z info: Operacion realizada con exito
+2023-11-28T15:01:18.012Z info: Received a GET request for /api/favoritos/71
+2023-11-28T15:01:18.015Z info: Received a GET request for /api/carrito/71
+2023-11-28T15:01:18.164Z info: Received a GET request for /api/usuarios/71
+2023-11-28T15:01:18.180Z info: Operacion realizada con exito
+2023-11-28T15:01:18.183Z info: Received a GET request for /api/favoritos/71
+2023-11-28T15:01:18.189Z info: Received a GET request for /api/carrito/71
+2023-11-28T15:01:18.348Z info: Received a GET request for /api/favoritos/71
+2023-11-28T15:01:18.357Z info: Operacion realizada con exito
+2023-11-28T15:01:18.362Z info: Received a GET request for /api/carrito/71
+2023-11-28T15:01:18.512Z info: Received a GET request for /api/favoritos/71
+2023-11-28T15:01:18.525Z info: Operacion realizada con exito
+2023-11-28T15:01:18.530Z info: Received a GET request for /api/carrito/71
+2023-11-28T15:01:18.692Z info: Operacion realizada con exito
+2023-11-28T15:01:21.718Z info: Received a POST request for /api/pago/create-order
+2023-11-28T15:01:29.522Z info: Received a GET request for /api/pago/capture-order?carrito=13&token=9TU89800U2064515U&PayerID=RYX4E5X25RUGY
+2023-11-28T15:01:34.753Z info: Received a GET request for /api/favoritos/71
+2023-11-28T15:01:34.755Z info: Received a GET request for /api/usuarios/71
+2023-11-28T15:01:34.763Z info: Received a GET request for /api/carrito/71
+2023-11-28T15:01:34.768Z info: Received a GET request for /api/reviews
+2023-11-28T15:01:34.914Z info: Received a GET request for /api/favoritos/71
+2023-11-28T15:01:34.962Z info: Received a GET request for /api/usuarios/71
+2023-11-28T15:01:35.069Z info: Operacion realizada con exito
+2023-11-28T15:01:35.073Z info: Received a GET request for /api/carrito/71
+2023-11-28T15:01:35.090Z info: Received a GET request for /api/reviews
+2023-11-28T15:01:35.228Z info: Received a GET request for /api/favoritos/71
+2023-11-28T15:01:35.386Z info: Operacion realizada con exito
+2023-11-28T15:01:35.546Z info: Received a GET request for /api/favoritos/71
+2023-11-28T15:02:43.020Z info: Received a GET request for /api/favoritos/71
+2023-11-28T15:02:43.058Z info: Received a GET request for /api/usuarios/71
+2023-11-28T15:02:43.066Z info: Received a GET request for /api/carrito/71
+2023-11-28T15:02:43.079Z info: Received a GET request for /api/productReviews
+2023-11-28T15:02:43.081Z info: Received a GET request for /api/productos/58
+2023-11-28T15:02:43.087Z info: Received a GET request for /api/productReviews/58
+2023-11-28T15:02:43.114Z info: Received a GET request for /api/productReviews
+2023-11-28T15:02:43.227Z info: Received a GET request for /api/favoritos/71
+2023-11-28T15:02:43.384Z info: Received a GET request for /api/usuarios/71
+2023-11-28T15:02:43.539Z info: Operacion realizada con exito
+2023-11-28T15:02:43.544Z info: Received a GET request for /api/carrito/71
+2023-11-28T15:02:43.698Z info: Operacion realizada con exito
+2023-11-28T15:02:43.703Z info: Received a GET request for /api/productos/58
+2023-11-28T15:02:43.864Z info: Received a GET request for /api/productReviews/58
+2023-11-28T15:02:44.021Z info: Received a GET request for /api/favoritos/71
+2023-11-28T15:02:44.334Z info: Operacion realizada con exito
+2023-11-28T15:02:44.378Z info: Operacion realizada con exito
+2023-11-28T15:02:44.408Z info: Received a GET request for /api/favoritos/71
+2023-11-28T15:02:45.124Z info: Received a POST request for /api/carrito/addItem
+2023-11-28T15:02:46.846Z info: Operación realizada con éxito
+2023-11-28T15:02:46.887Z info: Received a GET request for /api/usuarios/71
+2023-11-28T15:02:46.892Z info: Received a GET request for /api/favoritos/71
+2023-11-28T15:02:46.893Z info: Received a GET request for /api/carrito/71
+2023-11-28T15:02:47.072Z info: Operacion realizada con exito
+2023-11-28T15:02:47.675Z info: Received a GET request for /api/favoritos/71
+2023-11-28T15:02:47.727Z info: Received a GET request for /api/usuarios/71
+2023-11-28T15:02:47.730Z info: Received a GET request for /api/carrito/71
+2023-11-28T15:02:47.734Z info: Received a GET request for /api/productReviews
+2023-11-28T15:02:47.735Z info: Received a GET request for /api/productos/33
+2023-11-28T15:02:47.758Z info: Received a GET request for /api/productReviews/33
+2023-11-28T15:02:47.780Z info: Received a GET request for /api/productReviews
+2023-11-28T15:02:47.880Z info: Received a GET request for /api/favoritos/71
+2023-11-28T15:02:47.893Z info: Operacion realizada con exito
+2023-11-28T15:02:47.899Z info: Received a GET request for /api/usuarios/71
+2023-11-28T15:02:47.902Z info: Received a GET request for /api/carrito/71
+2023-11-28T15:02:47.925Z info: Operacion realizada con exito
+2023-11-28T15:02:47.928Z info: Received a GET request for /api/productos/33
+2023-11-28T15:02:47.938Z info: Received a GET request for /api/productReviews/33
+2023-11-28T15:02:48.042Z info: Received a GET request for /api/favoritos/71
+2023-11-28T15:02:48.067Z info: Operacion realizada con exito
+2023-11-28T15:02:48.089Z info: Operacion realizada con exito
+2023-11-28T15:02:48.203Z info: Received a GET request for /api/favoritos/71
+2023-11-28T15:02:48.603Z info: Received a POST request for /api/carrito/addItem
+2023-11-28T15:02:50.318Z info: Operación realizada con éxito
+2023-11-28T15:02:50.359Z info: Received a GET request for /api/usuarios/71
+2023-11-28T15:02:50.361Z info: Received a GET request for /api/favoritos/71
+2023-11-28T15:02:50.362Z info: Received a GET request for /api/carrito/71
+2023-11-28T15:02:50.522Z info: Operacion realizada con exito
+2023-11-28T15:02:51.549Z info: Received a GET request for /api/favoritos/71
+2023-11-28T15:02:51.557Z info: Received a GET request for /api/usuarios/71
+2023-11-28T15:02:51.559Z info: Received a GET request for /api/carrito/71
+2023-11-28T15:02:51.720Z info: Received a GET request for /api/favoritos/71
+2023-11-28T15:02:51.727Z info: Operacion realizada con exito
+2023-11-28T15:02:51.729Z info: Received a GET request for /api/usuarios/71
+2023-11-28T15:02:51.738Z info: Received a GET request for /api/carrito/71
+2023-11-28T15:02:51.883Z info: Received a GET request for /api/favoritos/71
+2023-11-28T15:02:51.905Z info: Operacion realizada con exito
+2023-11-28T15:02:51.910Z info: Received a GET request for /api/carrito/71
+2023-11-28T15:02:52.044Z info: Received a GET request for /api/favoritos/71
+2023-11-28T15:02:52.071Z info: Operacion realizada con exito
+2023-11-28T15:02:52.077Z info: Received a GET request for /api/carrito/71
+2023-11-28T15:02:52.239Z info: Operacion realizada con exito
+2023-11-28T15:02:52.958Z info: Received a POST request for /api/pago/create-order
+2023-11-28T15:02:59.725Z info: Received a GET request for /api/pago/capture-order?carrito=13&token=9AG53769C8519901V&PayerID=RYX4E5X25RUGY
+2023-11-28T15:03:05.244Z info: Received a GET request for /api/favoritos/71
+2023-11-28T15:03:05.256Z info: Received a GET request for /api/usuarios/71
+2023-11-28T15:03:05.359Z info: Received a GET request for /api/carrito/71
+2023-11-28T15:03:05.364Z info: Received a GET request for /api/reviews
+2023-11-28T15:03:05.410Z info: Received a GET request for /api/favoritos/71
+2023-11-28T15:03:05.532Z info: Received a GET request for /api/usuarios/71
+2023-11-28T15:03:05.563Z info: Operacion realizada con exito
+2023-11-28T15:03:05.577Z info: Received a GET request for /api/carrito/71
+2023-11-28T15:03:05.648Z info: Received a GET request for /api/reviews
+2023-11-28T15:03:05.725Z info: Received a GET request for /api/favoritos/71
+2023-11-28T15:03:05.880Z info: Operacion realizada con exito
+2023-11-28T15:03:06.046Z info: Received a GET request for /api/favoritos/71
+2023-11-28T15:03:46.562Z info: Received a POST request for /api/carrito/addItem
+2023-11-28T15:03:47.531Z info: Received a POST request for /api/carrito/addItem
+2023-11-28T15:03:48.860Z info: Operación realizada con éxito
+2023-11-28T15:03:48.912Z info: Received a GET request for /api/usuarios/71
+2023-11-28T15:03:48.917Z info: Received a GET request for /api/favoritos/71
+2023-11-28T15:03:48.922Z info: Received a GET request for /api/carrito/71
+2023-11-28T15:03:49.097Z info: Operacion realizada con exito
+2023-11-28T15:03:49.748Z info: Operación realizada con éxito
+2023-11-28T15:03:49.803Z info: Received a GET request for /api/usuarios/71
+2023-11-28T15:03:49.812Z info: Received a GET request for /api/favoritos/71
+2023-11-28T15:03:49.816Z info: Received a GET request for /api/carrito/71
+2023-11-28T15:03:49.978Z info: Operacion realizada con exito
+2023-11-28T15:03:50.567Z info: Received a GET request for /api/favoritos/71
+2023-11-28T15:03:50.570Z info: Received a GET request for /api/usuarios/71
+2023-11-28T15:03:50.573Z info: Received a GET request for /api/carrito/71
+2023-11-28T15:03:50.739Z info: Received a GET request for /api/favoritos/71
+2023-11-28T15:03:50.740Z info: Received a GET request for /api/usuarios/71
+2023-11-28T15:03:50.747Z info: Operacion realizada con exito
+2023-11-28T15:03:50.753Z info: Received a GET request for /api/carrito/71
+2023-11-28T15:03:50.905Z info: Received a GET request for /api/favoritos/71
+2023-11-28T15:03:50.914Z info: Operacion realizada con exito
+2023-11-28T15:03:50.920Z info: Received a GET request for /api/carrito/71
+2023-11-28T15:03:51.067Z info: Received a GET request for /api/favoritos/71
+2023-11-28T15:03:51.086Z info: Operacion realizada con exito
+2023-11-28T15:03:51.090Z info: Received a GET request for /api/carrito/71
+2023-11-28T15:03:51.250Z info: Operacion realizada con exito
+2023-11-28T15:03:51.637Z info: Received a POST request for /api/pago/create-order
+2023-11-28T15:04:01.172Z info: Received a GET request for /api/pago/capture-order?carrito=13&token=9M072835SF691953B&PayerID=RYX4E5X25RUGY
+2023-11-28T15:04:07.173Z info: Received a GET request for /api/favoritos/71
+2023-11-28T15:04:07.177Z info: Received a GET request for /api/usuarios/71
+2023-11-28T15:04:07.181Z info: Received a GET request for /api/carrito/71
+2023-11-28T15:04:07.216Z info: Received a GET request for /api/reviews
+2023-11-28T15:04:07.359Z info: Received a GET request for /api/favoritos/71
+2023-11-28T15:04:07.503Z info: Received a GET request for /api/usuarios/71
+2023-11-28T15:04:07.655Z info: Operacion realizada con exito
+2023-11-28T15:04:07.659Z info: Received a GET request for /api/carrito/71
+2023-11-28T15:04:07.815Z info: Received a GET request for /api/reviews
+2023-11-28T15:04:07.976Z info: Received a GET request for /api/favoritos/71
+2023-11-28T15:04:08.288Z info: Operacion realizada con exito
+2023-11-28T15:04:08.563Z info: Received a GET request for /api/favoritos/71
+2023-11-28T15:04:10.538Z info: Received a GET request for /api/favoritos/71
+2023-11-28T15:04:10.539Z info: Received a GET request for /api/usuarios/71
+2023-11-28T15:04:10.541Z info: Received a GET request for /api/carrito/71
+2023-11-28T15:04:10.543Z info: Received a GET request for /api/categorias
+2023-11-28T15:04:10.545Z info: Received a GET request for /api/filtros/search?nombre=&categoriaId=&precioMin=&precioMax=&page=1
+2023-11-28T15:04:10.703Z info: Received a GET request for /api/favoritos/71
+2023-11-28T15:04:10.706Z info: Operacion realizada con exito
+2023-11-28T15:04:10.709Z info: Operacion realizada con exito
+2023-11-28T15:04:10.719Z info: Received a GET request for /api/usuarios/71
+2023-11-28T15:04:10.732Z info: Received a GET request for /api/categorias
+2023-11-28T15:04:10.733Z info: Received a GET request for /api/carrito/71
+2023-11-28T15:04:10.876Z info: Received a GET request for /api/favoritos/71
+2023-11-28T15:04:10.892Z info: Operacion realizada con exito
+2023-11-28T15:04:10.901Z info: Operacion realizada con exito
+2023-11-28T15:04:10.904Z info: Received a GET request for /api/filtros/search?nombre=&categoriaId=&precioMin=&precioMax=&page=1
+2023-11-28T15:04:11.043Z info: Received a GET request for /api/favoritos/71
+2023-11-28T15:04:11.211Z info: Received a GET request for /api/favoritos/71
+2023-11-28T15:04:11.378Z info: Received a GET request for /api/favoritos/71
+2023-11-28T15:05:08.803Z info: Received a POST request for /api/carrito/addItem
+2023-11-28T15:05:10.195Z info: Received a POST request for /api/carrito/addItem
+2023-11-28T15:05:12.150Z info: Received a POST request for /api/pago/create-order
+2023-11-28T15:05:12.181Z info: Operación realizada con éxito
+2023-11-28T15:05:12.235Z info: Received a GET request for /api/favoritos/71
+2023-11-28T15:05:12.240Z info: Received a GET request for /api/usuarios/71
+2023-11-28T15:05:12.247Z info: Received a GET request for /api/carrito/71
+2023-11-28T15:05:12.430Z info: Operacion realizada con exito
+2023-11-28T15:05:12.454Z info: Operación realizada con éxito
+2023-11-28T15:05:12.524Z info: Received a GET request for /api/usuarios/71
+2023-11-28T15:05:12.528Z info: Received a GET request for /api/favoritos/71
+2023-11-28T15:05:12.531Z info: Received a GET request for /api/carrito/71
+2023-11-28T15:05:12.695Z info: Operacion realizada con exito
+2023-11-28T15:05:22.591Z info: Received a GET request for /api/pago/capture-order?carrito=13&token=64V56142D77140626&PayerID=RYX4E5X25RUGY
+2023-11-28T15:05:29.908Z info: Received a GET request for /api/favoritos/71
+2023-11-28T15:05:29.919Z info: Received a GET request for /api/usuarios/71
+2023-11-28T15:05:29.928Z info: Received a GET request for /api/carrito/71
+2023-11-28T15:05:30.015Z info: Received a GET request for /api/reviews
+2023-11-28T15:05:30.121Z info: Received a GET request for /api/favoritos/71
+2023-11-28T15:05:30.235Z info: Received a GET request for /api/usuarios/71
+2023-11-28T15:05:30.388Z info: Operacion realizada con exito
+2023-11-28T15:05:30.397Z info: Received a GET request for /api/carrito/71
+2023-11-28T15:05:30.554Z info: Received a GET request for /api/reviews
+2023-11-28T15:05:30.711Z info: Received a GET request for /api/favoritos/71
+2023-11-28T15:05:31.021Z info: Operacion realizada con exito
+2023-11-28T15:05:31.930Z info: Received a GET request for /api/favoritos/71
+2023-11-28T15:06:21.870Z info: Received a POST request for /api/carrito/addItem
+2023-11-28T15:06:23.558Z info: Operación realizada con éxito
+2023-11-28T15:06:23.617Z info: Received a GET request for /api/usuarios/71
+2023-11-28T15:06:23.633Z info: Received a GET request for /api/favoritos/71
+2023-11-28T15:06:23.638Z info: Received a GET request for /api/carrito/71
+2023-11-28T15:06:23.794Z info: Received a POST request for /api/carrito/addItem
+2023-11-28T15:06:24.102Z info: Operacion realizada con exito
+2023-11-28T15:06:25.758Z info: Operación realizada con éxito
+2023-11-28T15:06:25.807Z info: Received a GET request for /api/usuarios/71
+2023-11-28T15:06:25.810Z info: Received a GET request for /api/favoritos/71
+2023-11-28T15:06:25.812Z info: Received a GET request for /api/carrito/71
+2023-11-28T15:06:26.173Z info: Operacion realizada con exito
+2023-11-28T15:06:26.652Z info: Received a POST request for /api/pago/create-order
+2023-11-28T15:06:36.165Z info: Received a GET request for /api/pago/capture-order?carrito=13&token=6GM29593P20189714&PayerID=RYX4E5X25RUGY
+2023-11-28T15:06:41.827Z info: Received a GET request for /api/favoritos/71
+2023-11-28T15:06:41.838Z info: Received a GET request for /api/usuarios/71
+2023-11-28T15:06:41.862Z info: Received a GET request for /api/carrito/71
+2023-11-28T15:06:41.942Z info: Received a GET request for /api/reviews
+2023-11-28T15:06:42.006Z info: Received a GET request for /api/favoritos/71
+2023-11-28T15:06:42.179Z info: Received a GET request for /api/usuarios/71
+2023-11-28T15:06:42.319Z info: Operacion realizada con exito
+2023-11-28T15:06:42.325Z info: Received a GET request for /api/carrito/71
+2023-11-28T15:06:42.481Z info: Received a GET request for /api/reviews
+2023-11-28T15:06:42.637Z info: Received a GET request for /api/favoritos/71
+2023-11-28T15:06:42.950Z info: Operacion realizada con exito
+2023-11-28T15:06:43.236Z info: Received a GET request for /api/favoritos/71
+2023-11-28T15:07:15.008Z info: Received a POST request for /api/carrito/addItem
+2023-11-28T15:07:16.743Z info: Operación realizada con éxito
+2023-11-28T15:07:16.786Z info: Received a GET request for /api/usuarios/71
+2023-11-28T15:07:16.794Z info: Received a GET request for /api/favoritos/71
+2023-11-28T15:07:16.800Z info: Received a GET request for /api/carrito/71
+2023-11-28T15:07:16.844Z info: Received a POST request for /api/carrito/addItem
+2023-11-28T15:07:17.282Z info: Operacion realizada con exito
+2023-11-28T15:07:18.944Z info: Operación realizada con éxito
+2023-11-28T15:07:18.994Z info: Received a GET request for /api/usuarios/71
+2023-11-28T15:07:18.999Z info: Received a GET request for /api/favoritos/71
+2023-11-28T15:07:19.002Z info: Received a GET request for /api/carrito/71
+2023-11-28T15:07:19.172Z info: Operacion realizada con exito
+2023-11-28T15:07:19.716Z info: Received a POST request for /api/pago/create-order
+2023-11-28T15:07:34.328Z info: Received a GET request for /api/pago/capture-order?carrito=13&token=4XM698352Y7300201&PayerID=RYX4E5X25RUGY
+2023-11-28T15:07:41.174Z info: Received a GET request for /api/favoritos/71
+2023-11-28T15:07:41.179Z info: Received a GET request for /api/usuarios/71
+2023-11-28T15:07:41.184Z info: Received a GET request for /api/carrito/71
+2023-11-28T15:07:41.189Z info: Received a GET request for /api/reviews
+2023-11-28T15:07:41.360Z info: Received a GET request for /api/favoritos/71
+2023-11-28T15:07:41.511Z info: Received a GET request for /api/usuarios/71
+2023-11-28T15:07:41.665Z info: Operacion realizada con exito
+2023-11-28T15:07:41.670Z info: Received a GET request for /api/carrito/71
+2023-11-28T15:07:41.827Z info: Received a GET request for /api/reviews
+2023-11-28T15:07:41.984Z info: Received a GET request for /api/favoritos/71
+2023-11-28T15:07:42.296Z info: Operacion realizada con exito
+2023-11-28T15:07:42.528Z info: Received a GET request for /api/favoritos/71
+2023-11-28T15:08:24.735Z info: Received a POST request for /api/carrito/addItem
+2023-11-28T15:08:26.454Z info: Operación realizada con éxito
+2023-11-28T15:08:26.492Z info: Received a GET request for /api/usuarios/71
+2023-11-28T15:08:26.510Z info: Received a GET request for /api/favoritos/71
+2023-11-28T15:08:26.516Z info: Received a GET request for /api/carrito/71
+2023-11-28T15:08:26.989Z info: Operacion realizada con exito
+2023-11-28T15:08:31.685Z info: Received a POST request for /api/pago/create-order
+2023-11-28T15:08:53.652Z info: Received a GET request for /api/pago/capture-order?carrito=13&token=0XE82773SM291252G&PayerID=RYX4E5X25RUGY
+2023-11-28T15:09:03.797Z info: Received a GET request for /api/favoritos/71
+2023-11-28T15:09:03.812Z info: Received a GET request for /api/usuarios/71
+2023-11-28T15:09:03.839Z info: Received a GET request for /api/carrito/71
+2023-11-28T15:09:03.873Z info: Received a GET request for /api/reviews
+2023-11-28T15:09:04.001Z info: Received a GET request for /api/favoritos/71
+2023-11-28T15:09:04.148Z info: Received a GET request for /api/usuarios/71
+2023-11-28T15:09:04.300Z info: Operacion realizada con exito
+2023-11-28T15:09:04.304Z info: Received a GET request for /api/carrito/71
+2023-11-28T15:09:04.461Z info: Received a GET request for /api/reviews
+2023-11-28T15:09:04.621Z info: Received a GET request for /api/favoritos/71
+2023-11-28T15:09:04.931Z info: Operacion realizada con exito
+2023-11-28T15:09:05.211Z info: Received a GET request for /api/favoritos/71
+2023-11-28T15:10:12.960Z info: Received a GET request for /api/usuarios/71
+2023-11-28T15:10:13.006Z info: Received a GET request for /api/carrito/71
+2023-11-28T15:10:13.014Z info: Received a GET request for /api/favoritos/71
+2023-11-28T15:10:13.034Z info: Received a POST request for /api/pago/create-order
+2023-11-28T15:10:13.142Z info: Received a GET request for /api/usuarios/71
+2023-11-28T15:10:13.296Z info: Operacion realizada con exito
+2023-11-28T15:10:13.301Z info: Received a GET request for /api/carrito/71
+2023-11-28T15:10:13.455Z info: Received a GET request for /api/favoritos/71
+2023-11-28T15:10:13.923Z info: Operacion realizada con exito
+2023-11-28T15:10:13.928Z info: Received a GET request for /api/carrito/71
+2023-11-28T15:10:14.082Z info: Received a GET request for /api/favoritos/71
+2023-11-28T15:10:14.297Z info: Operacion realizada con exito
+2023-11-28T15:10:14.306Z info: Received a GET request for /api/carrito/71
+2023-11-28T15:10:14.468Z info: Operacion realizada con exito
+2023-11-28T15:10:17.388Z info: Received a GET request for /api/favoritos/71
+2023-11-28T15:10:17.392Z info: Received a GET request for /api/usuarios/71
+2023-11-28T15:10:17.396Z info: Received a GET request for /api/carrito/71
+2023-11-28T15:10:17.553Z info: Received a GET request for /api/favoritos/71
+2023-11-28T15:10:17.559Z info: Received a GET request for /api/usuarios/71
+2023-11-28T15:10:17.714Z info: Received a GET request for /api/favoritos/71
+2023-11-28T15:10:17.877Z info: Received a GET request for /api/favoritos/71
+2023-11-28T15:10:18.158Z info: Operacion realizada con exito
+2023-11-28T15:10:18.162Z info: Received a GET request for /api/carrito/71
+2023-11-28T15:10:18.323Z info: Operacion realizada con exito
+2023-11-28T15:10:18.327Z info: Received a GET request for /api/carrito/71
+2023-11-28T15:10:18.488Z info: Operacion realizada con exito
+2023-11-28T15:10:18.492Z info: Received a GET request for /api/carrito/71
+2023-11-28T15:10:18.653Z info: Operacion realizada con exito
+2023-11-28T15:10:19.702Z info: Received a GET request for /api/favoritos/71
+2023-11-28T15:10:19.718Z info: Received a GET request for /api/usuarios/71
+2023-11-28T15:10:19.721Z info: Received a GET request for /api/carrito/71
+2023-11-28T15:10:19.732Z info: Received a GET request for /api/productReviews
+2023-11-28T15:10:19.733Z info: Received a GET request for /api/productos/33
+2023-11-28T15:10:19.739Z info: Received a GET request for /api/productReviews/33
+2023-11-28T15:10:19.752Z info: Received a GET request for /api/productReviews
+2023-11-28T15:10:19.871Z info: Received a GET request for /api/favoritos/71
+2023-11-28T15:10:19.887Z info: Operacion realizada con exito
+2023-11-28T15:10:19.902Z info: Operacion realizada con exito
+2023-11-28T15:10:19.904Z info: Received a GET request for /api/usuarios/71
+2023-11-28T15:10:19.908Z info: Received a GET request for /api/carrito/71
+2023-11-28T15:10:19.929Z info: Received a GET request for /api/productos/33
+2023-11-28T15:10:19.969Z info: Received a GET request for /api/productReviews/33
+2023-11-28T15:10:20.036Z info: Received a GET request for /api/favoritos/71
+2023-11-28T15:10:20.075Z info: Operacion realizada con exito
+2023-11-28T15:10:20.128Z info: Operacion realizada con exito
+2023-11-28T15:10:20.199Z info: Received a GET request for /api/favoritos/71
+2023-11-28T15:10:25.825Z info: Received a GET request for /api/favoritos/71
+2023-11-28T15:10:25.850Z info: Received a GET request for /api/usuarios/71
+2023-11-28T15:10:25.853Z info: Received a GET request for /api/carrito/71
+2023-11-28T15:10:25.990Z info: Received a GET request for /api/favoritos/71
+2023-11-28T15:10:26.017Z info: Received a GET request for /api/usuarios/71
+2023-11-28T15:10:26.024Z info: Operacion realizada con exito
+2023-11-28T15:10:26.035Z info: Received a GET request for /api/carrito/71
+2023-11-28T15:10:26.063Z info: Received a POST request for /api/carrito/addItem
+2023-11-28T15:10:26.153Z info: Received a GET request for /api/favoritos/71
+2023-11-28T15:10:26.195Z info: Operacion realizada con exito
+2023-11-28T15:10:26.203Z info: Received a GET request for /api/carrito/71
+2023-11-28T15:10:26.317Z info: Received a GET request for /api/favoritos/71
+2023-11-28T15:10:26.362Z info: Operacion realizada con exito
+2023-11-28T15:10:26.370Z info: Received a GET request for /api/carrito/71
+2023-11-28T15:10:26.529Z info: Operacion realizada con exito
+2023-11-28T15:10:27.449Z info: Received a POST request for /api/carrito/addItem
+2023-11-28T15:10:27.788Z info: Operación realizada con éxito
+2023-11-28T15:10:27.846Z info: Received a GET request for /api/usuarios/71
+2023-11-28T15:10:27.848Z info: Received a GET request for /api/favoritos/71
+2023-11-28T15:10:27.851Z info: Received a GET request for /api/carrito/71
+2023-11-28T15:10:28.020Z info: Operacion realizada con exito
+2023-11-28T15:10:29.101Z info: Operación realizada con éxito
+2023-11-28T15:10:29.152Z info: Received a GET request for /api/usuarios/71
+2023-11-28T15:10:29.154Z info: Received a GET request for /api/favoritos/71
+2023-11-28T15:10:29.156Z info: Received a GET request for /api/carrito/71
+2023-11-28T15:10:29.317Z info: Operacion realizada con exito
+2023-11-28T15:10:33.665Z info: Received a GET request for /api/favoritos/71
+2023-11-28T15:10:33.705Z info: Received a GET request for /api/usuarios/71
+2023-11-28T15:10:33.709Z info: Received a GET request for /api/carrito/71
+2023-11-28T15:10:33.862Z info: Received a GET request for /api/favoritos/71
+2023-11-28T15:10:33.870Z info: Operacion realizada con exito
+2023-11-28T15:10:33.879Z info: Received a GET request for /api/usuarios/71
+2023-11-28T15:10:33.881Z info: Received a GET request for /api/carrito/71
+2023-11-28T15:10:34.024Z info: Received a GET request for /api/favoritos/71
+2023-11-28T15:10:34.044Z info: Operacion realizada con exito
+2023-11-28T15:10:34.050Z info: Received a GET request for /api/carrito/71
+2023-11-28T15:10:34.187Z info: Received a GET request for /api/favoritos/71
+2023-11-28T15:10:34.212Z info: Operacion realizada con exito
+2023-11-28T15:10:34.216Z info: Received a GET request for /api/carrito/71
+2023-11-28T15:10:34.377Z info: Operacion realizada con exito
+2023-11-28T15:10:36.844Z info: Received a POST request for /api/pago/create-order
+2023-11-28T15:10:37.617Z info: Received a POST request for /api/pago/create-order
+2023-11-28T15:10:50.725Z info: Received a GET request for /api/pago/capture-order?carrito=13&token=7KG13296AY1367051&PayerID=RYX4E5X25RUGY
+2023-11-28T15:10:56.658Z info: Received a GET request for /api/favoritos/71
+2023-11-28T15:10:56.661Z info: Received a GET request for /api/usuarios/71
+2023-11-28T15:10:56.666Z info: Received a GET request for /api/carrito/71
+2023-11-28T15:10:56.672Z info: Received a GET request for /api/reviews
+2023-11-28T15:10:56.830Z info: Received a GET request for /api/favoritos/71
+2023-11-28T15:10:56.987Z info: Received a GET request for /api/usuarios/71
+2023-11-28T15:10:57.141Z info: Operacion realizada con exito
+2023-11-28T15:10:57.145Z info: Received a GET request for /api/carrito/71
+2023-11-28T15:10:57.302Z info: Received a GET request for /api/reviews
+2023-11-28T15:10:57.459Z info: Received a GET request for /api/favoritos/71
+2023-11-28T15:10:57.771Z info: Operacion realizada con exito
+2023-11-28T15:10:58.052Z info: Received a GET request for /api/favoritos/71
+2023-11-28T15:12:50.497Z info: Received a POST request for /api/carrito/addItem
+2023-11-28T15:12:52.232Z info: Operación realizada con éxito
+2023-11-28T15:12:52.304Z info: Received a GET request for /api/usuarios/71
+2023-11-28T15:12:52.310Z info: Received a GET request for /api/favoritos/71
+2023-11-28T15:12:52.318Z info: Received a GET request for /api/carrito/71
+2023-11-28T15:12:52.786Z info: Operacion realizada con exito
+2023-11-28T15:12:53.577Z info: Received a POST request for /api/carrito/addItem
+2023-11-28T15:12:55.233Z info: Operación realizada con éxito
+2023-11-28T15:12:55.298Z info: Received a GET request for /api/usuarios/71
+2023-11-28T15:12:55.302Z info: Received a GET request for /api/favoritos/71
+2023-11-28T15:12:55.310Z info: Received a GET request for /api/carrito/71
+2023-11-28T15:12:55.478Z info: Operacion realizada con exito
+2023-11-28T15:12:58.324Z info: Received a POST request for /api/pago/create-order
+2023-11-28T15:13:06.002Z info: Received a GET request for /api/pago/capture-order?carrito=13&token=3P470497CG9917927&PayerID=RYX4E5X25RUGY
+2023-11-28T15:13:11.556Z info: Received a GET request for /api/favoritos/71
+2023-11-28T15:13:11.569Z info: Received a GET request for /api/usuarios/71
+2023-11-28T15:13:11.578Z info: Received a GET request for /api/carrito/71
+2023-11-28T15:13:11.607Z info: Received a GET request for /api/reviews
+2023-11-28T15:13:11.723Z info: Received a GET request for /api/favoritos/71
+2023-11-28T15:13:11.782Z info: Received a GET request for /api/usuarios/71
+2023-11-28T15:13:11.881Z info: Operacion realizada con exito
+2023-11-28T15:13:11.888Z info: Received a GET request for /api/carrito/71
+2023-11-28T15:13:11.904Z info: Received a GET request for /api/reviews
+2023-11-28T15:13:12.047Z info: Received a GET request for /api/favoritos/71
+2023-11-28T15:13:12.198Z info: Operacion realizada con exito
+2023-11-28T15:13:12.357Z info: Received a GET request for /api/favoritos/71
+2023-11-28T15:13:55.355Z info: Received a POST request for /api/carrito/addItem
+2023-11-28T15:13:56.985Z info: Received a POST request for /api/carrito/addItem
+2023-11-28T15:13:57.029Z info: Operación realizada con éxito
+2023-11-28T15:13:57.068Z info: Received a GET request for /api/favoritos/71
+2023-11-28T15:13:57.076Z info: Received a GET request for /api/usuarios/71
+2023-11-28T15:13:57.081Z info: Received a GET request for /api/carrito/71
+2023-11-28T15:13:58.230Z info: Operacion realizada con exito
+2023-11-28T15:13:59.555Z info: Received a POST request for /api/pago/create-order
+2023-11-28T15:13:59.678Z info: Operación realizada con éxito
+2023-11-28T15:13:59.715Z info: Received a GET request for /api/usuarios/71
+2023-11-28T15:13:59.717Z info: Received a GET request for /api/favoritos/71
+2023-11-28T15:13:59.720Z info: Received a GET request for /api/carrito/71
+2023-11-28T15:14:00.481Z info: Operacion realizada con exito
+2023-11-28T15:14:06.730Z info: Received a GET request for /api/pago/capture-order?carrito=13&token=86U54061GJ334720G&PayerID=RYX4E5X25RUGY
+2023-11-28T15:14:12.224Z info: Received a GET request for /api/favoritos/71
+2023-11-28T15:14:12.229Z info: Received a GET request for /api/usuarios/71
+2023-11-28T15:14:12.250Z info: Received a GET request for /api/carrito/71
+2023-11-28T15:14:12.314Z info: Received a GET request for /api/reviews
+2023-11-28T15:14:12.392Z info: Received a GET request for /api/favoritos/71
+2023-11-28T15:14:12.428Z info: Received a GET request for /api/usuarios/71
+2023-11-28T15:14:12.545Z info: Operacion realizada con exito
+2023-11-28T15:14:12.552Z info: Received a GET request for /api/carrito/71
+2023-11-28T15:14:12.579Z info: Received a GET request for /api/reviews
+2023-11-28T15:14:12.704Z info: Received a GET request for /api/favoritos/71
+2023-11-28T15:14:12.859Z info: Operacion realizada con exito
+2023-11-28T15:14:13.018Z info: Received a GET request for /api/favoritos/71
+2023-11-28T15:16:40.437Z info: Received a GET request for /api/favoritos/71
+2023-11-28T15:16:40.463Z info: Received a GET request for /api/usuarios/71
+2023-11-28T15:16:40.471Z info: Received a GET request for /api/carrito/71
+2023-11-28T15:16:40.481Z info: Received a GET request for /api/productReviews
+2023-11-28T15:16:40.483Z info: Received a GET request for /api/productos/58
+2023-11-28T15:16:40.505Z info: Received a GET request for /api/productReviews/58
+2023-11-28T15:16:40.532Z info: Received a GET request for /api/productReviews
+2023-11-28T15:16:40.655Z info: Received a GET request for /api/favoritos/71
+2023-11-28T15:16:40.828Z info: Received a GET request for /api/usuarios/71
+2023-11-28T15:16:40.987Z info: Operacion realizada con exito
+2023-11-28T15:16:41.226Z info: Operacion realizada con exito
+2023-11-28T15:16:41.233Z info: Received a GET request for /api/carrito/71
+2023-11-28T15:16:41.249Z info: Received a GET request for /api/productos/58
+2023-11-28T15:16:41.387Z info: Received a GET request for /api/productReviews/58
+2023-11-28T15:16:41.455Z info: Received a GET request for /api/productReviews
+2023-11-28T15:16:41.527Z info: Received a GET request for /api/productos/33
+2023-11-28T15:16:41.574Z info: Received a GET request for /api/productReviews/33
+2023-11-28T15:16:41.722Z info: Received a GET request for /api/productReviews
+2023-11-28T15:16:41.755Z info: Received a GET request for /api/favoritos/71
+2023-11-28T15:16:41.869Z info: Operacion realizada con exito
+2023-11-28T15:16:41.873Z info: Received a GET request for /api/usuarios/71
+2023-11-28T15:16:41.912Z info: Operacion realizada con exito
+2023-11-28T15:16:41.928Z info: Operacion realizada con exito
+2023-11-28T15:16:41.952Z info: Received a GET request for /api/carrito/71
+2023-11-28T15:16:41.973Z info: Received a GET request for /api/productos/33
+2023-11-28T15:16:41.980Z info: Received a GET request for /api/productReviews/33
+2023-11-28T15:16:42.037Z info: Received a GET request for /api/favoritos/71
+2023-11-28T15:16:42.075Z info: Received a GET request for /api/usuarios/71
+2023-11-28T15:16:42.138Z info: Operacion realizada con exito
+2023-11-28T15:16:42.150Z info: Operacion realizada con exito
+2023-11-28T15:16:42.156Z info: Received a GET request for /api/carrito/71
+2023-11-28T15:16:42.199Z info: Received a GET request for /api/favoritos/71
+2023-11-28T15:16:42.317Z info: Operacion realizada con exito
+2023-11-28T15:16:42.360Z info: Received a GET request for /api/favoritos/71
+2023-11-28T15:16:42.519Z info: Received a GET request for /api/favoritos/71
+2023-11-28T15:16:42.680Z info: Received a GET request for /api/favoritos/71
+2023-11-28T15:16:43.455Z info: Received a POST request for /api/carrito/addItem
+2023-11-28T15:16:44.872Z info: Received a POST request for /api/carrito/addItem
+2023-11-28T15:16:45.166Z info: Operación realizada con éxito
+2023-11-28T15:16:45.240Z info: Received a GET request for /api/usuarios/71
+2023-11-28T15:16:45.247Z info: Received a GET request for /api/favoritos/71
+2023-11-28T15:16:45.249Z info: Received a GET request for /api/carrito/71
+2023-11-28T15:16:45.416Z info: Operacion realizada con exito
+2023-11-28T15:16:46.559Z info: Operación realizada con éxito
+2023-11-28T15:16:46.947Z info: Received a GET request for /api/usuarios/71
+2023-11-28T15:16:46.950Z info: Received a GET request for /api/favoritos/71
+2023-11-28T15:16:46.954Z info: Received a GET request for /api/carrito/71
+2023-11-28T15:16:47.112Z info: Received a GET request for /api/usuarios/71
+2023-11-28T15:16:47.115Z info: Received a GET request for /api/favoritos/71
+2023-11-28T15:16:47.120Z info: Operacion realizada con exito
+2023-11-28T15:16:47.125Z info: Received a GET request for /api/carrito/71
+2023-11-28T15:16:47.276Z info: Received a GET request for /api/usuarios/71
+2023-11-28T15:16:47.282Z info: Received a GET request for /api/favoritos/71
+2023-11-28T15:16:47.288Z info: Operacion realizada con exito
+2023-11-28T15:16:47.293Z info: Received a GET request for /api/carrito/71
+2023-11-28T15:16:47.449Z info: Received a GET request for /api/favoritos/71
+2023-11-28T15:16:47.453Z info: Operacion realizada con exito
+2023-11-28T15:16:47.459Z info: Received a GET request for /api/carrito/71
+2023-11-28T15:16:47.611Z info: Received a GET request for /api/favoritos/71
+2023-11-28T15:16:47.618Z info: Operacion realizada con exito
+2023-11-28T15:16:47.633Z info: Received a GET request for /api/carrito/71
+2023-11-28T15:16:47.796Z info: Operacion realizada con exito
+2023-11-28T15:16:48.003Z info: Received a POST request for /api/pago/create-order
+2023-11-28T15:17:00.621Z info: Received a GET request for /api/pago/capture-order?carrito=13&token=7C082402DB982311P&PayerID=RYX4E5X25RUGY
+2023-11-28T15:17:05.756Z info: Received a GET request for /api/favoritos/71
+2023-11-28T15:17:05.760Z info: Received a GET request for /api/usuarios/71
+2023-11-28T15:17:05.767Z info: Received a GET request for /api/carrito/71
+2023-11-28T15:17:05.799Z info: Received a GET request for /api/reviews
+2023-11-28T15:17:05.923Z info: Received a GET request for /api/favoritos/71
+2023-11-28T15:17:06.081Z info: Received a GET request for /api/usuarios/71
+2023-11-28T15:17:06.236Z info: Operacion realizada con exito
+2023-11-28T15:17:06.243Z info: Received a GET request for /api/carrito/71
+2023-11-28T15:17:06.396Z info: Received a GET request for /api/reviews
+2023-11-28T15:17:06.555Z info: Received a GET request for /api/favoritos/71
+2023-11-28T15:17:06.865Z info: Operacion realizada con exito
+2023-11-28T15:17:07.721Z info: Received a GET request for /api/favoritos/71
+2023-11-28T15:20:51.622Z info: Received a GET request for /api/productReviews
+2023-11-28T15:20:51.627Z info: Received a GET request for /api/carrito/71
+2023-11-28T15:20:51.650Z info: Received a GET request for /api/favoritos/71
+2023-11-28T15:20:51.653Z info: Received a GET request for /api/usuarios/71
+2023-11-28T15:20:51.666Z info: Received a GET request for /api/productos/58
+2023-11-28T15:20:51.796Z info: Received a GET request for /api/productReviews/58
+2023-11-28T15:20:51.799Z info: Received a GET request for /api/productReviews
+2023-11-28T15:20:51.805Z info: Operacion realizada con exito
+2023-11-28T15:20:51.817Z info: Received a GET request for /api/carrito/71
+2023-11-28T15:20:51.964Z info: Received a GET request for /api/favoritos/71
+2023-11-28T15:20:52.121Z info: Received a GET request for /api/usuarios/71
+2023-11-28T15:20:52.277Z info: Operacion realizada con exito
+2023-11-28T15:20:52.281Z info: Received a GET request for /api/productos/58
+2023-11-28T15:20:52.435Z info: Received a GET request for /api/productReviews/58
+2023-11-28T15:20:52.588Z info: Operacion realizada con exito
+2023-11-28T15:20:52.749Z info: Received a GET request for /api/favoritos/71
+2023-11-28T15:20:52.939Z info: Operacion realizada con exito
+2023-11-28T15:20:52.987Z info: Received a GET request for /api/favoritos/71
+2023-11-28T15:20:55.439Z info: Received a POST request for /api/carrito/addItem
+2023-11-28T15:20:57.126Z info: Operación realizada con éxito
+2023-11-28T15:20:57.186Z info: Received a GET request for /api/usuarios/71
+2023-11-28T15:20:57.190Z info: Received a GET request for /api/carrito/71
+2023-11-28T15:20:57.200Z info: Received a GET request for /api/favoritos/71
+2023-11-28T15:20:57.392Z info: Operacion realizada con exito
+2023-11-28T15:20:58.970Z info: Received a POST request for /api/carrito/addItem
+2023-11-28T15:21:00.632Z info: Operación realizada con éxito
+2023-11-28T15:21:00.697Z info: Received a GET request for /api/usuarios/71
+2023-11-28T15:21:00.699Z info: Received a GET request for /api/favoritos/71
+2023-11-28T15:21:00.701Z info: Received a GET request for /api/carrito/71
+2023-11-28T15:21:00.863Z info: Operacion realizada con exito
+2023-11-28T15:21:02.419Z info: Received a POST request for /api/pago/create-order
+2023-11-28T15:21:11.345Z info: Received a GET request for /api/pago/capture-order?carrito=13&token=1JU37403U18588833&PayerID=RYX4E5X25RUGY
+2023-11-28T15:21:16.857Z info: Received a GET request for /api/favoritos/71
+2023-11-28T15:21:16.860Z info: Received a GET request for /api/usuarios/71
+2023-11-28T15:21:16.863Z info: Received a GET request for /api/carrito/71
+2023-11-28T15:21:16.868Z info: Received a GET request for /api/reviews
+2023-11-28T15:21:17.029Z info: Operacion realizada con exito
+2023-11-28T15:21:17.033Z info: Received a GET request for /api/favoritos/71
+2023-11-28T15:21:17.040Z info: Received a GET request for /api/carrito/71
+2023-11-28T15:21:17.043Z info: Received a GET request for /api/usuarios/71
+2023-11-28T15:21:17.106Z info: Received a GET request for /api/reviews
+2023-11-28T15:21:17.202Z info: Operacion realizada con exito
+2023-11-28T15:21:17.204Z info: Received a GET request for /api/favoritos/71
+2023-11-28T15:21:17.369Z info: Received a GET request for /api/favoritos/71
+2023-11-28T15:21:27.250Z info: Received a GET request for /api/favoritos/71
+2023-11-28T15:21:27.291Z info: Received a GET request for /api/carrito/71
+2023-11-28T15:21:27.295Z info: Received a GET request for /api/usuarios/71
+2023-11-28T15:21:27.301Z info: Received a GET request for /api/productReviews
+2023-11-28T15:21:27.304Z info: Received a GET request for /api/productos/58
+2023-11-28T15:21:27.308Z info: Received a GET request for /api/productReviews/58
+2023-11-28T15:21:27.322Z info: Received a GET request for /api/productReviews
+2023-11-28T15:21:27.440Z info: Received a GET request for /api/favoritos/71
+2023-11-28T15:21:27.461Z info: Received a GET request for /api/usuarios/71
+2023-11-28T15:21:27.465Z info: Operacion realizada con exito
+2023-11-28T15:21:27.474Z info: Operacion realizada con exito
+2023-11-28T15:21:27.486Z info: Received a GET request for /api/carrito/71
+2023-11-28T15:21:27.493Z info: Received a GET request for /api/productos/58
+2023-11-28T15:21:27.497Z info: Received a GET request for /api/productReviews/58
+2023-11-28T15:21:27.604Z info: Received a GET request for /api/favoritos/71
+2023-11-28T15:21:27.655Z info: Operacion realizada con exito
+2023-11-28T15:21:27.659Z info: Operacion realizada con exito
+2023-11-28T15:21:27.770Z info: Received a GET request for /api/favoritos/71
+2023-11-28T15:21:29.880Z info: Received a GET request for /api/favoritos/71
+2023-11-28T15:21:29.930Z info: Received a GET request for /api/usuarios/71
+2023-11-28T15:21:29.945Z info: Received a GET request for /api/carrito/71
+2023-11-28T15:21:29.950Z info: Received a GET request for /api/productReviews
+2023-11-28T15:21:29.951Z info: Received a GET request for /api/productos/33
+2023-11-28T15:21:29.960Z info: Received a GET request for /api/productReviews/33
+2023-11-28T15:21:30.000Z info: Received a GET request for /api/productReviews
+2023-11-28T15:21:30.090Z info: Received a GET request for /api/favoritos/71
+2023-11-28T15:21:30.104Z info: Received a GET request for /api/usuarios/71
+2023-11-28T15:21:30.110Z info: Operacion realizada con exito
+2023-11-28T15:21:30.118Z info: Operacion realizada con exito
+2023-11-28T15:21:30.120Z info: Received a GET request for /api/carrito/71
+2023-11-28T15:21:30.132Z info: Received a GET request for /api/productos/33
+2023-11-28T15:21:30.156Z info: Received a GET request for /api/productReviews/33
+2023-11-28T15:21:30.257Z info: Received a GET request for /api/favoritos/71
+2023-11-28T15:21:30.290Z info: Operacion realizada con exito
+2023-11-28T15:21:30.294Z info: Operacion realizada con exito
+2023-11-28T15:21:30.418Z info: Received a GET request for /api/favoritos/71
