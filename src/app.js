@@ -19,8 +19,8 @@ server.name = "API";
 let sessionConfig ={
   secret: process.env.SECRET_KEY,
   name: 'backend-trendy',
-  resave: false,
-  saveUninitialized: false,
+  resave: true,
+  saveUninitialized: true,
   cookie: {
     sameSite: 'none',
     secure: true,
