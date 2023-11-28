@@ -22,7 +22,6 @@ let sessionConfig ={
   resave: false,
   saveUninitialized: false,
   cookie: {
-    httponly: false,
     sameSite: 'none',
     secure: true,
     maxAge: 24 * 60 * 60 * 1000
