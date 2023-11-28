@@ -24,8 +24,8 @@ router.get('/callback', passport.authenticate('google', { failureRedirect: 'http
                 maxAge: 60 * 60 * 24 * 7 * 52
             })
         )
-        res.cookie('token', token,{ sameSite: 'None',secure: true });
-        res.cookie('user', JSON.stringify(user),{ sameSite: 'None',secure: true });
+        // res.cookie('token', token,{ sameSite: 'None',secure: true });
+        // res.cookie('user', JSON.stringify(user),{ sameSite: 'None',secure: true });
         res.redirect('https://trendy-web-lemon.vercel.app/')
     }
 );
