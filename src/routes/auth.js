@@ -21,22 +21,9 @@ router.get('/callback', passport.authenticate('google', { failureRedirect: '/fai
         const token = jwt.sign({ user }, env.SECRECT_TOKEN, {
             expiresIn: "1h",
         });
-        // req.session.user = user;
-        // res.cookie('token', token);
-        // res.cookie('user', JSON.stringify(user));
-        res.setHeader(
-            'Set-Cookie',
-            cookie.serialize('user', user, {
-                sameSite: 'lax',
-                httpOnly: true,
-                path: '/',
-                secure: true,
-                maxAge: 60 * 60 * 24 * 7 * 52
-            })
-        )
-        console.log(req.isAuthenticated());
-
-        res.redirect('http://localhost:3001')
+        res.cookie('token', token, { SameSite: 'none', secure: true });
+        res.cookie('user', JSON.stringify(user), { SameSite: 'none', secure: true });
+        res.redirect('https://trendy-web-lemon.vercel.app/')
     }
 );
 
