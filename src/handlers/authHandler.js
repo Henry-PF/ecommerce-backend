@@ -2,7 +2,7 @@ const { login, forgoPassword, create } = require("../controllers/usuariosControl
 const { logger } = require("../components/logger");
 const passport = require("../auth/google");
 
-exports.loginGoogle = passport.authenticate('google', { scope: ['email', 'profile'] })
+exports.loginGoogle = passport.authenticate('google', { session: false, scope: ['email', 'profile'] })
 
 exports.googleCallback = passport.authenticate('google', { failureRedirect: "/login" }), (req, res) => {
     const user = req.user;

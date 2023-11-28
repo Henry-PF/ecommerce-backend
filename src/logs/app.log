@@ -15178,3 +15178,1268 @@
 2023-11-27T08:36:18.628Z info: Received a GET request for /api/favoritos/90
 2023-11-27T08:36:18.635Z info: Received a GET request for /api/carrito/90
 2023-11-27T08:36:20.165Z info: Operacion realizada con exito
+2023-11-27T08:43:37.996Z info: Received a GET request for /api/favoritos/90
+2023-11-27T08:43:38.023Z info: Received a GET request for /api/usuarios/90
+2023-11-27T08:43:38.030Z info: Received a GET request for /api/carrito/90
+2023-11-27T08:43:38.043Z info: Received a GET request for /api/favoritos/90
+2023-11-27T08:43:38.047Z info: Received a GET request for /api/reviews
+2023-11-27T08:43:38.064Z info: Received a GET request for /api/favoritos/90
+2023-11-27T08:43:39.735Z info: Received a GET request for /api/usuarios/90
+2023-11-27T08:43:39.756Z info: Received a GET request for /api/favoritos/90
+2023-11-27T08:43:39.790Z info: Operacion realizada con exito
+2023-11-27T08:43:39.795Z info: Received a GET request for /api/carrito/90
+2023-11-27T08:43:39.838Z info: Received a GET request for /api/reviews
+2023-11-27T08:43:40.027Z info: Operacion realizada con exito
+2023-11-27T08:46:03.179Z info: Received a GET request for /api/usuarios/null
+2023-11-27T08:46:03.184Z info: Received a GET request for /api/reviews
+2023-11-27T08:46:03.198Z info: Received a GET request for /api/usuarios/null
+2023-11-27T08:46:03.201Z info: Received a GET request for /api/reviews
+2023-11-27T08:46:04.841Z error: invalid input syntax for type integer: "null"
+2023-11-27T08:46:04.843Z error: invalid input syntax for type integer: "null"
+2023-11-27T08:46:38.769Z info: Received a GET request for /api/usuarios/null
+2023-11-27T08:46:38.772Z info: Received a GET request for /api/categorias
+2023-11-27T08:46:38.779Z info: Received a GET request for /api/filtros/search?nombre=&categoriaId=&precioMin=&precioMax=&page=1
+2023-11-27T08:46:38.788Z info: Received a GET request for /api/usuarios/null
+2023-11-27T08:46:38.791Z info: Received a GET request for /api/categorias
+2023-11-27T08:46:38.796Z info: Received a GET request for /api/filtros/search?nombre=&categoriaId=&precioMin=&precioMax=&page=1
+2023-11-27T08:46:40.315Z info: Operacion realizada con exito
+2023-11-27T08:46:40.318Z error: invalid input syntax for type integer: "null"
+2023-11-27T08:46:40.326Z error: invalid input syntax for type integer: "null"
+2023-11-27T08:46:40.363Z info: Operacion realizada con exito
+2023-11-27T08:49:22.353Z info: Received a GET request for /api/usuarios/null
+2023-11-27T08:49:22.364Z info: Received a GET request for /api/categorias
+2023-11-27T08:49:22.366Z info: Received a GET request for /api/filtros/search?nombre=&categoriaId=&precioMin=&precioMax=&page=1
+2023-11-27T08:49:22.372Z info: Received a GET request for /api/usuarios/null
+2023-11-27T08:49:22.377Z info: Received a GET request for /api/categorias
+2023-11-27T08:49:22.381Z info: Received a GET request for /api/filtros/search?nombre=&categoriaId=&precioMin=&precioMax=&page=1
+2023-11-27T08:49:23.927Z info: Operacion realizada con exito
+2023-11-27T08:49:23.933Z error: invalid input syntax for type integer: "null"
+2023-11-27T08:49:23.993Z error: invalid input syntax for type integer: "null"
+2023-11-27T08:49:23.996Z info: Operacion realizada con exito
+2023-11-27T08:50:06.800Z info: Received a GET request for /api/categorias
+2023-11-27T08:50:06.801Z info: Received a GET request for /api/filtros/search?nombre=&categoriaId=&precioMin=&precioMax=&page=2
+2023-11-27T08:50:08.353Z info: Operacion realizada con exito
+2023-11-27T08:50:12.407Z info: Received a GET request for /api/categorias
+2023-11-27T08:50:12.409Z info: Received a GET request for /api/filtros/search?nombre=&categoriaId=2&precioMin=&precioMax=&page=1
+2023-11-27T08:50:12.434Z info: Received a GET request for /api/categorias
+2023-11-27T08:50:12.436Z info: Received a GET request for /api/filtros/search?nombre=&categoriaId=2&precioMin=&precioMax=&page=2
+2023-11-27T08:50:12.599Z info: Operacion realizada con exito
+2023-11-27T08:50:12.787Z info: Operacion realizada con exito
+2023-11-27T08:50:18.610Z info: Received a GET request for /api/categorias
+2023-11-27T08:50:18.612Z info: Received a GET request for /api/filtros/search?nombre=&categoriaId=2&precioMin=&precioMax=&page=1
+2023-11-27T08:50:18.803Z info: Operacion realizada con exito
+2023-11-27T08:53:47.576Z info: Received a GET request for /api/categorias
+2023-11-27T08:53:47.579Z info: Received a GET request for /api/filtros/search?nombre=&categoriaId=&precioMin=&precioMax=&page=1
+2023-11-27T08:53:49.160Z info: Operacion realizada con exito
+2023-11-27T08:53:51.581Z info: Received a GET request for /api/categorias
+2023-11-27T08:53:51.586Z info: Received a GET request for /api/filtros/search?nombre=&categoriaId=18&precioMin=&precioMax=&page=1
+2023-11-27T08:53:51.769Z info: Operacion realizada con exito
+2023-11-27T08:53:54.408Z info: Received a GET request for /api/categorias
+2023-11-27T08:53:54.413Z info: Received a GET request for /api/filtros/search?nombre=&categoriaId=18,2&precioMin=&precioMax=&page=1
+2023-11-27T08:53:54.590Z info: Operacion realizada con exito
+2023-11-27T08:53:58.853Z info: Received a GET request for /api/categorias
+2023-11-27T08:53:58.855Z info: Received a GET request for /api/filtros/search?nombre=&categoriaId=18,2,1&precioMin=&precioMax=&page=1
+2023-11-27T08:53:59.039Z info: Operacion realizada con exito
+2023-11-27T08:54:02.484Z info: Received a GET request for /api/categorias
+2023-11-27T08:54:02.486Z info: Received a GET request for /api/filtros/search?nombre=&categoriaId=18,1&precioMin=&precioMax=&page=1
+2023-11-27T08:54:02.666Z info: Operacion realizada con exito
+2023-11-27T08:54:03.254Z info: Received a GET request for /api/categorias
+2023-11-27T08:54:03.258Z info: Received a GET request for /api/filtros/search?nombre=&categoriaId=18&precioMin=&precioMax=&page=1
+2023-11-27T08:54:03.440Z info: Operacion realizada con exito
+2023-11-27T08:54:04.431Z info: Received a GET request for /api/categorias
+2023-11-27T08:54:04.432Z info: Received a GET request for /api/filtros/search?nombre=&categoriaId=&precioMin=&precioMax=&page=1
+2023-11-27T08:54:04.612Z info: Operacion realizada con exito
+2023-11-27T08:54:08.351Z info: Received a GET request for /api/categorias
+2023-11-27T08:54:08.352Z info: Received a GET request for /api/filtros/search?nombre=&categoriaId=2&precioMin=&precioMax=&page=1
+2023-11-27T08:54:08.537Z info: Operacion realizada con exito
+2023-11-27T08:54:11.622Z info: Received a GET request for /api/categorias
+2023-11-27T08:54:11.623Z info: Received a GET request for /api/filtros/search?nombre=&categoriaId=2,1&precioMin=&precioMax=&page=1
+2023-11-27T08:54:11.803Z info: Operacion realizada con exito
+2023-11-27T08:54:14.654Z info: Received a GET request for /api/categorias
+2023-11-27T08:54:14.655Z info: Received a GET request for /api/filtros/search?nombre=&categoriaId=2&precioMin=&precioMax=&page=1
+2023-11-27T08:54:14.839Z info: Operacion realizada con exito
+2023-11-27T08:54:15.416Z info: Received a GET request for /api/categorias
+2023-11-27T08:54:15.418Z info: Received a GET request for /api/filtros/search?nombre=&categoriaId=&precioMin=&precioMax=&page=1
+2023-11-27T08:54:15.597Z info: Operacion realizada con exito
+2023-11-27T09:15:18.067Z info: Received a GET request for /api/categorias
+2023-11-27T09:15:18.069Z info: Received a GET request for /api/filtros/search?nombre=remera&categoriaId=&precioMin=&precioMax=&page=1
+2023-11-27T09:15:19.582Z info: Operacion realizada con exito
+2023-11-27T09:16:47.513Z info: Received a GET request for /api/usuarios/null
+2023-11-27T09:16:47.538Z info: Received a GET request for /api/categorias
+2023-11-27T09:16:47.540Z info: Received a GET request for /api/filtros/search?nombre=remera&categoriaId=&precioMin=&precioMax=&page=1
+2023-11-27T09:16:47.550Z info: Received a GET request for /api/usuarios/null
+2023-11-27T09:16:47.553Z info: Received a GET request for /api/categorias
+2023-11-27T09:16:47.556Z info: Received a GET request for /api/filtros/search?nombre=remera&categoriaId=&precioMin=&precioMax=&page=1
+2023-11-27T09:16:47.722Z error: invalid input syntax for type integer: "null"
+2023-11-27T09:16:47.915Z info: Operacion realizada con exito
+2023-11-27T09:16:48.288Z error: invalid input syntax for type integer: "null"
+2023-11-27T09:16:48.469Z info: Operacion realizada con exito
+2023-11-27T09:20:22.818Z info: Received a GET request for /api/categorias
+2023-11-27T09:20:22.820Z info: Received a GET request for /api/filtros/search?nombre=remera&categoriaId=&precioMin=&precioMax=&page=2
+2023-11-27T09:20:24.410Z info: Operacion realizada con exito
+2023-11-27T09:20:38.253Z info: Received a GET request for /api/categorias
+2023-11-27T09:20:38.259Z info: Received a GET request for /api/filtros/search?nombre=&categoriaId=&precioMin=&precioMax=&page=2
+2023-11-27T09:20:38.280Z info: Received a GET request for /api/categorias
+2023-11-27T09:20:38.285Z info: Received a GET request for /api/filtros/search?nombre=&categoriaId=&precioMin=&precioMax=&page=1
+2023-11-27T09:20:39.773Z info: Operacion realizada con exito
+2023-11-27T09:20:39.801Z info: Operacion realizada con exito
+2023-11-27T09:26:59.538Z info: Received a GET request for /api/usuarios/null
+2023-11-27T09:26:59.556Z info: Received a GET request for /api/categorias
+2023-11-27T09:26:59.558Z info: Received a GET request for /api/filtros/search?nombre=&categoriaId=&precioMin=&precioMax=&page=1
+2023-11-27T09:26:59.561Z info: Received a GET request for /api/usuarios/null
+2023-11-27T09:26:59.563Z info: Received a GET request for /api/categorias
+2023-11-27T09:26:59.565Z info: Received a GET request for /api/filtros/search?nombre=&categoriaId=&precioMin=&precioMax=&page=1
+2023-11-27T09:27:01.185Z info: Operacion realizada con exito
+2023-11-27T09:27:01.192Z error: invalid input syntax for type integer: "null"
+2023-11-27T09:27:01.205Z error: invalid input syntax for type integer: "null"
+2023-11-27T09:27:01.210Z info: Operacion realizada con exito
+2023-11-27T09:30:26.977Z info: Received a GET request for /api/categorias
+2023-11-27T09:30:26.979Z info: Received a GET request for /api/filtros/search?nombre=&categoriaId=&precioMin=&precioMax=&page=2
+2023-11-27T09:30:28.711Z info: Operacion realizada con exito
+2023-11-27T09:30:31.636Z info: Received a GET request for /api/categorias
+2023-11-27T09:30:31.639Z info: Received a GET request for /api/filtros/search?nombre=&categoriaId=&precioMin=&precioMax=&page=3
+2023-11-27T09:30:31.827Z info: Operacion realizada con exito
+2023-11-27T09:30:37.691Z info: Received a GET request for /api/usuarios/null
+2023-11-27T09:30:37.702Z info: Received a GET request for /api/productReviews
+2023-11-27T09:30:37.703Z info: Received a GET request for /api/productos/69
+2023-11-27T09:30:37.706Z info: Received a GET request for /api/productReviews/69
+2023-11-27T09:30:37.718Z info: Received a GET request for /api/usuarios/null
+2023-11-27T09:30:37.721Z info: Received a GET request for /api/productReviews
+2023-11-27T09:30:37.721Z info: Received a GET request for /api/productos/69
+2023-11-27T09:30:37.724Z info: Received a GET request for /api/productReviews/69
+2023-11-27T09:30:37.891Z error: invalid input syntax for type integer: "null"
+2023-11-27T09:30:37.928Z info: Operacion realizada con exito
+2023-11-27T09:30:38.134Z error: invalid input syntax for type integer: "null"
+2023-11-27T09:30:38.281Z info: Operacion realizada con exito
+2023-11-27T09:30:39.957Z info: Received a GET request for /api/usuarios/null
+2023-11-27T09:30:39.960Z info: Received a GET request for /api/reviews
+2023-11-27T09:30:39.980Z info: Received a GET request for /api/usuarios/null
+2023-11-27T09:30:39.988Z info: Received a GET request for /api/reviews
+2023-11-27T09:30:40.163Z error: invalid input syntax for type integer: "null"
+2023-11-27T09:30:40.188Z error: invalid input syntax for type integer: "null"
+2023-11-27T09:44:09.565Z info: Received a GET request for /api/usuarios/null
+2023-11-27T09:44:09.568Z info: Received a GET request for /api/reviews
+2023-11-27T09:44:09.590Z info: Received a GET request for /api/usuarios/null
+2023-11-27T09:44:09.592Z info: Received a GET request for /api/reviews
+2023-11-27T09:44:10.281Z info: Received a GET request for /api/usuarios/null
+2023-11-27T09:44:10.292Z info: Received a GET request for /api/categorias
+2023-11-27T09:44:10.293Z info: Received a GET request for /api/filtros/search?nombre=&categoriaId=&precioMin=&precioMax=&page=1
+2023-11-27T09:44:10.295Z info: Received a GET request for /api/usuarios/null
+2023-11-27T09:44:10.299Z info: Received a GET request for /api/categorias
+2023-11-27T09:44:11.419Z error: invalid input syntax for type integer: "null"
+2023-11-27T09:44:11.424Z error: invalid input syntax for type integer: "null"
+2023-11-27T09:44:11.427Z info: Received a GET request for /api/filtros/search?nombre=&categoriaId=&precioMin=&precioMax=&page=1
+2023-11-27T09:44:11.617Z info: Operacion realizada con exito
+2023-11-27T09:44:11.620Z error: invalid input syntax for type integer: "null"
+2023-11-27T09:44:11.814Z error: invalid input syntax for type integer: "null"
+2023-11-27T09:44:11.817Z info: Operacion realizada con exito
+2023-11-27T09:46:42.063Z info: Received a GET request for /api/usuarios/null
+2023-11-27T09:46:42.068Z info: Received a GET request for /api/categorias
+2023-11-27T09:46:42.070Z info: Received a GET request for /api/filtros/search?nombre=&categoriaId=&precioMin=&precioMax=&page=1
+2023-11-27T09:46:42.074Z info: Received a GET request for /api/usuarios/null
+2023-11-27T09:46:42.078Z info: Received a GET request for /api/categorias
+2023-11-27T09:46:42.079Z info: Received a GET request for /api/filtros/search?nombre=&categoriaId=&precioMin=&precioMax=&page=1
+2023-11-27T09:46:43.617Z error: invalid input syntax for type integer: "null"
+2023-11-27T09:46:43.638Z info: Operacion realizada con exito
+2023-11-27T09:46:43.689Z info: Operacion realizada con exito
+2023-11-27T09:46:43.691Z error: invalid input syntax for type integer: "null"
+2023-11-27T10:00:02.016Z info: Received a GET request for /api/auth/google
+2023-11-27T10:00:11.044Z info: Received a GET request for /api/auth/success
+2023-11-27T10:00:28.668Z info: Received a GET request for /api/usuarios/null
+2023-11-27T10:00:28.686Z info: Received a GET request for /api/categorias
+2023-11-27T10:00:28.697Z info: Received a GET request for /api/filtros/search?nombre=&categoriaId=&precioMin=&precioMax=&page=1
+2023-11-27T10:00:28.704Z info: Received a GET request for /api/usuarios/null
+2023-11-27T10:00:28.708Z info: Received a GET request for /api/categorias
+2023-11-27T10:00:28.714Z info: Received a GET request for /api/filtros/search?nombre=&categoriaId=&precioMin=&precioMax=&page=1
+2023-11-27T10:00:30.224Z error: invalid input syntax for type integer: "null"
+2023-11-27T10:00:30.240Z info: Operacion realizada con exito
+2023-11-27T10:00:30.264Z error: invalid input syntax for type integer: "null"
+2023-11-27T10:00:30.268Z info: Operacion realizada con exito
+2023-11-27T10:00:37.584Z info: Received a GET request for /api/auth/success
+2023-11-27T10:01:20.931Z info: Received a GET request for /api/usuarios/null
+2023-11-27T10:01:20.955Z info: Received a GET request for /api/categorias
+2023-11-27T10:01:20.958Z info: Received a GET request for /api/filtros/search?nombre=&categoriaId=&precioMin=&precioMax=&page=1
+2023-11-27T10:01:20.979Z info: Received a GET request for /api/usuarios/null
+2023-11-27T10:01:20.993Z info: Received a GET request for /api/categorias
+2023-11-27T10:01:20.995Z info: Received a GET request for /api/filtros/search?nombre=&categoriaId=&precioMin=&precioMax=&page=1
+2023-11-27T10:01:21.144Z error: invalid input syntax for type integer: "null"
+2023-11-27T10:01:21.341Z info: Operacion realizada con exito
+2023-11-27T10:01:21.725Z error: invalid input syntax for type integer: "null"
+2023-11-27T10:01:21.916Z info: Operacion realizada con exito
+2023-11-27T10:01:25.716Z info: Received a GET request for /api/auth/google
+2023-11-27T10:02:29.783Z info: Received a GET request for /api/usuarios/null
+2023-11-27T10:02:29.807Z info: Received a GET request for /api/categorias
+2023-11-27T10:02:29.814Z info: Received a GET request for /api/filtros/search?nombre=&categoriaId=&precioMin=&precioMax=&page=1
+2023-11-27T10:02:29.821Z info: Received a GET request for /api/usuarios/null
+2023-11-27T10:02:29.825Z info: Received a GET request for /api/categorias
+2023-11-27T10:02:29.831Z info: Received a GET request for /api/filtros/search?nombre=&categoriaId=&precioMin=&precioMax=&page=1
+2023-11-27T10:02:30.000Z error: invalid input syntax for type integer: "null"
+2023-11-27T10:02:30.197Z info: Operacion realizada con exito
+2023-11-27T10:02:30.583Z error: invalid input syntax for type integer: "null"
+2023-11-27T10:02:30.771Z info: Operacion realizada con exito
+2023-11-27T10:02:35.420Z info: Received a GET request for /api/auth/google
+2023-11-27T10:02:38.433Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXlcAaQxpNABnlZkYVhWf5fuv7rHfAYclieyoz-8pkLfxDVRBcUnWx7bQrqm7sgBGw&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=0&prompt=consent
+2023-11-27T10:02:39.907Z info: Received a GET request for /api/usuarios/null
+2023-11-27T10:02:39.912Z info: Received a GET request for /api/favoritos/90
+2023-11-27T10:02:39.923Z info: Received a GET request for /api/carrito/90
+2023-11-27T10:02:39.935Z info: Received a GET request for /api/reviews
+2023-11-27T10:02:39.941Z info: Received a GET request for /api/favoritos/90
+2023-11-27T10:02:39.947Z info: Received a GET request for /api/favoritos/90
+2023-11-27T10:02:40.117Z error: invalid input syntax for type integer: "null"
+2023-11-27T10:02:40.121Z info: Received a GET request for /api/usuarios/90
+2023-11-27T10:02:40.134Z info: Received a GET request for /api/carrito/90
+2023-11-27T10:02:40.152Z info: Received a GET request for /api/reviews
+2023-11-27T10:02:40.168Z info: Operacion realizada con exito
+2023-11-27T10:02:40.331Z info: Operacion realizada con exito
+2023-11-27T10:02:44.502Z info: Received a GET request for /api/auth/success
+2023-11-27T10:02:45.381Z info: Received a GET request for /api/auth/success
+2023-11-27T10:02:45.789Z info: Received a GET request for /api/auth/success
+2023-11-27T10:02:45.972Z info: Received a GET request for /api/auth/success
+2023-11-27T10:02:46.139Z info: Received a GET request for /api/auth/success
+2023-11-27T10:02:46.308Z info: Received a GET request for /api/auth/success
+2023-11-27T10:02:46.459Z info: Received a GET request for /api/auth/success
+2023-11-27T10:02:46.627Z info: Received a GET request for /api/auth/success
+2023-11-27T10:02:46.807Z info: Received a GET request for /api/auth/success
+2023-11-27T10:05:18.154Z info: Received a GET request for /api/usuarios/null
+2023-11-27T10:05:18.172Z info: Received a GET request for /api/reviews
+2023-11-27T10:05:18.180Z info: Received a GET request for /api/usuarios/null
+2023-11-27T10:05:18.189Z info: Received a GET request for /api/reviews
+2023-11-27T10:05:18.366Z error: invalid input syntax for type integer: "null"
+2023-11-27T10:05:18.370Z error: req.session.touch is not a function
+2023-11-27T10:05:18.755Z error: invalid input syntax for type integer: "null"
+2023-11-27T10:05:18.757Z error: req.session.touch is not a function
+2023-11-27T10:05:20.774Z info: Received a GET request for /api/auth/google
+2023-11-27T10:05:41.266Z info: Received a GET request for /api/usuarios/null
+2023-11-27T10:05:41.269Z info: Received a GET request for /api/reviews
+2023-11-27T10:05:41.280Z info: Received a GET request for /api/usuarios/null
+2023-11-27T10:05:41.290Z info: Received a GET request for /api/reviews
+2023-11-27T10:05:42.813Z error: invalid input syntax for type integer: "null"
+2023-11-27T10:05:42.815Z error: req.session.touch is not a function
+2023-11-27T10:05:42.816Z error: invalid input syntax for type integer: "null"
+2023-11-27T10:05:42.817Z error: req.session.touch is not a function
+2023-11-27T10:05:51.693Z info: Received a GET request for /api/auth/google
+2023-11-27T10:06:24.450Z info: Received a GET request for /api/usuarios/null
+2023-11-27T10:06:24.463Z info: Received a GET request for /api/reviews
+2023-11-27T10:06:24.476Z info: Received a GET request for /api/usuarios/null
+2023-11-27T10:06:24.481Z info: Received a GET request for /api/reviews
+2023-11-27T10:06:26.236Z error: invalid input syntax for type integer: "null"
+2023-11-27T10:06:26.237Z error: req.session.touch is not a function
+2023-11-27T10:06:26.268Z error: invalid input syntax for type integer: "null"
+2023-11-27T10:06:26.270Z error: req.session.touch is not a function
+2023-11-27T10:06:30.057Z info: Received a GET request for /api/auth/google
+2023-11-27T10:08:00.246Z info: Received a GET request for /api/auth/google
+2023-11-27T10:08:04.964Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXlRxCFk5185UGz0a9gP-WMBsS3Rh-b_jeN4GFMKIYf95RdSfWyzj1m36OTd4f-jaA&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=0&prompt=consent
+2023-11-27T10:08:10.998Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXlRxCFk5185UGz0a9gP-WMBsS3Rh-b_jeN4GFMKIYf95RdSfWyzj1m36OTd4f-jaA&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=0&prompt=consent
+2023-11-27T10:08:15.869Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXkL65QMDqrCWcJcKCTS1rEmFIflH60HGbhn9iJKFMqo3TD6GDx8U29poYBu7poS7w&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=0&prompt=consent
+2023-11-27T10:08:17.276Z info: Received a GET request for /api/auth/success
+2023-11-27T10:08:17.938Z info: Received a GET request for /api/auth/success
+2023-11-27T10:08:18.362Z info: Received a GET request for /api/auth/success
+2023-11-27T10:09:43.571Z info: Received a GET request for /api/auth/google
+2023-11-27T10:09:48.553Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXmDNAAWGG05MJ2i9cwDwvBWoV2X46ffTBxju_rsT5LsIKVPQg-tWECQyuhcTIdshw&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=0&prompt=consent
+2023-11-27T10:11:57.355Z info: Received a GET request for /api/auth/google
+2023-11-27T10:12:01.183Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXkVgC0Z6-I9gYssWAd6e0pFJbf57vuhJ1LwgOgIVNnLadHI1a84y50bkKvTWI3HuA&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=0&prompt=consent
+2023-11-27T10:12:45.452Z info: Received a GET request for /api/auth/google
+2023-11-27T10:12:48.566Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXmW0ruIzbCqw_ebjD_Qm_d2aYfuRBNGdaFhlf0sI_cfbfxU8R7daxpbkDu8LCloIA&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=0&prompt=consent
+2023-11-27T10:13:49.812Z info: Received a GET request for /api/auth/google
+2023-11-27T10:13:53.169Z info: Received a GET request for /api/auth/google
+2023-11-27T10:14:11.718Z info: Received a GET request for /api/auth/google
+2023-11-27T10:14:14.936Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXnqNJhpv3jPhVgZFCIbQesytIRmzJfj5D_p7QMMD0tfCwHZIiSoS2y99r35QeWsGQ&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=0&prompt=consent
+2023-11-27T10:14:16.739Z info: Received a GET request for /api/usuarios/null
+2023-11-27T10:14:16.746Z info: Received a GET request for /api/reviews
+2023-11-27T10:14:16.836Z info: Received a GET request for /api/usuarios/null
+2023-11-27T10:14:16.842Z info: Received a GET request for /api/reviews
+2023-11-27T10:14:16.939Z error: invalid input syntax for type integer: "null"
+2023-11-27T10:14:17.345Z error: invalid input syntax for type integer: "null"
+2023-11-27T10:14:21.813Z info: Received a GET request for /api/auth/success
+2023-11-27T10:15:30.395Z info: Received a GET request for /api/auth/google
+2023-11-27T10:15:33.858Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXnCoAG_soP9BOCDBZQA7_mbzbMpbfwN08Xychv--VgDAU0q2XXaZo9FaPtYI0gGgw&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=0&prompt=consent
+2023-11-27T10:15:35.823Z info: Received a GET request for /api/usuarios/null
+2023-11-27T10:15:35.828Z info: Received a GET request for /api/reviews
+2023-11-27T10:15:35.840Z info: Received a GET request for /api/usuarios/null
+2023-11-27T10:15:35.844Z info: Received a GET request for /api/reviews
+2023-11-27T10:15:36.030Z error: invalid input syntax for type integer: "null"
+2023-11-27T10:15:36.424Z error: invalid input syntax for type integer: "null"
+2023-11-27T10:15:43.630Z info: Received a GET request for /api/auth/success
+2023-11-27T10:17:38.483Z info: Received a GET request for /api/auth/google
+2023-11-27T10:17:41.706Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXkQRgGDwm3lygAVKhxOpnAbuH0id6Nh6HnUvxoAGltypMkav5WbPSl26UI3F5XHgw&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=0&prompt=consent
+2023-11-27T10:17:43.865Z info: Received a GET request for /api/usuarios/null
+2023-11-27T10:17:43.876Z info: Received a GET request for /api/reviews
+2023-11-27T10:17:43.879Z info: Received a GET request for /api/usuarios/null
+2023-11-27T10:17:43.883Z info: Received a GET request for /api/reviews
+2023-11-27T10:17:44.073Z error: invalid input syntax for type integer: "null"
+2023-11-27T10:17:44.471Z error: invalid input syntax for type integer: "null"
+2023-11-27T10:17:49.955Z info: Received a GET request for /api/auth/success
+2023-11-27T10:20:08.553Z info: Received a GET request for /api/auth/google
+2023-11-27T10:20:11.765Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXmkkwiHgU0AI6ZeMl8ff5jjFCfnOumgy1dpLScNN_pHc589uFu0xcqX_UGhoZd60Q&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=0&prompt=consent
+2023-11-27T10:20:15.112Z info: Received a GET request for /api/usuarios/null
+2023-11-27T10:20:15.116Z info: Received a GET request for /api/reviews
+2023-11-27T10:20:15.130Z info: Received a GET request for /api/usuarios/null
+2023-11-27T10:20:15.135Z info: Received a GET request for /api/reviews
+2023-11-27T10:20:15.317Z error: invalid input syntax for type integer: "null"
+2023-11-27T10:20:15.702Z error: invalid input syntax for type integer: "null"
+2023-11-27T10:20:21.549Z info: Received a GET request for /api/auth/success
+2023-11-27T10:22:12.955Z info: Received a GET request for /api/auth/google
+2023-11-27T10:23:14.739Z info: Received a GET request for /api/auth/google
+2023-11-27T10:23:43.439Z info: Received a GET request for /api/auth/google
+2023-11-27T10:23:47.144Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXkHRpgViNwu84vMurrveZy2aU8Kn_2S8B9XOF1Vucd23SeEfUNhyHhr3Cv5dJQ_4Q&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=0&prompt=consent
+2023-11-27T10:28:47.062Z info: Received a GET request for /api/usuarios/null
+2023-11-27T10:28:48.640Z error: invalid input syntax for type integer: "null"
+2023-11-27T10:28:57.396Z info: Received a GET request for /api/auth/google
+2023-11-27T10:29:00.734Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXlPHOnIsi1tGKgSYJAy_ToKO13f5BDTiumJgFJ9A-Tok36rlSnJJkcs1Hfmk9JTPw&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=0&prompt=consent
+2023-11-27T10:29:04.090Z info: Received a GET request for /api/usuarios/null
+2023-11-27T10:29:04.101Z info: Received a GET request for /api/reviews
+2023-11-27T10:29:04.118Z info: Received a GET request for /api/auth/success
+2023-11-27T10:29:04.163Z info: Received a GET request for /api/usuarios/null
+2023-11-27T10:29:04.169Z info: Received a GET request for /api/reviews
+2023-11-27T10:29:04.293Z error: invalid input syntax for type integer: "null"
+2023-11-27T10:29:04.678Z error: invalid input syntax for type integer: "null"
+2023-11-27T10:29:05.251Z info: Received a GET request for /api/auth/success
+2023-11-27T10:29:06.144Z info: Received a GET request for /api/auth/success
+2023-11-27T10:29:06.809Z info: Received a GET request for /api/auth/success
+2023-11-27T10:29:07.313Z info: Received a GET request for /api/auth/success
+2023-11-27T10:29:08.129Z info: Received a GET request for /api/auth/success
+2023-11-27T10:30:23.311Z info: Received a GET request for /api/auth/google
+2023-11-27T10:30:26.475Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXmH8IL49lz7oH6mYpO9Xe9tE1YxZetGtUvXoxPAtWe-0aoZsNTYLt9AWYco_TbGWA&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=0&prompt=consent
+2023-11-27T10:30:29.909Z info: Received a GET request for /api/usuarios/null
+2023-11-27T10:30:29.915Z info: Received a GET request for /api/reviews
+2023-11-27T10:30:30.039Z info: Received a GET request for /api/usuarios/null
+2023-11-27T10:30:30.046Z info: Received a GET request for /api/reviews
+2023-11-27T10:30:30.127Z error: invalid input syntax for type integer: "null"
+2023-11-27T10:30:30.530Z error: invalid input syntax for type integer: "null"
+2023-11-27T10:30:33.011Z info: Received a GET request for /api/auth/success
+2023-11-27T10:30:51.154Z info: Received a GET request for /api/auth/success
+2023-11-27T10:32:39.354Z info: Received a GET request for /api/auth/google
+2023-11-27T10:32:43.612Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXkR4IOJ0XVYCgpfT5_OKEKubu0GzjJEegPmB3vFeigjLndRWU6xFAcQuBh3PkBt-A&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=0&prompt=consent
+2023-11-27T10:32:46.919Z info: Received a GET request for /api/usuarios/null
+2023-11-27T10:32:46.965Z info: Received a GET request for /api/reviews
+2023-11-27T10:32:46.997Z info: Received a GET request for /api/usuarios/null
+2023-11-27T10:32:47.002Z info: Received a GET request for /api/reviews
+2023-11-27T10:32:47.169Z error: invalid input syntax for type integer: "null"
+2023-11-27T10:32:47.552Z error: invalid input syntax for type integer: "null"
+2023-11-27T10:32:51.979Z info: Received a GET request for /api/auth/success
+2023-11-27T10:32:52.976Z info: Received a GET request for /api/auth/success
+2023-11-27T10:32:53.449Z info: Received a GET request for /api/auth/success
+2023-11-27T10:32:53.665Z info: Received a GET request for /api/auth/success
+2023-11-27T10:32:53.873Z info: Received a GET request for /api/auth/success
+2023-11-27T10:32:54.033Z info: Received a GET request for /api/auth/success
+2023-11-27T10:32:54.211Z info: Received a GET request for /api/auth/success
+2023-11-27T10:32:54.386Z info: Received a GET request for /api/auth/success
+2023-11-27T10:32:54.553Z info: Received a GET request for /api/auth/success
+2023-11-27T10:32:54.719Z info: Received a GET request for /api/auth/success
+2023-11-27T10:32:54.880Z info: Received a GET request for /api/auth/success
+2023-11-27T10:32:55.076Z info: Received a GET request for /api/auth/success
+2023-11-27T10:39:28.459Z info: Received a GET request for /api/auth/google
+2023-11-27T10:39:31.779Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXnwtlmSa6XGSFS0FJx8hcTuSGK7APxR2O_krgOd6eGlbWy9Yz1JK9AAazUOPtkdoA&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=0&prompt=consent
+2023-11-27T10:39:33.745Z info: Received a GET request for /api/auth/success
+2023-11-27T10:39:34.014Z info: Received a GET request for /api/usuarios/null
+2023-11-27T10:39:34.019Z info: Received a GET request for /api/reviews
+2023-11-27T10:39:34.027Z info: Received a GET request for /api/usuarios/null
+2023-11-27T10:39:34.033Z info: Received a GET request for /api/reviews
+2023-11-27T10:39:34.208Z error: invalid input syntax for type integer: "null"
+2023-11-27T10:39:34.583Z error: invalid input syntax for type integer: "null"
+2023-11-27T10:39:35.066Z info: Received a GET request for /api/auth/success
+2023-11-27T10:39:35.658Z info: Received a GET request for /api/auth/success
+2023-11-27T10:39:35.986Z info: Received a GET request for /api/auth/success
+2023-11-27T10:39:36.177Z info: Received a GET request for /api/auth/success
+2023-11-27T10:39:36.344Z info: Received a GET request for /api/auth/success
+2023-11-27T10:39:36.537Z info: Received a GET request for /api/auth/success
+2023-11-27T10:39:36.720Z info: Received a GET request for /api/auth/success
+2023-11-27T10:39:36.890Z info: Received a GET request for /api/auth/success
+2023-11-27T10:39:37.064Z info: Received a GET request for /api/auth/success
+2023-11-27T10:39:37.257Z info: Received a GET request for /api/auth/success
+2023-11-27T10:39:37.424Z info: Received a GET request for /api/auth/success
+2023-11-27T10:39:37.594Z info: Received a GET request for /api/auth/success
+2023-11-27T10:39:37.762Z info: Received a GET request for /api/auth/success
+2023-11-27T10:39:37.936Z info: Received a GET request for /api/auth/success
+2023-11-27T10:39:38.103Z info: Received a GET request for /api/auth/success
+2023-11-27T10:39:38.303Z info: Received a GET request for /api/auth/success
+2023-11-27T10:39:38.448Z info: Received a GET request for /api/auth/success
+2023-11-27T10:40:25.772Z info: Received a GET request for /api/auth/google
+2023-11-27T10:40:29.004Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXnQlwbvedpVs3kTBMLgORsSK0r8pZMhq-GTj5yqlPpYnCutx1mrbqMydvS4Dc54ZA&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=0&prompt=consent
+2023-11-27T10:40:31.670Z info: Received a POST request for /api/auth/success
+2023-11-27T10:40:59.762Z info: Received a POST request for /api/auth/success
+2023-11-27T10:44:23.597Z info: Received a GET request for /api/auth/google
+2023-11-27T10:44:26.674Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXkAjh2dbRMkTDrYij0Akn4ptODe7vjNH6Fk9WZOtdOCGwQHTMqb1wMy__yzYuNUVQ&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=0&prompt=consent
+2023-11-27T10:44:30.043Z info: Received a GET request for /api/usuarios/null
+2023-11-27T10:44:30.047Z info: Received a GET request for /api/reviews
+2023-11-27T10:44:30.152Z info: Received a GET request for /api/usuarios/null
+2023-11-27T10:44:30.155Z info: Received a GET request for /api/reviews
+2023-11-27T10:44:30.250Z error: invalid input syntax for type integer: "null"
+2023-11-27T10:44:30.649Z error: invalid input syntax for type integer: "null"
+2023-11-27T10:44:38.299Z info: Received a POST request for /api/auth/success
+2023-11-27T10:44:41.034Z info: Received a GET request for /api/auth/success
+2023-11-27T10:50:32.571Z info: Received a GET request for /api/auth/google
+2023-11-27T10:50:35.757Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXlm27SSyzI2Y1P1qX4OhxV6QX7GEsvhArFsNxRmNAmIxtlx_8z2AM7vrWrzuGoPZQ&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=0&prompt=consent
+2023-11-27T10:50:39.179Z info: Received a GET request for /api/usuarios/null
+2023-11-27T10:50:39.191Z info: Received a GET request for /api/usuarios/null
+2023-11-27T10:50:39.198Z info: Received a GET request for /api/reviews
+2023-11-27T10:50:39.203Z info: Received a GET request for /api/reviews
+2023-11-27T10:50:39.380Z error: invalid input syntax for type integer: "null"
+2023-11-27T10:50:39.573Z error: invalid input syntax for type integer: "null"
+2023-11-27T10:50:40.442Z info: Received a GET request for /api/auth/success
+2023-11-27T10:50:41.160Z info: Received a GET request for /api/auth/success
+2023-11-27T10:50:41.392Z info: Received a GET request for /api/auth/success
+2023-11-27T10:50:41.567Z info: Received a GET request for /api/auth/success
+2023-11-27T10:50:41.759Z info: Received a GET request for /api/auth/success
+2023-11-27T10:50:41.951Z info: Received a GET request for /api/auth/success
+2023-11-27T10:50:42.128Z info: Received a GET request for /api/auth/success
+2023-11-27T10:50:42.303Z info: Received a GET request for /api/auth/success
+2023-11-27T10:50:42.480Z info: Received a GET request for /api/auth/success
+2023-11-27T10:50:42.653Z info: Received a GET request for /api/auth/success
+2023-11-27T10:50:42.825Z info: Received a GET request for /api/auth/success
+2023-11-27T10:50:43.000Z info: Received a GET request for /api/auth/success
+2023-11-27T10:50:43.190Z info: Received a GET request for /api/auth/success
+2023-11-27T10:50:43.374Z info: Received a GET request for /api/auth/success
+2023-11-27T10:50:43.551Z info: Received a GET request for /api/auth/success
+2023-11-27T10:50:43.726Z info: Received a GET request for /api/auth/success
+2023-11-27T10:50:43.896Z info: Received a GET request for /api/auth/success
+2023-11-27T10:50:44.070Z info: Received a GET request for /api/auth/success
+2023-11-27T10:50:44.254Z info: Received a GET request for /api/auth/success
+2023-11-27T10:53:21.201Z info: Received a GET request for /api/auth/success
+2023-11-27T10:53:29.803Z info: Received a GET request for /api/auth/google
+2023-11-27T10:53:32.794Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXnbAizGeeYJ8PXut_oZX9VBAUQ6j4In8chDjWriQBKDdNlSuwTaEAYsIa4ZsQw3_Q&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=0&prompt=consent
+2023-11-27T10:53:35.656Z info: Received a GET request for /api/usuarios/null
+2023-11-27T10:53:35.661Z info: Received a GET request for /api/reviews
+2023-11-27T10:53:35.693Z info: Received a GET request for /api/usuarios/null
+2023-11-27T10:53:35.696Z info: Received a GET request for /api/reviews
+2023-11-27T10:53:35.859Z error: invalid input syntax for type integer: "null"
+2023-11-27T10:53:36.242Z error: invalid input syntax for type integer: "null"
+2023-11-27T10:53:37.099Z info: Received a GET request for /api/auth/success
+2023-11-27T10:54:39.287Z info: Received a GET request for /api/auth/google
+2023-11-27T10:54:42.444Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXl-Lpm1G0NeiKivSUBHOHAPDS-D4NIqwdbE88EktFS_d97-SVE2OuoaLPa8KEC4fg&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=0&prompt=consent
+2023-11-27T10:54:44.534Z info: Received a GET request for /api/usuarios/null
+2023-11-27T10:54:44.541Z info: Received a GET request for /api/reviews
+2023-11-27T10:54:44.549Z info: Received a GET request for /api/usuarios/null
+2023-11-27T10:54:44.553Z info: Received a GET request for /api/reviews
+2023-11-27T10:54:44.750Z error: invalid input syntax for type integer: "null"
+2023-11-27T10:54:45.142Z error: invalid input syntax for type integer: "null"
+2023-11-27T10:54:48.286Z info: Received a GET request for /api/auth/success
+2023-11-27T10:55:28.334Z info: Received a GET request for /api/auth/google
+2023-11-27T10:55:31.758Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXkr-l4M8p6_w34fNzdu_yGshqDAw_M4vxtWrFiKIJin-ENsHN_L1E3Y6eIE3dyjKw&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=0&prompt=consent
+2023-11-27T10:55:32.566Z info: Received a GET request for /api/auth/success
+2023-11-27T10:55:34.020Z info: Received a GET request for /api/usuarios/null
+2023-11-27T10:55:34.024Z info: Received a GET request for /api/usuarios/null
+2023-11-27T10:55:34.030Z info: Received a GET request for /api/reviews
+2023-11-27T10:55:34.036Z info: Received a GET request for /api/reviews
+2023-11-27T10:55:34.221Z error: invalid input syntax for type integer: "null"
+2023-11-27T10:55:34.417Z error: invalid input syntax for type integer: "null"
+2023-11-27T10:55:34.755Z info: Received a GET request for /api/auth/success
+2023-11-27T10:55:35.529Z info: Received a GET request for /api/auth/success
+2023-11-27T10:55:36.269Z info: Received a GET request for /api/auth/success
+2023-11-27T10:55:36.815Z info: Received a GET request for /api/auth/success
+2023-11-27T10:55:37.392Z info: Received a GET request for /api/auth/success
+2023-11-27T10:55:55.224Z info: Received a GET request for /api/auth/callback
+2023-11-27T11:01:27.837Z info: Received a GET request for /api/auth/google
+2023-11-27T11:01:31.513Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXlDUh3_H9P1HJWt3DZXtvqDhfyOFwZzg8IDuNi8Ba0d5cQOCSy2wWY_XmztCWuSfA&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=0&prompt=consent
+2023-11-27T11:01:35.630Z info: Received a GET request for /api/usuarios/null
+2023-11-27T11:01:35.635Z info: Received a GET request for /api/reviews
+2023-11-27T11:01:35.705Z info: Received a GET request for /api/usuarios/null
+2023-11-27T11:01:35.710Z info: Received a GET request for /api/reviews
+2023-11-27T11:01:35.843Z error: invalid input syntax for type integer: "null"
+2023-11-27T11:01:36.233Z error: invalid input syntax for type integer: "null"
+2023-11-27T11:01:39.197Z info: Received a GET request for /api/auth/callback
+2023-11-27T11:01:50.354Z info: Received a GET request for /api/auth/success
+2023-11-27T11:19:13.866Z info: Received a GET request for /api/auth/google
+2023-11-27T11:19:16.988Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXmLykBvTUvDQt1H7Ct9VAYMLJ8Sk6CkaizXmtPVRRiG7h9dGz5ikNGvUxcX_m6_Bg&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=0&prompt=consent
+2023-11-27T11:19:21.186Z info: Received a GET request for /success
+2023-11-27T11:20:11.455Z info: Received a GET request for /api/auth/success
+2023-11-27T11:20:12.431Z info: Received a GET request for /api/auth/success
+2023-11-27T11:20:19.132Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXkos_4oLsVPxNnyh1X5JqRDv-4Ys6nyksrOrtHl5HWvvvsLn1t5cRS9elzEO_NSpg&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=0&prompt=consent
+2023-11-27T11:20:19.969Z info: Received a GET request for /api/auth/api/auth/success
+2023-11-27T11:20:31.039Z info: Received a GET request for /api/auth/success
+2023-11-27T11:20:55.612Z info: Received a GET request for /api/auth/google
+2023-11-27T11:21:00.489Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXmyIHzei8mIQnKAeleJ2HVO3_WmRERxqQQ_fONKtKCoeq1xm9d_8AOtW07mcyJfjg&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=0&prompt=consent
+2023-11-27T11:21:01.326Z info: Received a GET request for /success
+2023-11-27T11:21:39.666Z info: Received a GET request for /api/reviews
+2023-11-27T11:21:47.974Z info: Received a GET request for /api/auth/google
+2023-11-27T11:21:51.333Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXlAa9kPyTCpPz-7Y-C0eSE88dPDWYHbVpA8Up2zhuuerKp7yxaKkkWSfjA0iIzI5Q&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=0&prompt=consent
+2023-11-27T11:21:54.646Z info: Received a GET request for /api/usuarios/null
+2023-11-27T11:21:54.651Z info: Received a GET request for /api/reviews
+2023-11-27T11:21:54.711Z info: Received a GET request for /api/usuarios/null
+2023-11-27T11:21:54.716Z info: Received a GET request for /api/reviews
+2023-11-27T11:21:54.847Z error: invalid input syntax for type integer: "null"
+2023-11-27T11:21:55.235Z error: invalid input syntax for type integer: "null"
+2023-11-27T11:22:08.648Z info: Received a GET request for /api/auth/success
+2023-11-27T11:22:14.439Z info: Received a GET request for /api/auth/success
+2023-11-27T11:23:44.571Z info: Received a GET request for /api/auth/google
+2023-11-27T11:23:47.798Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXnJWZ_x_wrYGLFDKOr7BXISyY-MXXs2grP7rTfGFLVipSKc5bvU2LTAAfSUgJmrOg&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=0&prompt=consent
+2023-11-27T11:23:51.327Z info: Received a GET request for /api/usuarios/null
+2023-11-27T11:23:51.335Z info: Received a GET request for /api/reviews
+2023-11-27T11:23:51.383Z info: Received a GET request for /api/usuarios/null
+2023-11-27T11:23:51.386Z info: Received a GET request for /api/reviews
+2023-11-27T11:23:51.534Z error: invalid input syntax for type integer: "null"
+2023-11-27T11:23:51.932Z error: invalid input syntax for type integer: "null"
+2023-11-27T11:23:55.714Z info: Received a GET request for /api/auth/success
+2023-11-27T11:25:28.175Z info: Received a GET request for /api/auth/google
+2023-11-27T11:25:31.170Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXkhcSTUOc6JKUuycxs-gJF9FkHdEGXZO1lhwiLiFawcYOOx3DH-zxnbkXwyTIoDvA&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=0&prompt=consent
+2023-11-27T11:25:33.159Z info: Received a GET request for /api/usuarios/null
+2023-11-27T11:25:33.176Z info: Received a GET request for /api/reviews
+2023-11-27T11:25:33.180Z info: Received a GET request for /api/usuarios/null
+2023-11-27T11:25:33.185Z info: Received a GET request for /api/reviews
+2023-11-27T11:25:33.391Z error: invalid input syntax for type integer: "null"
+2023-11-27T11:25:33.783Z error: invalid input syntax for type integer: "null"
+2023-11-27T11:25:38.657Z info: Received a GET request for /api/auth/success
+2023-11-27T11:26:33.272Z info: Received a GET request for /api/auth/success
+2023-11-27T11:27:14.984Z info: Received a GET request for /api/auth/success
+2023-11-27T11:28:15.363Z info: Received a GET request for /api/auth/success
+2023-11-27T11:28:19.351Z info: Received a GET request for /api/auth/success
+2023-11-27T11:28:44.645Z info: Received a GET request for /api/auth/success
+2023-11-27T11:29:19.690Z info: Received a GET request for /api/auth/google
+2023-11-27T11:29:22.904Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXlfZybe-l35c9axg063fMzv6ljhFvfe4S3KwYxjYxieZH_BgBH8X5xPcWDWOVBytw&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=0&prompt=consent
+2023-11-27T11:29:26.297Z info: Received a GET request for /api/usuarios/null
+2023-11-27T11:29:26.302Z info: Received a GET request for /api/reviews
+2023-11-27T11:29:26.348Z info: Received a GET request for /api/usuarios/null
+2023-11-27T11:29:26.354Z info: Received a GET request for /api/reviews
+2023-11-27T11:29:26.498Z error: invalid input syntax for type integer: "null"
+2023-11-27T11:29:26.885Z error: invalid input syntax for type integer: "null"
+2023-11-27T11:48:45.303Z info: Received a GET request for /api/auth/success
+2023-11-27T11:48:51.350Z info: Received a GET request for /api/auth/success
+2023-11-27T11:49:11.025Z info: Received a GET request for /api/auth/google
+2023-11-27T11:49:14.570Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXnOgFx5uWD9TduQUK1lSnY9gYNRSOAK5meyJLBxZLqqNOOaNsIqkk9zjWMJnD-v1g&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=0&prompt=consent
+2023-11-27T11:49:18.106Z info: Received a GET request for /api/usuarios/null
+2023-11-27T11:49:18.111Z info: Received a GET request for /api/reviews
+2023-11-27T11:49:18.118Z info: Received a GET request for /api/usuarios/null
+2023-11-27T11:49:18.124Z info: Received a GET request for /api/reviews
+2023-11-27T11:49:18.312Z error: invalid input syntax for type integer: "null"
+2023-11-27T11:49:18.317Z info: Received a GET request for /api/auth/success
+2023-11-27T11:49:18.695Z error: invalid input syntax for type integer: "null"
+2023-11-27T11:49:20.805Z info: Received a GET request for /api/auth/success
+2023-11-27T11:49:59.732Z info: Received a GET request for /api/auth/success
+2023-11-27T11:50:19.333Z info: Received a GET request for /api/auth/success
+2023-11-27T11:50:19.939Z info: Received a GET request for /api/auth/success
+2023-11-27T11:50:48.707Z info: Received a GET request for /api/auth/success
+2023-11-27T11:51:15.756Z info: Received a GET request for /api/auth/success
+2023-11-27T11:51:23.388Z info: Received a GET request for /api/auth/google
+2023-11-27T11:51:26.608Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXnJ0g4F0BtvxDBh96i1UQvheSY67oEfLGg0xT4fK1BmQs7HkjzXyjqpLYcS6aJa2Q&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=0&prompt=consent
+2023-11-27T11:51:29.828Z info: Received a GET request for /api/usuarios/null
+2023-11-27T11:51:29.837Z info: Received a GET request for /api/reviews
+2023-11-27T11:51:29.864Z info: Received a GET request for /api/usuarios/null
+2023-11-27T11:51:29.868Z info: Received a GET request for /api/reviews
+2023-11-27T11:51:30.030Z error: invalid input syntax for type integer: "null"
+2023-11-27T11:51:30.406Z error: invalid input syntax for type integer: "null"
+2023-11-27T11:51:37.078Z info: Received a GET request for /api/auth/success
+2023-11-27T11:54:30.325Z info: Received a GET request for /api/auth/success
+2023-11-27T11:59:07.976Z info: Received a GET request for /api/usuarios/null
+2023-11-27T11:59:07.982Z info: Received a GET request for /api/reviews
+2023-11-27T11:59:08.165Z info: Received a GET request for /api/usuarios/null
+2023-11-27T11:59:08.177Z info: Received a GET request for /api/reviews
+2023-11-27T11:59:12.083Z error: invalid input syntax for type integer: "null"
+2023-11-27T11:59:12.091Z error: invalid input syntax for type integer: "null"
+2023-11-27T12:08:18.912Z info: Received a GET request for /api/auth/google
+2023-11-27T12:08:23.474Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXkdROR-eVgMp0KsDw9bMfBqtCdmux-9JFDMD7us4RwAqRGUOqkrdeoULioZ76r-dw&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=0&prompt=consent
+2023-11-27T12:08:25.880Z info: Received a GET request for /api/usuarios/null
+2023-11-27T12:08:25.886Z info: Received a GET request for /api/reviews
+2023-11-27T12:08:25.894Z info: Received a GET request for /api/usuarios/null
+2023-11-27T12:08:25.897Z info: Received a GET request for /api/reviews
+2023-11-27T12:08:26.086Z error: invalid input syntax for type integer: "null"
+2023-11-27T12:08:26.472Z error: invalid input syntax for type integer: "null"
+2023-11-27T12:08:32.022Z info: Received a GET request for /api/auth/success
+2023-11-27T12:08:36.057Z info: Received a GET request for /api/auth/success
+2023-11-27T12:09:45.556Z info: Received a GET request for /api/auth/google
+2023-11-27T12:09:49.259Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXky3NDxsrmFZG_b2yXGCBT0SU7huo9BT_QBpJlSSEQhLfxd3uckIzsZFd4KOhn0dQ&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=0&prompt=consent
+2023-11-27T12:09:52.485Z info: Received a GET request for /api/usuarios/null
+2023-11-27T12:09:52.490Z info: Received a GET request for /api/reviews
+2023-11-27T12:09:52.528Z info: Received a GET request for /api/usuarios/null
+2023-11-27T12:09:52.594Z info: Received a GET request for /api/reviews
+2023-11-27T12:09:52.684Z error: invalid input syntax for type integer: "null"
+2023-11-27T12:09:53.066Z error: invalid input syntax for type integer: "null"
+2023-11-27T12:09:53.331Z info: Received a GET request for /api/auth/success
+2023-11-27T12:09:54.817Z info: Received a GET request for /api/auth/success
+2023-11-27T12:09:55.930Z info: Received a GET request for /api/auth/success
+2023-11-27T12:09:58.202Z info: Received a GET request for /api/auth/success
+2023-11-27T12:09:59.754Z info: Received a GET request for /api/auth/success
+2023-11-27T12:10:21.250Z info: Received a GET request for /api/auth/success
+2023-11-27T12:10:49.103Z info: Received a GET request for /api/auth/success
+2023-11-27T12:10:50.842Z info: Received a GET request for /api/auth/success
+2023-11-27T12:11:02.838Z info: Received a GET request for /api/auth/google
+2023-11-27T12:11:06.347Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXn_WXXRdKx0Bcwl4iApW2_ORdfKyuOIbMoTdgJlhkFgrrQuvVbI8J5v-8ZJ7SOtCw&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=0&prompt=consent
+2023-11-27T12:11:09.753Z info: Received a GET request for /api/usuarios/null
+2023-11-27T12:11:09.756Z info: Received a GET request for /api/reviews
+2023-11-27T12:11:09.761Z info: Received a GET request for /api/usuarios/null
+2023-11-27T12:11:09.766Z info: Received a GET request for /api/reviews
+2023-11-27T12:11:09.951Z error: invalid input syntax for type integer: "null"
+2023-11-27T12:11:10.341Z error: invalid input syntax for type integer: "null"
+2023-11-27T12:11:13.752Z info: Received a GET request for /api/auth/success
+2023-11-27T12:11:30.770Z info: Received a GET request for /api/auth/success
+2023-11-27T12:14:30.254Z info: Received a GET request for /api/auth/google
+2023-11-27T12:14:33.580Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXmNa53mS6qbwq7fkxBNJpMTR7QbFE-H45gZtLOMGcbu2KA9Xopui7JaZbDdk1OGMA&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=0&prompt=consent
+2023-11-27T12:14:35.643Z info: Received a GET request for /api/usuarios/null
+2023-11-27T12:14:35.650Z info: Received a GET request for /api/reviews
+2023-11-27T12:14:35.660Z info: Received a GET request for /api/usuarios/null
+2023-11-27T12:14:35.665Z info: Received a GET request for /api/reviews
+2023-11-27T12:14:35.845Z error: invalid input syntax for type integer: "null"
+2023-11-27T12:14:36.231Z error: invalid input syntax for type integer: "null"
+2023-11-27T12:14:41.290Z info: Received a GET request for /api/auth/success
+2023-11-27T12:15:03.266Z info: Received a GET request for /api/auth/success
+2023-11-27T12:15:03.897Z info: Received a GET request for /api/auth/success
+2023-11-27T12:15:04.089Z info: Received a GET request for /api/auth/success
+2023-11-27T12:15:04.272Z info: Received a GET request for /api/auth/success
+2023-11-27T12:15:04.449Z info: Received a GET request for /api/auth/success
+2023-11-27T12:15:04.624Z info: Received a GET request for /api/auth/success
+2023-11-27T12:15:04.775Z info: Received a GET request for /api/auth/success
+2023-11-27T12:15:04.943Z info: Received a GET request for /api/auth/success
+2023-11-27T12:15:05.121Z info: Received a GET request for /api/auth/success
+2023-11-27T12:15:05.295Z info: Received a GET request for /api/auth/success
+2023-11-27T12:15:05.455Z info: Received a GET request for /api/auth/success
+2023-11-27T12:15:05.608Z info: Received a GET request for /api/auth/success
+2023-11-27T12:15:05.791Z info: Received a GET request for /api/auth/success
+2023-11-27T12:15:05.968Z info: Received a GET request for /api/auth/success
+2023-11-27T12:15:06.143Z info: Received a GET request for /api/auth/success
+2023-11-27T12:15:06.312Z info: Received a GET request for /api/auth/success
+2023-11-27T12:17:21.975Z info: Received a GET request for /api/auth/google
+2023-11-27T12:17:25.984Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXk6_dQnlh0-g3IP0KrtwmoqadIKX9F1bb_M61VPa49yuTdR0H5Ju_YsWZmzY0DP8g&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=0&prompt=consent
+2023-11-27T12:17:29.296Z info: Received a GET request for /api/usuarios/null
+2023-11-27T12:17:29.339Z info: Received a GET request for /api/reviews
+2023-11-27T12:17:29.347Z info: Received a GET request for /api/usuarios/null
+2023-11-27T12:17:29.355Z info: Received a GET request for /api/reviews
+2023-11-27T12:17:29.539Z error: invalid input syntax for type integer: "null"
+2023-11-27T12:17:29.932Z error: invalid input syntax for type integer: "null"
+2023-11-27T12:17:34.646Z info: Received a GET request for /api/auth/success
+2023-11-27T12:18:16.652Z info: Received a GET request for /api/productos/69
+2023-11-27T12:18:20.510Z info: Operacion realizada con exito
+2023-11-27T12:18:28.648Z info: Received a GET request for /api/auth/success
+2023-11-27T12:28:53.729Z info: Received a GET request for /api/auth/success
+2023-11-27T12:29:03.012Z info: Received a GET request for /api/auth/google
+2023-11-27T12:29:06.170Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXkp52N-LyTVtJM0CbqwlgECRSdO4g8KTT3tklKCmlUjxgCCYhbAkdGHyq7SnLcFVA&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=0&prompt=consent
+2023-11-27T12:29:09.659Z info: Received a GET request for /api/reviews
+2023-11-27T12:29:09.666Z info: Received a GET request for /api/usuarios/null
+2023-11-27T12:29:09.670Z info: Received a GET request for /api/reviews
+2023-11-27T12:29:09.673Z info: Received a GET request for /api/usuarios/null
+2023-11-27T12:29:10.065Z error: invalid input syntax for type integer: "null"
+2023-11-27T12:29:10.447Z error: invalid input syntax for type integer: "null"
+2023-11-27T12:29:12.289Z info: Received a GET request for /api/auth/success
+2023-11-27T12:30:11.930Z info: Received a GET request for /api/usuarios/null
+2023-11-27T12:30:11.957Z info: Received a GET request for /api/reviews
+2023-11-27T12:30:11.964Z info: Received a GET request for /api/usuarios/null
+2023-11-27T12:30:11.969Z info: Received a GET request for /api/reviews
+2023-11-27T12:30:12.155Z error: invalid input syntax for type integer: "null"
+2023-11-27T12:30:12.542Z error: invalid input syntax for type integer: "null"
+2023-11-27T12:30:17.241Z info: Received a GET request for /api/auth/google
+2023-11-27T12:30:20.826Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXljb5IMpIEMf4O0RZbhO1Pj25czzDl8OZcI3-elYAw1HKFbEwc0cZELXrxJFCBKzw&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=0&prompt=consent
+2023-11-27T12:30:22.720Z info: Received a GET request for /api/usuarios/null
+2023-11-27T12:30:22.724Z info: Received a GET request for /api/reviews
+2023-11-27T12:30:22.745Z info: Received a GET request for /api/usuarios/null
+2023-11-27T12:30:22.825Z info: Received a GET request for /api/reviews
+2023-11-27T12:30:22.931Z error: invalid input syntax for type integer: "null"
+2023-11-27T12:30:22.952Z error: invalid input syntax for type integer: "null"
+2023-11-27T12:30:32.935Z info: Received a GET request for /api/auth/success
+2023-11-27T12:31:07.358Z info: Received a GET request for /api/auth/success
+2023-11-27T12:31:55.074Z info: Received a GET request for /api/auth/google
+2023-11-27T12:31:58.633Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXl1QC9Q7dVx3opDYCgSqxxFlK_t1wYkBeJuXMrJC3RcsrEufEoGfcdJejVqgd2U1A&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=0&prompt=consent
+2023-11-27T12:32:00.923Z info: Received a GET request for /api/usuarios/null
+2023-11-27T12:32:00.932Z info: Received a GET request for /api/usuarios/null
+2023-11-27T12:32:00.936Z info: Received a GET request for /api/reviews
+2023-11-27T12:32:00.943Z info: Received a GET request for /api/reviews
+2023-11-27T12:32:01.130Z error: invalid input syntax for type integer: "null"
+2023-11-27T12:32:01.331Z error: invalid input syntax for type integer: "null"
+2023-11-27T12:32:11.658Z info: Received a GET request for /api/auth/success
+2023-11-27T12:32:18.818Z info: Received a GET request for /api/auth/google
+2023-11-27T12:32:21.832Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXkvFqPWU_GZ3-nUhbd-NM6wsTk7urECoUq42UTOFXjJVssmeq3zdLUcLM8d1o0MAQ&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=0&prompt=consent
+2023-11-27T12:32:25.252Z info: Received a GET request for /api/usuarios/null
+2023-11-27T12:32:25.256Z info: Received a GET request for /api/reviews
+2023-11-27T12:32:25.265Z info: Received a GET request for /api/usuarios/null
+2023-11-27T12:32:25.269Z info: Received a GET request for /api/reviews
+2023-11-27T12:32:25.454Z error: invalid input syntax for type integer: "null"
+2023-11-27T12:32:25.841Z error: invalid input syntax for type integer: "null"
+2023-11-27T12:33:44.073Z info: Received a GET request for /api/auth/success
+2023-11-27T12:33:52.323Z info: Received a GET request for /api/auth/google
+2023-11-27T12:33:55.367Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXm2uo2pgBGNGot7M78u__VCkVHTaI-fWFr0HJ3lBrgHI0ZAVPmmk2sRWbA9TRFAtA&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=0&prompt=consent
+2023-11-27T12:33:58.737Z info: Received a GET request for /api/reviews
+2023-11-27T12:33:58.741Z info: Received a GET request for /api/usuarios/null
+2023-11-27T12:33:58.747Z info: Received a GET request for /api/usuarios/null
+2023-11-27T12:33:58.755Z info: Received a GET request for /api/reviews
+2023-11-27T12:33:59.134Z error: invalid input syntax for type integer: "null"
+2023-11-27T12:33:59.333Z error: invalid input syntax for type integer: "null"
+2023-11-27T12:34:17.105Z info: Received a GET request for /api/usuarios/null
+2023-11-27T12:34:17.124Z info: Received a GET request for /api/reviews
+2023-11-27T12:34:17.215Z info: Received a GET request for /api/usuarios/null
+2023-11-27T12:34:17.225Z info: Received a GET request for /api/reviews
+2023-11-27T12:34:18.617Z error: invalid input syntax for type integer: "null"
+2023-11-27T12:34:18.722Z error: invalid input syntax for type integer: "null"
+2023-11-27T12:34:22.550Z info: Received a GET request for /api/auth/google
+2023-11-27T12:34:25.347Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXmAZFlWeqKHKU4DKoa9DGuoqJdttg8YgIqrEL0_vEbUaH733uXH-f_O41_5YS_2Fw&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=0&prompt=consent
+2023-11-27T12:34:26.715Z info: Received a GET request for /api/usuarios/null
+2023-11-27T12:34:26.721Z info: Received a GET request for /api/reviews
+2023-11-27T12:34:26.758Z info: Received a GET request for /api/usuarios/null
+2023-11-27T12:34:26.761Z info: Received a GET request for /api/reviews
+2023-11-27T12:34:26.922Z error: invalid input syntax for type integer: "null"
+2023-11-27T12:34:26.956Z error: invalid input syntax for type integer: "null"
+2023-11-27T12:35:24.965Z info: Received a GET request for /api/auth/google
+2023-11-27T12:35:29.155Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXmucoKtOHx4CemU5lv4dRKL25OMwX9WrqDCq4juxsf729MEodda69rscp07ptjlYA&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=0&prompt=consent
+2023-11-27T12:35:31.146Z info: Received a GET request for /api/usuarios/null
+2023-11-27T12:35:31.151Z info: Received a GET request for /api/reviews
+2023-11-27T12:35:31.160Z info: Received a GET request for /api/usuarios/null
+2023-11-27T12:35:31.170Z info: Received a GET request for /api/reviews
+2023-11-27T12:35:31.360Z error: invalid input syntax for type integer: "null"
+2023-11-27T12:35:31.757Z error: invalid input syntax for type integer: "null"
+2023-11-27T12:36:19.222Z info: Received a GET request for /api/auth/google
+2023-11-27T12:36:22.530Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXkXFy3BRahiau3cffz1yjFxazkqiOls1oO43zy83SowQcFQaTvpJ5szFN1nwIIP6w&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=0&prompt=consent
+2023-11-27T12:36:24.600Z info: Received a GET request for /api/usuarios/null
+2023-11-27T12:36:24.608Z info: Received a GET request for /api/usuarios/null
+2023-11-27T12:36:24.612Z info: Received a GET request for /api/reviews
+2023-11-27T12:36:24.622Z info: Received a GET request for /api/reviews
+2023-11-27T12:36:24.812Z error: invalid input syntax for type integer: "null"
+2023-11-27T12:36:25.016Z error: invalid input syntax for type integer: "null"
+2023-11-27T12:36:30.692Z info: Received a GET request for /api/auth/success
+2023-11-27T12:37:48.526Z info: Received a GET request for /api/auth/google
+2023-11-27T12:37:51.698Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXkSgmdiYp9Zt0-rFYQX3bMoR8F2CQHmp5sTrK0x9EiFiz_a5SIXjsuFejNpDJoi1Q&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=0&prompt=consent
+2023-11-27T12:37:55.375Z info: Received a GET request for /api/usuarios/null
+2023-11-27T12:37:55.381Z info: Received a GET request for /api/reviews
+2023-11-27T12:37:55.390Z info: Received a GET request for /api/usuarios/null
+2023-11-27T12:37:55.394Z info: Received a GET request for /api/reviews
+2023-11-27T12:37:55.587Z error: invalid input syntax for type integer: "null"
+2023-11-27T12:37:55.983Z error: invalid input syntax for type integer: "null"
+2023-11-27T12:37:57.213Z info: Received a GET request for /api/auth/success
+2023-11-27T12:37:57.792Z info: Received a GET request for /api/auth/success
+2023-11-27T12:37:58.055Z info: Received a GET request for /api/auth/success
+2023-11-27T12:37:58.249Z info: Received a GET request for /api/auth/success
+2023-11-27T12:37:58.457Z info: Received a GET request for /api/auth/success
+2023-11-27T12:37:58.791Z info: Received a GET request for /api/auth/success
+2023-11-27T12:37:58.992Z info: Received a GET request for /api/auth/success
+2023-11-27T12:37:59.183Z info: Received a GET request for /api/auth/success
+2023-11-27T12:37:59.368Z info: Received a GET request for /api/auth/success
+2023-11-27T12:37:59.542Z info: Received a GET request for /api/auth/success
+2023-11-27T12:37:59.769Z info: Received a GET request for /api/auth/success
+2023-11-27T12:37:59.989Z info: Received a GET request for /api/auth/success
+2023-11-27T12:38:00.168Z info: Received a GET request for /api/auth/success
+2023-11-27T12:38:00.377Z info: Received a GET request for /api/auth/success
+2023-11-27T12:38:00.566Z info: Received a GET request for /api/auth/success
+2023-11-27T12:38:00.751Z info: Received a GET request for /api/auth/success
+2023-11-27T12:38:00.928Z info: Received a GET request for /api/auth/success
+2023-11-27T12:38:01.120Z info: Received a GET request for /api/auth/success
+2023-11-27T12:38:01.279Z info: Received a GET request for /api/auth/success
+2023-11-27T12:38:01.479Z info: Received a GET request for /api/auth/success
+2023-11-27T12:38:01.638Z info: Received a GET request for /api/auth/success
+2023-11-27T12:38:01.831Z info: Received a GET request for /api/auth/success
+2023-11-27T12:38:02.007Z info: Received a GET request for /api/auth/success
+2023-11-27T12:39:46.256Z info: Received a GET request for /api/auth/google
+2023-11-27T12:39:49.473Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXktLTdaYokse-aOkS-PQAt_QicgzI9_LViCUYLZiRyJmcSIK5hIx1AB4mvXpoJ9HQ&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=0&prompt=consent
+2023-11-27T12:39:52.887Z info: Received a GET request for /api/usuarios/null
+2023-11-27T12:39:52.894Z info: Received a GET request for /api/reviews
+2023-11-27T12:39:52.903Z info: Received a GET request for /api/usuarios/null
+2023-11-27T12:39:52.907Z info: Received a GET request for /api/reviews
+2023-11-27T12:39:53.099Z error: invalid input syntax for type integer: "null"
+2023-11-27T12:39:53.501Z error: invalid input syntax for type integer: "null"
+2023-11-27T12:40:00.642Z info: Received a GET request for /api/auth/success
+2023-11-27T12:40:08.053Z info: Received a GET request for /api/auth/success
+2023-11-27T12:40:08.999Z info: Received a GET request for /api/auth/success
+2023-11-27T12:40:09.423Z info: Received a GET request for /api/auth/success
+2023-11-27T12:40:09.622Z info: Received a GET request for /api/auth/success
+2023-11-27T12:40:09.846Z info: Received a GET request for /api/auth/success
+2023-11-27T12:40:10.049Z info: Received a GET request for /api/auth/success
+2023-11-27T12:40:10.262Z info: Received a GET request for /api/auth/success
+2023-11-27T12:40:10.471Z info: Received a GET request for /api/auth/success
+2023-11-27T12:40:10.662Z info: Received a GET request for /api/auth/success
+2023-11-27T12:40:10.839Z info: Received a GET request for /api/auth/success
+2023-11-27T12:40:11.045Z info: Received a GET request for /api/auth/success
+2023-11-27T12:40:11.255Z info: Received a GET request for /api/auth/success
+2023-11-27T12:40:11.461Z info: Received a GET request for /api/auth/success
+2023-11-27T12:40:11.639Z info: Received a GET request for /api/auth/success
+2023-11-27T12:40:11.856Z info: Received a GET request for /api/auth/success
+2023-11-27T12:40:12.038Z info: Received a GET request for /api/auth/success
+2023-11-27T12:40:12.230Z info: Received a GET request for /api/auth/success
+2023-11-27T12:40:12.422Z info: Received a GET request for /api/auth/success
+2023-11-27T12:40:12.621Z info: Received a GET request for /api/auth/success
+2023-11-27T12:40:12.830Z info: Received a GET request for /api/auth/success
+2023-11-27T12:40:13.021Z info: Received a GET request for /api/auth/success
+2023-11-27T12:40:13.187Z info: Received a GET request for /api/auth/success
+2023-11-27T12:40:13.382Z info: Received a GET request for /api/auth/success
+2023-11-27T12:40:13.549Z info: Received a GET request for /api/auth/success
+2023-11-27T12:40:13.742Z info: Received a GET request for /api/auth/success
+2023-11-27T12:40:13.917Z info: Received a GET request for /api/auth/success
+2023-11-27T20:38:55.124Z info: Received a GET request for /api/usuarios/null
+2023-11-27T20:38:55.147Z info: Received a GET request for /api/reviews
+2023-11-27T20:38:55.163Z info: Received a GET request for /api/usuarios/null
+2023-11-27T20:38:55.166Z info: Received a GET request for /api/reviews
+2023-11-27T20:38:55.342Z error: invalid input syntax for type integer: "null"
+2023-11-27T20:38:55.731Z error: invalid input syntax for type integer: "null"
+2023-11-27T20:38:57.621Z info: Received a GET request for /api/auth/google
+2023-11-27T20:39:00.866Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXmAF5QYdUYriWy0N1f7Hj-qo5ZOnyspYTLEZjLik9Jm0CunayEVzHt91uJmrlZRSw&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=0&prompt=consent
+2023-11-27T20:39:02.772Z info: Received a GET request for /api/usuarios/null
+2023-11-27T20:39:02.779Z info: Received a GET request for /api/reviews
+2023-11-27T20:39:02.782Z info: Received a GET request for /api/usuarios/null
+2023-11-27T20:39:02.785Z info: Received a GET request for /api/reviews
+2023-11-27T20:39:02.994Z error: invalid input syntax for type integer: "null"
+2023-11-27T20:39:02.997Z error: invalid input syntax for type integer: "null"
+2023-11-27T20:39:11.530Z info: Received a GET request for /api/auth/google
+2023-11-27T20:39:15.306Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXn_YS0tLYJ8P-KEL6oESk7KcCymMCaSbuxerjP1H3aZhsmclGI7clMjPoZP_VjW3A&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=0&prompt=consent
+2023-11-27T20:39:18.158Z info: Received a GET request for /api/usuarios/null
+2023-11-27T20:39:18.186Z info: Received a GET request for /api/usuarios/null
+2023-11-27T20:39:18.190Z info: Received a GET request for /api/reviews
+2023-11-27T20:39:18.355Z error: invalid input syntax for type integer: "null"
+2023-11-27T20:39:18.514Z info: Received a GET request for /api/reviews
+2023-11-27T20:39:18.553Z error: invalid input syntax for type integer: "null"
+2023-11-27T20:45:18.932Z info: Received a GET request for /api/auth/google
+2023-11-27T20:45:22.020Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXmOHt-wwQZyzTNOEKHyJBTA5gExKltfCKl63coh5bZrXSsDcbxD6WJp6NH4aybrbA&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=0&prompt=consent
+2023-11-27T20:45:25.346Z info: Received a GET request for /api/usuarios/null
+2023-11-27T20:45:25.351Z info: Received a GET request for /api/reviews
+2023-11-27T20:45:25.356Z info: Received a GET request for /api/usuarios/null
+2023-11-27T20:45:25.365Z info: Received a GET request for /api/reviews
+2023-11-27T20:45:25.546Z error: invalid input syntax for type integer: "null"
+2023-11-27T20:45:25.934Z error: invalid input syntax for type integer: "null"
+2023-11-27T22:49:09.231Z info: Received a GET request for /api/usuarios/null
+2023-11-27T22:49:09.254Z info: Received a GET request for /api/reviews
+2023-11-27T22:49:09.259Z info: Received a GET request for /api/usuarios/null
+2023-11-27T22:49:09.264Z info: Received a GET request for /api/reviews
+2023-11-27T22:49:09.454Z error: invalid input syntax for type integer: "null"
+2023-11-27T22:49:09.871Z error: invalid input syntax for type integer: "null"
+2023-11-27T22:49:16.804Z info: Received a GET request for /api/auth/google
+2023-11-27T22:49:34.452Z info: Received a GET request for /api/auth/google
+2023-11-27T22:50:02.732Z info: Received a GET request for /api/usuarios/null
+2023-11-27T22:50:02.735Z info: Received a GET request for /api/reviews
+2023-11-27T22:50:02.742Z info: Received a GET request for /api/usuarios/null
+2023-11-27T22:50:02.746Z info: Received a GET request for /api/reviews
+2023-11-27T22:50:04.479Z error: invalid input syntax for type integer: "null"
+2023-11-27T22:50:04.491Z error: invalid input syntax for type integer: "null"
+2023-11-27T22:50:24.953Z info: Received a GET request for /api/auth/google
+2023-11-27T22:50:28.875Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXnfdQnKAyRyQoV3wl87nuNxfpUcp37_lHmYajaPoBhfibW3LcRIk24bk6NaglFUxQ&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=0&prompt=consent
+2023-11-27T22:55:03.363Z info: Received a GET request for /api/usuarios/null
+2023-11-27T22:55:03.385Z info: Received a GET request for /api/reviews
+2023-11-27T22:55:03.595Z error: invalid input syntax for type integer: "null"
+2023-11-27T22:55:10.396Z info: Received a GET request for /api/auth/google
+2023-11-27T22:55:14.029Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXnSsglMOo3XUoPwp7CHLc8EZLOIrLFJFQJUgkGymP622AR9HDTPBB_g8l6WtUQIIg&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=0&prompt=consent
+2023-11-27T22:55:18.503Z info: Received a GET request for /api/usuarios/null
+2023-11-27T22:55:18.507Z info: Received a GET request for /api/reviews
+2023-11-27T22:55:18.510Z info: Received a GET request for /api/usuarios/null
+2023-11-27T22:55:18.516Z info: Received a GET request for /api/reviews
+2023-11-27T22:55:18.716Z error: invalid input syntax for type integer: "null"
+2023-11-27T22:55:19.107Z error: invalid input syntax for type integer: "null"
+2023-11-27T22:56:14.153Z info: Received a GET request for /api/auth/google
+2023-11-27T22:56:18.847Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXn-IIPzHQ5b17lRhCbBZPa5sondXr5YLu4GAwPINo1rsMtaDzFXiGrwzCINaIQ9XQ&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=0&prompt=consent
+2023-11-27T22:56:56.375Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXm8u-YhN2lud1J5RablK5YXuXBhO8-u9EpBYatusyvgQNqV0F091iSBbE7Ysxvh2A&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=0&prompt=consent
+2023-11-27T22:56:58.439Z info: Received a GET request for /api/usuarios/null
+2023-11-27T22:56:58.443Z info: Received a GET request for /api/reviews
+2023-11-27T22:56:58.447Z info: Received a GET request for /api/usuarios/null
+2023-11-27T22:56:58.452Z info: Received a GET request for /api/reviews
+2023-11-27T22:56:58.645Z error: invalid input syntax for type integer: "null"
+2023-11-27T22:56:59.049Z error: invalid input syntax for type integer: "null"
+2023-11-27T22:56:59.951Z info: Received a GET request for /api/auth/success
+2023-11-27T22:57:02.408Z info: Received a GET request for /api/auth/success
+2023-11-27T22:57:04.931Z info: Received a POST request for /api/auth/success
+2023-11-27T23:47:12.884Z info: Received a POST request for /api/auth/success
+2023-11-27T23:47:18.352Z info: Received a POST request for /api/auth/goog
+2023-11-27T23:47:25.464Z info: Received a GET request for /api/auth/google
+2023-11-27T23:47:52.644Z info: Received a GET request for /api/auth/callback
+2023-11-27T23:48:11.408Z info: Received a GET request for /api/auth/success
+2023-11-27T23:48:33.240Z info: Received a POST request for /api/auth/success
+2023-11-27T23:48:34.684Z info: Received a POST request for /api/auth/success
+2023-11-27T23:48:35.069Z info: Received a POST request for /api/auth/success
+2023-11-27T23:48:35.245Z info: Received a POST request for /api/auth/success
+2023-11-27T23:48:35.451Z info: Received a POST request for /api/auth/success
+2023-11-27T23:48:35.614Z info: Received a POST request for /api/auth/success
+2023-11-27T23:48:35.779Z info: Received a POST request for /api/auth/success
+2023-11-27T23:48:35.970Z info: Received a POST request for /api/auth/success
+2023-11-27T23:49:16.366Z info: Received a POST request for /api/auth/success
+2023-11-27T23:49:19.533Z info: Received a POST request for /api/auth/success
+2023-11-27T23:49:19.989Z info: Received a POST request for /api/auth/success
+2023-11-27T23:49:20.268Z info: Received a POST request for /api/auth/success
+2023-11-27T23:49:20.469Z info: Received a POST request for /api/auth/success
+2023-11-27T23:49:20.747Z info: Received a POST request for /api/auth/success
+2023-11-27T23:49:34.129Z info: Received a GET request for /api/usuarios/null
+2023-11-27T23:49:34.153Z info: Received a GET request for /api/reviews
+2023-11-27T23:49:34.185Z info: Received a GET request for /api/usuarios/null
+2023-11-27T23:49:34.188Z info: Received a GET request for /api/reviews
+2023-11-27T23:49:35.730Z error: invalid input syntax for type integer: "null"
+2023-11-27T23:49:35.761Z error: invalid input syntax for type integer: "null"
+2023-11-27T23:49:36.132Z info: Received a GET request for /api/auth/google
+2023-11-27T23:49:39.500Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXmNrtSsJAu3Om1hIDbvlwurcgLF_62U-b6JVbEvB4OpuvslMDLrYfriTuogcO8Fvg&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=0&prompt=consent
+2023-11-27T23:49:41.218Z info: Received a GET request for /api/usuarios/null
+2023-11-27T23:49:41.223Z info: Received a GET request for /api/favoritos/90
+2023-11-27T23:49:41.226Z info: Received a GET request for /api/carrito/90
+2023-11-27T23:49:41.234Z info: Received a GET request for /api/reviews
+2023-11-27T23:49:41.261Z info: Received a GET request for /api/favoritos/90
+2023-11-27T23:49:41.264Z info: Received a GET request for /api/usuarios/90
+2023-11-27T23:49:41.416Z error: invalid input syntax for type integer: "null"
+2023-11-27T23:49:41.420Z info: Received a GET request for /api/favoritos/90
+2023-11-27T23:49:41.435Z info: Received a GET request for /api/carrito/90
+2023-11-27T23:49:41.483Z info: Operacion realizada con exito
+2023-11-27T23:49:41.492Z info: Received a GET request for /api/reviews
+2023-11-27T23:49:41.673Z info: Operacion realizada con exito
+2023-11-27T23:49:42.990Z info: Received a POST request for /api/auth/success
+2023-11-27T23:49:44.790Z info: Received a POST request for /api/auth/success
+2023-11-27T23:49:45.332Z info: Received a POST request for /api/auth/success
+2023-11-27T23:49:45.677Z info: Received a POST request for /api/auth/success
+2023-11-27T23:49:45.964Z info: Received a POST request for /api/auth/success
+2023-11-27T23:49:46.164Z info: Received a POST request for /api/auth/success
+2023-11-27T23:49:46.356Z info: Received a POST request for /api/auth/success
+2023-11-27T23:49:46.530Z info: Received a POST request for /api/auth/success
+2023-11-27T23:49:46.699Z info: Received a POST request for /api/auth/success
+2023-11-27T23:49:46.859Z info: Received a POST request for /api/auth/success
+2023-11-28T00:19:28.909Z info: Received a GET request for /api/usuarios/null
+2023-11-28T00:19:28.933Z info: Received a GET request for /api/reviews
+2023-11-28T00:19:28.950Z info: Received a GET request for /api/usuarios/null
+2023-11-28T00:19:28.957Z info: Received a GET request for /api/reviews
+2023-11-28T00:19:29.127Z error: invalid input syntax for type integer: "null"
+2023-11-28T00:19:29.522Z error: invalid input syntax for type integer: "null"
+2023-11-28T00:19:31.355Z info: Received a GET request for /api/auth/google
+2023-11-28T00:19:34.763Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXmI2Ok6LWPw3Uoa6E48ks4zG5v38TRj5vahFZaIm8Tg8kfuxggYnn_ghhjFXjAfEg&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=0&prompt=consent
+2023-11-28T00:19:36.226Z info: Received a GET request for /api/usuarios/null
+2023-11-28T00:19:36.231Z info: Received a GET request for /api/favoritos/90
+2023-11-28T00:19:36.237Z info: Received a GET request for /api/carrito/90
+2023-11-28T00:19:36.241Z info: Received a GET request for /api/reviews
+2023-11-28T00:19:36.275Z info: Received a GET request for /api/favoritos/90
+2023-11-28T00:19:36.284Z info: Received a GET request for /api/usuarios/90
+2023-11-28T00:19:36.450Z error: invalid input syntax for type integer: "null"
+2023-11-28T00:19:36.459Z info: Received a GET request for /api/favoritos/90
+2023-11-28T00:19:36.463Z info: Received a GET request for /api/carrito/90
+2023-11-28T00:19:38.468Z info: Operacion realizada con exito
+2023-11-28T00:19:38.478Z info: Received a GET request for /api/reviews
+2023-11-28T00:19:38.655Z info: Operacion realizada con exito
+2023-11-28T00:19:38.740Z info: Received a POST request for /api/auth/success
+2023-11-28T00:19:40.058Z info: Received a POST request for /api/auth/success
+2023-11-28T00:19:40.793Z info: Received a POST request for /api/auth/success
+2023-11-28T00:19:41.370Z info: Received a POST request for /api/auth/success
+2023-11-28T00:19:41.626Z info: Received a POST request for /api/auth/success
+2023-11-28T00:19:41.785Z info: Received a POST request for /api/auth/success
+2023-11-28T00:19:41.977Z info: Received a POST request for /api/auth/success
+2023-11-28T00:20:34.145Z info: Received a POST request for /api/auth/success
+2023-11-28T00:20:41.353Z info: Received a GET request for /api/usuarios/null
+2023-11-28T00:20:41.367Z info: Received a GET request for /api/reviews
+2023-11-28T00:20:41.373Z info: Received a GET request for /api/usuarios/null
+2023-11-28T00:20:41.381Z info: Received a GET request for /api/reviews
+2023-11-28T00:20:41.560Z error: invalid input syntax for type integer: "null"
+2023-11-28T00:20:41.938Z error: invalid input syntax for type integer: "null"
+2023-11-28T00:20:55.627Z info: Received a GET request for /api/auth/google
+2023-11-28T00:20:58.670Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXkbO0i1eE4Ed5BXOhbRp06aPu3Xmk-mlpleKEeyIz3dCumRpACayP37f29uuj1-Ig&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=0&prompt=consent
+2023-11-28T00:21:01.944Z info: Received a GET request for /api/usuarios/null
+2023-11-28T00:21:01.974Z info: Received a GET request for /api/favoritos/90
+2023-11-28T00:21:01.979Z info: Received a GET request for /api/carrito/90
+2023-11-28T00:21:01.993Z info: Received a GET request for /api/reviews
+2023-11-28T00:21:01.996Z info: Received a GET request for /api/favoritos/90
+2023-11-28T00:21:01.999Z info: Received a GET request for /api/favoritos/90
+2023-11-28T00:21:02.145Z error: invalid input syntax for type integer: "null"
+2023-11-28T00:21:02.148Z info: Received a GET request for /api/carrito/90
+2023-11-28T00:21:02.343Z info: Received a GET request for /api/reviews
+2023-11-28T00:21:02.525Z info: Operacion realizada con exito
+2023-11-28T00:21:02.528Z info: Received a GET request for /api/usuarios/90
+2023-11-28T00:21:03.259Z info: Operacion realizada con exito
+2023-11-28T00:21:12.547Z info: Received a POST request for /api/auth/success
+2023-11-28T00:22:05.622Z info: Received a GET request for /api/usuarios/null
+2023-11-28T00:22:05.626Z info: Received a GET request for /api/reviews
+2023-11-28T00:22:05.628Z info: Received a GET request for /api/usuarios/null
+2023-11-28T00:22:05.631Z info: Received a GET request for /api/reviews
+2023-11-28T00:22:07.188Z error: invalid input syntax for type integer: "null"
+2023-11-28T00:22:07.245Z error: invalid input syntax for type integer: "null"
+2023-11-28T00:22:08.197Z info: Received a GET request for /api/auth/google
+2023-11-28T00:22:11.485Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXlg6Nn4gcfRZzDBB-G2Ufoh1EButcDVL4SMifwfFKIwoSvgW5PBZACCc0huyt3UDA&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=0&prompt=consent
+2023-11-28T00:22:13.692Z info: Received a GET request for /api/usuarios/null
+2023-11-28T00:22:13.704Z info: Received a GET request for /api/favoritos/90
+2023-11-28T00:22:13.708Z info: Received a GET request for /api/reviews
+2023-11-28T00:22:13.710Z info: Received a GET request for /api/carrito/90
+2023-11-28T00:22:13.780Z info: Received a GET request for /api/favoritos/90
+2023-11-28T00:22:13.783Z info: Received a GET request for /api/favoritos/90
+2023-11-28T00:22:13.915Z error: invalid input syntax for type integer: "null"
+2023-11-28T00:22:13.922Z info: Operacion realizada con exito
+2023-11-28T00:22:13.930Z info: Received a GET request for /api/reviews
+2023-11-28T00:22:13.933Z info: Received a GET request for /api/carrito/90
+2023-11-28T00:22:13.936Z info: Received a GET request for /api/usuarios/90
+2023-11-28T00:22:14.131Z info: Operacion realizada con exito
+2023-11-28T00:23:13.653Z info: Received a GET request for /api/usuarios/null
+2023-11-28T00:23:13.750Z info: Received a GET request for /api/reviews
+2023-11-28T00:23:13.759Z info: Received a GET request for /api/usuarios/null
+2023-11-28T00:23:13.762Z info: Received a GET request for /api/reviews
+2023-11-28T00:23:15.273Z error: invalid input syntax for type integer: "null"
+2023-11-28T00:23:15.308Z error: invalid input syntax for type integer: "null"
+2023-11-28T00:26:59.864Z info: Received a GET request for /api/usuarios/null
+2023-11-28T00:26:59.869Z info: Received a GET request for /api/reviews
+2023-11-28T00:26:59.895Z info: Received a GET request for /api/usuarios/null
+2023-11-28T00:26:59.936Z info: Received a GET request for /api/reviews
+2023-11-28T00:27:01.497Z error: invalid input syntax for type integer: "null"
+2023-11-28T00:27:01.515Z error: invalid input syntax for type integer: "null"
+2023-11-28T00:29:09.518Z info: Received a GET request for /api/auth/google
+2023-11-28T00:33:05.121Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXmdI4gh1GC5elmZz4CgXbWYbMVUOJhkkUbGAj1Sm4VpLVxLRordQof_fL--2BZTaA&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=0&prompt=consent
+2023-11-28T00:33:05.612Z info: Received a GET request for /favicon.ico
+2023-11-28T00:33:07.836Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXmdI4gh1GC5elmZz4CgXbWYbMVUOJhkkUbGAj1Sm4VpLVxLRordQof_fL--2BZTaA&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=0&prompt=consent
+2023-11-28T00:33:20.240Z info: Received a GET request for /api/auth/google
+2023-11-28T00:35:04.272Z info: Received a GET request for /api/auth/google
+2023-11-28T00:37:10.671Z info: Received a GET request for /api/auth/google
+2023-11-28T00:37:15.007Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXnLh5daMk1xoKlvNZKXE3jj57Vu6DXimiMPibj5rW2qgMGhaBjLiOsrtEkrcPcljw&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=0&prompt=consent
+2023-11-28T00:38:56.452Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXnLh5daMk1xoKlvNZKXE3jj57Vu6DXimiMPibj5rW2qgMGhaBjLiOsrtEkrcPcljw&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=0&prompt=consent
+2023-11-28T00:38:56.822Z info: Received a GET request for /favicon.ico
+2023-11-28T00:39:02.235Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXlYPq9a8TJpMcYqsCmW4evwv6-tUfT2MRXUjQbUohZHeUWQoLkELPgE9YLnL-xVGg&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=0&prompt=consent
+2023-11-28T00:39:05.742Z info: Received a GET request for /api/usuarios/null
+2023-11-28T00:39:05.769Z info: Received a GET request for /api/favoritos/90
+2023-11-28T00:39:05.773Z info: Received a GET request for /api/carrito/90
+2023-11-28T00:39:05.779Z info: Received a GET request for /api/favoritos/90
+2023-11-28T00:39:05.785Z info: Received a GET request for /api/reviews
+2023-11-28T00:39:05.790Z info: Received a GET request for /api/usuarios/90
+2023-11-28T00:39:05.949Z error: invalid input syntax for type integer: "null"
+2023-11-28T00:39:05.953Z info: Received a GET request for /api/favoritos/90
+2023-11-28T00:39:06.356Z info: Received a GET request for /api/carrito/90
+2023-11-28T00:39:06.533Z info: Operacion realizada con exito
+2023-11-28T00:39:06.539Z info: Received a GET request for /api/reviews
+2023-11-28T00:39:07.288Z info: Operacion realizada con exito
+2023-11-28T00:39:09.151Z info: Received a GET request for /api/favoritos/90
+2023-11-28T00:39:09.156Z info: Received a GET request for /api/usuarios/90
+2023-11-28T00:39:09.164Z info: Received a GET request for /api/favoritos/90
+2023-11-28T00:39:09.170Z info: Received a GET request for /api/carrito/90
+2023-11-28T00:39:09.173Z info: Received a GET request for /api/favoritos/90
+2023-11-28T00:39:09.180Z info: Received a GET request for /api/categorias
+2023-11-28T00:39:09.184Z info: Received a GET request for /api/filtros/search?nombre=&categoriaId=&precioMin=&precioMax=&page=1
+2023-11-28T00:39:09.192Z info: Received a GET request for /api/favoritos/90
+2023-11-28T00:39:09.194Z info: Received a GET request for /api/usuarios/90
+2023-11-28T00:39:09.362Z info: Received a GET request for /api/favoritos/90
+2023-11-28T00:39:09.366Z info: Received a GET request for /api/filtros/search?nombre=&categoriaId=&precioMin=&precioMax=&page=1
+2023-11-28T00:39:09.387Z info: Operacion realizada con exito
+2023-11-28T00:39:09.392Z info: Received a GET request for /api/carrito/90
+2023-11-28T00:39:09.398Z info: Received a GET request for /api/categorias
+2023-11-28T00:39:09.400Z info: Received a GET request for /api/favoritos/90
+2023-11-28T00:39:09.521Z info: Operacion realizada con exito
+2023-11-28T00:39:09.717Z info: Operacion realizada con exito
+2023-11-28T00:39:09.720Z info: Operacion realizada con exito
+2023-11-28T00:39:16.976Z info: Received a GET request for /api/favoritos/90
+2023-11-28T00:39:16.979Z info: Received a GET request for /api/usuarios/90
+2023-11-28T00:39:16.983Z info: Received a GET request for /api/favoritos/90
+2023-11-28T00:39:16.988Z info: Received a GET request for /api/carrito/90
+2023-11-28T00:39:16.991Z info: Received a GET request for /api/reviews
+2023-11-28T00:39:16.998Z info: Received a GET request for /api/favoritos/90
+2023-11-28T00:39:17.005Z info: Received a GET request for /api/usuarios/90
+2023-11-28T00:39:17.012Z info: Received a GET request for /api/favoritos/90
+2023-11-28T00:39:17.017Z info: Received a GET request for /api/carrito/90
+2023-11-28T00:39:17.162Z info: Received a GET request for /api/reviews
+2023-11-28T00:39:17.183Z info: Operacion realizada con exito
+2023-11-28T00:39:17.358Z info: Operacion realizada con exito
+2023-11-28T01:07:27.233Z info: Received a GET request for /api/usuarios/null
+2023-11-28T01:07:27.244Z info: Received a GET request for /api/reviews
+2023-11-28T01:07:27.259Z info: Received a GET request for /api/usuarios/null
+2023-11-28T01:07:27.263Z info: Received a GET request for /api/reviews
+2023-11-28T01:07:29.142Z error: invalid input syntax for type integer: "null"
+2023-11-28T01:07:29.177Z error: invalid input syntax for type integer: "null"
+2023-11-28T01:07:29.523Z info: Received a GET request for /api/auth/google
+2023-11-28T01:07:34.130Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXkVitGeqGm8wr0bshd5vEPCNNjXEDFLudg9hPSR-TxVzLVSIQExNc9KIqXocQjnxQ&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=0&prompt=consent
+2023-11-28T01:07:36.258Z info: Received a GET request for /api/usuarios/null
+2023-11-28T01:07:36.314Z info: Received a GET request for /api/favoritos/90
+2023-11-28T01:07:36.323Z info: Received a GET request for /api/carrito/90
+2023-11-28T01:07:36.327Z info: Received a GET request for /api/reviews
+2023-11-28T01:07:36.331Z info: Received a GET request for /api/reviews
+2023-11-28T01:07:36.333Z info: Received a GET request for /api/favoritos/90
+2023-11-28T01:07:36.470Z error: invalid input syntax for type integer: "null"
+2023-11-28T01:07:36.474Z info: Received a GET request for /api/usuarios/90
+2023-11-28T01:07:36.521Z info: Received a GET request for /api/favoritos/90
+2023-11-28T01:07:36.584Z info: Operacion realizada con exito
+2023-11-28T01:07:36.588Z info: Received a GET request for /api/carrito/90
+2023-11-28T01:07:36.879Z info: Operacion realizada con exito
+2023-11-28T01:08:25.183Z info: Received a GET request for /api/usuarios/null
+2023-11-28T01:08:25.195Z info: Received a GET request for /api/reviews
+2023-11-28T01:08:25.413Z info: Received a GET request for /api/usuarios/null
+2023-11-28T01:08:25.416Z info: Received a GET request for /api/reviews
+2023-11-28T01:08:26.725Z error: invalid input syntax for type integer: "null"
+2023-11-28T01:08:26.920Z error: invalid input syntax for type integer: "null"
+2023-11-28T01:08:29.414Z info: Received a GET request for /api/auth/google
+2023-11-28T01:08:33.882Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXno3JImlxLCVbpv53_yh0iXyrd37DriUm2OyAYUWopCN63fI3LmdUNKgdnR35GU1g&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=0&prompt=consent
+2023-11-28T01:08:36.324Z info: Received a GET request for /api/usuarios/null
+2023-11-28T01:08:36.376Z info: Received a GET request for /api/favoritos/90
+2023-11-28T01:08:36.382Z info: Received a GET request for /api/carrito/90
+2023-11-28T01:08:36.386Z info: Received a GET request for /api/reviews
+2023-11-28T01:08:36.451Z info: Received a GET request for /api/favoritos/90
+2023-11-28T01:08:36.493Z info: Received a GET request for /api/favoritos/90
+2023-11-28T01:08:36.531Z error: invalid input syntax for type integer: "null"
+2023-11-28T01:08:36.569Z info: Received a GET request for /api/carrito/90
+2023-11-28T01:08:36.591Z info: Operacion realizada con exito
+2023-11-28T01:08:36.788Z info: Received a GET request for /api/usuarios/90
+2023-11-28T01:08:36.888Z info: Received a GET request for /api/reviews
+2023-11-28T01:08:36.917Z info: Operacion realizada con exito
+2023-11-28T01:24:01.922Z info: Received a GET request for /api/usuarios/null
+2023-11-28T01:24:01.927Z info: Received a GET request for /api/usuarios/null
+2023-11-28T01:24:01.931Z info: Received a GET request for /api/reviews
+2023-11-28T01:24:01.933Z info: Received a GET request for /api/reviews
+2023-11-28T01:24:03.544Z error: invalid input syntax for type integer: "null"
+2023-11-28T01:24:03.547Z error: invalid input syntax for type integer: "null"
+2023-11-28T01:24:06.857Z info: Received a GET request for /api/usuarios/null
+2023-11-28T01:24:06.862Z info: Received a GET request for /api/reviews
+2023-11-28T01:24:06.873Z info: Received a GET request for /api/usuarios/null
+2023-11-28T01:24:06.877Z info: Received a GET request for /api/reviews
+2023-11-28T01:24:07.077Z error: invalid input syntax for type integer: "null"
+2023-11-28T01:24:07.080Z error: invalid input syntax for type integer: "null"
+2023-11-28T01:24:13.264Z info: Received a GET request for /api/auth/google
+2023-11-28T01:24:17.007Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXmD81qsJymLW9mU64IWcqLPpncWOYmo9rUDXpQ1tYrCBtn2jB386zzVP5CtZhc3jQ&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=0&prompt=consent
+2023-11-28T01:24:19.431Z info: Received a GET request for /api/usuarios/null
+2023-11-28T01:24:19.436Z info: Received a GET request for /api/favoritos/90
+2023-11-28T01:24:19.476Z info: Received a GET request for /api/carrito/90
+2023-11-28T01:24:19.482Z info: Received a GET request for /api/reviews
+2023-11-28T01:24:19.484Z info: Received a GET request for /api/favoritos/90
+2023-11-28T01:24:19.488Z info: Received a GET request for /api/favoritos/90
+2023-11-28T01:24:19.636Z error: invalid input syntax for type integer: "null"
+2023-11-28T01:24:19.638Z info: Received a GET request for /api/carrito/90
+2023-11-28T01:24:20.046Z info: Received a GET request for /api/reviews
+2023-11-28T01:24:20.274Z info: Operacion realizada con exito
+2023-11-28T01:24:20.278Z info: Received a GET request for /api/usuarios/90
+2023-11-28T01:24:20.978Z info: Operacion realizada con exito
+2023-11-28T01:34:32.746Z info: Received a GET request for /api/favoritos/90
+2023-11-28T01:34:32.750Z info: Received a GET request for /api/usuarios/90
+2023-11-28T01:34:32.753Z info: Received a GET request for /api/favoritos/90
+2023-11-28T01:34:32.769Z info: Received a GET request for /api/carrito/90
+2023-11-28T01:34:32.772Z info: Received a GET request for /api/reviews
+2023-11-28T01:34:32.875Z info: Received a GET request for /api/favoritos/90
+2023-11-28T01:34:33.063Z info: Received a GET request for /api/usuarios/90
+2023-11-28T01:34:33.065Z info: Received a GET request for /api/favoritos/90
+2023-11-28T01:34:34.420Z info: Operacion realizada con exito
+2023-11-28T01:35:54.835Z info: Received a GET request for /api/favoritos/90
+2023-11-28T01:35:54.846Z info: Received a GET request for /api/usuarios/90
+2023-11-28T01:35:54.852Z info: Received a GET request for /api/favoritos/90
+2023-11-28T01:35:54.856Z info: Received a GET request for /api/carrito/90
+2023-11-28T01:35:54.858Z info: Received a GET request for /api/reviews
+2023-11-28T01:35:54.876Z info: Received a GET request for /api/favoritos/90
+2023-11-28T01:35:56.580Z info: Received a GET request for /api/usuarios/90
+2023-11-28T01:35:56.615Z info: Received a GET request for /api/favoritos/90
+2023-11-28T01:35:56.807Z info: Received a GET request for /api/carrito/90
+2023-11-28T01:35:57.154Z info: Received a GET request for /api/reviews
+2023-11-28T01:35:57.160Z info: Operacion realizada con exito
+2023-11-28T01:35:57.341Z info: Operacion realizada con exito
+2023-11-28T01:37:35.448Z info: Received a GET request for /api/usuarios/null
+2023-11-28T01:37:35.450Z info: Received a GET request for /api/reviews
+2023-11-28T01:37:35.478Z info: Received a GET request for /api/usuarios/null
+2023-11-28T01:37:35.518Z info: Received a GET request for /api/reviews
+2023-11-28T01:37:37.129Z error: invalid input syntax for type integer: "null"
+2023-11-28T01:37:37.149Z error: invalid input syntax for type integer: "null"
+2023-11-28T01:37:51.914Z info: Received a GET request for /api/auth/google
+2023-11-28T01:37:54.850Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXnkJhxm8yep7Rmc7yiCReB5bHyk3sBBuQaR2-CDFiHS7neYfCueZfep0mDe1uwyLA&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=0&prompt=consent
+2023-11-28T01:37:58.219Z info: Received a GET request for /api/usuarios/null
+2023-11-28T01:37:58.225Z info: Received a GET request for /api/favoritos/90
+2023-11-28T01:37:58.230Z info: Received a GET request for /api/carrito/90
+2023-11-28T01:37:58.248Z info: Received a GET request for /api/reviews
+2023-11-28T01:37:58.271Z info: Received a GET request for /api/favoritos/90
+2023-11-28T01:37:58.274Z info: Received a GET request for /api/favoritos/90
+2023-11-28T01:37:58.423Z error: invalid input syntax for type integer: "null"
+2023-11-28T01:37:58.426Z info: Received a GET request for /api/carrito/90
+2023-11-28T01:37:58.641Z info: Received a GET request for /api/reviews
+2023-11-28T01:37:58.832Z info: Operacion realizada con exito
+2023-11-28T01:37:58.837Z info: Received a GET request for /api/usuarios/90
+2023-11-28T01:37:59.596Z info: Operacion realizada con exito
+2023-11-28T01:38:19.766Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXnkJhxm8yep7Rmc7yiCReB5bHyk3sBBuQaR2-CDFiHS7neYfCueZfep0mDe1uwyLA&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=0&prompt=consent
+2023-11-28T01:52:26.794Z info: Received a GET request for /api/usuarios/null
+2023-11-28T01:52:26.830Z info: Received a GET request for /api/reviews
+2023-11-28T01:52:26.848Z info: Received a GET request for /api/usuarios/null
+2023-11-28T01:52:26.869Z info: Received a GET request for /api/reviews
+2023-11-28T01:52:31.178Z error: invalid input syntax for type integer: "null"
+2023-11-28T01:52:31.182Z error: invalid input syntax for type integer: "null"
+2023-11-28T01:55:44.272Z info: Received a GET request for /api/usuarios/null
+2023-11-28T01:55:44.386Z info: Received a GET request for /api/reviews
+2023-11-28T01:55:44.453Z info: Received a GET request for /api/usuarios/null
+2023-11-28T01:55:44.456Z info: Received a GET request for /api/reviews
+2023-11-28T01:55:45.888Z error: invalid input syntax for type integer: "null"
+2023-11-28T01:55:46.004Z error: invalid input syntax for type integer: "null"
+2023-11-28T01:55:54.233Z info: Received a GET request for /api/auth/google
+2023-11-28T01:55:57.791Z info: Received a GET request for /api/auth/callback?code=4%2F0AfJohXnJ6c5L5J1yStPK1EunL98QEFXosA8eT2wb_0ukXE1owuB5F_re3exnIUiifbHfQA&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=0&prompt=consent
+2023-11-28T01:56:00.536Z info: Received a GET request for /api/favoritos/90
+2023-11-28T01:56:00.539Z info: Received a GET request for /api/carrito/90
+2023-11-28T01:56:00.544Z info: Received a GET request for /api/favoritos/90
+2023-11-28T01:56:00.546Z info: Received a GET request for /api/usuarios/90
+2023-11-28T01:56:00.550Z info: Received a GET request for /api/favoritos/90
+2023-11-28T01:56:00.552Z info: Received a GET request for /api/carrito/90
+2023-11-28T01:56:00.757Z info: Received a GET request for /api/reviews
+2023-11-28T01:56:00.954Z info: Operacion realizada con exito
+2023-11-28T01:56:00.957Z info: Received a GET request for /api/usuarios/null
+2023-11-28T01:56:01.141Z info: Received a GET request for /api/reviews
+2023-11-28T01:56:01.695Z info: Operacion realizada con exito
+2023-11-28T01:56:02.018Z error: invalid input syntax for type integer: "null"
+2023-11-28T01:56:31.114Z info: Received a GET request for /api/favoritos/90
+2023-11-28T01:56:31.117Z info: Received a GET request for /api/favoritos/90
+2023-11-28T01:56:31.122Z info: Received a GET request for /api/usuarios/90
+2023-11-28T01:56:31.125Z info: Received a GET request for /api/favoritos/90
+2023-11-28T01:56:31.128Z info: Received a GET request for /api/usuarios/90
+2023-11-28T01:56:31.130Z info: Received a GET request for /api/favoritos/90
+2023-11-28T01:56:32.640Z info: Received a GET request for /api/carrito/90
+2023-11-28T01:56:32.651Z info: Received a GET request for /api/reviews
+2023-11-28T01:56:32.662Z info: Received a GET request for /api/carrito/90
+2023-11-28T01:56:32.690Z info: Received a GET request for /api/reviews
+2023-11-28T01:56:32.834Z info: Operacion realizada con exito
+2023-11-28T01:56:32.873Z info: Operacion realizada con exito
+2023-11-28T14:29:48.397Z info: Received a GET request for /api/favoritos/90
+2023-11-28T14:29:48.420Z info: Received a GET request for /api/usuarios/90
+2023-11-28T14:29:48.426Z info: Received a GET request for /api/favoritos/90
+2023-11-28T14:29:48.431Z info: Received a GET request for /api/carrito/90
+2023-11-28T14:29:48.478Z info: Received a GET request for /api/reviews
+2023-11-28T14:29:48.507Z info: Received a GET request for /api/favoritos/90
+2023-11-28T14:29:49.963Z info: Received a GET request for /api/usuarios/90
+2023-11-28T14:29:50.050Z info: Received a GET request for /api/favoritos/90
+2023-11-28T14:29:50.061Z info: Received a GET request for /api/carrito/90
+2023-11-28T14:29:50.070Z info: Operacion realizada con exito
+2023-11-28T14:29:50.078Z info: Received a GET request for /api/reviews
+2023-11-28T14:29:50.261Z info: Operacion realizada con exito
+2023-11-28T14:29:51.623Z info: Received a GET request for /api/favoritos/90
+2023-11-28T14:29:51.629Z info: Received a GET request for /api/usuarios/90
+2023-11-28T14:29:51.635Z info: Received a GET request for /api/favoritos/90
+2023-11-28T14:29:51.638Z info: Received a GET request for /api/carrito/90
+2023-11-28T14:29:51.653Z info: Received a GET request for /api/carrito/90
+2023-11-28T14:29:51.657Z info: Received a GET request for /api/favoritos/90
+2023-11-28T14:29:51.659Z info: Received a GET request for /api/usuarios/90
+2023-11-28T14:29:51.664Z info: Received a GET request for /api/favoritos/90
+2023-11-28T14:29:51.666Z info: Received a GET request for /api/carrito/90
+2023-11-28T14:29:51.821Z info: Received a GET request for /api/carrito/90
+2023-11-28T14:29:51.841Z info: Operacion realizada con exito
+2023-11-28T14:29:51.849Z info: Operacion realizada con exito
+2023-11-28T14:29:52.026Z info: Operacion realizada con exito
+2023-11-28T14:29:52.034Z info: Operacion realizada con exito
+2023-11-28T14:29:52.947Z info: Received a OPTIONS request for /api/pago/create-order
+2023-11-28T14:29:52.981Z info: Received a POST request for /api/pago/create-order
+2023-11-28T14:33:28.171Z info: Received a GET request for /api/favoritos/90
+2023-11-28T14:33:28.200Z info: Received a GET request for /api/favoritos/90
+2023-11-28T14:33:28.204Z info: Received a GET request for /api/usuarios/90
+2023-11-28T14:33:28.211Z info: Received a GET request for /api/carrito/90
+2023-11-28T14:33:28.217Z info: Received a GET request for /api/carrito/90
+2023-11-28T14:33:28.221Z info: Received a GET request for /api/favoritos/90
+2023-11-28T14:33:28.509Z info: Received a GET request for /api/usuarios/90
+2023-11-28T14:33:28.693Z info: Received a GET request for /api/favoritos/90
+2023-11-28T14:33:28.874Z info: Received a GET request for /api/carrito/90
+2023-11-28T14:33:29.061Z info: Operacion realizada con exito
+2023-11-28T14:33:29.067Z info: Received a GET request for /api/carrito/90
+2023-11-28T14:33:29.250Z info: Operacion realizada con exito
+2023-11-28T14:33:29.829Z info: Operacion realizada con exito
+2023-11-28T14:33:29.878Z info: Operacion realizada con exito
+2023-11-28T14:33:30.687Z info: Received a OPTIONS request for /api/pago/create-order
+2023-11-28T14:33:30.704Z info: Received a POST request for /api/pago/create-order
+2023-11-28T14:33:48.237Z info: Received a GET request for /api/pago/capture-order?carrito=32&token=4NX0711711860624T&PayerID=RYX4E5X25RUGY
+2023-11-28T14:33:55.932Z info: Received a GET request for /api/favoritos/90
+2023-11-28T14:33:55.935Z info: Received a GET request for /api/usuarios/90
+2023-11-28T14:33:55.938Z info: Received a GET request for /api/favoritos/90
+2023-11-28T14:33:55.946Z info: Received a GET request for /api/carrito/90
+2023-11-28T14:33:55.955Z info: Received a GET request for /api/reviews
+2023-11-28T14:33:55.958Z info: Received a GET request for /api/favoritos/90
+2023-11-28T14:33:56.145Z info: Received a GET request for /api/usuarios/90
+2023-11-28T14:33:56.330Z info: Received a GET request for /api/favoritos/90
+2023-11-28T14:33:56.536Z info: Received a GET request for /api/carrito/90
+2023-11-28T14:33:56.698Z info: Operacion realizada con exito
+2023-11-28T14:33:56.702Z info: Received a GET request for /api/reviews
+2023-11-28T14:33:57.481Z info: Operacion realizada con exito
+2023-11-28T14:34:00.095Z info: Received a GET request for /api/favoritos/90
+2023-11-28T14:34:00.099Z info: Received a GET request for /api/favoritos/90
+2023-11-28T14:34:00.102Z info: Received a GET request for /api/usuarios/90
+2023-11-28T14:34:00.110Z info: Received a GET request for /api/carrito/90
+2023-11-28T14:34:00.112Z info: Received a GET request for /api/favoritos/90
+2023-11-28T14:34:00.115Z info: Received a GET request for /api/categorias
+2023-11-28T14:34:00.118Z info: Received a GET request for /api/filtros/search?nombre=&categoriaId=&precioMin=&precioMax=&page=1
+2023-11-28T14:34:00.124Z info: Received a GET request for /api/favoritos/90
+2023-11-28T14:34:00.127Z info: Received a GET request for /api/usuarios/90
+2023-11-28T14:34:00.293Z info: Received a GET request for /api/favoritos/90
+2023-11-28T14:34:00.296Z info: Received a GET request for /api/filtros/search?nombre=&categoriaId=&precioMin=&precioMax=&page=1
+2023-11-28T14:34:00.474Z info: Operacion realizada con exito
+2023-11-28T14:34:00.480Z info: Received a GET request for /api/carrito/90
+2023-11-28T14:34:00.665Z info: Received a GET request for /api/categorias
+2023-11-28T14:34:00.668Z info: Received a GET request for /api/favoritos/90
+2023-11-28T14:34:00.673Z info: Operacion realizada con exito
+2023-11-28T14:34:00.874Z info: Operacion realizada con exito
+2023-11-28T14:34:00.879Z info: Operacion realizada con exito
+2023-11-28T14:34:01.756Z info: Received a OPTIONS request for /api/carrito/addItem
+2023-11-28T14:34:01.762Z info: Received a POST request for /api/carrito/addItem
+2023-11-28T14:34:03.746Z info: Operación realizada con éxito
+2023-11-28T14:34:03.847Z info: Received a GET request for /api/usuarios/90
+2023-11-28T14:34:03.850Z info: Received a GET request for /api/favoritos/90
+2023-11-28T14:34:03.853Z info: Received a GET request for /api/carrito/90
+2023-11-28T14:34:04.043Z info: Operacion realizada con exito
+2023-11-28T14:34:05.475Z info: Received a GET request for /api/favoritos/90
+2023-11-28T14:34:05.479Z info: Received a GET request for /api/usuarios/90
+2023-11-28T14:34:05.482Z info: Received a GET request for /api/favoritos/90
+2023-11-28T14:34:05.491Z info: Received a GET request for /api/carrito/90
+2023-11-28T14:34:05.493Z info: Received a GET request for /api/favoritos/90
+2023-11-28T14:34:05.496Z info: Received a GET request for /api/carrito/90
+2023-11-28T14:34:05.498Z info: Received a GET request for /api/usuarios/90
+2023-11-28T14:34:05.500Z info: Received a GET request for /api/favoritos/90
+2023-11-28T14:34:05.502Z info: Received a GET request for /api/carrito/90
+2023-11-28T14:34:05.668Z info: Received a GET request for /api/carrito/90
+2023-11-28T14:34:05.683Z info: Operacion realizada con exito
+2023-11-28T14:34:05.851Z info: Operacion realizada con exito
+2023-11-28T14:34:05.876Z info: Operacion realizada con exito
+2023-11-28T14:34:05.883Z info: Operacion realizada con exito
+2023-11-28T14:34:06.571Z info: Received a OPTIONS request for /api/pago/create-order
+2023-11-28T14:34:06.575Z info: Received a POST request for /api/pago/create-order

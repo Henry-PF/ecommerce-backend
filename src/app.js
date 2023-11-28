@@ -1,3 +1,4 @@
+require("dotenv").config();
 const express = require("express");
 const session = require('express-session');
 const bodyParser = require("body-parser");
@@ -5,30 +6,14 @@ const morgan = require("morgan");
 const passport = require("passport");
 const cors = require("cors");
 const routes = require("./routes/index.js");
-require("dotenv").config();
-require("./db.js");
 var path = require('path');
 const { logger } = require("./components/logger.js");
 const fileupload = require("express-fileupload");
-const cookieParser = require('cookie-parser');
+require("./db.js");
 
 const server = express();
 
 server.name = "API";
-
-
-server.use(
-  session({
-    secret: process.env.SECRET_KEY,
-    resave: false,
-    saveUninitialized: true,
-  })
-);
-server.use(cors());
-server.use(cookieParser());
-server.use(passport.initialize());
-server.use(passport.session());
-
 
 server.use(
   fileupload({
@@ -52,6 +37,15 @@ server.use((req, res, next) => {
   next();
 });
 
+server.use(session({
+  secret: process.env.SECRET_KEY,
+  resave: false,
+  saveUninitialized: false,
+})
+);
+
+server.use(passport.session());
+server.use(passport.initialize());
 
 server.use(express.static(path.join(__dirname, 'public')))
 

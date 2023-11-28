@@ -33,7 +33,6 @@ exports.buscarProductos = async (datos, productsPerPage = 9) => {
             };
         }
 
-        console.log(filtro);
         if (!isNaN(parseFloat(precioMin)) && !isNaN(parseFloat(precioMax))) {
             filtro.precio = {
                 [Op.between]: [parseFloat(precioMin), parseFloat(precioMax)],
@@ -72,6 +71,7 @@ exports.buscarProductos = async (datos, productsPerPage = 9) => {
 
         if (productos) {
             const totalPages = Math.ceil(totalProductos / productsPerPage);
+            console.log(totalPages);
             result = {
                 data: productos,
                 totalProductos,
