@@ -2,7 +2,7 @@ const express = require("express");
 const session = require('express-session');
 const bodyParser = require("body-parser");
 const morgan = require("morgan");
-const passport = require("./auth/google.js");
+const passport = require("passport");
 const cors = require("cors");
 const routes = require("./routes/index.js");
 require("dotenv").config();
@@ -11,7 +11,7 @@ var path = require('path');
 const { logger } = require("./components/logger.js");
 const fileupload = require("express-fileupload");
 const cookieParser = require('cookie-parser');
-
+require("./auth/google.js");
 const server = express();
 
 server.name = "API";
