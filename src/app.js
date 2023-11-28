@@ -34,13 +34,12 @@ if (process.env.NODE_ENV === 'production') {
   sessionConfig.cookie.secure = true; // serve secure cookies
 }
 
+server.use(cookieParser());
 server.use(session(sessionConfig));
-
 server.use(passport.initialize());
 server.use(passport.session());
 
-server.use(cors({ credentials: true, origin: 'https://trendy-web-lemon.vercel.app/' }));
-server.use(cookieParser());
+server.use(cors());
 
 server.use(
   fileupload({
