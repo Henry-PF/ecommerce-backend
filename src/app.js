@@ -22,7 +22,7 @@ let sessionConfig ={
   resave: false,
   saveUninitialized: false,
   cookie: {
-    SameSite: 'None',
+    sameSite: 'None',
     secure: true,
     maxAge: 24 * 60 * 60 * 1000
   }
@@ -32,7 +32,7 @@ let sessionConfig ={
 if (process.env.NODE_ENV === 'production') {
   server.set('trust proxy', 1); // trust first proxy
   sessionConfig.cookie.secure = true; // serve secure cookies
-  sessionConfig.cookie.SameSite = 'None';
+  sessionConfig.cookie.sameSite = 'None';
 }
 
 server.use(cookieParser());
