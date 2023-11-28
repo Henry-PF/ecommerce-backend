@@ -234,7 +234,7 @@ exports.captureOrder = async (req, res) => {
             if (!currentProduct) {
               return;
             }
-            await currentProduct.update({ stock: currentProduct?.stock - 1 });
+            await currentProduct.update({ stock: currentProduct?.stock - c.cantidad });
           }
         });
 
