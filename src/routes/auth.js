@@ -10,23 +10,16 @@ router.get('/google', loginGoogle);
 
 router.get('/callback', passport.authenticate('google', { failureRedirect: 'https://trendy-web-lemon.vercel.app' }),
     function (req, res) {
-        
         res.header("Cache-Control", "no-cache, no-store, must-revalidate");
         res.header("Pragma", "no-cache");
-        res.header("Expires", 0);
+        res.header("Expires", 3600);
         
         const user = req.user;
         const token = jwt.sign({ user }, env.SECRECT_TOKEN, {
             expiresIn: "1h",
         });
-        res.cookie('token', token,{ 
-            sameSite: 'none',
-            secure: true,
-            httpOnly: true,
-            path: "/",
-            maxAge: 30 * 24 * 60 * 60 * 1000
-        });
-        res.cookie('user', JSON.stringify(user),{ sameSite: 'none', secure: true });
+        res.cookie('token', token);
+        res.cookie('user', JSON.stringify(user));
         res.redirect('https://trendy-web-lemon.vercel.app/')
     }
 );
