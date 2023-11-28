@@ -32,7 +32,7 @@ let sessionConfig ={
 if (process.env.NODE_ENV === 'production') {
   server.set('trust proxy', 1); // trust first proxy
   sessionConfig.cookie.secure = true; // serve secure cookies
-  sessionConfig.cookie.sameSite = 'lax';
+  sessionConfig.cookie.sameSite = 'none';
 }
 
 server.use(cookieParser());
