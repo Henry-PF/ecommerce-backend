@@ -21,6 +21,7 @@ let sessionConfig ={
   name: 'backend-trendy',
   resave: false,
   saveUninitialized: false,
+  signed: true,
   cookie: {
     sameSite: 'none',
     secure: true,
