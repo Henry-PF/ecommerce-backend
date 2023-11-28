@@ -16,7 +16,7 @@ router.get('/callback', passport.authenticate('google', { failureRedirect: 'http
         });
         res.cookie('token', token,{ httponly: false, sameSite: 'none', secure: true});
         res.cookie('user', JSON.stringify(user),{ httponly: false, sameSite: 'none', secure: true});
-        res.redirect('https://trendy-web-lemon.vercel.app/')
+        res.redirect('https://trendy-web-lemon.vercel.app')
     }
 );
 router.post('/login', login);
