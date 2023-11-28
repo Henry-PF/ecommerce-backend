@@ -10,10 +10,6 @@ router.get('/google', loginGoogle);
 
 router.get('/callback', passport.authenticate('google', { failureRedirect: 'https://trendy-web-lemon.vercel.app' }),
     function (req, res) {
-        res.header("Cache-Control", "no-cache, no-store, must-revalidate");
-        res.header("Pragma", "no-cache");
-        res.header("Expires", 3600);
-        
         const user = req.user;
         const token = jwt.sign({ user }, env.SECRECT_TOKEN, {
             expiresIn: "1h",
