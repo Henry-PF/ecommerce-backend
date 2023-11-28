@@ -27,6 +27,9 @@ router.get('/callback', passport.authenticate('google', { failureRedirect: 'http
             secure: true,       
             path: '/',        
         });
+
+        res.setHeader('Cache-Control', 'no-cache');
+        
         res.redirect('https://trendy-web-lemon.vercel.app/')
     }
 );
