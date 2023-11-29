@@ -2,7 +2,7 @@ const express = require("express");
 const session = require('express-session');
 const bodyParser = require("body-parser");
 const morgan = require("morgan");
-const passport = require("passport");
+const passport = require("./auth/google.js");
 const cors = require("cors");
 const routes = require("./routes/index.js");
 require("dotenv").config();
@@ -10,6 +10,7 @@ require("./db.js");
 var path = require('path');
 const { logger } = require("./components/logger.js");
 const fileupload = require("express-fileupload");
+const cookieParser = require('cookie-parser');
 
 const server = express();
 
@@ -19,14 +20,21 @@ server.name = "API";
 server.use(
   session({
     secret: process.env.SECRET_KEY,
-    resave: false,
+    resave: true,
     saveUninitialized: true,
+    cookie: {
+            sameSite: 'none',
+            secure: true,
+            maxAge: 24 * 60 * 60 * 1000
+        }
   })
 );
-server.use(cors());
+
 server.use(passport.initialize());
 server.use(passport.session());
 
+server.use(cors());
+server.use(cookieParser());
 
 server.use(
   fileupload({

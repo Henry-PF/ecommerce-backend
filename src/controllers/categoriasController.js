@@ -1,12 +1,14 @@
 const { categoria } = require("../db");
 const { Op } = require("sequelize");
 const { logger } = require("../components/logger");
+
 exports.getAll = async () => {
     let result = {};
     try {
         let operation = await categoria.findAll({
             attributes: { exclude: ["createdAt", "updatedAt"] },
         });
+
         if (operation) {
             result = {
                 data: operation,
@@ -26,6 +28,7 @@ exports.getAll = async () => {
         return (result = { message: error.message, error: true });
     }
 };
+
 exports.getOne = async (data) => {
     let result = {};
     try {
@@ -52,6 +55,7 @@ exports.getOne = async (data) => {
         return (result = { message: error.message, error: true });
     }
 };
+
 exports.Delete = async (data) => {
     let result = {};
     console.log("data:", data);
@@ -60,7 +64,7 @@ exports.Delete = async (data) => {
             { id_statud: data.id_statud },
             { where: { id: { [Op.eq]: data.id } } }
         );
-
+      
         if (operation) {
             result = {
                 data: operation,
@@ -89,10 +93,12 @@ exports.Update = async (data) => {
             where: { id: { [Op.eq]: data.id } },
         });
         console.log("updated:", operation);
+
         if (operation) {
             result = {
                 data: operation,
                 error: false,
+
                 message: "Operacion realizada con exito",
             };
         } else {
@@ -108,6 +114,7 @@ exports.Update = async (data) => {
         return (result = { message: error.message, error: true });
     }
 };
+
 exports.Create = async (data) => {
     let result = {};
     try {
@@ -123,6 +130,7 @@ exports.Create = async (data) => {
                 error: true,
                 message: "Error al realizar su operacion",
             };
+
         }
         logger.info(result);
         return result;

@@ -1,4 +1,4 @@
-const { categoria, producto, img_productos, favoritos_productos, conn } = require("../db");
+const { categoria, producto, img_productos, favoritos_productos, productsReview, conn, producto_categorias } = require("../db");
 const { Op, where } = require("sequelize");
 const { logger } = require("../components/logger");
 const cloudinary = require("../config/cloudinary");
@@ -10,7 +10,7 @@ exports.getAll = async (data) => {
         //page = pagina
         const page = parseInt(data?.page) || 1
         //cantidad de productos por pagina
-        const productsPerPage = 10
+        const productsPerPage = 9
 
         //desplazamiento = numero de pagina - 1 * numero de productos 
         // (por ej: si pagina = 1 ==> el offset es 0, si pagina = 2 offset = 10), asi puede omitir cierta cant de productos
@@ -40,7 +40,7 @@ exports.getAll = async (data) => {
 
             include: [
                 {
-                    model: categoria,
+                    model: producto_categorias,
                     attributes: { exclude: ['createdAt', 'updatedAt', 'id'] }
                 },
                 {
@@ -84,6 +84,11 @@ exports.getOne = async (data) => {
                     {
                         model: img_productos,
                         attributes: { exclude: ['createdAt', 'updatedAt',] }
+                    },
+                    {
+                        model: productsReview,
+                        attributes: { exclude: ['createdAt', 'updatedAt',] }
+
                     }
                 ],
                 where: {
