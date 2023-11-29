@@ -1,28 +1,32 @@
+const { unsubscribe } = require("diagnostics_channel");
 const nodemailer = require("nodemailer");
 const process = require("process");
 
 const env = process.env;
 
 const transporter = nodemailer.createTransport({
-    host: "smtp.gmail.com",
-    port: 465,
-    secure: true,
-    auth: {
-        user: env.MAILER_USER,
-        pass: env.MAILER_PASS,
-        clientId: env.MAILER_CLIENTEID,
-        clientSecret: env.MAILER_CLIENTSECRET
-    }
+  host: "smtp.gmail.com",
+  port: 465,
+  secure: true,
+  auth: {
+    user: env.MAILER_USER,
+    pass: env.MAILER_PASS,
+    clientId: env.MAILER_CLIENTEID,
+    clientSecret: env.MAILER_CLIENTSECRET,
+  },
 });
 
-exports.sendEmail = async (to, subject, text, html) => {
-    try {
-        const info = {
-            from: '"Trendy" <trendy@gmail.com>',
-            to,
-            subject,
-            text,
-            html: `
+exports.sendEmail = async (to, subject, text, html, desuscribe, emailId) => {
+  try {
+    const info = {
+      from: '"Trendy" <trendy@gmail.com>',
+      to,
+      subject,
+      text: desuscribe
+        ? text +
+          `  Si no quieres recibir mas nuestras notificaciones, puedes desuscribirte ingresando en este link: \n ${env.CURRENT_FRONT_URL}/unsubscribe/${emailId}`
+        : text,
+      html: `
             <html>
             <head>
                 <style>
@@ -71,26 +75,31 @@ exports.sendEmail = async (to, subject, text, html) => {
             </head>
             <body>
                 ${html}
+                ${
+                  desuscribe
+                    ? ` Si no quieres recibir mas nuestras notificaciones, puedes desuscribirte ingresando en este link: \n ${env.CURRENT_FRONT_URL}/unsubscribe/${emailId}`
+                    : ""
+                }
             </body>
             </html>
         `,
-        };
+    };
 
-        const result = await transporter.sendMail(info);
-        return result;
-    } catch (error) {
-        throw error;
-    }
+    const result = await transporter.sendMail(info);
+    return result;
+  } catch (error) {
+    throw error;
+  }
 };
-exports.sendEmailAttachments = async (to, subject, text, html,attachments) => {
-    try {
-        const info = {
-            from: '"Trendy" <trendy@gmail.com>',
-            to,
-            subject,
-            text,
-            attachments,
-            html: `
+exports.sendEmailAttachments = async (to, subject, text, html, attachments) => {
+  try {
+    const info = {
+      from: '"Trendy" <trendy@gmail.com>',
+      to,
+      subject,
+      text,
+      attachments,
+      html: `
             <html>
             <head>
                 <style>
@@ -142,11 +151,11 @@ exports.sendEmailAttachments = async (to, subject, text, html,attachments) => {
             </body>
             </html>
         `,
-        };
+    };
 
-        const result = await transporter.sendMail(info);
-        return result;
-    } catch (error) {
-        throw error;
-    }
+    const result = await transporter.sendMail(info);
+    return result;
+  } catch (error) {
+    throw error;
+  }
 };
