@@ -263,7 +263,7 @@ exports.captureOrder = async (req, res) => {
           }
         );
       }
-      res.redirect("http://localhost:3001");
+      res.redirect("https://trendy-web-lemon.vercel.app");
     } else {
       res.status(401).json({ message: "ruta no encontrada" });
     }
@@ -274,5 +274,5 @@ exports.captureOrder = async (req, res) => {
 };
 
 exports.cancelOrder = (req, res) => {
-  res.redirect("http://localhost:3001");
+  res.redirect("https://trendy-web-lemon.vercel.app");
 };
