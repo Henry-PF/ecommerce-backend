@@ -31,7 +31,12 @@ passport.use(
                 });
 
                 if (userExist) {
-                    return done(null, userExist);
+                    if(userExist.id_statud != 1){
+                        return done(null, false);
+                    }else{
+                        return done(null, userExist);
+                    }
+                    
                 }
 
                 const defaultUser = {
