@@ -126,10 +126,10 @@ exports.addItem = async (data) => {
 
                     if (existingItem) {
                         existingItem.cantidad = parseFloat(existingItem.cantidad) + 1;
-                        existingItem.subtotal = parseFloat((existingItem.cantidad).toFixed(2)) * parseFloat(dtaProducto.precio);
+                        existingItem.subtotal = parseFloat((existingItem.cantidad * dtaProducto.precio).toFixed(2));
                         await existingItem.save();
                     } else {
-                        let subtotal = parseFloat((data.cantidad).toFixed(2)) * parseFloat(dtaProducto.precio);
+                        let subtotal = parseFloat((data.cantidad * dtaProducto.precio).toFixed(2));
                         aggProd = await detalle_carrito.create({
                             id_producto: dtaProducto.id,
                             cantidad: data.cantidad,
@@ -261,7 +261,6 @@ const updateTotalCarrito = async (data) => {
                     }
                 }
             });
-
             if (dtaCarrito) {
                 const total = await detalle_carrito.sum('subtotal', {
                     where: {
@@ -270,7 +269,6 @@ const updateTotalCarrito = async (data) => {
                         }
                     }
                 });
-
                 dtaCarrito.total = total || 0;
 
                 await dtaCarrito.save();

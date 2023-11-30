@@ -240,36 +240,28 @@ exports.Update = async (data, files) => {
 exports.Create = async (data, files) => {
     let result = {};
     try {
-        const existingcategoria = await categoria.findOne({
-            where: {
-                id: {
-                    [Op.eq]: data.id_categoria
-                }
-            },
-        });
-
-        if (!existingcategoria) {
-            result = {
-                error: true,
-                message: `categoria ${data.id_categoria} no encontrada.`
-            }
-            logger.error(result);
-            return result;
-        }
 
         let operation = await producto.create({
             nombre: data.nombre,
             descripcion: data.descripcion,
             precio: data.precio,
             stock: data.stock,
-            id_categoria: existingcategoria.id,
             id_statud: 1
         });
+
+        if (operation) {
+            for (const categoryId of data.id_categoria) {
+                await producto_categorias.create({
+                    id_producto: operation.id,
+                    id_categoria: parseInt(categoryId, 10)
+                });
+            }
+        }
+
+
         let imgProduct = files.imagen;
         if (imgProduct) {
-            console.log('IMAGEN', imgProduct);
             const validExtensions = ["png", "jpg", "jpeg"];
-            // imgProduct.forEach(async (element) => {
             const extension = imgProduct.mimetype.split("/")[1];
             if (!validExtensions.includes(extension)) {
                 result = {
@@ -279,16 +271,18 @@ exports.Create = async (data, files) => {
                 logger.error(result);
                 return result;
             }
+
             const uploaded = await cloudinary.v2.uploader.upload(
                 imgProduct.tempFilePath
             );
             const { secure_url } = uploaded;
+
             await img_productos.create({
                 id_producto: operation.id,
                 url: secure_url
-                // })
             });
         }
+
         if (operation) {
             result = {
                 data: operation,
@@ -301,6 +295,7 @@ exports.Create = async (data, files) => {
                 message: "Error al realizar su operacion"
             }
         }
+
         logger.info(result);
         return result;
     } catch (error) {
@@ -308,4 +303,5 @@ exports.Create = async (data, files) => {
         return result = { message: error.message, error: true };
     }
 }
+
 

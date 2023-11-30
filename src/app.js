@@ -1,17 +1,16 @@
+require("dotenv").config();
 const express = require("express");
 const session = require('express-session');
+const cookieParser = require('cookie-parser')
 const bodyParser = require("body-parser");
 const morgan = require("morgan");
 const passport = require("passport");
 const cors = require("cors");
 const routes = require("./routes/index.js");
-require("dotenv").config();
-require("./db.js");
 var path = require('path');
 const { logger } = require("./components/logger.js");
 const fileupload = require("express-fileupload");
-const cookieParser = require('cookie-parser');
-require("./auth/google.js");
+require("./db.js");
 const server = express();
 
 server.name = "API";
@@ -29,6 +28,18 @@ let sessionConfig ={
   }
 }
 
+server.use(
+  session({
+    secret: process.env.SECRET_KEY,
+    resave: true,
+    saveUninitialized: true,
+    cookie: {
+      sameSite: 'none',
+      secure: true,
+      maxAge: 24 * 60 * 60 * 1000
+    }
+  })
+);
 
 if (process.env.NODE_ENV === 'production') {
   server.set('trust proxy', 1); // trust first proxy
@@ -69,7 +80,6 @@ server.use((req, res, next) => {
   res.header("Access-Control-Allow-Methods", "GET, POST, OPTIONS, PUT, DELETE");
   next();
 });
-
 
 server.use(express.static(path.join(__dirname, 'public')))
 
