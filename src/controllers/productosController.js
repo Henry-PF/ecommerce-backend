@@ -41,11 +41,11 @@ exports.getAll = async (data) => {
             include: [
                 {
                     model: producto_categorias,
-                    attributes: { exclude: ['createdAt', 'updatedAt', 'id'] }
+                    attributes: { exclude: ['createdAt', 'updatedAt'] }
                 },
                 {
                     model: img_productos,
-                    attributes: { exclude: ['createdAt', 'updatedAt', 'id'] }
+                    attributes: { exclude: ['createdAt', 'updatedAt'] }
                 }
             ]
         });
@@ -238,6 +238,7 @@ exports.Update = async (data, files) => {
 }
 
 exports.Create = async (data, files) => {
+    console.log(data.id_categoria.length);
     let result = {};
     try {
 
@@ -250,11 +251,18 @@ exports.Create = async (data, files) => {
         });
 
         if (operation) {
-            for (const categoryId of data.id_categoria) {
+            if (data.id_categoria.length > 1) {
+                for (const categoryId of data.id_categoria) {
+                    await producto_categorias.create({
+                        id_producto: operation.id,
+                        id_categoria: parseInt(categoryId, 10)
+                    });
+                }
+            } else {
                 await producto_categorias.create({
                     id_producto: operation.id,
-                    id_categoria: parseInt(categoryId, 10)
-                });
+                    id_categoria: parseInt(data.id_categoria, 10)
+                })
             }
         }
 
