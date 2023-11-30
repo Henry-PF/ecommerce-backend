@@ -369,7 +369,7 @@ exports.login = async (data) => {
                         result.token = token;
                     }
                 } else {
-                    throw new Error("Usuario no registrado");
+                    throw new Error("Usuario no registrado o baneado");
                     // result.error = "Usuario no registrado";
                 }
             });
