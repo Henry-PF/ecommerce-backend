@@ -370,7 +370,6 @@ exports.login = async (data) => {
                     }
                 } else {
                     throw new Error("Usuario no registrado o baneado");
-                    // result.error = "Usuario no registrado";
                 }
             });
         console.log(result);
