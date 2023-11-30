@@ -10,6 +10,7 @@ const { error } = require('console');
 const env = process.env;
 
 const GOOGLE_CALLBACK_URL = 'https://backend-dev-jnpc.1.us-1.fl0.io/api/auth/callback';
+// const GOOGLE_CALLBACK_URL = 'http://localhost:3002/api/auth/callback';
 
 passport.use(
     new GoogleStrategy(
@@ -31,12 +32,12 @@ passport.use(
                 });
 
                 if (userExist) {
-                    if(userExist.id_statud != 1){
+                    if (userExist.id_statud != 1) {
                         return done(null, false);
-                    }else{
+                    } else {
                         return done(null, userExist);
                     }
-                    
+
                 }
 
                 const defaultUser = {

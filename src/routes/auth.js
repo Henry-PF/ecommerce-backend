@@ -14,13 +14,17 @@ router.post('/success', (req, res) => {
 
 router.get('/google', passport.authenticate('google', { scope: ['email', 'profile'] }));
 
-router.get('/callback', passport.authenticate('google', { failureRedirect: 'https://trendy-web-lemon.vercel.app/' }),
+router.get('/callback', passport.authenticate('google', {
+    failureRedirect: `https://trendy-web-lemon.vercel.app/?login=false`
+    // failureRedirect: `http://localhost:3001/?login=false`
+}),
     (req, res) => {
         const user = req.user;
         const token = jwt.sign({ user }, env.SECRECT_TOKEN, {
             expiresIn: "1h",
         });
         const redirectURL = `https://trendy-web-lemon.vercel.app/?token=${token}&user=${JSON.stringify(user)}`;
+        // const redirectURL = `http://localhost:3001/?token=${token}&user=${JSON.stringify(user)}`;
         res.redirect(redirectURL);
     }
 );
