@@ -14,7 +14,7 @@ router.post('/success', (req, res) => {
 
 router.get('/google', passport.authenticate('google', { scope: ['email', 'profile'] }));
 
-router.get('/callback', passport.authenticate('google', { failureRedirect: '/failure' }),
+router.get('/callback', passport.authenticate('google', { failureRedirect: 'https://trendy-web-lemon.vercel.app/' }),
     (req, res) => {
         const user = req.user;
         const token = jwt.sign({ user }, env.SECRECT_TOKEN, {
