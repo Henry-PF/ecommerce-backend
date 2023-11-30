@@ -24,6 +24,7 @@ exports.buscarProductos = async (datos, productsPerPage = 9) => {
                         [Op.in]: categoriasIds,
                     },
                 },
+                group: 'id_producto'
             });
 
             const productosIds = productosConCategoria.map(row => row.id_producto);
