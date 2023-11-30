@@ -21,13 +21,10 @@ router.get('/callback', passport.authenticate('google', { failureRedirect: '/fai
             expiresIn: "1h",
         });
 
-        const redirectURL = `http://localhost:3001/?token=${token}&user=${JSON.stringify(user)}`;
+        const redirectURL = `https://trendy-web-lemon.vercel.app//?token=${token}&user=${JSON.stringify(user)}`;
         res.redirect(redirectURL);
     }
 );
-;
-
-
 
 router.post('/login', login);
 router.post('/forgoPassword', forgoPassword);

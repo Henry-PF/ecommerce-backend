@@ -9,7 +9,7 @@ const { sendEmail } = require('../config/mailer');
 const { error } = require('console');
 const env = process.env;
 
-const GOOGLE_CALLBACK_URL = 'http://localhost:3002/api/auth/callback';
+const GOOGLE_CALLBACK_URL = 'https://backend-dev-jnpc.1.us-1.fl0.io/api/auth/callback';
 
 passport.use(
     new GoogleStrategy(
@@ -36,7 +36,7 @@ passport.use(
 
                 const defaultUser = {
                     nombre: profile.name.givenName,
-                    apellido: (profile.name.familyName)?profile.name.familyName:'',
+                    apellido: (profile.name.familyName) ? profile.name.familyName : '',
                     correo: profile.emails[0].value,
                     dni: 0,
                     telefono: 0,
