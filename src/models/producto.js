@@ -11,11 +11,16 @@ module.exports = (sequelize, DataTypes) => {
      */
     static associate(models) {
       this.belongsTo(models.statud, { foreignKey: "id_statud" });
-      this.belongsTo(models.categoria, { foreignKey: "id_categoria" });
+      this.belongsToMany(models.categoria, {
+        through: 'producto_categorias',
+        foreignKey: 'id_producto',
+        otherKey: 'id_categoria'
+      });
       this.hasMany(models.img_productos, { foreignKey: "id_producto" });
       this.hasMany(models.detalle_carrito, { foreignKey: "id_producto" });
       this.hasMany(models.favoritos_productos, { foreignKey: "id_producto" });
       this.hasMany(models.productsReview, { foreignKey: "id_producto" });
+      this.hasMany(models.producto_categorias, { foreignKey: 'id_producto' });
 
     }
   }

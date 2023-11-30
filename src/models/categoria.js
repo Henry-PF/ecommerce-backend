@@ -10,19 +10,24 @@ module.exports = (sequelize, DataTypes) => {
      * The `models/index` file will call this method automatically.
      */
     static associate(models) {
-      this.hasMany(models.producto,{ foreignKey: "id_categoria"});
-      this.belongsTo(models.statud,{ foreignKey: "id_statud"});
+      this.belongsToMany(models.producto, {
+        through: 'producto_categorias',
+        foreignKey: 'id_categoria',
+        otherKey: 'id_producto'
+      });
+
+      this.belongsTo(models.statud, { foreignKey: "id_statud" });
     }
   }
   categoria.init({
-    id:{
+    id: {
       type: DataTypes.INTEGER,
       allowNull: false,
       primaryKey: true,
       autoIncrement: true,
       unique: true,
     },
-    nombre:  {
+    nombre: {
       type: DataTypes.STRING,
       allowNull: false,
     },

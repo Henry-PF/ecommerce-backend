@@ -1,11 +1,10 @@
-const { Op } = require('sequelize');
-const { producto, categoria, img_productos } = require('../db.js');
+const { Op, Sequelize } = require('sequelize');
+const { producto, categoria, img_productos, producto_categorias } = require('../db.js');
 
 exports.buscarProductos = async (datos, productsPerPage = 9) => {
-    console.log(datos);
     let result = {};
     try {
-        const { nombre, categoriaId, precioMin, precioMax } = datos;
+        const { nombre, categoriaId, precioMin, precioMax, page } = datos;
 
         const filtro = {};
 
@@ -17,10 +16,23 @@ exports.buscarProductos = async (datos, productsPerPage = 9) => {
 
         if (categoriaId) {
             const categoriasIds = categoriaId.split(',').map(id => parseInt(id, 10));
-            filtro.id_categoria = {
-                [Op.in]: categoriasIds,
+
+            const productosConCategoria = await producto_categorias.findAll({
+                attributes: ['id_producto'],
+                where: {
+                    id_categoria: {
+                        [Op.in]: categoriasIds,
+                    },
+                },
+            });
+
+            const productosIds = productosConCategoria.map(row => row.id_producto);
+
+            filtro.id = {
+                [Op.in]: productosIds,
             };
         }
+
         if (!isNaN(parseFloat(precioMin)) && !isNaN(parseFloat(precioMax))) {
             filtro.precio = {
                 [Op.between]: [parseFloat(precioMin), parseFloat(precioMax)],
@@ -35,12 +47,11 @@ exports.buscarProductos = async (datos, productsPerPage = 9) => {
             };
         }
 
-
         const totalProductos = await producto.count({
             where: filtro,
         });
 
-        const offset = (datos.page - 1) * productsPerPage;
+        const offset = (parseInt(page, 10) - 1) * productsPerPage;
 
         const productos = await producto.findAll({
             where: filtro,
@@ -60,6 +71,7 @@ exports.buscarProductos = async (datos, productsPerPage = 9) => {
 
         if (productos) {
             const totalPages = Math.ceil(totalProductos / productsPerPage);
+            console.log(totalPages);
             result = {
                 data: productos,
                 totalProductos,

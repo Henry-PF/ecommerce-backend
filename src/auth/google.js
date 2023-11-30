@@ -6,9 +6,10 @@ const bcrypt = require("bcrypt");
 const { Op } = require('sequelize');
 const process = require("process");
 const { sendEmail } = require('../config/mailer');
+const { error } = require('console');
 const env = process.env;
 
-const GOOGLE_CALLBACK_URL = 'https://backend-dev-jnpc.1.us-1.fl0.io/api/auth/callback';
+const GOOGLE_CALLBACK_URL = 'http://localhost:3002/api/auth/callback';
 
 passport.use(
     new GoogleStrategy(
@@ -16,7 +17,6 @@ passport.use(
             clientID: env.MAILER_CLIENTEID,
             clientSecret: env.MAILER_CLIENTSECRET,
             callbackURL: GOOGLE_CALLBACK_URL,
-            passReqToCallback: true,
         },
         async (request, accessToken, refreshToken, profile, done) => {
             try {
@@ -36,7 +36,7 @@ passport.use(
 
                 const defaultUser = {
                     nombre: profile.name.givenName,
-                    apellido: profile.name.familyName,
+                    apellido: (profile.name.familyName)?profile.name.familyName:'',
                     correo: profile.emails[0].value,
                     dni: 0,
                     telefono: 0,
@@ -94,28 +94,30 @@ passport.use(
                         <p>¡Esperamos que disfrutes de tu experiencia con Trendy!</p>`
                     );
                 }
-                done(null, newGoogleUser);
+                return done(null, newGoogleUser);
             } catch (error) {
                 console.error(error);
-                done(error);
+                return done(error);
             }
         }
     )
 );
 
 passport.serializeUser(function (user, done) {
-    done(null, user)
+    process.nextTick(function () {
+        return done(null, user.id);
+    });
 });
 
-passport.deserializeUser((user, done) => {
-    usuarios.findByPk(user.id, {
+passport.deserializeUser((id, done) => {
+    usuarios.findByPk(id, {
         include: [
             { model: personas },
             { model: carrito }
         ]
     }).then(user => {
-        done(null, user)
-    })
+        return done(null, user)
+    }).catch(error => done(error))
 });
 
 module.exports = passport;
