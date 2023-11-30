@@ -20,7 +20,7 @@ router.get('/callback', passport.authenticate('google', { failureRedirect: '/fai
         const token = jwt.sign({ user }, env.SECRECT_TOKEN, {
             expiresIn: "1h",
         });
-        const redirectURL = `https://trendy-web-lemon.vercel.app//?token=${token}&user=${JSON.stringify(user)}`;
+        const redirectURL = `https://trendy-web-lemon.vercel.app/?token=${token}&user=${JSON.stringify(user)}`;
         res.redirect(redirectURL);
     }
 );

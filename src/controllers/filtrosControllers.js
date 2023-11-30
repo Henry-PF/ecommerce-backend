@@ -18,12 +18,13 @@ exports.buscarProductos = async (datos, productsPerPage = 9) => {
             const categoriasIds = categoriaId.split(',').map(id => parseInt(id, 10));
 
             const productosConCategoria = await producto_categorias.findAll({
-                attributes: ['id_producto'],
+                attributes: ['id_producto','id_categoria'],
                 where: {
                     id_categoria: {
                         [Op.in]: categoriasIds,
                     },
                 },
+                group: ['id_producto','id_categoria']
             });
 
             const productosIds = productosConCategoria.map(row => row.id_producto);
