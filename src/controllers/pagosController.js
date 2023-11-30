@@ -161,7 +161,7 @@ exports.createOrder = async (req, res) => {
 
 exports.captureOrder = async (req, res) => {
   const { token } = req.query;
-  console.log(req.query);
+  let idFactura = ''
   try {
     let dtapagos = await pagos.findOne({
       where: {
@@ -204,6 +204,7 @@ exports.captureOrder = async (req, res) => {
             },
           },
         });
+        idFactura = dtafactura.id
         dtapagos.id_statud = 4;
         await dtapagos.save();
 
@@ -263,7 +264,7 @@ exports.captureOrder = async (req, res) => {
           }
         );
       }
-      res.redirect("https://trendy-web-lemon.vercel.app");
+      res.redirect(`https://trendy-web-lemon.vercel.app/payment_done/${idFactura}`);
     } else {
       res.status(401).json({ message: "ruta no encontrada" });
     }
