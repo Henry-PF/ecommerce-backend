@@ -208,14 +208,17 @@ exports.captureOrder = async (req, res) => {
         await dtapagos.save();
 
         dtafactura.id_statud = 4;
-        await dtapagos.save();
+        await dtafactura.save();
         //Enviaremos la notificacion del pago
         await sendEmail(
           dtafactura.usuario.persona.correo, // Cambia por la dirección de correo a la que deseas enviar la notificación
           "Notificación de Pago",
           "<h1>Su pago se a realizado con éxito</h1>",
-          "<h1>Su pago se a realizado con éxito</h1>",
-          "<h1>Su pago se a realizado con éxito</h1>"
+          `<h1>Su pago se a realizado con éxito!</h1>
+            <p>Tu compra por $ ${dtafactura.total} se realizo con exito!</p>
+            <p>Gracias por tu Compra! ❤😊</p>
+          `,
+
         );
 
         const cart = await detalle_carrito.findAll({

@@ -4,7 +4,6 @@ const { login, forgoPassword, register, loginGoogle, googleCallback } = require(
 const passport = require("passport");
 const jwt = require('jsonwebtoken');
 const process = require("process");
-const { isUserAuthenticated } = require("../middlewares/isUserAuthenticated");
 const env = process.env;
 
 router.post('/success', (req, res) => {
@@ -21,11 +20,12 @@ router.get('/callback', passport.authenticate('google', { failureRedirect: '/fai
         const token = jwt.sign({ user }, env.SECRECT_TOKEN, {
             expiresIn: "1h",
         });
-        res.cookie('token', token, { SameSite: 'none', secure: true });
-        res.cookie('user', JSON.stringify(user), { SameSite: 'none', secure: true });
-        res.redirect('https://trendy-web-lemon.vercel.app/')
+
+        const redirectURL = `http://localhost:3001/?token=${token}&user=${JSON.stringify(user)}`;
+        res.redirect(redirectURL);
     }
 );
+;
 
 
 

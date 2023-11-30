@@ -1,4 +1,4 @@
-const { Op } = require('sequelize');
+const { Op, Sequelize } = require('sequelize');
 const { producto, categoria, img_productos, producto_categorias } = require('../db.js');
 
 exports.buscarProductos = async (datos, productsPerPage = 9) => {
