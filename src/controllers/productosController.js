@@ -41,11 +41,11 @@ exports.getAll = async (data) => {
             include: [
                 {
                     model: producto_categorias,
-                    attributes: { exclude: ['createdAt', 'updatedAt', 'id'] }
+                    attributes: { exclude: ['createdAt', 'updatedAt'] }
                 },
                 {
                     model: img_productos,
-                    attributes: { exclude: ['createdAt', 'updatedAt', 'id'] }
+                    attributes: { exclude: ['createdAt', 'updatedAt'] }
                 }
             ]
         });

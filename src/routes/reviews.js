@@ -11,5 +11,5 @@ router.post("/", createReview)
 //edit review
 router.post("/", editReview)
 //delete
-router.post("/", deleteReviews)
+router.post("/delete", deleteReviews)
 module.exports = router
